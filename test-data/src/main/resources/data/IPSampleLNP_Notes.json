@@ -1,0 +1,1227 @@
+{
+  "customerOrderNumber" : "21-301100470180170",
+  "orderType" : "CREATE",
+  "requestId" : "457845456565",
+  "orderStatus" : {
+    "status" : "CANCELED",
+    "subStatus" : "CANCELED"
+  },
+  "createdDate" : 1484704983000,
+  "submittedDate" : 1484705782000,
+  "updatedDate" : 1484707355707,
+  "productGroups" : {
+    "group" : [ {
+      "id" : "GROUP_01",
+      "name" : "UPGRADE_WIRELESS",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 1,
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "losg376956917",
+          "sequence" : 1,
+          "losgType" : "NEW",
+          "productCategory" : "WIRELESS",
+          "primaryIndicator" : false,
+          "dealerCode" : "K3K6I",
+          "market" : "NBI",
+          "asSuccessFlag": false,
+          "fulfillmentMethod":"DF",
+          "numberPortDetail":{
+            "portTelephoneNumber":"2705470693",
+            "portEligibility":"Y",
+            "portStatus":"OP"
+          },
+          "subMarket" : "DFW",
+          "priceCode" : "SAC",
+          "accountReference" : "ACCOUNT_01",
+          "losgStatus" : {
+            "status" : "SYS_PROCESSING",
+            "subStatus" : "UPGRADE_REVERSAL_MANUAL_CEU_PASS"
+          },
+          "serviceLocationReference" : "ADDRESS_01",
+          "subscriberNameReference" : "NAME_01",
+          "termsAndConditionReferences" : {
+            "termsAndConditionReference" : [ "TC_01", "TC_02" ]
+          },
+          "notes" : "**Fraud Department**",
+          "wirelessLOSCharacteristics" : {
+            "mobileNumber" : "2548000619",
+            "upgradeQualificationDetails" : [ {
+              "offerCategory" : "NE",
+              "qualificationLevel" : "29011",
+              "qualificationMessage" : "Congratulations!  Your line is eligible for an AT&T Next upgrade.  Before upgrading your phone, be sure to back it up to make it easier to transfer content to your new phone.  Go to Settings on your phone to learn how.",
+              "policyCategory" : "C",
+              "upgradeFeeWaivedIndicator" : false,
+              "discountUOM" : "A",
+              "priceList" : "C",
+              "minimumCommitment" : 30,
+              "minimumMRC" : 0.0,
+              "maximumMRC" : 0.0,
+              "contractExtended" : "SUCCESS",
+              "approvalNumber" : "0"
+            } ],
+            "billingSystemId" : "T"
+          },
+          "shippingDetailReference" : "SHIPPING_INFO_01"
+        }
+      }
+    } ,
+    
+     {
+      "id" : "GROUP_02",
+      "name" : "UPGRADE_WIRELESS",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 1,
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "losg376956917",
+          "sequence" : 1,
+          "losgType" : "NEW",
+          "productCategory" : "WIRELESS",
+          "primaryIndicator" : false,
+          "dealerCode" : "K3K6I",
+          "market" : "NBI",
+          "asSuccessFlag": false,
+           "numberPortDetail":{
+            "portTelephoneNumber":"2705470693",
+            "portEligibility":"N"
+          },
+          "subMarket" : "DFW",
+          "priceCode" : "SAC",
+          "accountReference" : "ACCOUNT_01",
+          "losgStatus" : {
+            "status" : "SYS_PROCESSING",
+            "subStatus" : "UPGRADE_REVERSAL_MANUAL_CEU_PASS"
+          },
+          "serviceLocationReference" : "ADDRESS_01",
+          "subscriberNameReference" : "NAME_01",
+          "termsAndConditionReferences" : {
+            "termsAndConditionReference" : [ "TC_01", "TC_02" ]
+          },
+          "notes" : "**Fraud Department**",
+          "wirelessLOSCharacteristics" : {
+            "mobileNumber" : "2548000619",
+            "upgradeQualificationDetails" : [ {
+              "offerCategory" : "NE",
+              "qualificationLevel" : "29011",
+              "qualificationMessage" : "Congratulations!  Your line is eligible for an AT&T Next upgrade.  Before upgrading your phone, be sure to back it up to make it easier to transfer content to your new phone.  Go to Settings on your phone to learn how.",
+              "policyCategory" : "C",
+              "upgradeFeeWaivedIndicator" : false,
+              "discountUOM" : "A",
+              "priceList" : "C",
+              "minimumCommitment" : 30,
+              "minimumMRC" : 0.0,
+              "maximumMRC" : 0.0,
+              "contractExtended" : "SUCCESS",
+              "approvalNumber" : "0"
+            } ],
+            "billingSystemId" : "T"
+          },
+          "fulfillmentMethod" : "DF",
+          "shippingDetailReference" : "SHIPPING_INFO_01"
+        }
+      }
+    },
+    {
+      "id" : "GROUP_03",
+      "name" : "UPGRADE_WIRELESS",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 1,
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "losg376956917",
+          "sequence" : 1,
+          "losgType" : "NEW",
+          "productCategory" : "WIRELESS",
+          "primaryIndicator" : false,
+          "dealerCode" : "K3K6I",
+          "market" : "NBI",
+          "asSuccessFlag": false,
+          "numberPortDetail":{
+            "portTelephoneNumber":"2705470693",
+            "portEligibility":"Y"
+          },
+          "subMarket" : "DFW",
+          "priceCode" : "SAC",
+          "accountReference" : "ACCOUNT_01",
+          "losgStatus" : {
+            "status" : "CANCELED",
+            "subStatus" : "UPGRADE_REVERSAL_MANUAL_CEU_PASS"
+          },
+          "serviceLocationReference" : "ADDRESS_01",
+          "subscriberNameReference" : "NAME_01",
+          "termsAndConditionReferences" : {
+            "termsAndConditionReference" : [ "TC_01", "TC_02" ]
+          },
+          "notes" : "**Fraud Department**",
+          "wirelessLOSCharacteristics" : {
+            "mobileNumber" : "2548000619",
+            "upgradeQualificationDetails" : [ {
+              "offerCategory" : "NE",
+              "qualificationLevel" : "29011",
+              "qualificationMessage" : "Congratulations!  Your line is eligible for an AT&T Next upgrade.  Before upgrading your phone, be sure to back it up to make it easier to transfer content to your new phone.  Go to Settings on your phone to learn how.",
+              "policyCategory" : "C",
+              "upgradeFeeWaivedIndicator" : false,
+              "discountUOM" : "A",
+              "priceList" : "C",
+              "minimumCommitment" : 30,
+              "minimumMRC" : 0.0,
+              "maximumMRC" : 0.0,
+              "contractExtended" : "SUCCESS",
+              "approvalNumber" : "0"
+            } ],
+            "billingSystemId" : "T"
+          },
+          "fulfillmentMethod" : "DF",
+          "shippingDetailReference" : "SHIPPING_INFO_01"
+        }
+      }
+    },
+    {
+      "id" : "GROUP_04",
+      "name" : "UPGRADE_WIRELESS",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 1,
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "losg376956917",
+          "sequence" : 1,
+          "losgType" : "NEW",
+          "productCategory" : "WIRELESS",
+          "primaryIndicator" : false,
+          "dealerCode" : "K3K6I",
+          "market" : "NBI",
+          "asSuccessFlag": false,
+          "numberPortDetail":{
+            "portTelephoneNumber":"2705470693",
+            "portEligibility":"Y",
+            "portStatus":"CF"
+          },
+          "subMarket" : "DFW",
+          "priceCode" : "SAC",
+          "accountReference" : "ACCOUNT_01",
+          "losgStatus" : {
+            "status" : "SYS_PROCESSING",
+            "subStatus" : "UPGRADE_REVERSAL_MANUAL_CEU_PASS"
+          },
+          "serviceLocationReference" : "ADDRESS_01",
+          "subscriberNameReference" : "NAME_01",
+          "termsAndConditionReferences" : {
+            "termsAndConditionReference" : [ "TC_01", "TC_02" ]
+          },
+          "notes" : "**Fraud Department**",
+          "wirelessLOSCharacteristics" : {
+            "mobileNumber" : "2548000619",
+            "upgradeQualificationDetails" : [ {
+              "offerCategory" : "NE",
+              "qualificationLevel" : "29011",
+              "qualificationMessage" : "Congratulations!  Your line is eligible for an AT&T Next upgrade.  Before upgrading your phone, be sure to back it up to make it easier to transfer content to your new phone.  Go to Settings on your phone to learn how.",
+              "policyCategory" : "C",
+              "upgradeFeeWaivedIndicator" : false,
+              "discountUOM" : "A",
+              "priceList" : "C",
+              "minimumCommitment" : 30,
+              "minimumMRC" : 0.0,
+              "maximumMRC" : 0.0,
+              "contractExtended" : "SUCCESS",
+              "approvalNumber" : "0"
+            } ],
+            "billingSystemId" : "T"
+          },
+          "fulfillmentMethod" : "DF",
+          "shippingDetailReference" : "SHIPPING_INFO_01"
+        }
+      }
+    },
+    {
+      "id" : "GROUP_05",
+      "name" : "UPGRADE_WIRELESS",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 1,
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "losg376956917",
+          "sequence" : 1,
+          "losgType" : "NEW",
+          "productCategory" : "WIRELESS",
+          "primaryIndicator" : false,
+          "dealerCode" : "K3K6I",
+          "market" : "NBI",
+          "asSuccessFlag": false,
+          "numberPortDetail":{
+            "portEligibility":"Y"
+          },
+          "subMarket" : "DFW",
+          "priceCode" : "SAC",
+          "accountReference" : "ACCOUNT_01",
+          "losgStatus" : {
+            "status" : "SYS_PROCESSING",
+            "subStatus" : "UPGRADE_REVERSAL_MANUAL_CEU_PASS"
+          },
+          "serviceLocationReference" : "ADDRESS_01",
+          "subscriberNameReference" : "NAME_01",
+          "termsAndConditionReferences" : {
+            "termsAndConditionReference" : [ "TC_01", "TC_02" ]
+          },
+          "notes" : "**Fraud Department**",
+          "wirelessLOSCharacteristics" : {
+            "mobileNumber" : "2548000619",
+            "upgradeQualificationDetails" : [ {
+              "offerCategory" : "NE",
+              "qualificationLevel" : "29011",
+              "qualificationMessage" : "Congratulations!  Your line is eligible for an AT&T Next upgrade.  Before upgrading your phone, be sure to back it up to make it easier to transfer content to your new phone.  Go to Settings on your phone to learn how.",
+              "policyCategory" : "C",
+              "upgradeFeeWaivedIndicator" : false,
+              "discountUOM" : "A",
+              "priceList" : "C",
+              "minimumCommitment" : 30,
+              "minimumMRC" : 0.0,
+              "maximumMRC" : 0.0,
+              "contractExtended" : "SUCCESS",
+              "approvalNumber" : "0"
+            } ],
+            "billingSystemId" : "T"
+          },
+          "fulfillmentMethod" : "DF",
+          "shippingDetailReference" : "SHIPPING_INFO_01"
+        }
+      }
+    },
+    {
+      "id" : "GROUP_06",
+      "name" : "UPGRADE_WIRELESS",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 1,
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "losg376956917",
+          "sequence" : 1,
+          "losgType" : "NEW",
+          "productCategory" : "WIRELESS",
+          "primaryIndicator" : false,
+          "dealerCode" : "K3K6I",
+          "market" : "NBI",
+          "asSuccessFlag": false,
+          "subMarket" : "DFW",
+          "priceCode" : "SAC",
+          "accountReference" : "ACCOUNT_01",
+          "losgStatus" : {
+            "status" : "SYS_PROCESSING",
+            "subStatus" : "UPGRADE_REVERSAL_MANUAL_CEU_PASS"
+          },
+          "serviceLocationReference" : "ADDRESS_01",
+          "subscriberNameReference" : "NAME_01",
+          "termsAndConditionReferences" : {
+            "termsAndConditionReference" : [ "TC_01", "TC_02" ]
+          },
+          "notes" : "**Fraud Department**",
+          "wirelessLOSCharacteristics" : {
+            "mobileNumber" : "2548000619",
+            "upgradeQualificationDetails" : [ {
+              "offerCategory" : "NE",
+              "qualificationLevel" : "29011",
+              "qualificationMessage" : "Congratulations!  Your line is eligible for an AT&T Next upgrade.  Before upgrading your phone, be sure to back it up to make it easier to transfer content to your new phone.  Go to Settings on your phone to learn how.",
+              "policyCategory" : "C",
+              "upgradeFeeWaivedIndicator" : false,
+              "discountUOM" : "A",
+              "priceList" : "C",
+              "minimumCommitment" : 30,
+              "minimumMRC" : 0.0,
+              "maximumMRC" : 0.0,
+              "contractExtended" : "SUCCESS",
+              "approvalNumber" : "0"
+            } ],
+            "billingSystemId" : "T"
+          },
+          "fulfillmentMethod" : "DF",
+          "shippingDetailReference" : "SHIPPING_INFO_01"
+        }
+      }
+    },
+    {
+      "id" : "GROUP_07",
+      "name" : "UPGRADE_WIRELESS",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 1,
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "losg376956917",
+          "sequence" : 1,
+          "losgType" : "NEW",
+          "productCategory" : "WIRELESS",
+          "primaryIndicator" : false,
+          "dealerCode" : "K3K6I",
+          "market" : "NBI",
+          "asSuccessFlag": false,
+          "fulfillmentMethod":"C2S",
+          "numberPortDetail":{
+            "portTelephoneNumber":"2705470693",
+            "portEligibility":"Y",
+            "portStatus":"OP"
+          },
+          "subMarket" : "DFW",
+          "priceCode" : "SAC",
+          "accountReference" : "ACCOUNT_01",
+          "losgStatus" : {
+            "status" : "SYS_PROCESSING",
+            "subStatus" : "UPGRADE_REVERSAL_MANUAL_CEU_PASS"
+          },
+          "serviceLocationReference" : "ADDRESS_01",
+          "subscriberNameReference" : "NAME_01",
+          "termsAndConditionReferences" : {
+            "termsAndConditionReference" : [ "TC_01", "TC_02" ]
+          },
+          "notes" : "**Fraud Department**",
+          "wirelessLOSCharacteristics" : {
+            "mobileNumber" : "2548000619",
+            "upgradeQualificationDetails" : [ {
+              "offerCategory" : "NE",
+              "qualificationLevel" : "29011",
+              "qualificationMessage" : "Congratulations!  Your line is eligible for an AT&T Next upgrade.  Before upgrading your phone, be sure to back it up to make it easier to transfer content to your new phone.  Go to Settings on your phone to learn how.",
+              "policyCategory" : "C",
+              "upgradeFeeWaivedIndicator" : false,
+              "discountUOM" : "A",
+              "priceList" : "C",
+              "minimumCommitment" : 30,
+              "minimumMRC" : 0.0,
+              "maximumMRC" : 0.0,
+              "contractExtended" : "SUCCESS",
+              "approvalNumber" : "0"
+            } ],
+            "billingSystemId" : "T"
+          },
+          "shippingDetailReference" : "SHIPPING_INFO_01"
+        }
+      }
+    }
+    
+    ]
+  },
+  "lineItems" : {
+    "lineItem" : [ {
+      "id" : "11505703464384514",
+      "sequence" : 1,
+      "productCode" : "prod8730226",
+      "productSKU" : "84514",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "PLAN",
+      "displayName" : "Kit_guide_eCom_Phone_13.0",
+      "systemName" : "COL QSG GET STARTED CONSUMER SLIP",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00,
+          "preCalculatedTax" : {
+            "taxableCost" : 0.00,
+            "taxableMSRP" : 0.00,
+            "taxableUnitPrice" : 0.00,
+            "orderTaxAreaId" : 390950000,
+            "shipFromTaxAreaId" : 431570560,
+            "shipToTaxAreaId" : 50372510
+          },
+          "lineItemTaxes" : [ {
+            "taxLineId" : 1,
+            "taxCode" : "SALESTAX",
+            "memo" : "SALESTAX",
+            "printName" : "Sales Tax",
+            "taxable" : "X",
+            "skuSpecific" : "false",
+            "jurisdictionLevel" : "Sales Tax",
+            "jurisdictionName" : "Sales Tax",
+            "taxAmount" : 0.00,
+            "taxRate" : 0,
+            "taxDate" : "2017-01-17"
+          } ]
+        },
+        "total" : 0.00
+      },
+      "locationId" : "K006",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "status" : "CANCELED",
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "hardGood" : {
+        "hardGoodType" : "COLLATERAL",
+        "shippedHotIndicator" : true
+      },
+      "supplyChainDetail" : {
+        "quantityCanceled" : 1
+      }
+    }, {
+      "id" : "11505703464373023",
+      "sequence" : 2,
+      "productCode" : "prod8730226",
+      "productSKU" : "73023",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "Embedded Nano SIM for iPhone 7, 7plus",
+      "systemName" : "Embedded SIM",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00,
+          "preCalculatedTax" : {
+            "taxableCost" : 0.00,
+            "taxableMSRP" : 0.00,
+            "taxableUnitPrice" : 0.00,
+            "orderTaxAreaId" : 390950000,
+            "shipFromTaxAreaId" : 431570560,
+            "shipToTaxAreaId" : 50372510
+          },
+          "lineItemTaxes" : [ {
+            "taxLineId" : 1,
+            "taxCode" : "SALESTAX",
+            "memo" : "SALESTAX",
+            "printName" : "Sales Tax",
+            "taxable" : "X",
+            "skuSpecific" : "false",
+            "jurisdictionLevel" : "Sales Tax",
+            "jurisdictionName" : "Sales Tax",
+            "taxAmount" : 0.00,
+            "taxRate" : 0,
+            "taxDate" : "2017-01-17"
+          } ]
+        },
+        "total" : 0.00
+      },
+      "locationId" : "K006",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "status" : "CANCELED",
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "hardGood" : {
+        "hardGoodType" : "SIM"
+      },
+      "supplyChainDetail" : {
+        "quantityCanceled" : 1
+      }
+    }, {
+      "id" : "11505703464384390",
+      "sequence" : 3,
+      "productCode" : "prod8730226",
+      "productSKU" : "84390",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "MPP DF Buckslip",
+      "systemName" : "MPP DF BUCKSLIP",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00,
+          "preCalculatedTax" : {
+            "taxableCost" : 0.00,
+            "taxableMSRP" : 0.00,
+            "taxableUnitPrice" : 0.00,
+            "orderTaxAreaId" : 390950000,
+            "shipFromTaxAreaId" : 431570560,
+            "shipToTaxAreaId" : 50372510
+          },
+          "lineItemTaxes" : [ {
+            "taxLineId" : 1,
+            "taxCode" : "SALESTAX",
+            "memo" : "SALESTAX",
+            "printName" : "Sales Tax",
+            "taxable" : "X",
+            "skuSpecific" : "false",
+            "jurisdictionLevel" : "Sales Tax",
+            "jurisdictionName" : "Sales Tax",
+            "taxAmount" : 0.00,
+            "taxRate" : 0,
+            "taxDate" : "2017-01-17"
+          } ]
+        },
+        "total" : 0.00
+      },
+      "locationId" : "K006",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "status" : "CANCELED",
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "hardGood" : {
+        "hardGoodType" : "COLLATERAL",
+        "shippedHotIndicator" : true
+      },
+      "supplyChainDetail" : {
+        "quantityCanceled" : 1
+      }
+    }, {
+      "id" : "115057034643",
+      "sequence" : 4,
+      "productCode" : "prod8730226",
+      "productSKU" : "6484A",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "Apple iPhone 7 - 256GB - Silver",
+      "systemName" : "PHO APL IPHONE 7 256GB SLV",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "baseAmount" : 849.99,
+        "currencyType" : "USD",
+        "msrp" : 849.99,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 74.37,
+          "preCalculatedTax" : {
+            "taxableCost" : 849.00,
+            "taxableMSRP" : 849.99,
+            "taxableUnitPrice" : 849.99,
+            "orderTaxAreaId" : 390950000,
+            "shipFromTaxAreaId" : 431570560,
+            "shipToTaxAreaId" : 50372510
+          },
+          "lineItemTaxes" : [ {
+            "taxLineId" : 1,
+            "taxCode" : "SALESTAX",
+            "memo" : "SALESTAX",
+            "printName" : "Sales Tax",
+            "taxable" : "X",
+            "skuSpecific" : "false",
+            "jurisdictionLevel" : "Sales Tax",
+            "jurisdictionName" : "Sales Tax",
+            "taxAmount" : 74.37,
+            "taxRate" : 0.0899999999999999966693309261245303787291049957275390625,
+            "taxDate" : "2017-01-17"
+          } ]
+        },
+        "total" : 74.37
+      },
+      "locationId" : "K006",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "contractDetails" : {
+        "installmentPlanId" : 290000012640672,
+        "contractDisplayName" : "Next",
+        "installmentPlanDefinition" : "NE30M80P",
+        "annualPercentageRate" : 0.00,
+        "financeCharge" : 0.00,
+        "amountFinanced" : 849.99,
+        "balancedAmount" : 849.99,
+        "totalSalePrice" : 849.99,
+        "downPayment" : 0.00,
+        "downPaymentPercent" : 0.00,
+        "prepaidFinanceCharge" : 0.00,
+        "installmentAmount" : 28.34,
+        "installmentStatus" : "RELEASED",
+        "installmentType" : "PHONE",
+        "contractType" : "LEASE",
+        "contractSystem" : "OPTICAL",
+        "contractSent" : "N",
+        "contractLength" : 30
+      },
+      "quantity" : 1,
+      "status" : "CANCELED",
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "hardGood" : {
+        "byodIndicator" : false,
+        "hardGoodType" : "DEVICE",
+        "productImageUrl" : "https://www.att.com/catalog/en/skus/images/apple-iphone%207%20256gb-silver-100x160.jpg",
+        "make" : "Apple",
+        "model" : "iPhone 7 256GB",
+        "shipmentCommitDate" : {
+          "fromDate" : 1484726400000,
+          "toDate" : 1484899200000
+        },
+        "wirelessHardGoodCharacteristics" : {
+          "techType" : "UMTS",
+          "equipmentType" : "EDGE",
+          "imeiType" : "J0",
+          "phoneType" : "IPHONE"
+        }
+      },
+      "supplyChainDetail" : {
+        "quantityCanceled" : 1
+      }
+    }, {
+      "id" : "115057034644WPINS",
+      "sequence" : 5,
+      "productCode" : "prod5280349",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "WPINS",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "AT&T Mobile Protection Pack",
+      "systemName" : "Telegence",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 7.99,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "RC",
+        "total" : 0.00
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "status" : "CANCELED",
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "supplyChainDetail" : {
+        "quantityCanceled" : 1
+      }
+    }, {
+      "id" : "115057034644QSBNDLMRC",
+      "sequence" : 6,
+      "productCode" : "prod5280349",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "QSBNDLMRC",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "AT&T Mobile Protection Pack",
+      "systemName" : "Telegence",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 10.99,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "status" : "CANCELED",
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "supplyChainDetail" : {
+        "quantityCanceled" : 1
+      }
+    }, {
+      "id" : "losg376956917UPG",
+      "sequence" : 7,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "MISC_CHARGE",
+      "displayName" : "UpgradeFee",
+      "systemName" : "UPGRADE_FEE",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 20.00,
+        "currencyType" : "USD",
+        "priceType" : "NRC"
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "status" : "CANCELED",
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "supplyChainDetail" : {
+        "quantityCanceled" : 1
+      }
+    }, {
+      "id" : "losg3769569172887810250REMOVE",
+      "sequence" : 8,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "SDFRNIVL",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "Access for iPhone 4G LTE w/ VVM",
+      "systemName" : "Access for iPhone 4G LTE w/ VVM",
+      "action" : "REMOVE",
+      "price" : {
+        "amount" : 0.00
+      },
+      "quantity" : 1,
+      "status" : "CANCELED",
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "supplyChainDetail" : {
+        "quantityCanceled" : 1
+      }
+    }, {
+      "id" : "losg3769569172887810251ADD",
+      "sequence" : 9,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "SDFRNIVL",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "Access for iPhone 4G LTE w/ VVM",
+      "systemName" : "Access for iPhone 4G LTE w/ VVM",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00
+      },
+      "quantity" : 1,
+      "status" : "CANCELED",
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "characteristics" : {
+        "wirelessLineItemCharacteristics" : {
+          "nciEligibleIndicator" : true,
+          "offerType" : "P"
+        }
+      },
+      "supplyChainDetail" : {
+        "quantityCanceled" : 1
+      }
+    }, {
+      "id" : "lobi349156296ShippingFee",
+      "sequence" : 10,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "88879",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "MISC_CHARGE",
+      "displayName" : "ShippingFee",
+      "systemName" : "SHIPPING_FEE",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00,
+          "preCalculatedTax" : {
+            "taxableCost" : 0.00,
+            "taxableMSRP" : 14.95,
+            "taxableUnitPrice" : 0.00,
+            "orderTaxAreaId" : 390950000,
+            "shipFromTaxAreaId" : 431570560,
+            "shipToTaxAreaId" : 50372510
+          },
+          "lineItemTaxes" : [ {
+            "taxLineId" : 1,
+            "taxCode" : "SALESTAX",
+            "memo" : "SALESTAX",
+            "printName" : "Sales Tax",
+            "taxable" : "X",
+            "skuSpecific" : "false",
+            "jurisdictionLevel" : "Sales Tax",
+            "jurisdictionName" : "Sales Tax",
+            "taxAmount" : 0.00,
+            "taxRate" : 0,
+            "taxDate" : "2017-01-17"
+          } ]
+        },
+        "total" : 0.00
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "status" : "CANCELED",
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "supplyChainDetail" : {
+        "quantityCanceled" : 1
+      }
+    } ]
+  },
+  "names" : {
+    "name" : [ {
+      "id" : "NAME_01",
+      "firstName" : "JAMES",
+      "lastName" : "ICHORD",
+      "primaryContactPhones" : [ {
+        "phoneNumber" : "2099686477",
+        "contactPhoneType" : "HOME_PHONE"
+      } ],
+      "additionalContactPhones" : [ {
+        "phoneNumber" : "2098742433",
+        "contactPhoneType" : "WORK_PHONE"
+      } ]
+    }, {
+      "id" : "NAME_02",
+      "firstName" : "JAMES",
+      "lastName" : "ICHORD",
+      "primaryContactPhones" : [ {
+        "phoneNumber" : "2099686477",
+        "contactPhoneType" : "HOME_PHONE"
+      } ],
+      "additionalContactPhones" : [ {
+        "phoneNumber" : "2098742433",
+        "contactPhoneType" : "WORK_PHONE"
+      } ]
+    }, {
+      "id" : "NAME_03",
+      "firstName" : "JAMES",
+      "lastName" : "ICHORD",
+      "primaryContactPhones" : [ {
+        "phoneNumber" : "2099686477",
+        "contactPhoneType" : "HOME_PHONE"
+      } ],
+      "additionalContactPhones" : [ {
+        "phoneNumber" : "2098742433",
+        "contactPhoneType" : "WORK_PHONE"
+      } ]
+    } ]
+  },
+  "addresses" : {
+    "address" : [ {
+      "id" : "ADDRESS_01",
+      "unparsedAddress" : {
+        "addressLine1" : "212 WATERS EDGE DR",
+        "city" : "WATERFORD",
+        "state" : "CA",
+        "zip" : "95386",
+        "country" : "US"
+      },
+      "parsedAddress" : {
+        "addressStreetLine" : "212 WATERS EDGE DR",
+        "houseNumber" : "212",
+        "streetName" : "WATERS EDGE",
+        "streetType" : "DR",
+        "city" : "WATERFORD",
+        "state" : "CA",
+        "zip" : "95386",
+        "county" : "STANISLAUS",
+        "country" : "US",
+        "addressType" : "UNITED_STATES"
+      },
+      "additionalDetails" : {
+        "additionalDetail" : [ {
+          "type" : "Profile",
+          "code" : "ValidatedAddress",
+          "value" : "false"
+        } ]
+      }
+    }, {
+      "id" : "ADDRESS_02",
+      "unparsedAddress" : {
+        "addressLine1" : "6895 CONTES ST",
+        "city" : "PALMDALE",
+        "state" : "CA",
+        "zip" : "93552",
+        "county" : "LOS ANGELES",
+        "country" : "US"
+      },
+      "parsedAddress" : {
+        "addressStreetLine" : "6895 CONTES ST",
+        "houseNumber" : "6895",
+        "streetName" : "CONTES",
+        "streetType" : "ST",
+        "city" : "PALMDALE",
+        "state" : "CA",
+        "zip" : "93552",
+        "zipCodeExtension" : "3419",
+        "county" : "LOS ANGELES",
+        "country" : "US",
+        "addressType" : "UNITED_STATES"
+      },
+      "additionalDetails" : {
+        "additionalDetail" : [ {
+          "type" : "Profile",
+          "code" : "ValidatedAddress",
+          "value" : "true"
+        } ]
+      }
+    } ]
+  },
+  "accounts" : {
+    "account" : [ {
+      "id" : "ACCOUNT_01",
+      "sequence" : 1,      
+      "accountCategory" : "MOBILITY_ACCOUNT",
+      "accountSubCategory" : "NEW",
+      "paymentArrangement" : "POSTPAID",
+      "billingAccountNumber" : "436047113716",
+      "market" : "NBI",
+      "subMarket" : "DFW",
+      "billingDetail" : {
+        "nameReference" : "NAME_02",
+        "addressReference" : "ADDRESS_01",
+        "accountStatus" : "ACTIVE"
+      },
+      "unifiedAccount" : {
+        "convergeOrderIndicator" : false,
+        "convergeValidationIndicator" : false,
+        "premierIndicator" : false
+      },
+      "liabilityType" : "INDIVIDUAL",
+      "accountType" : "INDIVIDUAL",
+      "accountSubType" : "R",
+      "enterpriseType" : "IRU",
+      "b2bReference" : "B2B_01",
+      "langId" : "ENGLISH",
+      "priceCode" : "SAC",
+      "spokenLanguagePreference" : "ENGLISH"
+    } ,
+    {
+      "id" : "ACCOUNT_02",
+      "sequence" : 1,      
+      "accountCategory" : "MOBILITY_ACCOUNT",
+      "accountSubCategory" : "NEW",
+      "paymentArrangement" : "POSTPAID",
+      "billingAccountNumber" : "436047113716",
+      "market" : "NCA2",
+      "subMarket" : "SAC2",
+      "billingDetail" : {
+        "nameReference" : "NAME_02",
+        "addressReference" : "ADDRESS_01",
+        "accountStatus" : "ACTIVE"
+      },
+      "unifiedAccount" : {
+        "convergeOrderIndicator" : false,
+        "convergeValidationIndicator" : false,
+        "premierIndicator" : false
+      },
+      "liabilityType" : "INDIVIDUAL",
+      "accountType" : "INDIVIDUAL",
+      "accountSubType" : "R",
+      "enterpriseType" : "IRU",
+      "b2bReference" : "B2B_01",
+      "langId" : "ENGLISH",
+      "priceCode" : "SAC",
+      "spokenLanguagePreference" : "ENGLISH"
+    } 
+    ]
+  },
+  "paymentOptions" : {
+    "paymentOption" : [ {
+      "id" : "PAYMENT_OPTION_01",
+      "sequence" : 1,
+      "capmConfig" : {
+        "merchantId" : "ORDERGWCon",
+        "sourceSystem" : "HARDROCK",
+        "sourceLocation" : "CS",
+        "sourceUser" : "HARDROCK"
+      },
+      "paymentMethod" : {
+        "capm" : {
+          "preAuthDetail" : {
+            "authorizationCode" : "OL_DF170117H26385",
+            "authorizationDate" : "2017-01-17",
+            "authorizationExpirationDate" : "2017-02-14",
+            "addressVerificationSystemCode" : "NA",
+            "authorizationKey" : "44245262",
+            "preAuthReleasedIndicator" : true 
+          },
+          "totalAmount" : 74.37,
+          "capmlast4Digits" : "9351",
+          "zipCode" : "95386",
+          "creditCardType" : "VISA",
+          "giftCardIndicator" : false
+        }
+      }
+    } ]
+  },
+  "shippingDetails" : {
+    "shippingDetail" : [ {
+      "id" : "SHIPPING_INFO_01",
+      "sequence" : 1,
+      "nameReference" : "NAME_03",
+      "addressReference" : "ADDRESS_02",
+      "shippingCode" : "AA1",
+      "shippingPriceCode" : "88879",
+      "shippingMethod" : "Overnight"
+    } ]
+  },
+  "b2bs" : {
+    "b2b" : [ {
+      "id" : "B2B_01",
+      "b2bContractProvider" : "ATTWS",
+      "b2bContractType" : "ISBS",
+      "b2bFAN" : "05474313",
+      "b2bSkipUpgradeEligibilityIndicator" : false,
+      "b2bIgnoreDepositRequiredIndicator" : false,
+      "b2bFANBusinessName" : "U.S. WATER SERVICE CORP-N 3JLXPTGZD ISBS IRU"
+    } ]
+  },
+  "specialInstructions" : "{}",
+  "dueAmount" : {
+    "amount" : 0.00,
+    "priceType" : "DueToday",
+    "taxDetail" : {
+      "amount" : 74.37
+    },
+    "total" : 74.37
+  },
+  "agentUId" : "SS8705",
+  "salesCode" : "NOT_AVAILABLE",
+  "salesLocation" : "NOT_AVAILABLE",
+  "agentCode" : "K3K6I",
+  "agentLocation" : "K3K6I",
+  "termsAndConditions" : {
+    "termsAndConditionAccepted" : [ {
+      "id" : "TC_01",
+      "agreementType" : "MPP",
+      "agreementText" : "I have read the AT&T Mobile Protection Pack Terms and Conditions and agree to the terms and conditions as described.",
+      "accepted" : "Y",
+      "timestamp" : 1484687334000,
+      "version" : "/legal/terms.mobileProtectionPack.html",
+      "orderLevelIndicator" : false
+    }, {
+      "id" : "TC_02",
+      "agreementType" : "DEV",
+      "agreementText" : "I have read the Retail Installment Agreement and agree to the terms and conditions as described.",
+      "accepted" : "Y",
+      "timestamp" : 1484687334000,
+      "version" : "/legal/terms.deviceInstallmentPlan.html",
+      "orderLevelIndicator" : false
+    }, {
+      "id" : "TC_03",
+      "agreementType" : "WCA",
+      "agreementText" : "I have read the Wireless Customer Agreement and agree to the terms and conditions as described.",
+      "accepted" : "Y",
+      "timestamp" : 1484687334000,
+      "version" : "/legal/terms.wirelessServiceAgreement.html",
+      "orderLevelIndicator" : true
+    }, {
+      "id" : "TC_04",
+      "agreementType" : "CON",
+      "agreementText" : "I have read the Electronic Consent and agree to the terms and conditions as described.",
+      "accepted" : "Y",
+      "timestamp" : 1484687334000,
+      "version" : "/legal/terms.electronicConsent.html",
+      "orderLevelIndicator" : true
+    } ]
+  },
+  "orderContact" : {
+    "nameReference" : "NAME_01",
+    "primaryEmailAddress" : "KATHANDJIM@YAHOO.COM"
+  },
+  "salesChannel" : "E",
+  "orderSource" : {
+    "clientIP" : "72.26.103.167",
+    "locale" : "EN_US",
+    "region" : "CA",
+    "countryCode" : "US",
+    "city" : "ELSEGUNDO",
+    "county" : "LOSANGELES",
+    "clientType" : "DESKTOP",
+    "channel" : "DE-MOBILITY",
+    "application" : "MYATTSALES",
+    "zip" : "90245",
+    "browserId" : "A003731142766",
+    "additionalDetails" : {
+      "additionalDetail" : [ {
+        "type" : "Order",
+        "code" : "SENDER",
+        "value" : "HARDROCK"
+      } ]
+    }
+  },
+  "externalOrderSource" : "EST",
+  "encryptedIndicator" : true,
+  "commonOrderIndicator" : true,
+  "summaryCreatedIndicator" : false,
+  "additionalDetails" : {
+    "additionalDetail" : [ {
+      "type" : "FRAUD_RULE",
+      "code" : "ORDER_VELOCITY_ADDRESS_CHECK|802",
+      "value" : "26|PASSED||1484688004870"
+    }, {
+      "type" : "FRAUD_RULE",
+      "code" : "VELOCITY_SSN_CHECK|789",
+      "value" : "10|PASSED||1484688004870"
+    }, {
+      "type" : "FRAUD_RULE",
+      "code" : "VELOCITY_CTN_CHECK|788",
+      "value" : "9|PASSED||1484688004870"
+    }, {
+      "type" : "FRAUD_RULE",
+      "code" : "COMPARISON_BILL_SHIP_CHECK|1223",
+      "value" : "89|PASSED||1484688004870"
+    }, {
+      "type" : "FRAUD_RULE",
+      "code" : "ORDER_VELOCITY_EMAIL_CHECK|787",
+      "value" : "8|PASSED||1484688004870"
+    }, {
+      "type" : "FRAUD_RULE",
+      "code" : "ORDER_VELOCITY_BROWSERID_CHECK|786",
+      "value" : "7|PASSED||1484688004870"
+    }, {
+      "type" : "FRAUD_RULE",
+      "code" : "COMPARISON_SHIP_CC_ZIP_CHECK|923",
+      "value" : "44|PASSED||1484688004870"
+    }, {
+      "type" : "FRAUD_RULE",
+      "code" : "USERDEFINED_SKU_CHECK|1183",
+      "value" : "47|PASSED||1484688004870"
+    }, {
+      "type" : "FRAUD_RULE",
+      "code" : "NEGATIVE_SSN_CHECK|784",
+      "value" : "4|PASSED||1484688004870"
+    }, {
+      "type" : "FRAUD_RULE",
+      "code" : "NEGATIVE_ADDRESS_CHECK|781",
+      "value" : "1|PASSED||1484688004870"
+    }, {
+      "type" : "FRAUD_RULE",
+      "code" : "NEGATIVE_EMAIL_CHECK|783",
+      "value" : "3|PASSED||1484688004870"
+    }, {
+      "type" : "FRAUD_RULE",
+      "code" : "BILLING_ADDRESS_CHANGE_DATE_CHECK|791",
+      "value" : "13|PASSED||1484688004870"
+    }, {
+      "type" : "FRAUD_RULE",
+      "code" : "NEGATIVE_CC_CHECK|782",
+      "value" : "2|PASSED||1484688004870"
+    }, {
+      "type" : "FRAUD_RULE",
+      "code" : "EXCLUDED_FAN_CHECK|1127",
+      "value" : "101|PASSED||1484688004870"
+    }, {
+      "type" : "FRAUD_RULE",
+      "code" : "USERDEFINED_CITY_STATE_CHECK|982",
+      "value" : "56|PASSED||1484688004870"
+    }, {
+      "type" : "FRAUD_RULE",
+      "code" : "EXCLUDED_FAN_CHECK|1126",
+      "value" : "5|PASSED||1484688004870"
+    }, {
+      "type" : "FRAUD_RULE",
+      "code" : "ACCOUNT_CREATION_DATE_CHECK|790",
+      "value" : "12|PASSED||1484688004870"
+    }, {
+      "type" : "FRAUD_RULE",
+      "code" : "VELOCITY_CTN_CHECK|841",
+      "value" : "11|PASSED||1484688004870"
+    }, {
+      "type" : "FRAUD_RULE",
+      "code" : "COMPARISON_BILL_SHIP_ZIP_CHECK|1203",
+      "value" : "32|FAILED||1484688004870"
+    } ]
+  }
+}

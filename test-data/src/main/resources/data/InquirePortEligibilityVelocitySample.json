@@ -1,0 +1,37 @@
+{
+	"messageHeader": {
+		"trackingMessageHeader": {
+			"version": "v112",
+			"messageId": "11111",
+			"originatorId": "OCE",
+			"returnURL": "",
+			"timeToLive": "",
+			"dateTimeStamp": ""
+		},
+		"securityMessageHeader": {
+			"userName": "oce",
+			"userPassword": "oce0606"
+		},
+		"sequenceMessageHeader": {
+			"sequenceNumber": "1",
+			"totalInSequence": "1"
+		}
+	},
+	"inquirePortEligibilityBySubscriberNumberRequest": {
+		"marketServiceInfo": {
+			"billingMarket": {
+				"billingMarket": "DLS",
+				"billingSubMarket": "DFW"
+			},
+			"billingSystemId": "TLG"
+		},
+		"portEligibility": {
+			"subscriberNumber": "2143060488",
+			"equipmentType": "G"
+		},
+		"relaxedMarketCoverageIndicator": "true",
+		"dealer": {
+			"code": "Z0066"
+		}
+	}
+}

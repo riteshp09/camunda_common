@@ -1,0 +1,39 @@
+{
+	 "characteristics" : {
+      	"sharedPlanCharacteristics" :{
+      	"dataGroupId": "G16195611"
+      	},
+        "losgCharacteristics" : {
+          "losgReferenceId" : "losg43250059",
+          "sequence" : 1,
+          "losgType" : "NEW",
+          "productCategory" : "WIRELESS",
+          "primaryIndicator" : false,
+          "dealerCode" : "Z0066",
+          "market" : "TNK",
+          "subMarket" : "719",
+          "priceCode" : "719",
+          "accountReference" : "ACCOUNT_01",
+          "losgStatus" : {
+            "status" : "SYS_PROCESSING",
+            "subStatus" : "RECIEVE_CONTRACT_IDENTIFIER_PASS"
+          },
+          "serviceLocationReference" : "ADDRESS_02",
+          "subscriberNameReference" : "NAME_01",
+          "numberPortDetail": {
+                  "ospAccountNumber": "365010841171",
+                  "portRequestNumber" : "2143060488",
+                  "portTelephoneNumber": "1234567890",
+                  "portStatus":true
+               },
+          "termsAndConditionReferences" : {
+            "termsAndConditionReference" :  "TC_01"
+          },
+          "wirelessLOSCharacteristics" : {
+            	"billingSystemId" : "T"            
+          },
+          "fulfillmentMethod" : "DF",
+          "shippingDetailReference" : "SHIPPING_INFO_01"
+        }
+      }
+ }     

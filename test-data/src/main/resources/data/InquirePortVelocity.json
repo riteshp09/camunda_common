@@ -1,0 +1,25 @@
+{
+	"messageHeader": {
+		"trackingMessageHeader": {
+			"version": "v112",
+			"messageId": "11111",
+			"originatorId": "OCE",
+			"returnURL": "",
+			"timeToLive": "",
+			"dateTimeStamp": ""
+		},
+		"securityMessageHeader": {
+			"userName": "oce",
+			"userPassword": "oce0606"
+		},
+		"sequenceMessageHeader": {
+			"sequenceNumber": "1",
+			"totalInSequence": "1"
+		}
+	},
+	"InquirePortRequest" : {
+				"PortingSelector":{
+					"SubscriberNumber":"2143060488"
+				}
+			}
+}

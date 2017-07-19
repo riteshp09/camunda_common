@@ -1,0 +1,671 @@
+{
+	
+   "customerOrderNumber": "CN123456",
+   "requestId": "457845456565",
+   "orderType": "CREATE",
+   "orderStatus": {"status": "RECEIVED"},
+   "createdDate": 1439620689231,
+   "submittedDate": 1439620944552,
+   "productGroups": {"group":    [
+            {
+         "id": "GROUP_04",
+         "name": "NEW_WIRELESS",
+         "type": "LINE_OF_SERVICE",
+         "sequence": 1,
+         "characteristics": {"losgCharacteristics":          {
+            "losgReferenceId": "WIRELESS1",
+            "sequence": 1,
+            "losgType": "NEW",
+			"invokeAWPAPI":true,
+            "productCategory": "WIRELESS",
+            "primaryIndicator": true,
+            "dealerCode": "Z0066",
+            "market": "DLS",
+            "subMarket": "DFW",
+            "serviceArea": "008458004066",
+            "priceCode": "033",
+            "accountReference": "ACCOUNT_02",
+            "serviceLocationReference": "ADDRESS_05",
+			"losgStatus":{
+			"status":"SYS_PROCESSING",
+			"subStatus":"ADD_PAYMENT_PROFILE_PASS"
+			},
+            "subscriberNameReference": "NAME_02",
+			"numberPortDetail": {
+							"ospAccountNumber": "365010841171",
+							"portTelephoneNumber": "2143060488",
+							"portRequestNumber": "2143060488",
+							"portStatus":"CF",
+							"portEligibility" : "Y"
+							},
+            "termsAndConditionAccepted":             {
+               "accepted": "Y",
+               "timestamp": 1431585735999,
+               "version": "/content/tos/en/wirelessServiceAgreement/2014/02/11/1"
+            },
+            "termsAndConditionReferences": {
+				"termsAndConditionReference": 
+							[
+								"TC_01"
+							]
+			},
+            "wirelessLOSCharacteristics":             {
+               "billingSystemId": "T",
+               "storeId": "D17G"
+            },
+            "fulfillmentMethod": "DF",
+            "shippingDetailReference": "SHIPPING_INFO_01"
+         }}
+      },
+            {
+         "id": "GROUP_05",
+         "name": "SHARED_PLAN",
+         "type": "SHARED_PLAN",
+         "sequence": 2,
+         "characteristics": {"sharedPlanCharacteristics": {"groupReferencesCode": "GROUP_04"}}
+      }
+   ]},
+   "lineItems": {"lineItem":    [
+            {
+         "id": "8319400161470000",
+         "sequence": 1,
+         "productCode": "prod7820230",
+         "productSKU": "7999A",
+         "billingCode": "NOT_AVAILABLE",
+         "productType": "HARDGOOD",
+         "displayName": "Samsung Galaxy Note CHARGER",
+         "systemName": "PHO SAM GLXY NOTE CHARGER",
+         "action": "ADD",
+         "price":          {
+            "amount": 15,
+            "currencyType": "USD",
+            "msrp": 25,
+            "priceType": "NRC",
+            "total": 15
+         },
+         "locationId": "K004",
+         "payments": {"payment": [{"paymentOptionReference": "PAYMENT_OPTION_01"}]},
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_04"]},
+         "characteristics": {"wirelessLineItemCharacteristics": {}},
+         "hardGood":          {
+            "hardGoodType": "ACCESSORY",
+            "make": "NA",
+            "shipmentCommitDate":             {
+               "fromDate": 1435185047000,
+               "toDate": 1435185047000
+            },
+            "wirelessHardGoodCharacteristics":             {
+               "techType": "UMTS",
+               "equipmentType": "GPRS",
+               "phoneType": "DEVICES"
+            }
+         }
+      },
+            {
+         "id": "8319400161470001",
+         "sequence": 2,
+         "productCode": "prod7820230",
+         "productSKU": "83793",
+         "billingCode": "NOT_AVAILABLE",
+         "productType": "HARDGOOD",
+         "displayName": "eCom Computer Quick Start Guide",
+         "systemName": "Kit_guide_eCom_Computer_12.0",
+         "action": "ADD",
+         "price":          {
+            "amount": 0,
+            "currencyType": "USD",
+            "msrp": 0,
+            "priceType": "NRC",
+            "total": 0
+         },
+         "locationId": "K004",
+         "payments": {"payment": [{"paymentOptionReference": "PAYMENT_OPTION_01"}]},
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_04"]},
+         "hardGood":          {
+            "hardGoodType": "COLLATERAL",
+            "make": "NA",
+            "shipmentCommitDate":             {
+               "fromDate": 1435185047000,
+               "toDate": 1435185047000
+            },
+            "wirelessHardGoodCharacteristics":             {
+               "techType": "UMTS",
+               "equipmentType": "GPRS",
+               "phoneType": "DEVICES"
+            }
+         }
+      },
+            {
+         "id": "8319400161480002",
+         "sequence": 3,
+         "productCode": "prod7820230",
+         "productSKU": "6613A",
+         "billingCode": "NOT_AVAILABLE",
+         "productType": "HARDGOOD",
+         "displayName": "Samsung Galaxy S5 - Charcoal Black",
+         "systemName": "PHO SAM GLXY S5 G900A BLK",
+         "action": "ADD",
+         "price":          {
+            "amount": 249.99,
+            "currencyType": "USD",
+            "msrp": 649.99,
+            "priceType": "DueToday",
+            "total": 249.99
+         },
+         "locationId": "K004",
+         "payments": {"payment": [         {
+            "amount": 20,
+            "currencyType": "USD",
+            "paymentOptionReference": "PAYMENT_OPTION_01"
+         }]},
+         "effectiveDate": 1435185047000,
+         "contractDetails":          {
+            "totalSalePrice": 100,
+            "contractType": "REGULAR",
+            "contractLength": 24
+         },
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_04"]},
+         "hardGood":          {
+            "byodIndicator": false,
+            "hardGoodType": "DEVICE",
+            "shipmentCommitDate":             {
+               "fromDate": 1435185047000,
+               "toDate": 1435185047000
+            },
+            "deliveryByDate":             {
+               "fromDate": 1439930075722,
+               "toDate": 1440110075722
+            },
+            "wirelessHardGoodCharacteristics":             {
+               "techType": "UMTS",
+               "equipmentType": "GPRS",
+               "imeiType": "P6",
+               "phoneType": "DEVICES"
+            }
+         }
+      },
+            {
+         "id": "8319400161480003",
+         "sequence": 4,
+         "productCode": "prod7820230",
+         "productSKU": "73023",
+         "billingCode": "NOT_AVAILABLE",
+         "productType": "HARDGOOD",
+         "displayName": "Embedded Micro SIM for Phones",
+         "systemName": "Embedded SIM",
+         "action": "ADD",
+         "price":          {
+            "amount": 0,
+            "currencyType": "USD",
+            "msrp": 0,
+            "priceType": "NRC",
+            "total": 0
+         },
+         "locationId": "K004",
+         "payments": {"payment": [{"paymentOptionReference": "PAYMENT_OPTION_01"}]},
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_04"]},
+         "hardGood":          {
+            "byodIndicator": false,
+            "hardGoodType": "SIM",
+            "productImageUrl": "https://tst02.stage.att.com/catalog/en/skus/images/samsung-galaxy%20s%205-charcoal%20black-100x160.jpg",
+            "make": "Samsung",
+            "shipmentCommitDate":             {
+               "fromDate": 1435185047000,
+               "toDate": 1435185047000
+            },
+            "wirelessHardGoodCharacteristics":             {
+               "techType": "UMTS",
+               "equipmentType": "GPRS",
+               "phoneType": "DEVICES"
+            }
+         }
+      },
+            {
+         "id": "8319400161480004",
+         "sequence": 5,
+         "productCode": "prod6130421",
+         "productSKU": "NOT_AVAILABLE",
+         "billingCode": "SDDVRP",
+         "productType": "PLAN",
+         "displayName": "Mobile Share Plan",
+         "systemName": "Mobile Share Plan",
+         "action": "ADD",
+         "price": {"amount": 0},
+         "locationId": "K004",
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_04"]},
+         "characteristics": {"wirelessLineItemCharacteristics":          {
+            "nciEligibleIndicator": true,
+            "offerType": "B"
+         }}
+      },
+            {
+         "id": "8319400161480005",
+         "sequence": 6,
+         "productCode": "prod7620375",
+         "productSKU": "NOT_AVAILABLE",
+         "billingCode": "MSDGG10GB",
+         "productType": "OPTIONAL_FEATURE",
+         "displayName": "Mobile Share Value 10GB with Rollover Data",
+         "systemName": "MS Value 10GB UNLTT",
+         "action": "ADD",
+         "price":          {
+            "amount": 100,
+            "currencyType": "USD",
+            "msrp": 0,
+            "priceType": "RC",
+            "total": 100
+         },
+         "locationId": "K004",
+         "payments": {"payment": [{"paymentOptionReference": "PAYMENT_OPTION_01"}]},
+         "quantity": 1,
+         "groupReferences": {"groupReference":          [
+            "GROUP_04",
+            "GROUP_05"
+         ]},
+         "characteristics": {"wirelessLineItemCharacteristics":          {
+            "nciEligibleIndicator": true,
+            "offerType": "G"
+         }}
+      },
+            {
+         "id": "8319400161480007",
+         "sequence": 7,
+         "productCode": "NOT_AVAILABLE",
+         "billingCode": "NOT_AVAILABLE",
+         "productType": "MISC_CHARGE",
+         "displayName": "DepositFee",
+         "systemName": "DEPOSIT_FEE",
+         "action": "ADD",
+         "price":          {
+            "amount": 100,
+            "currencyType": "USD",
+            "msrp": 0,
+            "priceType": "DueToday",
+            "total": 100
+         },
+         "locationId": "K004",
+         "payments": {"payment": [{"paymentOptionReference": "PAYMENT_OPTION_02"}]},
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_04"]}
+      },
+            {
+         "id": "losg7820007ACT",
+         "sequence": 8,
+         "productCode": "NOT_AVAILABLE",
+         "productSKU": "NOT_AVAILABLE",
+         "billingCode": "NOT_AVAILABLE",
+         "productType": "MISC_CHARGE",
+         "displayName": "ActivationFee",
+         "systemName": "ACTIVATION_FEE",
+         "action": "ADD",
+         "price":          {
+            "amount": 0,
+            "currencyType": "USD",
+            "priceType": "NRC"
+         },
+         "payments": {"payment": [{"paymentOptionReference": "PAYMENT_OPTION_01"}]},
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_04"]}
+      },
+            {
+         "id": "lobi8200007ShippingFee",
+         "sequence": 9,
+         "productCode": "NOT_AVAILABLE",
+         "productSKU": "88879",
+         "billingCode": "NOT_AVAILABLE",
+         "productType": "MISC_CHARGE",
+         "displayName": "ShippingFee",
+         "systemName": "SHIPPING_FEE",
+         "action": "ADD",
+         "price":          {
+            "amount": 0,
+            "currencyType": "USD",
+            "msrp": 0,
+            "priceType": "DueToday",
+            "total": 0
+         },
+         "locationId": "K004",
+         "payments": {"payment": [{"paymentOptionReference": "PAYMENT_OPTION_01"}]},
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_04"]}
+      },
+            {
+         "id": "8319400161480006",
+         "sequence": 10,
+         "productCode": "prod7640270",
+         "productSKU": "NOT_AVAILABLE",
+         "billingCode": "SDFVSL54",
+         "productType": "OPTIONAL_FEATURE",
+         "displayName": "Mobile Share Value Smartphone 4G LTE with Visual Voicemail",
+         "systemName": "MOBILESHAREVSL54VT",
+         "action": "ADD",
+         "price":          {
+            "amount": 40,
+            "currencyType": "USD",
+            "msrp": 0,
+            "priceType": "RC",
+            "total": 40
+         },
+         "locationId": "K004",
+         "payments": {"payment": [{"paymentOptionReference": "PAYMENT_OPTION_01"}]},
+         "quantity": 1,
+         "groupReferences": {"groupReference":          [
+            "GROUP_04",
+            "GROUP_05"
+         ]},
+         "characteristics": {"wirelessLineItemCharacteristics":          {
+            "nciEligibleIndicator": false,
+            "offerType": "P"
+         }}
+      }
+   ]},
+   "names": {"name":    [
+            {
+         "id": "NAME_01",
+         "firstName": "Cynthia",
+         "lastName": "Ffpsla",
+         "primaryContactPhones": [         {
+            "phoneNumber": "9042324974",
+            "extension": "91",
+            "contactPhoneType": "HOME_PHONE",
+            "consentDetails": {"consentDetail": [            {
+               "consentType": "Text",
+               "consentCategory": "testConsentCategory",
+               "consentSelection": "Opt-In"
+            }]}
+         }],
+         "additionalContactPhones": [         {
+            "phoneNumber": "4252884532",
+            "contactPhoneType": "WORK_PHONE",
+            "consentDetails": {"consentDetail": [            {
+               "consentType": "Text",
+               "consentCategory": "testConsentCategory",
+               "consentSelection": "Opt-In"
+            }]}
+         }]
+      },
+            {
+         "id": "NAME_02",
+         "firstName": "BEDROCK",
+         "lastName": "DONOTUSE",
+         "primaryContactPhones": [         {
+            "phoneNumber": "9042324974",
+            "extension": "91",
+            "contactPhoneType": "HOME_PHONE",
+            "consentDetails": {"consentDetail": [            {
+               "consentType": "Text",
+               "consentCategory": "testConsentCategory",
+               "consentSelection": "Opt-In"
+            }]}
+         }],
+         "additionalContactPhones": [         {
+            "phoneNumber": "4252884532",
+            "contactPhoneType": "WORK_PHONE",
+            "consentDetails": {"consentDetail": [            {
+               "consentType": "Text",
+               "consentCategory": "testConsentCategory",
+               "consentSelection": "Opt-In"
+            }]}
+         }]
+      },
+            {
+         "id": "NAME_03",
+         "firstName": "ABC",
+         "lastName": "XYZ",
+         "primaryContactPhones": [         {
+            "phoneNumber": "9042324974",
+            "extension": "91",
+            "contactPhoneType": "CELL_PHONE",
+            "consentDetails": {"consentDetail": [            {
+               "consentType": "Text",
+               "consentCategory": "testConsentCategory",
+               "consentSelection": "Opt-In"
+            }]}
+         }],
+         "additionalContactPhones": [         {
+            "phoneNumber": "4252884532",
+            "contactPhoneType": "WORK_PHONE",
+            "consentDetails": {"consentDetail": [            {
+               "consentType": "Text",
+               "consentCategory": "testConsentCategory",
+               "consentSelection": "Opt-In"
+            }]}
+         }]
+      },
+            {
+         "id": "NAME_04",
+         "firstName": "Cynthia",
+         "lastName": "Ffpsla",
+         "primaryContactPhones": [         {
+            "phoneNumber": "9042324974",
+            "extension": "91",
+            "contactPhoneType": "HOME_PHONE",
+            "consentDetails": {"consentDetail": [            {
+               "consentType": "Text",
+               "consentCategory": "testConsentCategory",
+               "consentSelection": "Opt-In"
+            }]}
+         }],
+         "additionalContactPhones": [         {
+            "phoneNumber": "4252884532",
+            "contactPhoneType": "WORK_PHONE",
+            "consentDetails": {"consentDetail": [            {
+               "consentType": "Text",
+               "consentCategory": "testConsentCategory",
+               "consentSelection": "Opt-In"
+            }]}
+         }]
+      }
+   ]},
+   "addresses": {"address":    [
+            {
+         "id": "ADDRESS_01",
+         "unparsedAddress":          {
+            "addressLine1": "1825 Mayfield Rd",
+            "city": "Alpharetta",
+            "state": "GA",
+            "zip": "30009"
+         }
+      },
+            {
+         "id": "ADDRESS_02",
+         "unparsedAddress":          {
+            "addressLine1": "2501 W AIRPORT FWY",
+            "city": "IRVING",
+            "state": "TX",
+            "zip": "75062",
+            "country": "US"
+         }
+      },
+            {
+         "id": "ADDRESS_03",
+         "unparsedAddress":          {
+            "addressLine1": "1825 Mayfield Rd",
+            "city": "Alpharetta",
+            "state": "GA",
+            "zip": "30009"
+         }
+      },
+            {
+         "id": "ADDRESS_04",
+         "unparsedAddress":          {
+            "addressLine1": "1825 Mayfield Rd",
+            "city": "Alpharetta",
+            "state": "GA",
+            "zip": "30009"
+         }
+      },
+            {
+         "id": "ADDRESS_05",
+         "unparsedAddress":          {
+            "addressLine1": "11330 AMANDA LN",
+            "city": "DALLAS",
+            "state": "TX",
+            "zip": "75238"
+         }
+      }
+   ]},
+   "accounts": {"account": [   {
+      "id": "ACCOUNT_02",
+      "sequence": 1,
+      "accountCategory": "MOBILITY_ACCOUNT",
+      "accountSubCategory": "NEW",
+      "paymentArrangement": "PREPAID",
+      "billingDetail": [      {
+         "nameReference": "NAME_02",
+         "addressReference": "ADDRESS_02",
+         "authentication":          {
+            "dob": "1950-01-28",
+            "driversLicense":             {
+               "licenseNumber": "1213345",
+               "state": "TX",
+               "licenseExpirationDate": "2016-05-13"
+            },
+            "ssn": "666034545",
+            "employerDetail":             {
+               "employerName": "ATT",
+               "employerPhoneNumber": "4252884532"
+            }
+         }
+      }],
+      "creditCheck":       {
+         "creditClass": "B",
+         "creditCheckRanIndicator": false,
+         "applicationNumber": "505149000289",
+         "numberLinesRequired": 1,
+         "numberApprovedLines": 1,
+         "applicationApprovalDate": "2015-05-12",
+         "applicationExpiresDate": "2015-08-10",
+         "creditStatus": "CreditStatus",
+         "reasonCode": "CB",
+         "reasonCodeDescription": "EQUIFAX CONSUMER",
+		 "depositStatus":"PAID"
+      },
+      "billingDeliveryPreference": "PAPERLESS",
+      "accountType": "INDIVIDUAL",
+      "accountSubType": "R",
+      "enterpriseType": "CON",
+      "langId": "ENGLISH",
+      "market": "DLS",
+      "subMarket": "DFW",
+      "priceCode": "719",
+      "spokenLanguagePreference": "ENGLISH"
+   }]},
+   "paymentOptions": {"paymentOption":    [
+            {
+         "id": "PAYMENT_OPTION_02",
+         "sequence": 1,
+         "capmConfig":          {
+            "merchantId": "ORDERGWCon",
+            "sourceSystem": "HARDROCK",
+            "sourceLocation": "CS"
+         },
+         "paymentMethod": {"capm":          {
+            "profileName": "testprofile11",
+            "profileOwnerId": "553815515",
+            "totalAmount": 100,
+            "customerAgreementVersion": "/content/tos/en/wirelessServiceAgreement/2014/02/11/1",
+			"savedProfileIndicator":"true"
+         }}
+      },
+            {
+         "id": "PAYMENT_OPTION_01",
+         "sequence": 2,
+         "paymentMethod": {"creditCard":          {
+            "addressReference": "ADDRESS_01",
+            "expirationYearMonth": "2017-12",
+            "creditCardHolderName": "BEDROCK DONOTUSE",
+            "creditCardType": "VISA",
+            "creditCardNumber": "LJVT2F4QUAVHY1QL",
+            "cardBillingZipCode": "60030",
+            "paymentAmount": 200
+         }},
+         "autoBill": "Y"
+      }
+   ]},
+   "shippingDetails": {"shippingDetail": [   {
+      "id": "SHIPPING_INFO_01",
+      "sequence": 1,
+      "nameReference": "NAME_04",
+      "addressReference": "ADDRESS_04",
+      "shippingCode": "AA1",
+      "shippingPriceCode": "88879",
+      "shippingMethod": "Overnight"
+   }]},
+   "dueAmount":    {
+      "amount": 264.99,
+      "priceType": "NRC",
+      "taxDetail": {"amount": 0},
+      "total": 264.99
+   },
+   "agentCode": "Z0066",
+   "agentLocation": "Z0066",
+   "orderContact":    {
+      "nameReference": "NAME_03",
+      "primaryEmailAddress": "a@att.com"
+   },
+   "termsAndConditions": 
+	{
+		"termsAndConditionAccepted": 
+		[
+			{
+				"id": "TC_01",
+				"agreementType": "DEV",
+				"agreementText": "I have read the Retail Installment Agreement and agree to the terms and conditions as described.",
+				"accepted": "Y",
+				"timestamp": 1491398120999,
+				"version": "/legal/terms.deviceInstallmentPlan.html",
+				"orderLevelIndicator": false
+			},
+
+			{
+				"id": "TC_02",
+				"agreementType": "WCA",
+				"agreementText": "I have read the Wireless Customer Agreement and agree to the terms and conditions as described.",
+				"accepted": "Y",
+				"timestamp": 1491398120999,
+				"version": "/legal/terms.wirelessServiceAgreement.html",
+				"orderLevelIndicator": true
+			},
+
+			{
+				"id": "TC_03",
+				"agreementType": "CON",
+				"agreementText": "I have read the Electronic Consent and agree to the terms and conditions as described.",
+				"accepted": "Y",
+				"timestamp": 1491398120999,
+				"version": "/legal/terms.electronicConsent.html",
+				"orderLevelIndicator": true
+			}
+		]
+	},
+   "orderSource":    {
+      "clientIP": "135.163.180.104",
+      "locale": "EN_US",
+      "clientType": "DESKTOP",
+      "channel": "DE-MOBILITY",
+      "application": "MYATTSALES",
+      "browserId": "A001280768733",
+      "additionalDetails": {"additionalDetail":       [
+                  {
+            "code": "SENDER",
+            "value": "HARDROCK"
+         },
+                  {
+            "code": "BUYFLOW",
+            "value": "NEWCO"
+         }
+      ]}
+   },
+   "encryptedIndicator": true,
+   "bulkIndicator": false,
+   "passThroughIndicator": false,
+   "commonOrderIndicator": true,
+   "summaryCreatedIndicator": false
+
+}

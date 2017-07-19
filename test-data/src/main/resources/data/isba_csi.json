@@ -1,0 +1,81 @@
+{
+  "messageHeader": {
+    "trackingMessageHeader": {
+      "infrastructureVersion": "v112",
+      "originalInfrastructureVersion": "11111",
+      "applicationName": "OCE",
+      "version": "v116",
+      "originalVersion": "",
+      "messageId": "f3591333-f0af-455f-a28f-6d5229fcaa1b~T3-61488778460747~37780ebd-0aef-4203-b931-a96f57dab2eb",
+      "originatorId":"OCE",
+      "responseTo":"",
+      "returnURL":"",
+      "timeToLive":"",
+      "conversationId":"",
+      "routingRegionOverride":"",
+      "dateTimeStamp":"2017-04-11T07:43:03.354Z",
+      "uniqueTransactionId":""
+    },
+    "securityMessageHeader": {
+      "userName": "oce_iot",
+      "userPassword": "oce_iot0826"
+    },
+    "sequenceMessageHeader": {
+      "sequenceNumber": "1",
+      "totalInSequence": "1"
+    }
+  },
+ 	"inquireSubscriberBillingAgreementRequest" : {
+				"NEYRequest": {
+					"orderHeader": {
+						"autoPrintIndicator" : "TRUE",
+						"posSystem" : "ABC",
+						"orderDate" : "20-10-2017",
+						"language" : "XML",
+						"channel" : "CRU_MOBILITY",
+						"documentFormat" : ""
+					},
+					"account" : {
+						"customerName" : "VIJAY",
+						"BillingAddress" :{
+							"attentionName" :  "VIJAY",
+							"addressLine1" :  "1720 CUMBERLAND AVE",
+							"addressLine2" :  "1720 CUMBERLAND AVE",
+							"addressLine3" :  "1720 CUMBERLAND AVE",
+							"city" :  "KNOXVILLE",
+							"state" :  "TN",
+							"Zip" : {
+								"zipCode" : "630106"
+							},
+							"country" : "US"
+							},
+						"billCycleStartDay" : "MONDAY",
+						"contactPhone" : "7871395989",
+						"telegenceBAN" : "7878784512"
+					},
+					"wireless": [{
+						"customerTelephoneNumber" : "",
+						"Equipment" : {
+							"manufacturer" : "FORD",
+							"model" : "FIESTA",
+							"imeiType" : "WTHY"
+						},
+						"ContractInfo": {
+							"newContractIndicator" : "ABC",
+							"remainingContractTerm" : "FIVE",
+							"msrp" : "SSS",
+							"installmentAmount": "100",
+							"remainingBalanceAmount": "50",
+							"contractTerm": "ONE_YEAR",
+							"penaltyType": "S",
+							"originalContractInceptionDate": "",
+							"lastContractStartDate": "",
+							"reasonCode" : "A",
+							"installmentPlanId" : "T",
+							"downPaymentAmount" : "100"
+						}
+         			}]
+  				}
+  			}
+  		}
+  
