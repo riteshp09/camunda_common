@@ -1,0 +1,55 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header>
+      <ns2:MessageHeader xmlns="http://csi.cingular.com/CSI/Namespaces/Types/Public/CingularDataModel.xsd" xmlns:ns2="http://csi.cingular.com/CSI/Namespaces/Types/Public/MessageHeader.xsd">
+         <ns2:TrackingMessageHeader>
+            <version>v116</version>
+            <originalVersion>v116</originalVersion>
+            <messageId>457845456565~test10272016~89b2f52e-ac2b-4eb8-96a0-015983ddf96a</messageId>
+            <timeToLive>30000</timeToLive>
+            <conversationId>oce~CNG-CSI~10624ade-f15e-432f-a0d0-dc8d475662fd</conversationId>
+            <dateTimeStamp>2016-11-21T01:03:30.105Z</dateTimeStamp>
+            <uniqueTransactionId>ServiceGateway22779@q25csg1c3_d1c95770-522e-48ef-9867-d63649120c06</uniqueTransactionId>
+         </ns2:TrackingMessageHeader>
+         <ns2:SecurityMessageHeader>
+            <userName>oce</userName>
+            <userPassword>oce0606</userPassword>
+         </ns2:SecurityMessageHeader>
+         <ns2:SequenceMessageHeader>
+            <sequenceNumber>1</sequenceNumber>
+            <totalInSequence>1</totalInSequence>
+         </ns2:SequenceMessageHeader>
+      </ns2:MessageHeader>
+   </SOAP-ENV:Header>
+   <SOAP-ENV:Body>
+<icdsres:InquireConnectedDeviceSummaryResponse xmlns:csidm="http://csi.cingular.com/CSI/Namespaces/Types/Public/CingularDataModel.xsd" xmlns:icdsres="http://csi.cingular.com/CSI/Namespaces/Container/Public/InquireConnectedDeviceSummaryResponse.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://csi.cingular.com/CSI/Namespaces/Container/Public/InquireConnectedDeviceSummaryResponse.xsd InquireConnectedDeviceSummaryResponse.xsd ">
+ <icdsres:DeviceVehicleDetails>
+  <icdsres:DeviceDetails>
+    <icdsres:iccid>123456789123456789</icdsres:iccid>
+    <icdsres:msisdn>1234567890</icdsres:msisdn>
+    <icdsres:imsi>123456789123456</icdsres:imsi>
+    <icdsres:imei>123456789123456</icdsres:imei>
+    <icdsres:tcuType>ONLINE</icdsres:tcuType>
+    <icdsres:volteSupportValue>0</icdsres:volteSupportValue>
+    <icdsres:deviceType>0</icdsres:deviceType>
+    <icdsres:tcuManufacturer>ATT</icdsres:tcuManufacturer>
+    <icdsres:tcuSoftwareVersion>1.0.0</icdsres:tcuSoftwareVersion>
+    <icdsres:trialEligibilityIndicator>true</icdsres:trialEligibilityIndicator>
+  </icdsres:DeviceDetails>
+  <icdsres:VehicleDetails>
+    <icdsres:vin>icdsres:vin</icdsres:vin>
+    <icdsres:make>AUDI</icdsres:make>
+    <icdsres:model>U10</icdsres:model>
+    <icdsres:modelYear>2015</icdsres:modelYear>
+    <icdsres:engine>GIV</icdsres:engine>   
+    <icdsres:trim>L4</icdsres:trim>
+    <icdsres:fleetTnCIndicator>true</icdsres:fleetTnCIndicator>
+  </icdsres:VehicleDetails>
+  </icdsres:DeviceVehicleDetails>
+  <Response>
+    <csidm:code>0</csidm:code>
+    <csidm:description>Success</csidm:description>
+  </Response>
+</icdsres:InquireConnectedDeviceSummaryResponse>
+
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

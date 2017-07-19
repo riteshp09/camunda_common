@@ -1,0 +1,43 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:mes="http://csi.cingular.com/CSI/Namespaces/Types/Public/MessageHeader.xsd" xmlns:cin="http://csi.cingular.com/CSI/Namespaces/Types/Public/CingularDataModel.xsd" xmlns:act="http://csi.cingular.com/CSI/Namespaces/Container/Public/ActivateSubscriberResponse.xsd">
+   <soapenv:Header>
+      <MessageHeader xmlns="http://csi.cingular.com/CSI/Namespaces/Types/Public/MessageHeader.xsd" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cng="http://csi.cingular.com/CSI/Namespaces/Types/Public/CingularDataModel.xsd">
+         <TrackingMessageHeader>
+            <cng:version>v112</cng:version>
+            <cng:originalVersion>v112</cng:originalVersion>
+            <cng:messageId>457845456565~21-10810000100759~514b447c-a3d1-465b-bcae-c741562e1c1f~Message_0cdiloc~ef1a0050-2f2a-11e7-a236-64006a25d5e2</cng:messageId>
+            <cng:originatorId>OCE</cng:originatorId>
+            <cng:responseTo>1075_15885_156657_NEW_ACTIVATI~31-000001588510000~2c8b308d-c733-4489-8262-3583df1c8d1e</cng:responseTo>
+            <cng:returnURL>https://oce6rtos.test.att.com/active-bpel/services/ActivateSubscriberResponse</cng:returnURL>
+            <cng:timeToLive>300000</cng:timeToLive>
+            <cng:conversationId>oce~CNG-CSI~2e7a0fe3-b21a-440d-89e1-c473417e644a</cng:conversationId>
+            <cng:dateTimeStamp>2017-01-09T20:56:32.721Z</cng:dateTimeStamp>
+            <cng:uniqueTransactionId>ServiceGateway387949@q100csg108c3_3762f38c-87ed-4434-9e3c-7f7fc2c1b720</cng:uniqueTransactionId>
+         </TrackingMessageHeader>
+         <SecurityMessageHeader>
+            <cng:userName>oce</cng:userName>
+            <cng:userPassword>oce0606</cng:userPassword>
+         </SecurityMessageHeader>
+         <SequenceMessageHeader>
+            <cng:sequenceNumber>1</cng:sequenceNumber>
+            <cng:totalInSequence>1</cng:totalInSequence>
+         </SequenceMessageHeader>
+      </MessageHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <ActivateSubscriberResponse xmlns="http://csi.cingular.com/CSI/Namespaces/Container/Public/ActivateSubscriberResponse.xsd" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cng="http://csi.cingular.com/CSI/Namespaces/Types/Public/CingularDataModel.xsd">
+         <billingAccountNumber>545098660464</billingAccountNumber>
+         <Subscriber>
+            <subscriberNumber>6063047385</subscriberNumber>
+            <subscriberStatus>A</subscriberStatus>
+            <Response>
+               <cng:code>1234</cng:code>
+               <cng:description>Error</cng:description>
+            </Response>
+         </Subscriber>        
+         <Response>
+            <cng:code>0</cng:code>
+            <cng:description>Success</cng:description>
+         </Response>
+      </ActivateSubscriberResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

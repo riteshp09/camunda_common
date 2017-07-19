@@ -1,0 +1,34 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header>
+      <ns2:MessageHeader xmlns="http://csi.cingular.com/CSI/Namespaces/Types/Public/CingularDataModel.xsd" xmlns:ns2="http://csi.cingular.com/CSI/Namespaces/Types/Public/MessageHeader.xsd">
+         <ns2:TrackingMessageHeader>
+            <version>v116</version>
+            <originalVersion>v116</originalVersion>
+            <messageId>457845456565~test10272016~89b2f52e-ac2b-4eb8-96a0-015983ddf96a</messageId>
+            <timeToLive>30000</timeToLive>
+            <conversationId>oce~CNG-CSI~10624ade-f15e-432f-a0d0-dc8d475662fd</conversationId>
+            <dateTimeStamp>2016-11-21T01:03:30.105Z</dateTimeStamp>
+            <uniqueTransactionId>ServiceGateway22779@q25csg1c3_d1c95770-522e-48ef-9867-d63649120c06</uniqueTransactionId>
+         </ns2:TrackingMessageHeader>
+         <ns2:SecurityMessageHeader>
+            <userName>oce</userName>
+            <userPassword>oce0606</userPassword>
+         </ns2:SecurityMessageHeader>
+         <ns2:SequenceMessageHeader>
+            <sequenceNumber>1</sequenceNumber>
+            <totalInSequence>1</totalInSequence>
+         </ns2:SequenceMessageHeader>
+      </ns2:MessageHeader>
+   </SOAP-ENV:Header>
+   <SOAP-ENV:Body>
+   <p:UpdateSubscriberProfileResponse xmlns:p="http://csi.cingular.com/CSI/Namespaces/Container/Public/UpdateSubscriberProfileResponse.xsd" xmlns:p1="http://csi.cingular.com/CSI/Namespaces/Types/Public/CingularDataModel.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://csi.cingular.com/CSI/Namespaces/Container/Public/UpdateSubscriberProfileResponse.xsd UpdateSubscriberProfileResponse.xsd ">
+   		<p:Subscriber>
+    		<p:subscriberNumber>1234567890</p:subscriberNumber>
+ 		</p:Subscriber>
+  		<p:Response>
+   		 	<p1:code>0</p1:code>
+    		<p1:description>Success</p1:description>
+  		</p:Response>
+	</p:UpdateSubscriberProfileResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

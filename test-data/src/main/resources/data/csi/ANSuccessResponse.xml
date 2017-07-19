@@ -1,0 +1,33 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header>
+      <MessageHeader xmlns:cng="http://csi.cingular.com/CSI/Namespaces/Types/Public/CingularDataModel.xsd" xmlns="http://csi.cingular.com/CSI/Namespaces/Types/Public/MessageHeader.xsd">
+         <TrackingMessageHeader>
+            <cng:version>v104</cng:version>
+            <cng:originalVersion>v104</cng:originalVersion>
+            <cng:messageId>319d4610-1824-40d9-9f1f-a4552cd31d06~6916941321~c5643614-e7bb-4ceb-b2ab-440682a37f3a</cng:messageId>
+            <cng:originatorId>OCE</cng:originatorId>
+            <cng:returnURL>http://localhost:9093/callback.jws</cng:returnURL>
+            <cng:timeToLive>300000</cng:timeToLive>
+            <cng:conversationId>oce~CNG-CSI~fe25bbdb-ea43-4c81-866d-a29efddf4127</cng:conversationId>
+            <cng:dateTimeStamp>2016-03-15T05:58:20.98Z</cng:dateTimeStamp>
+            <cng:uniqueTransactionId>ServiceGateway23378@q25csg1c1_8e2d8ee1-3a37-4587-b1bd-922657c9ad7e</cng:uniqueTransactionId>
+         </TrackingMessageHeader>
+         <SecurityMessageHeader>
+            <cng:userName>oce</cng:userName>
+            <cng:userPassword>oce0606</cng:userPassword>
+         </SecurityMessageHeader>
+         <SequenceMessageHeader>
+            <cng:sequenceNumber>1</cng:sequenceNumber>
+            <cng:totalInSequence>1</cng:totalInSequence>
+         </SequenceMessageHeader>
+      </MessageHeader>
+   </SOAP-ENV:Header>
+   <SOAP-ENV:Body>
+      <AddNoteResponse xmlns:cng="http://csi.cingular.com/CSI/Namespaces/Types/Public/CingularDataModel.xsd" xmlns="http://csi.cingular.com/CSI/Namespaces/Container/Public/AddPaymentProfileResponse.xsd">
+         <Response>
+            <cng:code>0</cng:code>
+            <cng:description>Success</cng:description>
+         </Response>
+      </AddNoteResponse>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

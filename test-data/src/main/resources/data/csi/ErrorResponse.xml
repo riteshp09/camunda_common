@@ -1,0 +1,50 @@
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:m="http://csi.cingular.com/CSI/Namespaces/Types/Public/MessageHeader.xsd" xmlns:cer="http://csi.cingular.com/CSI/Namespaces/Types/Public/ErrorResponse.xsd">
+   <soap-env:Header>
+      <m:MessageHeader>
+         <ns2:TrackingMessageHeader xmlns:ns2="http://csi.cingular.com/CSI/Namespaces/Types/Public/MessageHeader.xsd" xmlns="http://csi.cingular.com/CSI/Namespaces/Types/Public/CingularDataModel.xsd" xmlns:ns5="http://csi.cingular.com/CSI/Namespaces/Types/Public/ErrorResponse.xsd" xmlns:ns4="http://csi.cingular.com/CSI/Namespaces/Types/Public/SoapFault.xsd" xmlns:ns3="http://csi.cingular.com/CSI/Namespaces/JMS/Public/SoapFaultResponse.xsd">
+            <version>v112</version>
+            <messageId>PREMIER:1477936860446~10-1913491352nck16~17838b7d-a746-41e7-9743-6fc98787d7b9</messageId>
+            <originatorId>OCE</originatorId>
+            <timeToLive>300000</timeToLive>
+            <conversationId>oce_iot~CNG-CSI~e641af7d-322a-40b1-816d-4f26e92db91a</conversationId>
+            <dateTimeStamp>2016-10-31T12:44:08.313Z</dateTimeStamp>
+            <uniqueTransactionId>ServiceGateway25444@q25csg1c1_65b7ef70-3039-4dfd-82ce-67fceb30501f</uniqueTransactionId>
+         </ns2:TrackingMessageHeader>
+         <ns2:SecurityMessageHeader xmlns:ns2="http://csi.cingular.com/CSI/Namespaces/Types/Public/MessageHeader.xsd" xmlns="http://csi.cingular.com/CSI/Namespaces/Types/Public/CingularDataModel.xsd" xmlns:ns5="http://csi.cingular.com/CSI/Namespaces/Types/Public/ErrorResponse.xsd" xmlns:ns4="http://csi.cingular.com/CSI/Namespaces/Types/Public/SoapFault.xsd" xmlns:ns3="http://csi.cingular.com/CSI/Namespaces/JMS/Public/SoapFaultResponse.xsd">
+            <userName>oce_iot</userName>
+            <userPassword>oce_iot0826</userPassword>
+         </ns2:SecurityMessageHeader>
+         <ns2:SequenceMessageHeader xmlns:ns2="http://csi.cingular.com/CSI/Namespaces/Types/Public/MessageHeader.xsd" xmlns="http://csi.cingular.com/CSI/Namespaces/Types/Public/CingularDataModel.xsd" xmlns:ns5="http://csi.cingular.com/CSI/Namespaces/Types/Public/ErrorResponse.xsd" xmlns:ns4="http://csi.cingular.com/CSI/Namespaces/Types/Public/SoapFault.xsd" xmlns:ns3="http://csi.cingular.com/CSI/Namespaces/JMS/Public/SoapFaultResponse.xsd">
+            <sequenceNumber>1</sequenceNumber>
+            <totalInSequence>1</totalInSequence>
+         </ns2:SequenceMessageHeader>
+      </m:MessageHeader>
+   </soap-env:Header>
+   <soap-env:Body>
+      <soap-env:Fault xmlns:soap1="http://csi.cingular.com/CSI/Namespaces/Types/Public/SoapFaultDetails.xsd">
+         <faultcode>soap-env:Client</faultcode>
+         <faultstring>Input Data Not Found</faultstring>
+         <faultactor>soap-env:Client</faultactor>
+         <detail>
+            <soap1:CSIApplicationException>
+               <ns5:Response xmlns:ns5="http://csi.cingular.com/CSI/Namespaces/Types/Public/ErrorResponse.xsd" xmlns="http://csi.cingular.com/CSI/Namespaces/Types/Public/CingularDataModel.xsd" xmlns:ns2="http://csi.cingular.com/CSI/Namespaces/Types/Public/MessageHeader.xsd" xmlns:ns4="http://csi.cingular.com/CSI/Namespaces/Types/Public/SoapFault.xsd" xmlns:ns3="http://csi.cingular.com/CSI/Namespaces/JMS/Public/SoapFaultResponse.xsd">
+                  <code>300</code>
+                  <description>Data Error</description>
+               </ns5:Response>
+               <ns5:ServiceProviderEntity xmlns:ns5="http://csi.cingular.com/CSI/Namespaces/Types/Public/ErrorResponse.xsd" xmlns="http://csi.cingular.com/CSI/Namespaces/Types/Public/CingularDataModel.xsd" xmlns:ns2="http://csi.cingular.com/CSI/Namespaces/Types/Public/MessageHeader.xsd" xmlns:ns4="http://csi.cingular.com/CSI/Namespaces/Types/Public/SoapFault.xsd" xmlns:ns3="http://csi.cingular.com/CSI/Namespaces/JMS/Public/SoapFaultResponse.xsd">
+                  <ns5:reportingServiceEntity>IOTGWHTTPS</ns5:reportingServiceEntity>
+                  <ns5:faultDate>2016-11-02Z</ns5:faultDate>
+                  <ns5:faultSequenceNumber>1</ns5:faultSequenceNumber>
+                  <ns5:faultLevel>ERROR</ns5:faultLevel>
+                  <ns5:faultCode>3006402098019</ns5:faultCode>
+                  <ns5:faultDescription>Input Data Not Found</ns5:faultDescription>
+                  <ns5:ServiceProviderRawError>
+                     <ns5:code>100404</ns5:code>
+                     <ns5:description>Record Not Found.</ns5:description>
+                  </ns5:ServiceProviderRawError>
+               </ns5:ServiceProviderEntity>
+            </soap1:CSIApplicationException>
+         </detail>
+      </soap-env:Fault>
+   </soap-env:Body>
+</soap-env:Envelope>
