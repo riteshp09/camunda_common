@@ -1,0 +1,678 @@
+{
+  "customerOrderNumber" : "D3Def3456",
+  "orderType" : "CREATE",
+  "orderStatus" : {
+    "status" : "RECEIVED"
+  },
+  "createdDate" : 1438964397194,
+  "submittedDate" : 1438965870333,
+  "productGroups" : {
+    "group" : [ {
+      "id" : "GROUP_01",
+      "name" : "UPGRADE_WIRELESS",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 1,
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "losg7810006",
+          "losgType" : "CHANGE",
+          "productCategory" : "IPTV",
+          "primaryIndicator" : false,
+          "dealerCode" : "Z0066",
+          "market" : "TNP",
+          "subMarket" : "719",
+          "priceCode" : "719",
+          "accountReference" : "ACCOUNT_01",
+          "serviceLocationReference" : "ADDRESS_03",
+          "numberPortDetail" : {
+            "ospAccountNumber" : "365010841171",
+            "portTelephoneNumber" : "2143060488"
+          },
+          "termsAndConditionAccepted" : {
+            "accepted" : "Y",
+            "timestamp" : 1438965824999,
+            "version" : "/content/tos/en/wirelessServiceAgreement/2014/02/11/1"
+          },
+          "wirelessLOSCharacteristics" : {
+            "mobileNumber" : "8656220070",
+            "billingSystemId" : "T",
+            "coPayData" : { }
+          },
+          "fulfillmentMethod" : "C2S"
+        }
+      }
+    }, {
+      "id" : "GROUP_02",
+      "name" : "UPGRADE_WIRELESS",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 2,
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "losg7811116",
+          "losgType" : "NEW",
+          "productCategory" : "VOIP",
+          "primaryIndicator" : false,
+          "dealerCode" : "Z0066",
+          "market" : "TNP",
+          "subMarket" : "719",
+          "priceCode" : "719",
+          "accountReference" : "ACCOUNT_01",
+          "serviceLocationReference" : "ADDRESS_03",
+          "numberPortDetail" : {
+            "ospAccountNumber" : "365010841172",
+            "portTelephoneNumber" : "2143060488"
+          },
+          "termsAndConditionAccepted" : {
+            "accepted" : "Y",
+            "timestamp" : 1438965824999,
+            "version" : "/content/tos/en/wirelessServiceAgreement/2014/02/11/1"
+          },
+          "wirelessLOSCharacteristics" : {
+            "mobileNumber" : "8656220070",
+            "billingSystemId" : "T",
+            "coPayData" : { }
+          },
+          "fulfillmentMethod" : "C2S"
+        }
+      }
+    } ]
+  },
+  "lineItems" : {
+    "lineItem" : [ {
+      "id" : "8299500000983793",
+      "productCode" : "prod7820230",
+      "productSKU" : "83793",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "eCom Phone Quick Start Guide",
+      "systemName" : "Kit_guide_eCom_Phone_12.0",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00,
+          "preCalculatedTax" : {
+            "taxableCost" : 0.0,
+            "taxableMSRP" : 0.0,
+            "taxableUnitPrice" : 0.0,
+            "orderTaxAreaId" : 390950000,
+            "shipFromTaxAreaId" : 431570560,
+            "shipToTaxAreaId" : 430930400
+          },
+          "lineItemTaxes" : [ {
+            "taxLineId" : 1,
+            "taxCode" : "SALESTAX",
+            "memo" : "SALESTAX",
+            "printName" : "Sales Tax",
+            "taxable" : "X",
+            "skuSpecific" : "false",
+            "jurisdictionLevel" : "Sales Tax",
+            "jurisdictionName" : "Sales Tax",
+            "taxAmount" : 0.00,
+            "taxRate" : 0.0,
+            "taxDate" : "2015-08-07"
+          } ]
+        },
+        "total" : 0.00
+      },
+      "locationId" : "K004",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "hardGood" : {
+        "hardGoodType" : "DVR",
+        "shippedHotIndicator" : true
+      }
+    }, {
+      "id" : "8319400161480004",
+      "productCode" : "prod6130421",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "SDDVRP",
+      "productType" : "PLAN",
+      "displayName" : "Mobile Share Plan",
+      "systemName" : "Mobile Share Plan",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00
+      },
+      "locationId" : "K004",
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_04" ]
+      },
+      "characteristics" : {
+        "wirelessLineItemCharacteristics" : {
+          "nciEligibleIndicator" : true,
+          "offerType" : "B"
+        }
+      }
+    }, {
+      "id" : "8299500000973023",
+      "productCode" : "prod7820230",
+      "productSKU" : "73023",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "Embedded Micro SIM for Phones",
+      "systemName" : "Embedded SIM",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00,
+          "preCalculatedTax" : {
+            "taxableCost" : 0.0,
+            "taxableMSRP" : 0.0,
+            "taxableUnitPrice" : 0.0,
+            "orderTaxAreaId" : 390950000,
+            "shipFromTaxAreaId" : 431570560,
+            "shipToTaxAreaId" : 430930400
+          },
+          "lineItemTaxes" : [ {
+            "taxLineId" : 1,
+            "taxCode" : "SALESTAX",
+            "memo" : "SALESTAX",
+            "printName" : "Sales Tax",
+            "taxable" : "X",
+            "skuSpecific" : "false",
+            "jurisdictionLevel" : "Sales Tax",
+            "jurisdictionName" : "Sales Tax",
+            "taxAmount" : 0.00,
+            "taxRate" : 0.0,
+            "taxDate" : "2015-08-07"
+          } ]
+        },
+        "total" : 0.00
+      },
+      "locationId" : "K004",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "hardGood" : {
+        "hardGoodType" : "SIM"
+      }
+    }, {
+      "id" : "82995000009",
+      "productCode" : "prod7820230",
+      "productSKU" : "6234A",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "Samsung Galaxy S5 - Charcoal Black",
+      "systemName" : "PHO SAM GLXY S5 G900A BLK",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 729.99,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00,
+          "preCalculatedTax" : {
+            "taxableCost" : 484.0,
+            "taxableMSRP" : 549.99,
+            "taxableUnitPrice" : 0.0,
+            "orderTaxAreaId" : 390950000,
+            "shipFromTaxAreaId" : 431570560,
+            "shipToTaxAreaId" : 430930400
+          },
+          "lineItemTaxes" : [ {
+            "taxLineId" : 1,
+            "taxCode" : "SALESTAX",
+            "memo" : "SALESTAX",
+            "printName" : "Sales Tax",
+            "taxable" : "X",
+            "skuSpecific" : "false",
+            "jurisdictionLevel" : "Sales Tax",
+            "jurisdictionName" : "Sales Tax",
+            "taxAmount" : 0.00,
+            "taxRate" : 0.0,
+            "taxDate" : "2015-08-07"
+          } ]
+        },
+        "total" : 0.00
+      },
+      "locationId" : "K004",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "contractDetails" : {
+        "totalSalePrice" : 0.00,
+        "contractSystem" : "OPTICAL",
+        "contractSent" : "N",
+        "contractLength" : 24
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_02" ]
+      },
+      "hardGood" : {
+        "hardGoodType" : "DEVICE",
+        "productImageUrl" : "https://tst34.stage.att.com/catalog/en/skus/images/samsung-galaxy%20s%205-charcoal%20black-100x160.jpg",
+        "make" : "Samsung",
+        "shipmentCommitDate" : {
+          "fromDate" : 1439881200000,
+          "toDate" : 1440140400000
+        },
+        "wirelessHardGoodCharacteristics" : {
+          "techType" : "UMTS",
+          "equipmentType" : "EDGE",
+          "imeiType" : "P6",
+          "phoneType" : "ANY_PHONE",
+          "deviceCategory" : "Tablet"
+        }
+      }
+    }, {
+      "id" : "82995000129",
+      "productCode" : "prod7822230",
+      "productSKU" : "6234A",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "Samsung Galaxy S5 - Charcoal Black",
+      "systemName" : "PHO SAM GLXY S5 G900A BLK",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 729.99,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00,
+          "preCalculatedTax" : {
+            "taxableCost" : 484.0,
+            "taxableMSRP" : 549.99,
+            "taxableUnitPrice" : 0.0,
+            "orderTaxAreaId" : 390950000,
+            "shipFromTaxAreaId" : 431570560,
+            "shipToTaxAreaId" : 430930400
+          },
+          "lineItemTaxes" : [ {
+            "taxLineId" : 1,
+            "taxCode" : "SALESTAX",
+            "memo" : "SALESTAX",
+            "printName" : "Sales Tax",
+            "taxable" : "X",
+            "skuSpecific" : "false",
+            "jurisdictionLevel" : "Sales Tax",
+            "jurisdictionName" : "Sales Tax",
+            "taxAmount" : 0.00,
+            "taxRate" : 0.0,
+            "taxDate" : "2015-08-07"
+          } ]
+        },
+        "total" : 0.00
+      },
+      "locationId" : "K004",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "contractDetails" : {
+        "totalSalePrice" : 0.00,
+        "contractSystem" : "OPTICAL",
+        "contractSent" : "N",
+        "contractLength" : 24
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "hardGood" : {
+        "hardGoodType" : "STB",
+        "productImageUrl" : "https://tst34.stage.att.com/catalog/en/skus/images/samsung-galaxy%20s%205-charcoal%20black-100x160.jpg",
+        "make" : "Samsung",
+        "shipmentCommitDate" : {
+          "fromDate" : 1439881200000,
+          "toDate" : 1440140400000
+        },
+        "wirelessHardGoodCharacteristics" : {
+          "techType" : "UMTS",
+          "equipmentType" : "EDGE",
+          "imeiType" : "P6",
+          "phoneType" : "ANY_PHONE",
+          "deviceCategory" : "SmartPhone"
+        }
+      }
+    }, {
+      "id" : "82995000010SMTLTE3",
+      "productCode" : "prod5400222",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "SMTLTE3",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "DataPro 5GB",
+      "systemName" : "DataPro 5GB for Smartphone 4G LTE",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 50.00,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      }
+    }, {
+      "id" : "1234500010SMTLTE3",
+      "productCode" : "prod5400222",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "JKL2",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "DataPro 5GB",
+      "systemName" : "DataPro 5GB for Smartphone 4G LTE",
+      "action" : "REMOVE",
+      "price" : {
+        "amount" : 50.00,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      }
+    }, {
+      "id" : "losg7810006UPG",
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "MISC_CHARGE",
+      "displayName" : "UpgradeFee",
+      "systemName" : "UPGRADE_FEE",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 45.00,
+        "currencyType" : "USD",
+        "priceType" : "NRC"
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      }
+    }, {
+      "id" : "lobi8110004ShippingFee",
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "88879",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "MISC_CHARGE",
+      "displayName" : "ShippingFee",
+      "systemName" : "SHIPPING_FEE",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00,
+          "preCalculatedTax" : {
+            "taxableCost" : 0.0,
+            "taxableMSRP" : 14.95,
+            "taxableUnitPrice" : 0.0,
+            "orderTaxAreaId" : 390950000,
+            "shipFromTaxAreaId" : 431570560,
+            "shipToTaxAreaId" : 430930400
+          },
+          "lineItemTaxes" : [ {
+            "taxLineId" : 1,
+            "taxCode" : "SALESTAX",
+            "memo" : "SALESTAX",
+            "printName" : "Sales Tax",
+            "taxable" : "X",
+            "skuSpecific" : "false",
+            "jurisdictionLevel" : "Sales Tax",
+            "jurisdictionName" : "Sales Tax",
+            "taxAmount" : 0.00,
+            "taxRate" : 0.0,
+            "taxDate" : "2015-08-07"
+          } ]
+        },
+        "total" : 0.00
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      }
+    } ]
+  },
+  "names" : {
+    "name" : [ {
+      "id" : "NAME_01",
+      "firstName" : "BEDROCK",
+      "lastName" : "DONOTUSE",
+      "primaryContactPhones" : [ {
+        "phoneNumber" : "9042324974",
+        "contactPhoneType" : "HOME_PHONE"
+      } ],
+      "additionalContactPhones" : [ {
+        "phoneNumber" : "9042324974",
+        "contactPhoneType" : "WORK_PHONE"
+      } ]
+    }, {
+      "id" : "NAME_02",
+      "firstName" : "BEDROCK",
+      "lastName" : "DONOTUSE",
+      "primaryContactPhones" : [ {
+        "phoneNumber" : "9042324974",
+        "contactPhoneType" : "HOME_PHONE"
+      } ],
+      "additionalContactPhones" : [ {
+        "phoneNumber" : "9042324974",
+        "contactPhoneType" : "WORK_PHONE"
+      } ]
+    }, {
+      "id" : "NAME_03",
+      "firstName" : "BEDROCK",
+      "lastName" : "DONOTUSE",
+      "primaryContactPhones" : [ {
+        "phoneNumber" : "9042324974",
+        "contactPhoneType" : "HOME_PHONE"
+      } ],
+      "additionalContactPhones" : [ {
+        "phoneNumber" : "9042324974",
+        "contactPhoneType" : "WORK_PHONE"
+      } ]
+    } ]
+  },
+  "addresses" : {
+    "address" : [ {
+      "id" : "ADDRESS_01",
+      "unparsedAddress" : {
+        "addressLine1" : "1720 CUMBERLAND AVE",
+        "city" : "KNOXVILLE",
+        "state" : "TN",
+        "zip" : "37916",
+        "country" : "US"
+      }
+    }, {
+      "id" : "ADDRESS_02",
+      "unparsedAddress" : {
+        "addressLine1" : "9818 E FERRIS CREEK",
+        "addressLine2" : "9818 E FERRIS CREEK",
+        "city" : "DALLAS",
+        "state" : "TX",
+        "zip" : "75243",
+        "country" : "US"
+      },
+      "parsedAddress" : {
+        "assignedStreetNumber" : "9818",
+        "streetName" : "FERRIS CREEK",
+        "city" : "DALLAS",
+        "state" : "TX",
+        "zip" : "75243",
+        "country" : "US"
+      }
+    }, {
+      "id" : "ADDRESS_03",
+      "unparsedAddress" : {
+        "addressLine1" : "1720 CUMBERLAND AVE",
+        "city" : "KNOXVILLE",
+        "state" : "TN",
+        "zip" : "37916"
+      }
+    }, {
+      "id" : "ADDRESS_04",
+      "unparsedAddress" : {
+        "addressLine1" : "1720 CUMBERLAND AVE",
+        "city" : "KNOXVILLE",
+        "state" : "TN",
+        "zip" : "37916",
+        "country" : "US"
+      }
+    } ]
+  },
+  "accounts" : {
+    "account" : [ {
+      "id" : "ACCOUNT_01",
+      "accountCategory" : "MOBILITY_ACCOUNT",
+      "accountSubCategory" : "EXISTING",
+      "paymentArrangement" : "POSTPAID",
+      "billingAccountNumber" : "545109275334",
+      "billingDetail" : [ {
+        "nameReference" : "NAME_02",
+        "addressReference" : "ADDRESS_02",
+        "authentication" : {
+          "dob" : "OqBY-'k-FY",
+          "driversLicense" : {
+            "licenseNumber" : ".G*{Hz8g",
+            "state" : "TX",
+            "licenseExpirationDate" : "SNwQ-Mk-CE"
+          },
+          "ssn" : "123456789",
+          "lastFourOfSSN" : "0094",
+          "employerDetail" : {
+            "employerName" : "DONOTUSE",
+            "employerPhoneNumber" : "9042324974"
+          }
+        },
+        "accountStatus" : "ACTIVE"
+      } ],
+      "serviceLocationReference" : "ADDRESS_02",
+      "creditCheck" : {
+        "applicationNumber" : "601019000001"
+      },
+      "billingDeliveryPreference" : "PAPERLESS",
+      "accountType" : "INDIVIDUAL",
+      "accountSubType" : "R",
+      "enterpriseType" : "IRU",
+      "langId" : "ENGLISH",
+      "market" : "TNP",
+      "subMarket" : "719",
+      "priceCode" : "719",
+      "spokenLanguagePreference" : "SPANISH"
+    } ]
+  },
+  "paymentOptions" : {
+    "paymentOption" : [ {
+      "id" : "PAYMENT_OPTION_01",
+      "paymentMethod" : {
+        "creditCard" : {
+          "addressReference" : "ADDRESS_01",
+          "expirationYearMonth" : "1712",
+          "creditCardHolderName" : "Cynthia Ffpsla",
+          "creditCardType" : "VISA",
+          "creditCardNumber" : "LJVT2F4QUAVHY1QL",
+          "cardBillingZipCode" : "37916",
+          "paymentAmount" : 0.00
+        }
+      }
+    } ]
+  },
+  "shippingDetails" : {
+    "shippingDetail" : [ {
+      "id" : "SHIPPING_INFO_01",
+      "nameReference" : "NAME_03",
+      "addressReference" : "ADDRESS_04",
+      "shippingCode" : "AA1",
+      "shippingPriceCode" : "88879",
+      "shippingMethod" : "Overnight"
+    } ]
+  },
+  "b2bs" : {
+    "b2b" : [ {
+      "id" : "B2B_01",
+      "b2bContractProvider" : "ATTWS",
+      "b2bContractType" : "CCDA",
+      "b2bSalesRepCode" : "ic6f728",
+      "b2bFAN" : "06960056",
+      "b2bSkipUpgradeEligibilityIndicator" : false,
+      "b2bIgnoreDepositRequiredIndicator" : true,
+      "b2bFANBusinessName" : "CRU OCE MIGRATION - FAN2CCDA",
+      "taxExemptIndicator" : true,
+      "exemptOrderId" : "KP0100365",
+      "businessType" : "CORPORATE"
+    } ]
+  },
+  "specialInstructions" : "{}",
+  "dueAmount" : {
+    "amount" : 0.00,
+    "priceType" : "DueToday",
+    "taxDetail" : {
+      "amount" : 0.00
+    },
+    "total" : 0.00
+  },
+  "creditPolicy" : {
+  	"crsmOnFlag" : "true",
+    "creditPolicyTransactionId" : ""
+  },
+  "agentCode" : "Z0066",
+  "agentLocation" : "Z0066",
+  "orderContact" : {
+    "nameReference" : "NAME_02",
+    "primaryEmailAddress" : "A@ATT.COM"
+  },
+  "salesChannel" : "DoorToDoor",
+  "orderSource" : {
+    "clientIP" : "135.163.180.104",
+    "locale" : "EN_US",
+    "clientType" : "DESKTOP",
+    "channel" : "DE-MOBILITY",
+    "salesChannelType" : "D2D",
+    "application" : "MYATTSALES",
+    "browserId" : "A001279510227",
+    "additionalDetails" : {
+      "additionalDetail" : [ {
+        "code" : "SENDER",
+        "value" : "HARDROCK"
+      } ]
+    }
+  }
+}

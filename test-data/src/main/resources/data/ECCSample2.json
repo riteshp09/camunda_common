@@ -1,0 +1,788 @@
+{
+	"customerOrderNumber": "manageCall_00002",
+	"orderType": "CREATE",
+	"requestType": "SOR",
+	"requestId" : "457845456565",
+	"createdDate": 1439930075722,
+	"submittedDate": 1439930216838,
+	"productGroups": {
+		"group": [
+			{
+				"id": "GROUP_01",
+				"name": "UPGRADE_WIRELESS",
+				"type": "LINE_OF_SERVICE",
+				"sequence": 1,
+				"price": {
+					"amount": 0,
+					"currencyType": "USD",
+					"msrp": 0,
+					"priceType": "DueToday",
+					"taxDetail": {
+						"amount": 0
+					},
+					"total": 0
+				},
+				"characteristics": {
+					"losgCharacteristics": {
+						"losgReferenceId": "losg7980012",
+						"sequence": 1,
+						"losgType": "NEW",
+						"actionReason": "Plan change",
+						"productCategory": "WIRELESS",
+						"primaryIndicator": false,
+						"dealerCode": "Z0066",
+						"market": "TNK",
+						"subMarket": "719",
+						"priceCode": "719",
+						"accountReference": "ACCOUNT_01",
+						"serviceLocationReference": "ADDRESS_02",
+						"subscriberNameReference": "NAME_01",
+						"schedulingDetailReference": "SCHEDULINGINFO_01",
+						"termsAndConditionAccepted": {
+							"accepted": "Y",
+							"timestamp": 1439930209999,
+							"version": "/content/tos/en/wirelessServiceAgreement/2014/02/11/1,/content/tos/en/deviceInstallmentPlan/2015/02/24/1",
+							"deviceInstallAgreementType": "DEV"
+						},
+						"fulfillmentMethod": "DF",
+						"shippingDetailReference": "SHIPPING_INFO_01",
+						"additionalDetails": {
+							"additionalDetail": [
+								{
+									"code": "SENDER",
+									"value": "HARDROCK"
+								}
+							]
+						}
+					}
+				}
+			},
+			{
+				"id": "GROUP_02",
+				"name": "UPGRADE_WIRELESS",
+				"type": "LINE_OF_SERVICE",
+				"sequence": 2,
+				"characteristics": {
+					"losgCharacteristics": {
+						"losgReferenceId": "losg7980013",
+						"sequence": 2,
+						"losgType": "NEW",
+						"productCategory": "WIRELESS",
+						"primaryIndicator": false,
+						"dealerCode": "Z0066",
+						"market": "TNK",
+						"subMarket": "719",
+						"priceCode": "719",
+						"accountReference": "ACCOUNT_01",
+						"serviceLocationReference": "ADDRESS_02",
+						"subscriberNameReference": "NAME_01",
+						"termsAndConditionAccepted": {
+							"accepted": "Y",
+							"timestamp": 1439930209999,
+							"version": "/content/tos/en/wirelessServiceAgreement/2014/02/11/1"
+						},
+						"fulfillmentMethod": "DF",
+						"shippingDetailReference": "SHIPPING_INFO_01"
+					}
+				}
+			}
+		]
+	},
+	"lineItems": {
+		"lineItem": [
+			{
+				"id": "8301100000983793",
+				"sequence": 1,
+				"productCode": "prod8070236",
+				"productSKU": "83793",
+				"billingCode": "NOT_AVAILABLE",
+				"productType": "HARDGOOD",
+				"displayName": "eCom Phone Quick Start Guide",
+				"systemName": "Kit_guide_eCom_Phone_12.0",
+				"action": "ADD",
+				"price": {
+					"amount": 0,
+					"currencyType": "USD",
+					"msrp": 0,
+					"priceType": "DueToday",
+					"taxDetail": {
+						"amount": 0
+					},
+					"total": 0
+				},
+				"locationId": "K004",
+				"payments": {
+					"payment": [
+						{
+							"paymentOptionReference": "PAYMENT_OPTION_01"
+						}
+					]
+				},
+				"quantity": 1,
+				"groupReferences": {
+					"groupReference": [
+						"GROUP_01"
+					]
+				},
+				"hardGood": {
+					"hardGoodType": "COLLATERAL",
+					"shippedHotIndicator": true
+				}
+			},
+			{
+				"id": "8301100000973023",
+				"sequence": 2,
+				"productCode": "prod8070236",
+				"productSKU": "73023",
+				"billingCode": "NOT_AVAILABLE",
+				"productType": "HARDGOOD",
+				"displayName": "Embedded Micro SIM for Phones",
+				"systemName": "Embedded SIM",
+				"action": "ADD",
+				"price": {
+					"amount": 0,
+					"currencyType": "USD",
+					"msrp": 0,
+					"priceType": "DueToday",
+					"taxDetail": {
+						"amount": 0
+					},
+					"total": 0
+				},
+				"locationId": "K004",
+				"payments": {
+					"payment": [
+						{
+							"paymentOptionReference": "PAYMENT_OPTION_01"
+						}
+					]
+				},
+				"quantity": 1,
+				"groupReferences": {
+					"groupReference": [
+						"GROUP_01"
+					]
+				},
+				"hardGood": {
+					"hardGoodType": "SIM"
+				}
+			},
+			{
+				"id": "83011000009",
+				"sequence": 3,
+				"productCode": "prod8070236",
+				"productSKU": "6613A",
+				"billingCode": "NOT_AVAILABLE",
+				"productType": "HARDGOOD",
+				"displayName": "Samsung Galaxy Note 4 - Charcoal Black",
+				"systemName": "PHO SAM GLXY NOTE 4 SMN910 BLK",
+				"action": "ADD",
+				"price": {
+					"amount": 49.99,
+					"currencyType": "USD",
+					"msrp": 685.59,
+					"priceType": "DueToday",
+					"taxDetail": {
+						"amount": 0
+					},
+					"total": 49.99
+				},
+				"locationId": "K004",
+				"payments": {
+					"payment": [
+						{
+							"paymentOptionReference": "PAYMENT_OPTION_01"
+						}
+					]
+				},
+				"contractDetails": {
+					"totalSalePrice": 0,
+					"contractType": "REGULAR",
+					"contractSystem": "OPTICAL",
+					"contractSent": "N",
+					"contractLength": 24
+				},
+				"quantity": 1,
+				"groupReferences": {
+					"groupReference": [
+						"GROUP_01"
+					]
+				},
+				"characteristics": {
+					"commonCharacteristics": {
+						"componentConfigurations": [
+							{
+								"componentCode": "1000",
+								"componentPath": "NA"
+							}
+						],
+						"requestComponentGroup": "YES"
+					},
+					"wirelessLineItemCharacteristics": {
+						"distributionChannelId": "1",
+						"tradeInDetail": {
+							"claimId": "1234",
+							"exchangeType": "CASH",
+							"installmentPlanId": "125547",
+							"deviceClearingAgreement": "Y"
+						},
+						"nciEligibleIndicator": true,
+						"offerType": "Y"
+					}
+				},
+				"hardGood": {
+					"hardGoodType": "DEVICE",
+					"productImageUrl": "https://tst34.stage.att.com/catalog/en/skus/images/samsung-galaxy%20note%204-charcoal%20black-100x160.jpg",
+					"make": "Samsung",
+					"shipmentCommitDate": {
+						"fromDate": 1440658800000,
+						"toDate": 1441090800000
+					},
+					"wirelessHardGoodCharacteristics": {
+						"techType": "UMTS",
+						"equipmentType": "EDGE",
+						"imeiType": "P6",
+						"internationalMobileSubscriberIdentity": "IMSI_01",
+						"phoneType": "ANY_PHONE"
+					}
+				}
+			},
+			{
+				"id": "83011000009",
+				"sequence": 3,
+				"productCode": "prod8070236",
+				"productSKU": "6613A",
+				"billingCode": "NOT_AVAILABLE",
+				"productType": "HARDGOOD",
+				"displayName": "Samsung Galaxy Note 4 - Charcoal Black",
+				"systemName": "PHO SAM GLXY NOTE 4 SMN910 BLK",
+				"action": "ADD",
+				"price": {
+					"amount": 49.99,
+					"currencyType": "USD",
+					"msrp": 685.59,
+					"priceType": "DueToday",
+					"taxDetail": {
+						"amount": 0
+					},
+					"total": 49.99
+				},
+				"locationId": "K004",
+				"payments": {
+					"payment": [
+						{
+							"paymentOptionReference": "PAYMENT_OPTION_01"
+						}
+					]
+				},
+				"contractDetails": {
+					"totalSalePrice": 0,
+					"contractType": "REGULAR",
+					"contractSystem": "OPTICAL",
+					"contractSent": "N",
+					"contractLength": 24
+				},
+				"quantity": 1,
+				"groupReferences": {
+					"groupReference": [
+						"GROUP_01"
+					]
+				},
+				"hardGood": {
+					"hardGoodType": "DEVICE",
+					"productImageUrl": "https://tst34.stage.att.com/catalog/en/skus/images/samsung-galaxy%20note%204-charcoal%20black-100x160.jpg",
+					"make": "Samsung",
+					"shipmentCommitDate": {
+						"fromDate": 1440658800000,
+						"toDate": 1441090800000
+					},
+					"wirelessHardGoodCharacteristics": {
+						"techType": "UMTS",
+						"equipmentType": "EDGE",
+						"imeiType": "P6",
+						"phoneType": "ANY_PHONE"
+					}
+				}
+			},
+			{
+				"id": "losg7980012UPG",
+				"sequence": 4,
+				"productCode": "NOT_AVAILABLE",
+				"productSKU": "NOT_AVAILABLE",
+				"billingCode": "NOT_AVAILABLE",
+				"productType": "MISC_CHARGE",
+				"displayName": "UpgradeFee",
+				"systemName": "UPGRADE_FEE",
+				"action": "ADD",
+				"price": {
+					"amount": 45,
+					"currencyType": "USD",
+					"priceType": "NRC"
+				},
+				"locationId": "K004",
+				"payments": {
+					"payment": [
+						{
+							"paymentOptionReference": "PAYMENT_OPTION_01"
+						}
+					]
+				},
+				"quantity": 1,
+				"groupReferences": {
+					"groupReference": [
+						"GROUP_01"
+					]
+				}
+			},
+			{
+				"id": "8301100001083791",
+				"sequence": 5,
+				"productCode": "prod8150695",
+				"productSKU": "83791",
+				"billingCode": "NOT_AVAILABLE",
+				"productType": "HARDGOOD",
+				"displayName": "eCom SIM Only Quick Start Guide",
+				"systemName": "Kit_guide_eCom_SIMOnlyDF_12.0",
+				"action": "ADD",
+				"price": {
+					"amount": 0,
+					"currencyType": "USD",
+					"msrp": 0,
+					"priceType": "DueToday",
+					"taxDetail": {
+						"amount": 0
+					},
+					"total": 0
+				},
+				"locationId": "K004",
+				"payments": {
+					"payment": [
+						{
+							"paymentOptionReference": "PAYMENT_OPTION_01"
+						}
+					]
+				},
+				"quantity": 1,
+				"groupReferences": {
+					"groupReference": [
+						"GROUP_02"
+					]
+				},
+				"hardGood": {
+					"hardGoodType": "COLLATERAL",
+					"shippedHotIndicator": true
+				}
+			},
+			{
+				"id": "83011000010",
+				"sequence": 6,
+				"productCode": "NOT_AVAILABLE",
+				"productSKU": "NOT_AVAILABLE",
+				"billingCode": "NOT_AVAILABLE",
+				"productType": "HARDGOOD",
+				"displayName": "NOT_AVAILABLE",
+				"systemName": "NOT_AVAILABLE",
+				"action": "ADD",
+				"locationId": "K004",
+				"payments": {
+					"payment": [
+						{
+							"paymentOptionReference": "PAYMENT_OPTION_01"
+						}
+					]
+				},
+				"contractDetails": {
+					"installmentPlanId": 390000000011552,
+					"annualPercentageRate": 0,
+					"financeCharge": 0,
+					"amountFinanced": 13.16,
+					"balancedAmount": 13.16,
+					"totalSalePrice": 100,
+					"downPayment": 129.99,
+					"prepaidFinanceCharge": 0,
+					"installmentAmount": 3.34,
+					"contractType": "LEASE",
+					"contractSystem": "OPTICAL",
+					"contractSent": "N",
+					"contractLength": 27
+				},
+				"quantity": 1,
+				"groupReferences": {
+					"groupReference": [
+						"GROUP_02"
+					]
+				},
+				"hardGood": {
+					"byodIndicator": true,
+					"hardGoodType": "DEVICE",
+					"productImageUrl": "sku7461121",
+					"wirelessHardGoodCharacteristics": {
+						"techType": "GSM",
+						"equipmentType": "GPRS",
+						"imei": "356112050076127",
+						"phoneType": "ANY_PHONE"
+					}
+				}
+			},
+			{
+				"id": "8301100001040954",
+				"sequence": 7,
+				"productCode": "prod8150695",
+				"productSKU": "40954",
+				"billingCode": "NOT_AVAILABLE",
+				"productType": "HARDGOOD",
+				"displayName": "Micro SIM Card - Phones",
+				"systemName": "SIM UICC-G 3FF MICRO",
+				"action": "ADD",
+				"price": {
+					"amount": 0,
+					"currencyType": "USD",
+					"msrp": 0,
+					"priceType": "DueToday",
+					"taxDetail": {
+						"amount": 0
+					},
+					"total": 0
+				},
+				"locationId": "K004",
+				"payments": {
+					"payment": [
+						{
+							"paymentOptionReference": "PAYMENT_OPTION_01"
+						}
+					]
+				},
+				"quantity": 1,
+				"groupReferences": {
+					"groupReference": [
+						"GROUP_02"
+					]
+				},
+				"hardGood": {
+					"hardGoodType": "SIM",
+					"productImageUrl": "sku7461121"
+				}
+			},
+			{
+				"id": "losg7980013ACT",
+				"sequence": 8,
+				"productCode": "NOT_AVAILABLE",
+				"productSKU": "NOT_AVAILABLE",
+				"billingCode": "NOT_AVAILABLE",
+				"productType": "MISC_CHARGE",
+				"displayName": "ActivationFee",
+				"systemName": "ACTIVATION_FEE",
+				"action": "ADD",
+				"price": {
+					"amount": 0,
+					"currencyType": "USD",
+					"priceType": "NRC"
+				},
+				"locationId": "K004",
+				"payments": {
+					"payment": [
+						{
+							"paymentOptionReference": "PAYMENT_OPTION_01"
+						}
+					]
+				},
+				"quantity": 1,
+				"groupReferences": {
+					"groupReference": [
+						"GROUP_02"
+					]
+				}
+			},
+			{
+				"id": "lobi8280006ShippingFee",
+				"sequence": 9,
+				"productCode": "NOT_AVAILABLE",
+				"productSKU": "88879",
+				"billingCode": "NOT_AVAILABLE",
+				"productType": "MISC_CHARGE",
+				"displayName": "ShippingFee",
+				"systemName": "SHIPPING_FEE",
+				"action": "ADD",
+				"price": {
+					"amount": 0,
+					"currencyType": "USD",
+					"msrp": 0,
+					"priceType": "DueToday",
+					"taxDetail": {
+						"amount": 0
+					},
+					"total": 0
+				},
+				"locationId": "K004",
+				"payments": {
+					"payment": [
+						{
+							"paymentOptionReference": "PAYMENT_OPTION_01"
+						}
+					]
+				},
+				"quantity": 1,
+				"groupReferences": {
+					"groupReference": [
+						"GROUP_01",
+						"GROUP_02"
+					]
+				}
+			}
+		]
+	},
+	"names": {
+		"name": [
+			{
+				"id": "NAME_01",
+				"firstName": "BEDROCK",
+				"lastName": "DONOTUSE",
+				"primaryContactPhones": [
+					{
+						"phoneNumber": "4252881213",
+						"contactPhoneType": "HOME_PHONE",
+						"consentDetails": {
+							"consentDetail": [
+								{
+									"consentType": "Text",
+									"consentCategory": "Global",
+									"consentSelection": "Opt-In"
+								}
+							]
+						}
+					}
+				],
+				"additionalContactPhones": [
+					{
+						"phoneNumber": "4252889999",
+						"contactPhoneType": "WORK_PHONE",
+						"consentDetails": {
+							"consentDetail": [
+								{
+									"consentType": "Voice",
+									"consentCategory": "Global",
+									"consentSelection": "Opt-Out"
+								}
+							]
+						}
+					}
+				]
+			},
+			{
+				"id": "NAME_02",
+				"firstName": "BEDROCK",
+				"lastName": "DONOTUSE",
+				"primaryContactPhones": [
+					{
+						"phoneNumber": "4252881213",
+						"contactPhoneType": "HOME_PHONE"
+					}
+				],
+				"additionalContactPhones": [
+					{
+						"phoneNumber": "4252889999",
+						"contactPhoneType": "WORK_PHONE"
+					}
+				]
+			},
+			{
+				"id": "NAME_03",
+				"firstName": "BEDROCK",
+				"lastName": "DONOTUSE",
+				"primaryContactPhones": [
+					{
+						"phoneNumber": "4252881213",
+						"contactPhoneType": "HOME_PHONE"
+					}
+				],
+				"additionalContactPhones": [
+					{
+						"phoneNumber": "4252889999",
+						"contactPhoneType": "WORK_PHONE"
+					}
+				]
+			}
+		]
+	},
+	"addresses": {
+		"address": [
+			{
+				"id": "ADDRESS_01",
+				"unparsedAddress": {
+					"addressLine1": "1720 CUMBERLAND AVE",
+					"city": "KNOXVILLE",
+					"state": "TN",
+					"zip": "37916",
+					"country": "US"
+				}
+			},
+			{
+				"id": "ADDRESS_02",
+				"unparsedAddress": {
+					"addressLine1": "1720 CUMBERLAND AVE",
+					"city": "KNOXVILLE",
+					"state": "TN",
+					"zip": "37916",
+					"country": "US"
+				}
+			},
+			{
+				"id": "ADDRESS_03",
+				"unparsedAddress": {
+					"addressLine1": "1720 CUMBERLAND AVE",
+					"city": "KNOXVILLE",
+					"state": "TN",
+					"zip": "37916"
+				}
+			},
+			{
+				"id": "ADDRESS_04",
+				"unparsedAddress": {
+					"addressLine1": "1720 CUMBERLAND AVE",
+					"city": "KNOXVILLE",
+					"state": "TN",
+					"zip": "37916"
+				}
+			},
+			{
+				"id": "ADDRESS_05",
+				"unparsedAddress": {
+					"addressLine1": "1720 CUMBERLAND AVE",
+					"city": "KNOXVILLE",
+					"state": "TN",
+					"zip": "37916",
+					"country": "US"
+				}
+			}
+		]
+	},
+	"accounts": {
+		"account": [
+			{
+				"id": "ACCOUNT_01",
+				"sequence": 1,
+				"accountCategory": "MOBILITY_ACCOUNT",
+				"accountSubCategory": "EXISTING",
+				"paymentArrangement": "POSTPAID",
+				"billingAccountNumber": "545111472247",
+				"billingDetail": {
+					"nameReference": "NAME_02",
+					"addressReference": "ADDRESS_02",
+					"authentication": {
+						"dob": "OqBY-'k-FY",
+						"driversLicense": {
+							"licenseNumber": ".G*{Hz8g",
+							"state": "TX",
+							"licenseExpirationDate": "(nDr-/{-E$"
+						},
+						"lastFourOfSSN": "0094",
+						"employerDetail": {
+							"employerName": "DONOTUSE",
+							"employerPhoneNumber": "4252881213"
+						}
+					},
+					"accountStatus": "ACTIVE"
+				},
+		          "creditCheck": {
+		            "creditClass": "B",
+		            "creditCheckRanIndicator": true,
+		            "applicationNumber": "701039001576",
+		            "numberLinesReq": 1,
+		            "numberApprLines": 1,
+		            "applicationApprovalDate": 1483315200000,
+		            "applicationExpiresDate": 1491091200000,
+		            "creditStatus": "APPROVED",
+		            "reasonCode": "CB",
+		            "reasonCodeDescription": "EQUIFAX CONSUMER"
+		          },
+				"billingDeliveryPreference": "PAPERLESS",
+				"accountType": "INDIVIDUAL",
+				"accountSubType": "R",
+				"enterpriseType": "CON",
+				"langId": "ENGLISH",
+				"market": "TNK",
+				"subMarket": "719",
+				"priceCode": "719",
+				"spokenLanguagePreference": "ENGLISH"
+			}
+		]
+	},
+	"paymentOptions": {
+		"paymentOption": [
+			{
+				"id": "PAYMENT_OPTION_01",
+				"sequence": 1,
+				"paymentMethod": {
+					"capm": {
+						"profileName": "EAY5IGY8CPHA4QD01V7Y7KCZ",
+						"profileOwnerId": "CPHA4QD01V7Y7KCZ",
+						"totalAmount": 500,
+						"customerAgreementVersion": "V2"
+					}
+				}
+			}
+		]
+	},
+	"schedulingDetails": {
+		"schedulingDetail": [
+			{
+				"id": "SCHEDULINGINFO_01",
+				"landlordDetail": {
+					"landlordPermission": "Y"
+				},
+				"nameReference": "NAME_03",
+				"actualSchedule": {},
+				"installType": "Tech"
+			}
+		]
+	},
+	"shippingDetails": {
+		"shippingDetail": [
+			{
+				"id": "SHIPPING_INFO_01",
+				"sequence": 1,
+				"nameReference": "NAME_03",
+				"addressReference": "ADDRESS_05",
+				"shippingCode": "AA1",
+				"shippingPriceCode": "88879",
+				"shippingMethod": "Overnight"
+			}
+		]
+	},
+	"specialInstructions": "{}",
+	"dueAmount": {
+		"amount": 49.99,
+		"priceType": "DueToday",
+		"taxDetail": {
+			"amount": 0
+		},
+		"total": 49.99
+	},
+	"agentCode": "Z0066",
+	"agentLocation": "Z0066",
+	"orderContact": {
+		"nameReference": "NAME_01",
+		"primaryEmailAddress": "a@att.com",
+		"preferredContactMethod": "EMAIL_SMS"
+	},
+	"orderSource": {
+		"clientIP": "135.163.180.104",
+		"locale": "EN_US",
+		"clientType": "DESKTOP",
+		"channel": "DE-MOBILITY",
+		"application": "MYATTSALES",
+		"browserId": "A001280170260",
+		"additionalDetails": {
+			"additionalDetail": [
+				{
+					"code": "SENDER",
+					"value": "HARDROCK"
+				}
+			]
+		}
+	},
+	"encryptedIndicator": true,
+	"bulkIndicator": false,
+	"passThroughIndicator": false,
+	"summaryCreatedIndicator": false
+}

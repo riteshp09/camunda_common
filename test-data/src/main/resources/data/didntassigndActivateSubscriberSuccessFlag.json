@@ -1,0 +1,11 @@
+{
+	"Subscriber":{
+	"PricePlan":{
+	"singleUserCode":"okay",
+	"groupPlanDetails":{"groupPlanCode":"mai bhi hu"}
+	},
+	"Contract":{"commitmentReasonCode":"EMR"},
+	"AdditionalOfferings":{
+	"offeringCode":"po"}
+	}
+}	

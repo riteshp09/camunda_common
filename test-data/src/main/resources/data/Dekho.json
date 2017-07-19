@@ -1,0 +1,667 @@
+{
+"version": "V9",
+                "oceBitMap": "0000000000000000000000000000000011111111111111111111111111111111",
+                "order": {
+   "customerOrderNumber": "C1-21810000100891",
+   "requestId": "6249760503138",
+   "orderType": "CREATE",
+   "orderStatus": {"status": "RECEIVED"},
+   "createdDate": 1450185137313,
+   "submittedDate": 1450186503650,
+   "productGroups": {"group":    [
+            {
+         "id": "GROUP_01",
+         "name": "NEW_WIRELESS",
+         "type": "LINE_OF_SERVICE",
+         "sequence": 1,
+         "characteristics": {"losgCharacteristics":          {
+            "losgReferenceId": "losg9180105",
+            "sequence": 1,
+            "losgType": "AL",
+                                                "invokeAWPAPI":true,
+            "productCategory": "WIRELESS",
+            "primaryIndicator": false,
+            "dealerCode": "Z0066",
+            "market": "TNK",
+            "subMarket": "719",
+            "preferredAreaCode": "865",
+            "serviceArea": "006801002251",
+            "priceCode": "719",
+            "accountReference": "ACCOUNT_01",
+            "serviceLocationReference": "ADDRESS_04",
+            "subscriberNameReference": "NAME_01",
+            "numberPortDetail":             {
+               "ssn": "FEA1J7AVN",
+               "ospAccountNumber": "177054558325",
+               "portTelephoneNumber": "2142342004",
+               "nameReference": "NAME_02",
+               "previousAddressReference": "ADDRESS_03"
+            },
+            "wirelessLOSCharacteristics": {"billingSystemId": "T"},
+            "fulfillmentMethod": "DF",
+            "shippingDetailReference": "SHIPPING_INFO_01"
+         }}
+      },
+            {
+         "id": "GROUP_02",
+         "name": "SHARED_PLAN",
+         "type": "SHARED_PLAN",
+         "sequence": 2,
+         "characteristics": {"sharedPlanCharacteristics":          {
+            "planType": "MOBILE_SHARE",
+            "dataGroupId": "G16195379"
+         }}
+      },
+            {
+         "id": "GROUP_03",
+         "name": "Package",
+         "type": "PACKAGE",
+         "sequence": 1,
+         "characteristics": {"packageCharacteristics":          {
+            "category": "PACKAGE",
+            "code": "XProdDPRC_160"
+         }}
+      }
+   ]},
+   "lineItems": {"lineItem":    [
+            {
+         "id": "8313300023883877",
+         "sequence": 1,
+         "productCode": "prod7820230",
+         "productSKU": "83877",
+         "billingCode": "NOT_AVAILABLE",
+         "productType": "HARDGOOD",
+         "displayName": "eCom & Wired eCom Hot Phone",
+         "systemName": "Kit_guide_eCom_Phone_13.0",
+        "action": "ADD",
+         "price":          {
+            "amount": 0,
+            "currencyType": "USD",
+            "msrp": 0,
+            "priceType": "DueToday",
+            "taxDetail": {"amount": 0},
+            "total": 0
+         },
+         "locationId": "K004",
+         "payments": {"payment": [{"paymentOptionReference": "PAYMENT_OPTION_01"}]},
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_01"]},
+         "hardGood":          {
+            "hardGoodType": "COLLATERAL",
+            "shippedHotIndicator": true
+         }
+      },
+            {
+         "id": "8313300023873023",
+         "sequence": 2,
+         "productCode": "prod7820230",
+         "productSKU": "73023",
+         "billingCode": "NOT_AVAILABLE",
+         "productType": "HARDGOOD",
+         "displayName": "Embedded Micro SIM for Samsung Galaxy S5, S5 Active",
+         "systemName": "Embedded SIM",
+         "action": "ADD",
+         "price":          {
+            "amount": 0,
+            "currencyType": "USD",
+            "msrp": 0,
+            "priceType": "DueToday",
+            "taxDetail": {"amount": 0},
+            "total": 0
+         },
+         "locationId": "K004",
+         "payments": {"payment": [{"paymentOptionReference": "PAYMENT_OPTION_01"}]},
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_01"]},
+         "hardGood": {"hardGoodType": "SIM"}
+      },
+            {
+         "id": "83040001048",
+         "sequence": 3,
+         "productCode": "prod7820230",
+         "productSKU": "6234A",
+         "billingCode": "NOT_AVAILABLE",
+         "productType": "HARDGOOD",
+         "displayName": "Samsung Galaxy S5 - Charcoal Black",
+         "systemName": "PHO SAM GLXY S5 G900A BLK",
+         "action": "ADD",
+         "price":          {
+            "amount": 0,
+            "currencyType": "USD",
+            "msrp": 519.99,
+            "priceType": "DueToday",
+            "total": 48.1
+         },
+         "locationId": "K004",
+         "payments": {"payment": [{"paymentOptionReference": "PAYMENT_OPTION_01"}]},
+         "contractDetails":          {
+            "totalSalePrice": 519.99,
+            "contractType": "LEASE",
+            "contractLength": 24
+         },
+         "quantity": 1,
+         "groupReferences": {"groupReference":          [
+            "GROUP_01",
+            "GROUP_03"
+         ]},
+         "hardGood":          {
+            "byodIndicator": false,
+            "hardGoodType": "DEVICE",
+            "productImageUrl": "https://tst31.stage.att.com/catalog/en/skus/images/samsung-galaxy%20s%205-charcoal%20black-100x160.jpg",
+            "make": "Samsung",
+            "model": "Galaxy S 5",
+            "shipmentCommitDate":             {
+               "fromDate": 1446015600000,
+               "toDate": 1446451200000
+            },
+            "deliveryByDate":             {
+               "fromDate": 1439930075722,
+               "toDate": 1440110075722
+            },
+            "wirelessHardGoodCharacteristics":             {
+               "techType": "UMTS",
+               "equipmentType": "EDGE",
+               "imeiType": "P6",
+               "phoneType": "ANY_PHONE"
+            }
+         }
+      },
+            {
+         "id": "83133000241",
+         "sequence": 4,
+         "productCode": "prod6130421",
+         "productSKU": "NOT_AVAILABLE",
+         "billingCode": "SDDVRP",
+         "productType": "PLAN",
+         "displayName": "Mobile Share Plan",
+         "systemName": "Mobile Share Plan",
+         "action": "ADD",
+         "price":          {
+            "amount": 0,
+            "currencyType": "USD",
+            "priceType": "RC"
+         },
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_01"]},
+         "characteristics": {"wirelessLineItemCharacteristics":          {
+            "nciEligibleIndicator": true,
+            "offerType": "B"
+         }}
+      },
+            {
+         "id": "83133000241MM",
+         "sequence": 5,
+         "productCode": "prod6130421",
+         "productSKU": "NOT_AVAILABLE",
+         "billingCode": "MM",
+         "productType": "INCLUDED_FEATURE",
+         "displayName": "Unlimited Mobile to Mobile Calling",
+         "systemName": "Unlimited Mobile to Mobile Calling - Nation",
+         "action": "ADD",
+         "price":          {
+            "amount": 0,
+            "currencyType": "USD",
+            "priceType": "RC"
+         },
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_01"]}
+      },
+            {
+         "id": "83133000241BWBN",
+         "sequence": 6,
+         "productCode": "prod6130421",
+         "productSKU": "NOT_AVAILABLE",
+         "billingCode": "BWBN",
+         "productType": "INCLUDED_FEATURE",
+         "displayName": "Basic Voice Mail",
+         "systemName": "Basic Voice Mail for Postpaid",
+         "action": "ADD",
+         "price":          {
+            "amount": 0,
+            "currencyType": "USD",
+            "priceType": "RC"
+         },
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_01"]}
+      },
+            {
+         "id": "83133000241CW",
+         "sequence": 7,
+         "productCode": "prod6130421",
+         "productSKU": "NOT_AVAILABLE",
+         "billingCode": "CW",
+         "productType": "INCLUDED_FEATURE",
+         "displayName": "Call Waiting",
+         "systemName": "Call Waiting for Postpaid",
+         "action": "ADD",
+         "price":          {
+            "amount": 0,
+            "currencyType": "USD",
+            "priceType": "RC"
+         },
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_01"]}
+      },
+            {
+         "id": "83133000241CNTF",
+         "sequence": 8,
+         "productCode": "prod6130421",
+         "productSKU": "NOT_AVAILABLE",
+         "billingCode": "CNTF",
+         "productType": "INCLUDED_FEATURE",
+         "displayName": "Long Distance",
+         "systemName": "Long Distance",
+         "action": "ADD",
+         "price":          {
+            "amount": 0,
+            "currencyType": "USD",
+            "priceType": "RC"
+         },
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_01"]}
+      },
+           {
+         "id": "83133000241CLI",
+         "sequence": 9,
+         "productCode": "prod6130421",
+         "productSKU": "NOT_AVAILABLE",
+         "billingCode": "CLI",
+         "productType": "INCLUDED_FEATURE",
+         "displayName": "Caller ID",
+         "systemName": "Caller ID",
+         "action": "ADD",
+         "price":          {
+            "amount": 0,
+            "currencyType": "USD",
+            "priceType": "RC"
+         },
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_01"]}
+      },
+            {
+         "id": "83133000241MPTY",
+         "sequence": 10,
+         "productCode": "prod6130421",
+         "productSKU": "NOT_AVAILABLE",
+         "billingCode": "MPTY",
+         "productType": "INCLUDED_FEATURE",
+         "displayName": "Conference Calling",
+         "systemName": "Conference Calling",
+         "action": "ADD",
+         "price":          {
+            "amount": 0,
+            "currencyType": "USD",
+            "priceType": "RC"
+         },
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_01"]}
+      },
+            {
+         "id": "83133000241UNLMSGSO",
+         "sequence": 11,
+         "productCode": "prod6130421",
+         "productSKU": "NOT_AVAILABLE",
+         "billingCode": "UNLMSGSO",
+         "productType": "INCLUDED_FEATURE",
+         "displayName": "Mobile Share Unlimited Messaging - UNLMSGSO",
+         "systemName": "UNLMSGSO",
+         "action": "ADD",
+         "price":          {
+            "amount": 0,
+            "currencyType": "USD",
+            "priceType": "RC"
+         },
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_01"]}
+      },
+            {
+         "id": "83133000241CFI",
+         "sequence": 12,
+         "productCode": "prod6130421",
+         "productSKU": "NOT_AVAILABLE",
+         "billingCode": "CFI",
+         "productType": "INCLUDED_FEATURE",
+         "displayName": "Call Forwarding",
+         "systemName": "Call Forwarding",
+         "action": "ADD",
+         "price":          {
+            "amount": 0,
+            "currencyType": "USD",
+            "priceType": "RC"
+         },
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_01"]}
+      },
+            {
+         "id": "83133000239MMSDG05GB",
+         "sequence": 13,
+         "productCode": "prod8360470",
+         "productSKU": "NOT_AVAILABLE",
+         "billingCode": "MMSDG05GB",
+         "productType": "OPTIONAL_FEATURE",
+         "displayName": "Mobile Share Value 5GB with Rollover Data",
+         "systemName": "Mobile Share Value 5GB with Rollover Data",
+         "action": "ADD",
+         "price":          {
+            "amount": 0,
+            "currencyType": "USD",
+            "priceType": "RC"
+         },
+         "payments": {"payment": [{"paymentOptionReference": "PAYMENT_OPTION_01"}]},
+         "quantity": 1,
+         "groupReferences": {"groupReference":          [
+            "GROUP_01",
+            "GROUP_02"
+         ]},
+         "characteristics": {"wirelessLineItemCharacteristics":          {
+            "nciEligibleIndicator": true,
+            "offerType": "G"
+         }}
+      },
+            {
+         "id": "83133000240SDFVSL64",
+         "sequence": 14,
+         "productCode": "prod7830305",
+         "productSKU": "NOT_AVAILABLE",
+         "billingCode": "SDFVSL64",
+         "productType": "OPTIONAL_FEATURE",
+         "displayName": "Mobile Share Value Smartphone 4G LTE with Visual Voicemail",
+         "systemName": "Mobile Share Value Smartphone 4G LTE with Visual Voicemail",
+         "action": "ADD",
+         "price":          {
+            "amount": 25,
+            "currencyType": "USD",
+            "priceType": "RC"
+         },
+         "payments": {"payment": [{"paymentOptionReference": "PAYMENT_OPTION_01"}]},
+         "quantity": 1,
+         "groupReferences": {"groupReference":          [
+            "GROUP_01",
+            "GROUP_02"
+         ]},
+         "characteristics": {"wirelessLineItemCharacteristics":          {
+            "nciEligibleIndicator": true,
+            "offerType": "P"
+         }}
+      },
+            {
+         "id": "losg9180105ACT",
+         "sequence": 15,
+         "productCode": "NOT_AVAILABLE",
+         "productSKU": "NOT_AVAILABLE",
+         "billingCode": "NOT_AVAILABLE",
+         "productType": "MISC_CHARGE",
+         "displayName": "ActivationFee",
+         "systemName": "ACTIVATION_FEE",
+         "action": "ADD",
+         "price":          {
+            "amount": 15,
+            "currencyType": "USD",
+            "priceType": "NRC"
+         },
+         "payments": {"payment": [{"paymentOptionReference": "PAYMENT_OPTION_01"}]},
+         "quantity": 1,
+        "groupReferences": {"groupReference": ["GROUP_01"]}
+      },
+            {
+         "id": "lobi9570104ShippingFee",
+         "sequence": 16,
+         "productCode": "NOT_AVAILABLE",
+         "productSKU": "88879",
+         "billingCode": "NOT_AVAILABLE",
+         "productType": "MISC_CHARGE",
+         "displayName": "ShippingFee",
+         "systemName": "SHIPPING_FEE",
+         "action": "ADD",
+         "price":          {
+            "amount": 0,
+            "currencyType": "USD",
+            "msrp": 0,
+            "priceType": "DueToday",
+            "taxDetail": {"amount": 0},
+            "total": 0
+         },
+         "payments": {"payment": [{"paymentOptionReference": "PAYMENT_OPTION_01"}]},
+         "quantity": 1,
+         "groupReferences": {"groupReference": ["GROUP_01"]}
+      }
+   ]},
+   "names": {"name":    [
+            {
+         "id": "NAME_01",
+         "firstName": "BEDROCK",
+         "lastName": "DONOTUSE",
+         "primaryContactPhones": [         {
+            "phoneNumber": "4252885623",
+            "contactPhoneType": "HOME_PHONE",
+            "consentDetails": {"consentDetail": [            {
+               "consentType": "Text",
+               "consentCategory": "testConsentCategory",
+               "consentSelection": "Opt-In"
+            }]}
+         }],
+         "additionalContactPhones": [         {
+            "phoneNumber": "4252882121",
+            "contactPhoneType": "WORK_PHONE",
+            "consentDetails": {"consentDetail": [            {
+               "consentType": "Text",
+               "consentCategory": "testConsentCategory",
+               "consentSelection": "Opt-In"
+            }]}
+         }]
+      },
+            {
+         "id": "NAME_02",
+         "firstName": "BEDROCK",
+         "lastName": "DONOTUSE",
+         "primaryContactPhones": [         {
+            "phoneNumber": "4252885623",
+            "contactPhoneType": "HOME_PHONE",
+            "consentDetails": {"consentDetail": [            {
+               "consentType": "Text",
+               "consentCategory": "testConsentCategory",
+               "consentSelection": "Opt-In"
+            }]}
+         }],
+         "additionalContactPhones": [         {
+            "phoneNumber": "4252882121",
+            "contactPhoneType": "WORK_PHONE",
+            "consentDetails": {"consentDetail": [            {
+               "consentType": "Text",
+               "consentCategory": "testConsentCategory",
+               "consentSelection": "Opt-In"
+            }]}
+         }]
+      },
+            {
+         "id": "NAME_03",
+         "firstName": "BEDROCK",
+         "lastName": "DONOTUSE",
+         "primaryContactPhones": [         {
+            "phoneNumber": "4252885623",
+            "contactPhoneType": "HOME_PHONE",
+            "consentDetails": {"consentDetail": [            {
+               "consentType": "Text",
+               "consentCategory": "testConsentCategory",
+               "consentSelection": "Opt-In"
+            }]}
+         }],
+         "additionalContactPhones": [         {
+            "phoneNumber": "4252882121",
+            "contactPhoneType": "WORK_PHONE",
+            "consentDetails": {"consentDetail": [            {
+               "consentType": "Text",
+               "consentCategory": "testConsentCategory",
+               "consentSelection": "Opt-In"
+            }]}
+         }]
+      }
+   ]},
+   "addresses": {"address":    [
+            {
+         "id": "ADDRESS_01",
+         "unparsedAddress":          {
+            "addressLine1": "2191 West Buckingham Rd",
+            "city": "Richardson",
+            "state": "TX",
+            "zip": "75081"
+         }
+      },
+            {
+         "id": "ADDRESS_02",
+         "unparsedAddress":          {
+            "addressLine1": "1720 CUMBERLAND AVE",
+            "city": "KNOXVILLE",
+            "state": "TN",
+            "zip": "37916",
+            "country": "US"
+         }
+      },
+            {
+         "id": "ADDRESS_03",
+         "unparsedAddress":          {
+            "addressLine1": "11330 AMANDA LN",
+            "city": "DALLAS",
+            "state": "TX",
+            "zip": "75238"
+         }
+      },
+            {
+         "id": "ADDRESS_04",
+         "unparsedAddress":          {
+            "addressLine1": "11330 AMANDA LN",
+            "city": "DALLAS",
+            "state": "TX",
+            "zip": "75238",
+            "county": "DALLAS",
+            "country": "US"
+         }
+      },
+            {
+         "id": "ADDRESS_05",
+         "unparsedAddress":          {
+            "addressLine1": "1720 CUMBERLAND AVE",
+            "city": "KNOXVILLE",
+            "state": "TN",
+            "zip": "37916",
+            "country": "US"
+         }
+      }
+   ]},
+   "accounts": {"account": [   {
+      "id": "ACCOUNT_01",
+      "sequence": 1,
+      "accountCategory": "MOBILITY_ACCOUNT",
+      "accountSubCategory": "EXISTING",
+      "paymentArrangement": "PREPAID",
+      "billingAccountNumber": "545111427367",
+      "billingDetail": [      {
+         "nameReference": "NAME_01",
+         "addressReference": "ADDRESS_02",
+         "authentication":          {
+            "dob": "gYDi-3}-FM",
+            "driversLicense":             {
+               "licenseNumber": ".G*{Hz8g",
+               "state": "TX",
+               "licenseExpirationDate": "2016-12-15"
+            },
+            "lastFourOfSSN": "0094",
+            "employerDetail":             {
+               "employerName": "DONOTUSE",
+               "employerPhoneNumber": "4252885623"
+            }
+         },
+         "accountStatus": "ACTIVE"
+      }],
+      "creditCheck":       {
+         "creditClass": "B",
+         "creditCheckRanIndicator": true,
+         "applicationNumber": "512109002436",
+         "numberLinesRequired": 1,
+         "numberApprovedLines": 1,
+         "applicationApprovalDate": "2015-12-09",
+         "applicationExpiresDate": "2016-03-08",
+         "creditStatus": "APPROVED",
+         "reasonCode": "CB",
+                                "depositStatus":"PAID",
+         "reasonCodeDescription": "EQUIFAX CONSUMER"
+      },
+      "accountType": "INDIVIDUAL",
+      "accountSubType": "R",
+      "enterpriseType": "CON",
+      "langId": "ENGLISH",
+      "market": "TNK",
+      "subMarket": "719",
+      "priceCode": "719",
+      "spokenLanguagePreference": "ENGLISH",
+      "accountCrossmarketIndicator": true
+   }]},
+   "paymentOptions": {"paymentOption": [   {
+      "id": "PAYMENT_OPTION_01",
+      "sequence": 1,
+      "paymentMethod": {
+                                   "capm":{
+            "profileName": "testprofile11",
+            "profileOwnerId": "553815515",
+            "totalAmount": 100,
+            "customerAgreementVersion": "/content/tos/en/wirelessServiceAgreement/2014/02/11/1",
+                                                "savedProfileIndicator":true,
+                                                "saveProfile":{
+                                                "profileOwnerId":"Pid77799",
+                                                "profileName":"PSin"
+                                                }
+         }}
+   }]},
+   "shippingDetails": {"shippingDetail": [   {
+      "id": "SHIPPING_INFO_01",
+      "sequence": 1,
+      "nameReference": "NAME_03",
+      "addressReference": "ADDRESS_05",
+      "shippingCode": "AA1",
+      "shippingPriceCode": "88879",
+      "shippingMethod": "Overnight"
+   }]},
+   "specialInstructions": "{}",
+   "dueAmount":    {
+      "amount": 519.99,
+      "priceType": "DueToday",
+      "taxDetail": {"amount": 0},
+      "total": 519.99
+   },
+   "agentCode": "Z0066",
+   "agentLocation": "Z0066",
+   "termsAndConditions": {"termsAndConditionAccepted": [   {
+      "id": "TC_01",
+      "agreementType": "WCA",
+      "accepted": "Y",
+      "timestamp": 1450186488999,
+      "version": "/legal/terms.wirelessServiceAgreement.html",
+      "orderLevelIndicator": true
+   }]},
+   "orderContact":    {
+      "nameReference": "NAME_01",
+      "primaryEmailAddress": "G11473@ATT.COM"
+   },
+   "orderSource":    {
+      "clientIP": "135.163.180.104",
+      "locale": "EN_US",
+      "clientType": "DESKTOP",
+      "channel": "DE-MOBILITY",
+      "application": "MYATTSALES",
+      "browserId": "A001285470052",
+      "additionalDetails": {"additionalDetail": [      {
+         "code": "SENDER",
+         "value": "HARDROCK"
+      }]}
+   },
+   "creditPolicy" : {
+    "crsmOnFlag" : true   
+  },
+   "encryptedIndicator": true,
+   "bulkIndicator": false,
+   "passThroughIndicator": false,
+   "commonOrderIndicator": true,
+   "summaryCreatedIndicator": false
+}
+}
+
