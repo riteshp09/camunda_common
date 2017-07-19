@@ -1,0 +1,1132 @@
+{
+    "CustomerOrderNumber": "21-EJ8100003326180",
+    "RequestId": "f3591333-f0af-455f-a28f-6d5229fcae9c",
+    "OrderType": "CREATE",
+    "OrderStatus": {
+      "Status": "RECEIVED",
+      "SubStatus": "RECEIVED"
+    },
+	"PRCTicketNumber" : "Test111",
+    "CreatedDate": 1483508620000,
+    "SubmitedDate": 1483509007000,
+    "UpdatedDate": 1484975269220,
+    "AcceptedDate": 1484975259007,
+    "CurrentDateTime": 1485149781479,
+    "Groups": {
+      "Group": [
+        {
+          "Id": "GROUP_01",
+          "Name": "NEW_WIRELESS",
+          "Type": "LINE_OF_SERVICE",
+          "Sequence": 1,
+          "GroupCharacteristics": {
+            "LoSGCharacteristics": {
+              "LoSGReferenceId": "losg43330257",
+              "LoSGSequenceNumber": 1,
+              "LoSGType": "CHANGE",
+			  "ActionType":"TRANSFER_BAN_CHANGES",
+              "ProductCategory": "WIRELESS",
+              "IsPrimary": true,
+              "DealerCode": "K3K6I",
+              "Market": "DLS",
+              "SubMarket": "DFW",
+              "PreferredAreaCode": "214",
+              "ServiceArea": "008458004066",
+              "PriceCode": "DFW",
+              "AccountRef": "ACCOUNT_01",
+              "LoSGStatus": {
+                "Status": "SYS_RECEIVED",
+                "SubStatus": "NEW"
+              },
+              "ServiceLocationRef": "ADDRESS_01",
+              "SubscriberNameRef": "NAME_01",
+              "ConflictingServiceInfoRefs": {},
+              "TCRefs": {
+                "TCRef": [
+                  "TC_01",
+                  "TC_02"
+                ]
+              },
+              "InstallationInstructions": {},
+              "NumberPortInfo": {
+                "DisconnectAcknowledged": {}
+              },
+              "TCAccepted": {},
+              "WirelessLOSChars": {
+                  	"MobileNumber": "1234567890",
+                    "UpgradeInfo": {},
+                    "BillingSystemId": "T",
+                    "ConnectedCarInfo": {
+              				"Trim": "L4",
+              				"SubscriptionClass": "S",
+              				"Model": "U10",
+              				"VIN": "1234567890",              				
+              				"Make": "AUDI"
+            	    }
+                  },
+              "InternetLOSChars": {},
+              "DirecTVLOSChars": {},
+              "VOIPLOSChars": {},
+              "IsAutomationEnabled": false,
+              "Compensation": {
+                "RepDetails": []
+              },
+              "FulfillmentMethod": "DF",
+              "ShippingInfoRef": "SHIPPING_INFO_01"
+            }
+          }
+        },
+        {
+          "Id": "GROUP_02",
+          "Name": "SHARED_PLAN",
+          "Type": "SHARED_PLAN",
+          "Sequence": 2,
+          "GroupCharacteristics": {
+            "SharedPlanCharacteristics": {
+              "PlanType": "MOBILE_SHARE",
+              "GroupReferenceCode": "GROUP_01"
+            }
+          }
+        }
+      ]
+    },
+    "LineItems": {
+      "LineItem": [
+        {
+          "Id": "8633800136084514",
+          "LineItemSequence": 1,
+          "ProductCode": "prod8730224",
+          "ProductSku": "84514",
+          "BillingCode": "NOT_AVAILABLE",
+          "ProductType": "HARDGOOD",
+          "DisplayName": "Kit_guide_eCom_Phone_13.0",
+          "SystemName": "COL QSG GET STARTED CONSUMER SLIP",
+          "Action": "ADD",
+          "Price": {
+            "Amount": 0,
+            "CurrencyType": "USD",
+            "MSRP": 0,
+            "PriceType": "DUE_TODAY",
+            "TaxInfo": {
+              "Amount": 0,
+              "PreCalculatedTax": {
+                "TaxableCost": 0,
+                "TaxableMSRP": 0,
+                "TaxableUnitPrice": 0,
+                "OrderTaxAreaID": 390950000,
+                "ShipFromTaxAreaID": 431570560,
+                "ShipToTaxAreaID": 441130760
+              },
+              "LineItemTax": [
+                {
+                  "TaxLineID": 1,
+                  "TaxCode": "SALESTAX",
+                  "Memo": "SALESTAX",
+                  "PrintName": "Sales Tax",
+                  "TaxableIndicator": "X",
+                  "SKUSpecificIndicator": "false",
+                  "JurisdictionLevel": "Sales Tax",
+                  "JurisdictionName": "Sales Tax",
+                  "TaxAmount": 0,
+                  "TaxRate": 0,
+                  "TaxDate": 1483488000000
+                }
+              ]
+            },
+            "Total": 0
+          },
+          "LocationID": "K006",
+          "Payments": {
+            "Payment": [
+              {
+                "PaymentOptionRef": "PAYMENT_OPTION_01"
+              }
+            ]
+          },
+          "Quantity": 1,
+          "GroupRefs": {
+            "GroupRef": [
+              "GROUP_01"
+            ]
+          },
+          "HardGood": {
+            "HardGoodType": "COLLATERAL",
+            "IsShippedHot": true,
+            "WirelessHardGoodChars": {}
+          }
+        },
+        {
+          "Id": "8633800136073023",
+          "LineItemSequence": 2,
+          "ProductCode": "prod8730224",
+          "ProductSku": "73023",
+          "BillingCode": "NOT_AVAILABLE",
+          "ProductType": "HARDGOOD",
+          "DisplayName": "Embedded Nano SIM for iPhone 7, 7plus",
+          "SystemName": "Embedded SIM",
+          "Action": "ADD",
+          "Price": {
+            "Amount": 0,
+            "CurrencyType": "USD",
+            "MSRP": 0,
+            "PriceType": "DUE_TODAY",
+            "TaxInfo": {
+              "Amount": 0,
+              "PreCalculatedTax": {
+                "TaxableCost": 0,
+                "TaxableMSRP": 0,
+                "TaxableUnitPrice": 0,
+                "OrderTaxAreaID": 390950000,
+                "ShipFromTaxAreaID": 431570560,
+                "ShipToTaxAreaID": 441130760
+              },
+              "LineItemTax": [
+                {
+                  "TaxLineID": 1,
+                  "TaxCode": "SALESTAX",
+                  "Memo": "SALESTAX",
+                  "PrintName": "Sales Tax",
+                  "TaxableIndicator": "X",
+                  "SKUSpecificIndicator": "false",
+                  "JurisdictionLevel": "Sales Tax",
+                  "JurisdictionName": "Sales Tax",
+                  "TaxAmount": 0,
+                  "TaxRate": 0,
+                  "TaxDate": 1483488000000
+                }
+              ]
+            },
+            "Total": 0
+          },
+          "LocationID": "K006",
+          "Payments": {
+            "Payment": [
+              {
+                "PaymentOptionRef": "PAYMENT_OPTION_01"
+              }
+            ]
+          },
+          "Quantity": 1,
+          "GroupRefs": {
+            "GroupRef": [
+              "GROUP_01"
+            ]
+          },
+          "HardGood": {
+            "HardGoodType": "SIM",
+            "WirelessHardGoodChars": {}
+          }
+        },
+        {
+          "Id": "8633800136084390",
+          "LineItemSequence": 3,
+          "ProductCode": "prod8730224",
+          "ProductSku": "84390",
+          "BillingCode": "NOT_AVAILABLE",
+          "ProductType": "HARDGOOD",
+          "DisplayName": "MPP DF Buckslip",
+          "SystemName": "MPP DF BUCKSLIP",
+          "Action": "ADD",
+          "Price": {
+            "Amount": 0,
+            "CurrencyType": "USD",
+            "MSRP": 0,
+            "PriceType": "DUE_TODAY",
+            "TaxInfo": {
+              "Amount": 0,
+              "PreCalculatedTax": {
+                "TaxableCost": 0,
+                "TaxableMSRP": 0,
+                "TaxableUnitPrice": 0,
+                "OrderTaxAreaID": 390950000,
+                "ShipFromTaxAreaID": 431570560,
+                "ShipToTaxAreaID": 441130760
+              },
+              "LineItemTax": [
+                {
+                  "TaxLineID": 1,
+                  "TaxCode": "SALESTAX",
+                  "Memo": "SALESTAX",
+                  "PrintName": "Sales Tax",
+                  "TaxableIndicator": "X",
+                  "SKUSpecificIndicator": "false",
+                  "JurisdictionLevel": "Sales Tax",
+                  "JurisdictionName": "Sales Tax",
+                  "TaxAmount": 0,
+                  "TaxRate": 0,
+                  "TaxDate": 1483488000000
+                }
+              ]
+            },
+            "Total": 0
+          },
+          "LocationID": "K006",
+          "Payments": {
+            "Payment": [
+              {
+                "PaymentOptionRef": "PAYMENT_OPTION_01"
+              }
+            ]
+          },
+          "Quantity": 1,
+          "GroupRefs": {
+            "GroupRef": [
+              "GROUP_01"
+            ]
+          },
+          "HardGood": {
+            "HardGoodType": "COLLATERAL",
+            "IsShippedHot": true,
+            "WirelessHardGoodChars": {}
+          }
+        },
+        {
+          "Id": "86338001360",
+          "LineItemSequence": 4,
+          "ProductCode": "prod8730224",
+          "ProductSku": "6472A",
+          "BillingCode": "NOT_AVAILABLE",
+          "ProductType": "HARDGOOD",
+          "DisplayName": "Apple iPhone 7 - 32GB - Black",
+          "SystemName": "PHO APL IPHONE 7 32GB BLK",
+          "Action": "ADD",
+          "Price": {
+            "Amount": 0,
+            "CurrencyType": "USD",
+            "MSRP": 649.99,
+            "PriceType": "DUE_TODAY",
+            "TaxInfo": {
+              "Amount": 53.62,
+              "PreCalculatedTax": {
+                "TaxableCost": 0,
+                "TaxableMSRP": 0,
+                "TaxableUnitPrice": 649.99,
+                "OrderTaxAreaID": 390950000,
+                "ShipFromTaxAreaID": 431570560,
+                "ShipToTaxAreaID": 441130760
+              },
+              "LineItemTax": [
+                {
+                  "TaxLineID": 1,
+                  "TaxCode": "SALESTAX",
+                  "Memo": "SALESTAX",
+                  "PrintName": "Sales Tax",
+                  "TaxableIndicator": "X",
+                  "SKUSpecificIndicator": "false",
+                  "JurisdictionLevel": "Sales Tax",
+                  "JurisdictionName": "Sales Tax",
+                  "TaxAmount": 53.62,
+                  "TaxRate": 0.0825,
+                  "TaxDate": 1483488000000
+                }
+              ]
+            },
+            "Total": 53.62,
+            "BaseAmount": 649.99
+          },
+          "LocationID": "K006",
+          "Payments": {
+            "Payment": [
+              {
+                "PaymentOptionRef": "PAYMENT_OPTION_01"
+              }
+            ]
+          },
+          "ContractDetails": {
+            "InstallmentPlanID": 150000820427069,
+            "ContractDisplayName": "Next",
+            "InstallmentPlanDef": "NE30M80P",
+            "AnnualPercentageRate": 0,
+            "FinanceCharge": 0,
+            "AmountFinanced": 649.99,
+            "BalancedAmount": 649.99,
+            "TotalSalePrice": 649.99,
+            "DownPayment": 0,
+            "DownPaymentPercent": 0,
+            "PrepaidFinanceCharge": 0,
+            "InstallmentAmount": 21.67,
+            "InstallmentType": "PHONE",
+            "ContractType": "LEASE",
+            "ContractSystem": "OPTICAL",
+            "ContractSent": "N",
+            "ContractLength": 30
+          },
+          "Quantity": 1,
+          "GroupRefs": {
+            "GroupRef": [
+              "GROUP_01",
+              "GROUP_02"
+            ]
+          },
+          "HardGood": {
+            "BYOD": false,
+            "HardGoodType": "DEVICE",
+            "ProductImageUrl": "https://tst08.stage.att.com/catalog/en/skus/images/apple-iphone%207%2032gb-black-100x160.jpg",
+            "Make": "Apple",
+            "Model": "iPhone 7 32GB",
+            "ShipmentCommitDate": {
+              "FromDate": 1483689600000,
+              "ToDate": 1484035200000
+            },
+            "WirelessHardGoodChars": {
+              "TechType": "UMTS",
+              "EquipmentType": "EDGE",
+              "ImeiType": "J0",
+              "PhoneType": "IPHONE"
+            }
+          }
+        },
+        {
+          "Id": "86338001390",
+          "LineItemSequence": 5,
+          "ProductCode": "prod6130421",
+          "ProductSku": "NOT_AVAILABLE",
+          "BillingCode": "SDDVRP",
+          "ProductType": "PLAN",
+          "DisplayName": "Mobile Share Plan",
+          "SystemName": "Mobile Share Plan",
+          "Action": "ADD",
+          "Price": {
+            "Amount": 0,
+            "CurrencyType": "USD",
+            "PriceType": "RC"
+          },
+          "Payments": {},
+          "Quantity": 1,
+          "GroupRefs": {
+            "GroupRef": [
+              "GROUP_01"
+            ]
+          },
+          "Characteristics": {
+            "CommonCharacteristics": {},
+            "WirelessLineItemChars": {
+              "TradeInInfo": {},
+              "isNCIEligible": true,
+              "OfferType": "B",
+              "PDP": {},
+              "ADTM": {}
+            },
+            "InternetLineItemChars": {},
+            "VOIPLineItemChars": {}
+          }
+        },
+        {
+          "Id": "86338001390MM",
+          "LineItemSequence": 6,
+          "ProductCode": "prod6130421",
+          "ProductSku": "NOT_AVAILABLE",
+          "BillingCode": "MM",
+          "ProductType": "INCLUDED_FEATURE",
+          "DisplayName": "Unlimited Mobile to Mobile Calling",
+          "SystemName": "Unlimited Mobile to Mobile Calling - Nation",
+          "Action": "ADD",
+          "Price": {
+            "Amount": 0,
+            "CurrencyType": "USD",
+            "PriceType": "RC"
+          },
+          "Payments": {},
+          "Quantity": 1,
+          "GroupRefs": {
+            "GroupRef": [
+              "GROUP_01"
+            ]
+          }
+        },
+        {
+          "Id": "86338001390BWBN",
+          "LineItemSequence": 7,
+          "ProductCode": "prod6130421",
+          "ProductSku": "NOT_AVAILABLE",
+          "BillingCode": "BWBN",
+          "ProductType": "INCLUDED_FEATURE",
+          "DisplayName": "Basic Voice Mail",
+          "SystemName": "Basic Voice Mail for Postpaid",
+          "Action": "ADD",
+          "Price": {
+            "Amount": 0,
+            "CurrencyType": "USD",
+            "PriceType": "RC"
+          },
+          "Payments": {},
+          "Quantity": 1,
+          "GroupRefs": {
+            "GroupRef": [
+              "GROUP_01"
+            ]
+          }
+        },
+        {
+          "Id": "86338001390CW",
+          "LineItemSequence": 8,
+          "ProductCode": "prod6130421",
+          "ProductSku": "NOT_AVAILABLE",
+          "BillingCode": "CW",
+          "ProductType": "INCLUDED_FEATURE",
+          "DisplayName": "Call Waiting",
+          "SystemName": "Call Waiting for Postpaid",
+          "Action": "ADD",
+          "Price": {
+            "Amount": 0,
+            "CurrencyType": "USD",
+            "PriceType": "RC"
+          },
+          "Payments": {},
+          "Quantity": 1,
+          "GroupRefs": {
+            "GroupRef": [
+              "GROUP_01"
+            ]
+          }
+        },
+        {
+          "Id": "86338001390CNTF",
+          "LineItemSequence": 9,
+          "ProductCode": "prod6130421",
+          "ProductSku": "NOT_AVAILABLE",
+          "BillingCode": "CNTF",
+          "ProductType": "INCLUDED_FEATURE",
+          "DisplayName": "Long Distance",
+          "SystemName": "Long Distance",
+          "Action": "ADD",
+          "Price": {
+            "Amount": 0,
+            "CurrencyType": "USD",
+            "PriceType": "RC"
+          },
+          "Payments": {},
+          "Quantity": 1,
+          "GroupRefs": {
+            "GroupRef": [
+              "GROUP_01"
+            ]
+          }
+        },
+        {
+          "Id": "86338001390CLI",
+          "LineItemSequence": 10,
+          "ProductCode": "prod6130421",
+          "ProductSku": "NOT_AVAILABLE",
+          "BillingCode": "CLI",
+          "ProductType": "INCLUDED_FEATURE",
+          "DisplayName": "Caller ID",
+          "SystemName": "Caller ID",
+          "Action": "ADD",
+          "Price": {
+            "Amount": 0,
+            "CurrencyType": "USD",
+            "PriceType": "RC"
+          },
+          "Payments": {},
+          "Quantity": 1,
+          "GroupRefs": {
+            "GroupRef": [
+              "GROUP_01"
+            ]
+          }
+        },
+        {
+          "Id": "86338001390MPTY",
+          "LineItemSequence": 11,
+          "ProductCode": "prod6130421",
+          "ProductSku": "NOT_AVAILABLE",
+          "BillingCode": "MPTY",
+          "ProductType": "INCLUDED_FEATURE",
+          "DisplayName": "Conference Calling",
+          "SystemName": "Conference Calling",
+          "Action": "ADD",
+          "Price": {
+            "Amount": 0,
+            "CurrencyType": "USD",
+            "PriceType": "RC"
+          },
+          "Payments": {},
+          "Quantity": 1,
+          "GroupRefs": {
+            "GroupRef": [
+              "GROUP_01"
+            ]
+          }
+        },
+        {
+          "Id": "86338001390UNLMSGSO",
+          "LineItemSequence": 12,
+          "ProductCode": "prod6130421",
+          "ProductSku": "NOT_AVAILABLE",
+          "BillingCode": "UNLMSGSO",
+          "ProductType": "INCLUDED_FEATURE",
+          "DisplayName": "Mobile Share Unlimited Messaging - UNLMSGSO",
+          "SystemName": "UNLMSGSO",
+          "Action": "ADD",
+          "Price": {
+            "Amount": 0,
+            "CurrencyType": "USD",
+            "PriceType": "RC"
+          },
+          "Payments": {},
+          "Quantity": 1,
+          "GroupRefs": {
+            "GroupRef": [
+              "GROUP_01"
+            ]
+          }
+        },
+        {
+          "Id": "86338001390CFI",
+          "LineItemSequence": 13,
+          "ProductCode": "prod6130421",
+          "ProductSku": "NOT_AVAILABLE",
+          "BillingCode": "CFI",
+          "ProductType": "INCLUDED_FEATURE",
+          "DisplayName": "Call Forwarding",
+          "SystemName": "Call Forwarding",
+          "Action": "ADD",
+          "Price": {
+            "Amount": 0,
+            "CurrencyType": "USD",
+            "PriceType": "RC"
+          },
+          "Payments": {},
+          "Quantity": 1,
+          "GroupRefs": {
+            "GroupRef": [
+              "GROUP_01"
+            ]
+          }
+        },
+        {
+          "Id": "86338001361WPINS",
+          "LineItemSequence": 14,
+          "ProductCode": "prod1040075",
+          "ProductSku": "NOT_AVAILABLE",
+          "BillingCode": "WPINS",
+          "ProductType": "OPTIONAL_FEATURE",
+          "DisplayName": "AT&T Mobile Insurance",
+          "SystemName": "Wireless Phone Insurance",
+          "Action": "ADD",
+          "Price": {
+            "Amount": 7.99,
+            "CurrencyType": "USD",
+            "PriceType": "RC"
+          },
+          "Payments": {
+            "Payment": [
+              {
+                "PaymentOptionRef": "PAYMENT_OPTION_01"
+              }
+            ]
+          },
+          "Quantity": 1,
+          "GroupRefs": {
+            "GroupRef": [
+              "GROUP_01"
+            ]
+          }
+        },
+        {
+          "Id": "86338001388SDGN1",
+          "LineItemSequence": 15,
+          "ProductCode": "prod8680323",
+          "ProductSku": "NOT_AVAILABLE",
+          "BillingCode": "SDGN1",
+          "ProductType": "OPTIONAL_FEATURE",
+          "DisplayName": "Mobile Share Advantage 1GB",
+          "SystemName": "Mobile Share Advantage 1GB",
+          "Action": "ADD",
+          "Price": {
+            "Amount": 30,
+            "CurrencyType": "USD",
+            "PriceType": "RC"
+          },
+          "Payments": {
+            "Payment": [
+              {
+                "PaymentOptionRef": "PAYMENT_OPTION_01"
+              }
+            ]
+          },
+          "Quantity": 1,
+          "GroupRefs": {
+            "GroupRef": [
+              "GROUP_01",
+              "GROUP_02"
+            ]
+          },
+          "Characteristics": {
+            "CommonCharacteristics": {},
+            "WirelessLineItemChars": {
+              "TradeInInfo": {},
+              "isNCIEligible": true,
+              "OfferType": "G",
+              "PDP": {},
+              "ADTM": {}
+            },
+            "InternetLineItemChars": {},
+            "VOIPLineItemChars": {}
+          }
+        },
+        {
+          "Id": "86338001389SDFNIVL",
+          "LineItemSequence": 16,
+          "ProductCode": "prod8685795",
+          "ProductSku": "NOT_AVAILABLE",
+          "BillingCode": "SDFNIVL",
+          "ProductType": "OPTIONAL_FEATURE",
+          "DisplayName": "Access for iPhone 4G LTE w/ Visual Voicemail",
+          "SystemName": "Access for iPhone 4G LTE w/ Visual Voicemail",
+          "Action": "ADD",
+          "Price": {
+            "Amount": 20,
+            "CurrencyType": "USD",
+            "PriceType": "RC"
+          },
+          "Payments": {
+            "Payment": [
+              {
+                "PaymentOptionRef": "PAYMENT_OPTION_01"
+              }
+            ]
+          },
+          "Quantity": 1,
+          "GroupRefs": {
+            "GroupRef": [
+              "GROUP_01",
+              "GROUP_02"
+            ]
+          },
+          "Characteristics": {
+            "CommonCharacteristics": {},
+            "WirelessLineItemChars": {
+              "TradeInInfo": {},
+              "isNCIEligible": true,
+              "OfferType": "P",
+              "PDP": {},
+              "ADTM": {}
+            },
+            "InternetLineItemChars": {},
+            "VOIPLineItemChars": {}
+          }
+        },
+        {
+          "Id": "losg43330257ACT",
+          "LineItemSequence": 17,
+          "ProductCode": "NOT_AVAILABLE",
+          "ProductSku": "NOT_AVAILABLE",
+          "BillingCode": "NOT_AVAILABLE",
+          "ProductType": "MISC_CHARGE",
+          "DisplayName": "ActivationFee",
+          "SystemName": "ACTIVATION_FEE",
+          "Action": "ADD",
+          "Price": {
+            "Amount": 20,
+            "CurrencyType": "USD",
+            "PriceType": "NRC"
+          },
+          "Payments": {
+            "Payment": [
+              {
+                "PaymentOptionRef": "PAYMENT_OPTION_01"
+              }
+            ]
+          },
+          "Quantity": 1,
+          "GroupRefs": {
+            "GroupRef": [
+              "GROUP_01"
+            ]
+          }
+        },
+        {
+          "Id": "lobi44690244ShippingFee",
+          "LineItemSequence": 18,
+          "ProductCode": "NOT_AVAILABLE",
+          "ProductSku": "88879",
+          "BillingCode": "NOT_AVAILABLE",
+          "ProductType": "MISC_CHARGE",
+          "DisplayName": "ShippingFee",
+          "SystemName": "SHIPPING_FEE",
+          "Action": "ADD",
+          "Price": {
+            "Amount": 0,
+            "CurrencyType": "USD",
+            "MSRP": 0,
+            "PriceType": "DUE_TODAY",
+            "TaxInfo": {
+              "Amount": 0,
+              "PreCalculatedTax": {
+                "TaxableCost": 0,
+                "TaxableMSRP": 14.95,
+                "TaxableUnitPrice": 0,
+                "OrderTaxAreaID": 390950000,
+                "ShipFromTaxAreaID": 431570560,
+                "ShipToTaxAreaID": 441130760
+              },
+              "LineItemTax": [
+                {
+                  "TaxLineID": 1,
+                  "TaxCode": "SALESTAX",
+                  "Memo": "SALESTAX",
+                  "PrintName": "Sales Tax",
+                  "TaxableIndicator": "X",
+                  "SKUSpecificIndicator": "false",
+                  "JurisdictionLevel": "Sales Tax",
+                  "JurisdictionName": "Sales Tax",
+                  "TaxAmount": 0,
+                  "TaxRate": 0,
+                  "TaxDate": 1483488000000
+                }
+              ]
+            },
+            "Total": 0
+          },
+          "Payments": {
+            "Payment": [
+              {
+                "PaymentOptionRef": "PAYMENT_OPTION_01"
+              }
+            ]
+          },
+          "Quantity": 1,
+          "GroupRefs": {
+            "GroupRef": [
+              "GROUP_01"
+            ]
+          }
+        }
+      ]
+    },
+    "Names": {
+      "Name": [
+        {
+          "Id": "NAME_01",
+          "FirstName": "AUTO",
+          "LastName": "TEST",
+          "PrimaryContactPhone": [
+            {
+              "PhoneNumber": "4251112222",
+              "ContactPhoneType": "WORK_PHONE",
+              "ConsentDetails": {
+                "ConsentDetail": [
+                  {
+                    "ConsentType": "BOTH",
+                    "ConsentCategory": "Global",
+                    "ConsentSelection": "OPT_OUT",
+                    "IsConsentUpdatedInCAPM": "N"
+                  }
+                ]
+              }
+            }
+          ],
+          "AdditionalContactPhone": [
+            {
+              "PhoneNumber": "4251112222",
+              "ContactPhoneType": "WORK_PHONE",
+              "ConsentDetails": {
+                "ConsentDetail": [
+                  {
+                    "ConsentType": "BOTH",
+                    "ConsentCategory": "Global",
+                    "ConsentSelection": "OPT_OUT",
+                    "IsConsentUpdatedInCAPM": "N"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "Id": "NAME_02",
+          "FirstName": "AUTO",
+          "LastName": "TEST",
+          "PrimaryContactPhone": [
+            {
+              "PhoneNumber": "4251112222",
+              "ContactPhoneType": "WORK_PHONE",
+              "ConsentDetails": {}
+            }
+          ],
+          "AdditionalContactPhone": [
+            {
+              "PhoneNumber": "4251112222",
+              "ContactPhoneType": "WORK_PHONE",
+              "ConsentDetails": {}
+            }
+          ]
+        },
+        {
+          "Id": "NAME_03",
+          "FirstName": "AUTO",
+          "LastName": "TEST",
+          "PrimaryContactPhone": [
+            {
+              "PhoneNumber": "4251112222",
+              "ContactPhoneType": "WORK_PHONE",
+              "ConsentDetails": {}
+            }
+          ],
+          "AdditionalContactPhone": [
+            {
+              "PhoneNumber": "4251112222",
+              "ContactPhoneType": "WORK_PHONE",
+              "ConsentDetails": {}
+            }
+          ]
+        }
+      ]
+    },
+    "Addresses": {
+      "Address": [
+        {
+          "Id": "ADDRESS_01",
+          "UnparsedAddress": {
+            "AddressLine1": "9391 PINYON TREE LN",
+            "City": "DALLAS",
+            "State": "TX",
+            "Zip": "75243",
+            "County": "DALLAS",
+            "Country": "US"
+          },
+          "ParsedAddress": {
+            "AddressStreetLine": "9391 PINYON TREE LN",
+            "HouseNumber": "9391",
+            "StreetName": "PINYON TREE",
+            "StreetType": "LN",
+            "City": "DALLAS",
+            "State": "TX",
+            "Zip": "75243",
+            "ZipCodeExtension": "3327",
+            "County": "DALLAS",
+            "Country": "US",
+            "AddressType": "UNITED_STATES"
+          },
+          "AdditionalDetails": {
+            "AdditionalDetail": [
+              {
+                "Type": "Profile",
+                "Code": "ValidatedAddress",
+                "Value": "true"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Accounts": {
+      "Account": [
+        {
+          "Id": "ACCOUNT_01",
+          "AccountSequenceNumber": 1,
+          "AccountCategory": "MOBILITY_ACCOUNT",
+          "AccountSubCategory": "NEW",
+          "PaymentArrangement": "POSTPAID",
+          "BillingAccountNumber": "177061512772",
+          "BillingInfo": {
+            "NameRef": "NAME_02",
+            "AddressRef": "ADDRESS_01",
+            "Authentication": {
+              "DOB": "XXXX",
+              "DriversLicense": {
+                "LicenseNumber": "XXXX",
+                "State": "TX",
+                "LicenseExpirationDate": "XXXX"
+              },
+              "StateId": {},
+              "SSN": "XXXX",
+              "SecurityVerification": {},
+              "EmployerInfo": {
+                "EmployerName": "Test",
+                "EmployerPhoneNum": "4251112222"
+              }
+            }
+          },
+          "CreditCheck": {
+            "CreditClass": "B",
+            "CCRan": true,
+            "ApplicationNumber": "701039001576",
+            "NumberLinesReq": 1,
+            "NumberApprLines": 1,
+            "ApplicationApprovalDate": 1483315200000,
+            "ApplicationExpiresDate": 1491091200000,
+            "CreditStatus": "APPROVED",
+            "ReasonCode": "CB",
+            "ReasonCodeDescription": "EQUIFAX CONSUMER"
+          },
+          "BankingPartner": {},
+          "CreditAlert": {},
+          "BillingDeliveryPreference": "PAPERLESS",
+          "ELOA": {},
+          "ContractAcceptance": {},
+          "UnifiedAccount": {
+            "ConvergeOrder": false,
+            "ConvergeValidation": false,
+            "PremierIndicator": false
+          },
+          "LiabilityType": "INDIVIDUAL",
+          "AccountType": "INDIVIDUAL",
+          "AccountSubType": "R",
+          "EnterpriseType": "IRU",
+          "B2BRef": "B2B_01",
+          "LangId": "ENGLISH",
+          "Market": "DLS",
+          "SubMarket": "DFW",
+          "PriceCode": "DFW",
+          "SpokenLanguagePreference": "ENGLISH",
+          "ProvisioningSystems": {}
+        }
+      ]
+    },
+    "PaymentOptions": {
+      "PaymentOption": [
+        {
+          "Id": "PAYMENT_OPTION_01",
+          "PaymentSequence": 1,
+          "CAPMConfig": {
+            "MerchantID": "ORDERGWCon",
+            "SourceSystem": "HARDROCK",
+            "SourceLocation": "CS",
+            "SourceUser": "HARDROCK"
+          },
+          "PaymentMethod": {
+            "CAPM": {
+              "PreAuthDetail": {
+                "AuthorizationCode": "OL_DF170103R94519",
+                "AuthorizationDate": 1483488000000,
+                "AuthorizationExpirationDate": 1485820800000,
+                "AVScode": "NA",
+                "AuthorizationKey": "40203232"
+              },
+              "PaymentConfirmationDetail": {},
+              "TotalAmount": 53.62,
+              "ZipCode": "75243",
+              "CreditCardType": "VISA",
+              "IsGiftCard": false
+            }
+          }
+        }
+      ]
+    },
+    "ShippingInfos": {
+      "ShippingInfo": [
+        {
+          "Id": "SHIPPING_INFO_01",
+          "ShippingInfoSequence": 1,
+          "NameRef": "NAME_03",
+          "AddressRef": "ADDRESS_01",
+          "ShippingCode": "AA1",
+          "ShippingPriceCode": "88879",
+          "ShippingMethod": "Overnight"
+        }
+      ]
+    },
+    "B2Bs": {
+      "B2B": [
+        {
+          "Id": "B2B_01",
+          "B2BContractProvider": "ATTWS",
+          "B2BContractType": "CCDA",
+          "B2BFAN": "00030561",
+          "B2BskipUpgradeEligibility": false,
+          "B2BIgnoreDepositRequired": false,
+          "B2BFANBusinessName": "Emerson Electric GSM - (SPON)"
+        }
+      ]
+    },
+    "SpecialInstructions": "{}",
+    "DueAmount": {
+      "Amount": 0,
+      "PriceType": "DUE_TODAY",
+      "TaxInfo": {
+        "Amount": 53.62
+      },
+      "Total": 53.62
+    },
+    "SalesCode": "NOT_AVAILABLE",
+    "SalesLocation": "NOT_AVAILABLE",
+    "AgentCode": "K3K6I",
+    "AgentLocation": "K3K6I",
+    "TCs": {
+      "TCAccepted": [
+        {
+          "Id": "TC_01",
+          "AgreementType": "MI",
+          "AgreementText": "I have read the AT&T Mobile Insurance Terms and Conditions and agree to the terms and conditions as described.",
+          "Accepted": "Y",
+          "Timestamp": 1483508978000,
+          "Version": "/legal/terms.mobileInsurance.html",
+          "IsOrderLevel": false
+        },
+        {
+          "Id": "TC_02",
+          "AgreementType": "DEV",
+          "AgreementText": "I have read the Retail Installment Agreement and agree to the terms and conditions as described.",
+          "Accepted": "Y",
+          "Timestamp": 1483508978000,
+          "Version": "/legal/terms.deviceInstallmentPlan.html",
+          "IsOrderLevel": false
+        },
+        {
+          "Id": "TC_03",
+          "AgreementType": "WCA",
+          "AgreementText": "I have read the Wireless Customer Agreement and agree to the terms and conditions as described.",
+          "Accepted": "Y",
+          "Timestamp": 1483508978000,
+          "Version": "/legal/terms.wirelessServiceAgreement.html",
+          "IsOrderLevel": true
+        },
+        {
+          "Id": "TC_04",
+          "AgreementType": "CON",
+          "AgreementText": "I have read the Electronic Consent and agree to the terms and conditions as described.",
+          "Accepted": "Y",
+          "Timestamp": 1483508978000,
+          "Version": "/legal/terms.electronicConsent.html",
+          "IsOrderLevel": true
+        }
+      ]
+    },
+    "OrderContact": {
+      "NameRef": "NAME_01",
+      "PrimaryEmailAddress": "DD835Y@ATT.COM"
+    },
+    "ApproverNameRefs": {},
+    "SalesChannel": "E",
+	"RequestType": "SCR",
+    "OrderSource": {
+      "ClientIP": "135.163.180.104",
+      "Locale": "EN_US",
+      "ClientType": "DESKTOP",
+      "Channel": "CRU-MOBILITY",
+      "Application": "MYATTSALES",
+      "BrowserID": "A001369792999",
+      "AdditionalDetails": {
+        "AdditionalDetail": [
+          {
+            "Type": "Order",
+            "Code": "SENDER",
+            "Value": "HARDROCK"
+          }
+        ]
+      }
+    },
+    "ExternalOrderSource": "EST",
+    "Version": 2,
+    "IsLocked": false,
+    "IsEncrypted": true,
+    "IsCommonOrder": true,
+    "IsSummaryCreated": false,
+    "AdditionalDetails": {
+      "AdditionalDetail": [
+        {
+          "Type": "Order",
+          "Code": "APPLICATION_NAME",
+          "Value": "NotifyTaskUpdateServiceV2"
+        },
+        {
+          "Type": "Order",
+          "Code": "PRODUCT_COMBINATION",
+          "Value": "WIRELESS_NEW"
+        }
+      ]
+    }
+  }

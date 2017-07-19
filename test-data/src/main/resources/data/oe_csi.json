@@ -1,0 +1,98 @@
+{
+  "messageHeader": {
+    "trackingMessageHeader": {
+      "version": "v112",
+      "messageId": "11111",
+      "originatorId": "OCE",
+      "returnURL": "",
+      "timeToLive": "",
+      "dateTimeStamp": ""
+    },
+    "securityMessageHeader": {
+      "userName": "oce",
+      "userPassword": "oce0606"
+    },
+    "sequenceMessageHeader": {
+      "sequenceNumber": "1",
+      "totalInSequence": "1"
+    }
+  },
+  "orderEquipmentRequest" : {
+  	"orderStatus" : "O",
+  	"orderReference" : {
+  		"locationId" : "K004",
+  		"externalSource" : {
+  			"externalOrderNumber" : "21-108100003001091",
+  			"externalOrderSource" : "EST",
+  			"operatorId" : "ESTORE"
+  		}  		
+  	},
+  	"marketServiceInfo" : {
+  		"billingMarket" : {
+  			"billingMarket" : "TNK",
+  			"billingSubMarket" : "719"  			
+  		},
+  		"billingSystemId" : "T"
+  		
+  	},
+  	"account" : {
+  		"billingAccountNumber" : "545119323733",
+  		"accountType" : {
+  			"accountType" : "I",
+  			"accountSubType" : "R"
+  		}
+  	},
+  	"orderPricing" : {
+  		"priceCode" : "719",
+  		"totalPreTaxAmount" : "0.00",
+  		"totalTax" : "0.00"
+  	},
+  	"taxCalculation" : {
+  		"taxCalculationOrder" : {
+  			"serviceContractBundling" : true
+  		}
+  	},
+  	"payment" : {
+  		"noPaymentIndicator" : true 		
+  	},
+  	"orderLine" : [{
+  		"lineId" : "1",
+  		"lineType" : "S",
+  		"itemId" : "84390",
+  		"salesRepresentative" : "Z0066",
+  		"quantity" : "1",
+  		"price" : "0.00",
+  		"originalDefaultPrice" : "0.00"
+  	},
+  	{
+  		"lineId" : "2",
+  		"lineType" : "S",
+  		"itemId" : "84514",
+  		"salesRepresentative" : "Z0066",
+  		"quantity" : "1",
+  		"price" : "0.00",
+  		"originalDefaultPrice" : "0.00"
+  	},
+  	{
+  		"lineId" : "3",
+  		"lineType" : "S",
+  		"itemId" : "6478A",
+  		"salesRepresentative" : "Z0066",
+  		"quantity" : "1",
+  		"price" : "0.00",
+  		"originalDefaultPrice" : "0.00",
+  		"subline" :{
+  			"subscriberNumber" : "2145352034",
+  			"lineId" : "1"
+  		},
+  		"subscriberDetail" : {
+  			"name" : "BEDROCK DONOTUSE",
+  			"subscriberNumber" : "2145352034"
+  		}
+  	}],
+  	"commonReceiptNumber" : "21-108100003001091",
+  	"mode" : "C"
+  	 
+  }
+ 
+ }

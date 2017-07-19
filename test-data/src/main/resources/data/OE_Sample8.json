@@ -1,0 +1,1031 @@
+{
+	"orderType": "CREATE",
+	"addresses": {
+		"address": [{
+				"id": "ADDRESS_01",
+				"unparsedAddress": {
+					"zip": "61914",
+					"country": "US",
+					"city": "BETHANY",
+					"addressLine1": "207 S LINCOLN ST",
+					"state": "IL"
+				},
+				"additionalDetails": {
+					"additionalDetail": [{
+							"code": "ValidatedAddress",
+							"type": "Profile",
+							"value": "false"
+						}
+					]
+				},
+				"parsedAddress": {
+					"zip": "61914",
+					"country": "US",
+					"streetName": "LINCOLN",
+					"addressStreetLine": "207 S LINCOLN ST",
+					"streetType": "ST",
+					"city": "BETHANY",
+					"addressType": "UNITED_STATES",
+					"houseNumber": "207",
+					"county": "MOULTRIE",
+					"state": "IL",
+					"zipCodeExtension": "9761",
+					"direction": "S"
+				}
+			}, {
+				"id": "ADDRESS_02",
+				"unparsedAddress": {
+					"zip": "61914",
+					"city": "BETHANY",
+					"county": "US",
+					"addressLine1": "207 S LINCOLN ST",
+					"state": "IL"
+				},
+				"additionalDetails": {
+					"additionalDetail": [{
+							"code": "ValidatedAddress",
+							"type": "Profile",
+							"value": "false"
+						}
+					]
+				},
+				"parsedAddress": {
+					"zip": "61914",
+					"country": "US",
+					"streetName": "LINCOLN",
+					"addressStreetLine": "207 S LINCOLN ST",
+					"streetType": "ST",
+					"city": "BETHANY",
+					"addressType": "UNITED_STATES",
+					"houseNumber": "207",
+					"county": "MOULTRIE",
+					"state": "IL",
+					"zipCodeExtension": "9761",
+					"direction": "S"
+				}
+			}, {
+				"id": "ADDRESS_03",
+				"unparsedAddress": {
+					"zip": "61554",
+					"country": "US",
+					"city": "MARQUETTE HEIGHTS",
+					"county": "TAZEWELL",
+					"addressLine1": "904 LINCOLN RD",
+					"attention": "Charley GUNA",
+					"state": "IL"
+				},
+				"additionalDetails": {
+					"additionalDetail": [{
+							"code": "ValidatedAddress",
+							"type": "Profile",
+							"value": "true"
+						}
+					]
+				},
+				"parsedAddress": {
+					"zip": "61554",
+					"country": "US",
+					"streetName": "LINCOLN",
+					"addressStreetLine": "904 LINCOLN RD",
+					"streetType": "RD",
+					"city": "MARQUETTE HEIGHTS",
+					"addressType": "UNITED_STATES",
+					"houseNumber": "904",
+					"county": "TAZEWELL",
+					"attention": "Charley GUNA",
+					"state": "IL",
+					"zipCodeExtension": "1346"
+				}
+			}
+		]
+	},
+	"totalPrice": {},
+	"agentCode": "K3K6I",
+	"orderStatus": {
+		"subStatus": "CANCELED",
+		"status": "CANCELED"
+	},
+	"updatedDate": 1498076417000,
+	"creditPolicy": {
+		"crsmOnFlag": false
+	},
+	"manageCallList": {},
+	"salesChannel": "E",
+	"submittedDate": 1497989426000,
+	"b2bs": {
+		"b2b": [{
+				"b2bContractProvider": "ATTWS",
+				"b2bContractType": "ACDA MAC NONCB",
+				"manageCallListReferences": {},
+				"b2bFAN": "00016911",
+				"b2bIgnoreDepositRequiredIndicator": false,
+				"b2bFANBusinessName": "AARP - Spon",
+				"b2bSkipUpgradeEligibilityIndicator": false,
+				"id": "B2B_01"
+			}
+		]
+	},
+	"acceptedDate": 1497989540975,
+	"customerOrderNumber": "21-307100195756159",
+	"agentLocation": "K3K6I",
+	"termsAndConditions": {
+		"termsAndConditionAccepted": [{
+				"agreementType": "DEV",
+				"agreementText": "I have read the Retail Installment Agreement and agree to the terms and conditions as described.",
+				"accepted": "Y",
+				"id": "TC_02",
+				"version": "/legal/terms.deviceInstallmentPlan.html",
+				"orderLevelIndicator": false,
+				"timestamp": 1497989365000
+			}, {
+				"agreementType": "WCA",
+				"agreementText": "I have read the Wireless Customer Agreement and agree to the terms and conditions as described.",
+				"accepted": "Y",
+				"id": "TC_03",
+				"version": "/legal/terms.wirelessServiceAgreement.html",
+				"orderLevelIndicator": true,
+				"timestamp": 1497989365000
+			}, {
+				"agreementType": "MI",
+				"agreementText": "I have read the AT&T Mobile Insurance Terms and Conditions and agree to the terms and conditions as described.",
+				"accepted": "Y",
+				"id": "TC_01",
+				"version": "/legal/terms.mobileInsurance.html",
+				"orderLevelIndicator": false,
+				"timestamp": 1497989365000
+			}
+		]
+	},
+	"affiliateReferalDate": 21600000,
+	"lineItems": {
+		"lineItem": [{
+				"quantity": 1,
+				"displayName": "Kit_guide_eCom_Phone_13.0",
+				"payments": {
+					"payment": [{
+							"paymentOptionReference": "PAYMENT_OPTION_01"
+						}
+					]
+				},
+				"hardGood": {
+					"shippedHotIndicator": true,
+					"wirelessHardGoodCharacteristics": {},
+					"hardGoodType": "COLLATERAL"
+				},
+				"billingCode": "NOT_AVAILABLE",
+				"sequence": 1,
+				"productSKU": "84514",
+				"productCode": "prod8920282",
+				"systemName": "COL QSG GET STARTED CONSUMER SLIP",
+				"locationId": "K006",
+				"price": {
+					"currencyType": "USD",
+					"amount": 0,
+					"total": 0,
+					"taxDetail": {
+						"amount": 0,
+						"lineItemTaxes": [{
+								"taxLineId": 1,
+								"skuSpecific": "false",
+								"taxRate": 0,
+								"jurisdictionLevel": "Sales Tax",
+								"taxable": "X",
+								"jurisdictionName": "Sales Tax",
+								"printName": "Sales Tax",
+								"memo": "SALESTAX",
+								"taxAmount": 0,
+								"taxCode": "SALESTAX",
+								"taxDate": 1497934800000
+							}
+						],
+						"preCalculatedTax": {
+							"shipFromTaxAreaId": 431570560,
+							"taxableUnitPrice": 0,
+							"taxableMSRP": 0,
+							"taxableCost": 0,
+							"shipToTaxAreaId": 141791750,
+							"orderTaxAreaId": 390950000
+						}
+					},
+					"msrp": 0,
+					"priceType": "DUE_TODAY"
+				},
+				"supplyChainDetail": {
+					"quantityCanceled": 1
+				},
+				"action": "ADD",
+				"id": "11192900034184514",
+				"productType": "HARDGOOD",
+				"status": "CANCELED",
+				"groupReferences": {
+					"groupReference": ["GROUP_01"]
+				}
+			}, {
+				"quantity": 1,
+				"displayName": "Embedded Nano SIM",
+				"payments": {
+					"payment": [{
+							"paymentOptionReference": "PAYMENT_OPTION_01"
+						}
+					]
+				},
+				"hardGood": {
+					"wirelessHardGoodCharacteristics": {},
+					"hardGoodType": "SIM"
+				},
+				"billingCode": "NOT_AVAILABLE",
+				"sequence": 2,
+				"productSKU": "73023",
+				"productCode": "prod8920282",
+				"systemName": "Embedded SIM",
+				"locationId": "K006",
+				"price": {
+					"currencyType": "USD",
+					"amount": 0,
+					"total": 0,
+					"taxDetail": {
+						"amount": 0,
+						"lineItemTaxes": [{
+								"taxLineId": 1,
+								"skuSpecific": "false",
+								"taxRate": 0,
+								"jurisdictionLevel": "Sales Tax",
+								"taxable": "X",
+								"jurisdictionName": "Sales Tax",
+								"printName": "Sales Tax",
+								"memo": "SALESTAX",
+								"taxAmount": 0,
+								"taxCode": "SALESTAX",
+								"taxDate": 1497934800000
+							}
+						],
+						"preCalculatedTax": {
+							"shipFromTaxAreaId": 431570560,
+							"taxableUnitPrice": 0,
+							"taxableMSRP": 0,
+							"taxableCost": 0,
+							"shipToTaxAreaId": 141791750,
+							"orderTaxAreaId": 390950000
+						}
+					},
+					"msrp": 0,
+					"priceType": "DUE_TODAY"
+				},
+				"supplyChainDetail": {
+					"quantityCanceled": 1
+				},
+				"action": "ADD",
+				"id": "11192900034173023",
+				"productType": "HARDGOOD",
+				"status": "CANCELED",
+				"groupReferences": {
+					"groupReference": ["GROUP_01"]
+				}
+			}, {
+				"quantity": 1,
+				"promotionReferences": {
+					"promotionReference": ["PROMOTION_01"]
+				},
+				"displayName": "LG G6 - Ice Platinum",
+				"payments": {
+					"payment": [{
+							"paymentOptionReference": "PAYMENT_OPTION_01"
+						}
+					]
+				},
+				"hardGood": {
+					"productImageUrl": "https://www.att.com/catalog/en/skus/images/lg-g6-ice%20platinum-100x160.jpg",
+					"shipmentCommitDate": {
+						"fromDate": 1498028400000,
+						"toDate": 1498201200000
+					},
+					"byodIndicator": false,
+					"model": "G6",
+					"make": "LG",
+					"wirelessHardGoodCharacteristics": {
+						"phoneType": "ANY_PHONE",
+						"imeiType": "P9",
+						"equipmentType": "EDGE",
+						"techType": "UMTS"
+					},
+					"hardGoodType": "DEVICE"
+				},
+				"billingCode": "NOT_AVAILABLE",
+				"sequence": 3,
+				"productSKU": "6022B",
+				"productCode": "prod8920282",
+				"systemName": "PHO LGE G6 H871 PLT",
+				"locationId": "K006",
+				"price": {
+					"currencyType": "USD",
+					"amount": 0,
+					"total": 45,
+					"taxDetail": {
+						"amount": 45,
+						"lineItemTaxes": [{
+								"taxLineId": 1,
+								"skuSpecific": "false",
+								"taxRate": 0.06,
+								"jurisdictionLevel": "Sales Tax",
+								"taxable": "X",
+								"jurisdictionName": "Sales Tax",
+								"printName": "Sales Tax",
+								"memo": "SALESTAX",
+								"taxAmount": 45,
+								"taxCode": "SALESTAX",
+								"taxDate": 1497934800000
+							}
+						],
+						"preCalculatedTax": {
+							"shipFromTaxAreaId": 431570560,
+							"taxableUnitPrice": 719.99,
+							"taxableMSRP": 719.99,
+							"taxableCost": 629.99,
+							"shipToTaxAreaId": 141791750,
+							"orderTaxAreaId": 390950000
+						}
+					},
+					"msrp": 719.99,
+					"priceType": "DUE_TODAY",
+					"baseAmount": 719.99
+				},
+				"supplyChainDetail": {
+					"quantityCanceled": 1
+				},
+				"action": "ADD",
+				"id": "111929000341",
+				"contractDetails": {
+					"contractDisplayName": "Next",
+					"contractSent": "N",
+					"installmentPlanId": 220000006738693,
+					"installmentAmount": 24,
+					"annualPercentageRate": 0,
+					"contractType": "LEASE",
+					"installmentPlanDefinition": "NE30M80P",
+					"installmentType": "PHONE",
+					"downPaymentPercent": 0,
+					"balancedAmount": 719.99,
+					"amountFinanced": 719.99,
+					"totalSalePrice": 719.99,
+					"contractSystem": "OPTICAL",
+					"prepaidFinanceCharge": 0,
+					"downPayment": 0,
+					"financeCharge": 0,
+					"contractLength": 30
+				},
+				"productType": "HARDGOOD",
+				"status": "CANCELED",
+				"groupReferences": {
+					"groupReference": ["GROUP_01", "GROUP_02"]
+				}
+			}, {
+				"quantity": 1,
+				"displayName": "AT&T Mobile Insurance",
+				"payments": {
+					"payment": [{
+							"paymentOptionReference": "PAYMENT_OPTION_01"
+						}
+					]
+				},
+				"billingCode": "WPINS",
+				"sequence": 4,
+				"productSKU": "NOT_AVAILABLE",
+				"productCode": "prod1040075",
+				"systemName": "Wireless Phone Insurance",
+				"price": {
+					"currencyType": "USD",
+					"amount": 8.99,
+					"priceType": "RC"
+				},
+				"supplyChainDetail": {},
+				"action": "ADD",
+				"id": "111929000342WPINS",
+				"productType": "OPTIONAL_FEATURE",
+				"groupReferences": {
+					"groupReference": ["GROUP_01"]
+				}
+			}, {
+				"quantity": 1,
+				"displayName": "Block mobile purchases charged to your AT&T account",
+				"payments": {
+					"payment": [{
+							"paymentOptionReference": "PAYMENT_OPTION_01"
+						}
+					]
+				},
+				"billingCode": "PB01",
+				"sequence": 5,
+				"productSKU": "NOT_AVAILABLE",
+				"productCode": "prod7530238",
+				"systemName": "PB01",
+				"price": {
+					"currencyType": "USD",
+					"amount": 0,
+					"priceType": "RC"
+				},
+				"supplyChainDetail": {},
+				"action": "ADD",
+				"id": "111929000346PB01",
+				"productType": "OPTIONAL_FEATURE",
+				"groupReferences": {
+					"groupReference": ["GROUP_01"]
+				}
+			}, {
+				"quantity": 1,
+				"displayName": "Travel at Pay-per-use rate",
+				"payments": {
+					"payment": [{
+							"paymentOptionReference": "PAYMENT_OPTION_01"
+						}
+					]
+				},
+				"billingCode": "IRXP",
+				"sequence": 6,
+				"productSKU": "NOT_AVAILABLE",
+				"productCode": "prod3480237",
+				"systemName": "System X Feature",
+				"price": {
+					"currencyType": "USD",
+					"amount": 0,
+					"priceType": "RC"
+				},
+				"supplyChainDetail": {},
+				"action": "ADD",
+				"id": "111929000347IRXP",
+				"productType": "OPTIONAL_FEATURE",
+				"groupReferences": {
+					"groupReference": ["GROUP_01"]
+				}
+			}, {
+				"quantity": 1,
+				"displayName": "UpgradeFee",
+				"payments": {
+					"payment": [{
+							"paymentOptionReference": "PAYMENT_OPTION_01"
+						}
+					]
+				},
+				"billingCode": "NOT_AVAILABLE",
+				"sequence": 7,
+				"productSKU": "NOT_AVAILABLE",
+				"productCode": "NOT_AVAILABLE",
+				"systemName": "UPGRADE_FEE",
+				"price": {
+					"currencyType": "USD",
+					"amount": 0,
+					"priceType": "NRC"
+				},
+				"supplyChainDetail": {},
+				"action": "ADD",
+				"id": "losg316590095UPG",
+				"productType": "MISC_CHARGE",
+				"groupReferences": {
+					"groupReference": ["GROUP_01"]
+				}
+			}, {
+				"quantity": 1,
+				"displayName": "Access for Smartphone 4G LTE w/ VVM",
+				"payments": {},
+				"billingCode": "SDFNSPVL",
+				"sequence": 8,
+				"productSKU": "NOT_AVAILABLE",
+				"productCode": "NOT_AVAILABLE",
+				"systemName": "Access for Smartphone 4G LTE w/ VVM",
+				"price": {
+					"amount": 0
+				},
+				"supplyChainDetail": {},
+				"action": "NO_CHANGE",
+				"id": "losg3165900952510300008REMOVE",
+				"productType": "OPTIONAL_FEATURE",
+				"groupReferences": {
+					"groupReference": ["GROUP_01"]
+				}
+			}, {
+				"characteristics": {
+					"commonCharacteristics": {},
+					"addOnSolutionCharacterstics": {},
+					"internetLineItemCharacteristics": {},
+					"voipLineItemCharacteristics": {},
+					"wirelessLineItemCharacteristics": {
+						"attDynamicTrafficManager": {},
+						"offerType": "P",
+						"nciEligibleIndicator": true,
+						"packetDataProtocol": {},
+						"tradeInDetail": {}
+					}
+				},
+				"quantity": 1,
+				"displayName": "Access for Smartphone 4G LTE w/ VVM",
+				"payments": {},
+				"billingCode": "SDFNSPVL",
+				"sequence": 9,
+				"productSKU": "NOT_AVAILABLE",
+				"productCode": "NOT_AVAILABLE",
+				"systemName": "Access for Smartphone 4G LTE w/ VVM",
+				"price": {
+					"amount": 0
+				},
+				"supplyChainDetail": {},
+				"action": "NO_CHANGE",
+				"id": "losg3165900952510300009ADD",
+				"productType": "OPTIONAL_FEATURE",
+				"groupReferences": {
+					"groupReference": ["GROUP_01"]
+				}
+			}, {
+				"quantity": 1,
+				"displayName": "ShippingFee",
+				"payments": {
+					"payment": [{
+							"paymentOptionReference": "PAYMENT_OPTION_01"
+						}
+					]
+				},
+				"billingCode": "NOT_AVAILABLE",
+				"sequence": 10,
+				"productSKU": "88879",
+				"productCode": "NOT_AVAILABLE",
+				"systemName": "SHIPPING_FEE",
+				"price": {
+					"currencyType": "USD",
+					"amount": 0,
+					"total": 0,
+					"taxDetail": {
+						"amount": 0,
+						"lineItemTaxes": [{
+								"taxLineId": 1,
+								"skuSpecific": "false",
+								"taxRate": 0,
+								"jurisdictionLevel": "Sales Tax",
+								"taxable": "X",
+								"jurisdictionName": "Sales Tax",
+								"printName": "Sales Tax",
+								"memo": "SALESTAX",
+								"taxAmount": 0,
+								"taxCode": "SALESTAX",
+								"taxDate": 1497934800000
+							}
+						],
+						"preCalculatedTax": {
+							"shipFromTaxAreaId": 431570560,
+							"taxableUnitPrice": 0,
+							"taxableMSRP": 14.95,
+							"taxableCost": 0,
+							"shipToTaxAreaId": 141791750,
+							"orderTaxAreaId": 390950000
+						}
+					},
+					"msrp": 0,
+					"priceType": "DUE_TODAY"
+				},
+				"supplyChainDetail": {},
+				"action": "ADD",
+				"id": "lobi304300091ShippingFee",
+				"productType": "MISC_CHARGE",
+				"groupReferences": {
+					"groupReference": ["GROUP_01"]
+				}
+			}
+		]
+	},
+	"approverNameReferences": {},
+	"shippingDetails": {
+		"shippingDetail": [{
+				"shipmentCommitDate": {},
+				"sequence": 1,
+				"nameReference": "NAME_03",
+				"shippingCode": "AA1",
+				"addressReference": "ADDRESS_03",
+				"shippingPriceCode": "88879",
+				"shippingMethod": "Overnight",
+				"id": "SHIPPING_INFO_01"
+			}
+		]
+	},
+	"paymentOptions": {
+		"paymentOption": [{
+				"capmConfig": {},
+				"paymentMethod": {
+					"creditCard": {
+						"paymentToken": {},
+						"saveProfile": {},
+						"paymentConfirmationDetail": {},
+						"preAuthDetail": {}
+					}
+				},
+				"id": "pga33605082"
+			}, {
+				"sequence": 1,
+				"capmConfig": {
+					"merchantId": "ORDERGWCon",
+					"sourceSystem": "HARDROCK",
+					"sourceUser": "HARDROCK",
+					"sourceLocation": "CS"
+				},
+				"paymentMethod": {
+					"capm": {
+						"creditCardLast4Digits": "6098",
+						"zipCode": "61914",
+						"totalAmount": 45,
+						"giftCardIndicator": false,
+						"paymentProfileAction": "C_ORDER",
+						"saveProfile": {},
+						"paymentConfirmationDetail": {},
+						"preAuthDetail": {
+							"authorizationDate": 1497934800000,
+							"authorizationKey": "44785316",
+							"authorizationCode": "OL_DF170620H99565",
+							"authorizationExpirationDate": 1500354000000,
+							"addressVerificationSystemCode": "NA"
+						},
+						"creditCardType": "MASTERCARD"
+					}
+				},
+				"id": "PAYMENT_OPTION_01"
+			}
+		]
+	},
+	"requestId": "ae6096eb-01bb-4e90-93ab-566f91460580",
+	"encryptedIndicator": true,
+	"currentDateTime": 1498076433514,
+	"commonOrderIndicator": true,
+	"orderSource": {
+		"zip": "61554-61555+61558",
+		"browserId": "A002803173072",
+		"clientType": "DESKTOP",
+		"application": "MYATTSALES",
+		"city": "PEKIN",
+		"countryCode": "US",
+		"clientIP": "2601:247:300:bd04:e075:4a4d:bebb:e15b",
+		"channel": "DE-MOBILITY",
+		"county": "TAZEWELL",
+		"locale": "EN_US",
+		"additionalDetails": {
+			"additionalDetail": [{
+					"code": "SENDER",
+					"type": "Order",
+					"value": "HARDROCK"
+				}
+			]
+		},
+		"region": "IL"
+	},
+	"salesCode": "NOT_AVAILABLE",
+	"salesLocation": "NOT_AVAILABLE",
+	"additionalDetails": {
+		"additionalDetail": [{
+				"code": "NEGATIVE_ADDRESS_CHECK|781",
+				"type": "FRAUD_RULE",
+				"value": "1|PASSED||1497989539867"
+			}, {
+				"code": "NEGATIVE_CC_CHECK|782",
+				"type": "FRAUD_RULE",
+				"value": "2|PASSED||1497989539867"
+			}, {
+				"code": "NEGATIVE_EMAIL_CHECK|783",
+				"type": "FRAUD_RULE",
+				"value": "3|PASSED||1497989539867"
+			}, {
+				"code": "NEGATIVE_SSN_CHECK|784",
+				"type": "FRAUD_RULE",
+				"value": "4|PASSED||1497989539867"
+			}, {
+				"code": "EXCLUDED_FAN_CHECK|1126",
+				"type": "FRAUD_RULE",
+				"value": "5|PASSED||1497989539867"
+			}, {
+				"code": "ORDER_VELOCITY_BROWSERID_CHECK|786",
+				"type": "FRAUD_RULE",
+				"value": "7|PASSED||1497989539867"
+			}, {
+				"code": "ORDER_VELOCITY_EMAIL_CHECK|787",
+				"type": "FRAUD_RULE",
+				"value": "8|PASSED||1497989539867"
+			}, {
+				"code": "VELOCITY_CTN_CHECK|788",
+				"type": "FRAUD_RULE",
+				"value": "9|PASSED||1497989539867"
+			}, {
+				"code": "VELOCITY_SSN_CHECK|789",
+				"type": "FRAUD_RULE",
+				"value": "10|PASSED||1497989539867"
+			}, {
+				"code": "VELOCITY_CTN_CHECK|841",
+				"type": "FRAUD_RULE",
+				"value": "11|PASSED||1497989539867"
+			}, {
+				"code": "USERDEFINED_CITY_STATE_CHECK|982",
+				"type": "FRAUD_RULE",
+				"value": "56|PASSED||1497989539867"
+			}, {
+				"code": "USERDEFINED_SKU_CHECK|1503",
+				"type": "FRAUD_RULE",
+				"value": "48|PASSED||1497989539867"
+			}, {
+				"code": "SMS_CONTACT_NUMBER",
+				"type": "CONT",
+				"value": "2174540816"
+			}, {
+				"code": "USERDEFINED_SKU_CHECK|1664",
+				"type": "FRAUD_RULE",
+				"value": "62|PASSED||1497989539867"
+			}, {
+				"code": "USERDEFINED_SKU_CHECK|1483",
+				"type": "FRAUD_RULE",
+				"value": "43|PASSED||1497989539867"
+			}, {
+				"code": "USERDEFINED_VERID_STATE_DOMAIN_CHECK|1364",
+				"type": "FRAUD_RULE",
+				"value": "34|PASSED||1497989539867"
+			}, {
+				"code": "USERDEFINED_SKU_CHECK|1183",
+				"type": "FRAUD_RULE",
+				"value": "47|PASSED||1497989539867"
+			}, {
+				"code": "COMPARISON_SHIP_CC_ZIP_CHECK|923",
+				"type": "FRAUD_RULE",
+				"value": "44|PASSED||1497989539867"
+			}, {
+				"code": "ACCOUNT_CREATION_DATE_CHECK|790",
+				"type": "FRAUD_RULE",
+				"value": "12|PASSED||1497989539867"
+			}, {
+				"code": "COMPARISON_BILL_SHIP_ZIP_CHECK|1203",
+				"type": "FRAUD_RULE",
+				"value": "32|FAILED||1497989539867"
+			}, {
+				"code": "ORDER_VELOCITY_ADDRESS_CHECK|802",
+				"type": "FRAUD_RULE",
+				"value": "26|PASSED||1497989539867"
+			}, {
+				"code": "EXCLUDED_FAN_CHECK|1127",
+				"type": "FRAUD_RULE",
+				"value": "101|PASSED||1497989539867"
+			}, {
+				"code": "BILLING_ADDRESS_CHANGE_DATE_CHECK|791",
+				"type": "FRAUD_RULE",
+				"value": "13|PASSED||1497989539867"
+			}, {
+				"code": "COMPARISON_BILL_SHIP_CHECK|1223",
+				"type": "FRAUD_RULE",
+				"value": "89|PASSED||1497989539867"
+			}
+		]
+	},
+	"version": 4,
+	"oceOrderNumber": "A106413656",
+	"externalOrderSource": "EST",
+	"falloutHistory": {
+		"fallouts": [{}
+		]
+	},
+	"promotions": {
+		"promotion": [{
+				"promotionName": "50% off LG G6 or V20 via monthly bill credits.",
+				"promotionType": "PROMOTION",
+				"qualifyingServiceDetails": [{
+						"qualifyingAttributeDetails": [{
+								"qualificationAttributeValue": "2174540816",
+								"id": "1",
+								"qualificationAttributeName": "CTN"
+							}, {
+								"qualificationAttributeValue": "false",
+								"id": "2",
+								"qualificationAttributeName": "switchIndicator"
+							}, {
+								"qualificationAttributeValue": "true",
+								"id": "3",
+								"qualificationAttributeName": "creditedLine"
+							}, {
+								"qualificationAttributeValue": "264757717",
+								"id": "4",
+								"qualificationAttributeName": "BAN"
+							}
+						],
+						"id": "1",
+						"qualificationServiceType": "wireless"
+					}
+				],
+				"id": "PROMOTION_01",
+				"additionalDetails": {
+					"additionalDetail": [{
+							"code": "Type",
+							"type": "Order",
+							"value": "NEXTPROMO"
+						}
+					]
+				},
+				"promotionId": "685574255"
+			}
+		]
+	},
+	"names": {
+		"name": [{
+				"firstName": "D",
+				"lastName": "GUNA",
+				"additionalContactPhones": [{
+						"phoneNumber": "1234567890",
+						"contactPhoneType": "HOME_PHONE",
+						"consentDetails": {}
+					}
+				],
+				"primaryContactPhones": [{
+						"phoneNumber": "1234567890",
+						"contactPhoneType": "HOME_PHONE",
+						"consentDetails": {}
+					}
+				],
+				"id": "NAME_01"
+			}, {
+				"firstName": "D",
+				"lastName": "GUNA",
+				"additionalContactPhones": [{
+						"phoneNumber": "1234567890",
+						"contactPhoneType": "HOME_PHONE",
+						"consentDetails": {}
+					}
+				],
+				"primaryContactPhones": [{
+						"phoneNumber": "1234567890",
+						"contactPhoneType": "HOME_PHONE",
+						"consentDetails": {}
+					}
+				],
+				"id": "NAME_02"
+			}, {
+				"firstName": "DONNA D",
+				"lastName": "GUNA",
+				"additionalContactPhones": [{
+						"phoneNumber": "1234567890",
+						"contactPhoneType": "HOME_PHONE",
+						"consentDetails": {}
+					}
+				],
+				"primaryContactPhones": [{
+						"phoneNumber": "1234567890",
+						"contactPhoneType": "HOME_PHONE",
+						"consentDetails": {}
+					}
+				],
+				"id": "NAME_03"
+			}
+		]
+	},
+	"createdDate": 1497988707000,
+	"dueAmount": {
+		"amount": 0,
+		"total": 45,
+		"taxDetail": {
+			"amount": 45
+		},
+		"priceType": "DUE_TODAY"
+	},
+	"orderContact": {
+		"nameReference": "NAME_01",
+		"primaryEmailAddress": "abc@YAHOO.COM"
+	},
+	"specialInstructions": "{}",
+	"lockedIndicator": false,
+	"bulkOrderWorkRequestNumber": "0621 BCS",
+	"productGroups": {
+		"group": [{
+				"sequence": 1,
+				"characteristics": {
+					"losgCharacteristics": {
+						"subscriberNameReference": "NAME_01",
+						"dealerCode": "K3K6I",
+						"losgStatus": {
+							"subStatus": "FRAUD_REVIEW",
+							"status": "CANCELED"
+						},
+						"wirelessLOSCharacteristics": {
+							"connectedCarDetail": {},
+							"billingSystemId": "T",
+							"manageCallListReferences": {},
+							"mobileNumber": "2174540816",
+							"upgradeDetail": {},
+							"upgradeQualificationDetails": [{
+									"deviceType": "N",
+									"policyCategory": "C",
+									"qualificationLevel": "29011",
+									"upgradeFeeWaivedIndicator": true,
+									"approvalNumber": "0",
+									"minimumCommitment": 30,
+									"maximumMRC": 0,
+									"priceList": "C",
+									"qualificationType": "B",
+									"discountUOM": "A",
+									"newAEUCheckerIndicator": true,
+									"minimumMRC": 0,
+									"upgradeEligibilityDate": 1497989467000,
+									"qualificationMessage": "Congratulations! Your line is upgrade eligible. Before upgrading your phone, be sure to back it up to make it easier to transfer content to your new phone. Go to Settings on your phone to learn how.",
+									"offerCategory": "NE",
+									"contractExtended": "SUCCESS"
+								}
+							]
+						},
+						"primaryIndicator": false,
+						"productCategory": "WIRELESS",
+						"installationInstructions": {},
+						"priceCode": "DCT",
+						"losgType": "UP",
+						"commonLOSCharacteristics": {},
+						"serviceLocationReference": "ADDRESS_02",
+						"internetLOSCharacteristics": {},
+						"numberPortDetail": {
+							"disconnectAcknowledged": {}
+						},
+						"termsAndConditionReferences": {
+							"termsAndConditionReference": ["TC_01", "TC_02"]
+						},
+						"voipLOSCharacteristics": {},
+						"direcTVLOSCharacteristics": {},
+						"automationEnabledIndicator": false,
+						"accountReference": "ACCOUNT_01",
+						"subMarket": "DCT",
+						"fulfillmentMethod": "DF",
+						"termsAndConditionAccepted": {},
+						"losgReferenceId": "losg316590095",
+						"shippingDetailReference": "SHIPPING_INFO_01",
+						"market": "ILL",
+						"sequence": 1,
+						"conflictingServiceInfoReferences": {},
+						"compensation": {}
+					}
+				},
+				"name": "UPGRADE_WIRELESS",
+				"id": "GROUP_01",
+				"additionalDetails": {
+					"additionalDetail": [{
+							"code": "AUTOMATION_FLAG",
+							"type": "Order",
+							"value": "BSU"
+						}
+					]
+				},
+				"type": "LINE_OF_SERVICE"
+			}, {
+				"sequence": 2,
+				"characteristics": {
+					"packageCharacteristics": {
+						"code": "233800002",
+						"description": "PACKAGE",
+						"category": "PACKAGE"
+					}
+				},
+				"name": "PROMO_PACKAGE",
+				"id": "GROUP_02",
+				"type": "PACKAGE"
+			}
+		]
+	},
+	"accounts": {
+		"account": [{
+				"billingDeliveryPreference": "PAPERLESS",
+				"accountSubCategory": "EXISTING",
+				"accountCategory": "MOBILITY_ACCOUNT",
+				"accountSubType": "R",
+				"bankingPartner": {},
+				"liabilityType": "INDIVIDUAL",
+				"b2bReference": "B2B_01",
+				"priceCode": "DCT",
+				"spokenLanguagePreference": "ENGLISH",
+				"creditCheck": {},
+				"contractAcceptance": {},
+				"id": "ACCOUNT_01",
+				"electronicLetterOfAuthorization": {},
+				"creditAlert": {},
+				"subMarket": "DCT",
+				"accountType": "INDIVIDUAL",
+				"billingAccountNumber": "264757717",
+				"billingDetail": [{
+						"accountStatus": "ACTIVE",
+						"lastUpdated": 1191438000000,
+						"nameReference": "NAME_02",
+						"addressReference": "ADDRESS_01",
+						"authentication": {
+							"driversLicense": {},
+							"securityVerification": {},
+							"employerDetail": {},
+							"stateId": {}
+						}
+					}
+				],
+				"enterpriseType": "IRU",
+				"provisioningSystems": {},
+				"market": "ILL",
+				"sequence": 1,
+				"paymentArrangement": "POSTPAID",
+				"langId": "ENGLISH",
+				"unifiedAccount": {
+					"convergeOrderIndicator": false,
+					"convergeValidationIndicator": false,
+					"premierIndicator": false
+				},
+				"effectiveDate": 772866000000
+			}
+		]
+	},
+	"summaryCreatedIndicator": false
+}
