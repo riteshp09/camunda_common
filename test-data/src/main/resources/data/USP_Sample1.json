@@ -1,0 +1,1061 @@
+{
+		"customerOrderNumber": "21-301100667790208",
+		"orderType": "CREATE",
+		"orderStatus": {
+			"status": "RECEIVED"
+		},
+		"createdDate": 1494027945142,
+		"submittedDate": 1494031190010,
+		"productGroups": {
+			"group": [{
+					"id": "GROUP_01",
+					"name": "UPGRADE_WIRELESS",
+					"type": "LINE_OF_SERVICE",
+					"sequence": 1,
+					"characteristics": {
+						"losgCharacteristics": {
+							"losgReferenceId": "losg398542318",
+							"sequence": 1,
+							"losgType": "UP",
+							"productCategory": "WIRELESS",
+							"primaryIndicator": false,
+							"dealerCode": "K3K6I",
+							"market": "BOS",
+							"subMarket": "BRS",
+							"priceCode": "BRS",
+							"accountReference": "ACCOUNT_01",
+							"serviceLocationReference": "ADDRESS_02",
+							"subscriberNameReference": "NAME_01",
+							"wirelessLOSCharacteristics": {
+								"mobileNumber": "5085425723",
+								"upgradeQualificationDetails": [{
+										"contractExtended": "NOT_REQUIRED",
+										"approvalNumber": "0",
+										"newAEUCheckerIndicator": true
+									}
+								],
+								"billingSystemId": "T"
+							},
+							"fulfillmentMethod": "DF",
+							"shippingDetailReference": "SHIPPING_INFO_01"
+						}
+					}
+				}, {
+					"id": "GROUP_02",
+					"name": "SHARED_PLAN",
+					"type": "SHARED_PLAN",
+					"sequence": 2,
+					"characteristics": {
+						"sharedPlanCharacteristics": {
+							"planType": "FAMILY_TALK"
+						}
+					}
+				}, {
+					"id": "GROUP_03",
+					"name": "UPGRADE_WIRELESS",
+					"type": "LINE_OF_SERVICE",
+					"sequence": 3,
+					"characteristics": {
+						"losgCharacteristics": {
+							"losgReferenceId": "losg398542319",
+							"sequence": 2,
+							"losgType": "UP",
+							"productCategory": "WIRELESS",
+							"primaryIndicator": false,
+							"dealerCode": "K3K6I",
+							"market": "BOS",
+							"subMarket": "BRS",
+							"priceCode": "BRS",
+							"accountReference": "ACCOUNT_01",
+							"serviceLocationReference": "ADDRESS_02",
+							"subscriberNameReference": "NAME_01",
+							"wirelessLOSCharacteristics": {
+								"mobileNumber": "5085425724",
+								"upgradeQualificationDetails": [{
+										"contractExtended": "PENDING",
+										"approvalNumber": "0",
+										"newAEUCheckerIndicator": true
+									}
+								],
+								"billingSystemId": "T"
+							},
+							"fulfillmentMethod": "DF",
+							"shippingDetailReference": "SHIPPING_INFO_01"
+						}
+					}
+				}, {
+					"id": "GROUP_04",
+					"name": "PROMO_PACKAGE",
+					"type": "PACKAGE",
+					"sequence": 4,
+					"characteristics": {
+						"packageCharacteristics": {
+							"category": "PACKAGE",
+							"code": "440500018",
+							"description": "PACKAGE"
+						}
+					}
+				}
+			]
+		},
+		"lineItems": {
+			"lineItem": [{
+					"id": "11707000541584514",
+					"sequence": 1,
+					"productCode": "prod8600220",
+					"productSKU": "84514",
+					"billingCode": "NOT_AVAILABLE",
+					"productType": "HARDGOOD",
+					"displayName": "Kit_guide_eCom_Phone_13.0",
+					"systemName": "COL QSG GET STARTED CONSUMER SLIP",
+					"action": "ADD",
+					"price": {
+						"amount": 0.00,
+						"currencyType": "USD",
+						"msrp": 0.00,
+						"priceType": "DueToday",
+						"taxDetail": {
+							"amount": 0.00,
+							"preCalculatedTax": {
+								"taxableCost": 0.0,
+								"taxableMSRP": 0.0,
+								"taxableUnitPrice": 0.0,
+								"orderTaxAreaId": 390950000,
+								"shipFromTaxAreaId": 431570560,
+								"shipToTaxAreaId": 220053000
+							},
+							"lineItemTaxes": [{
+									"taxLineId": 1,
+									"taxCode": "SALESTAX",
+									"memo": "SALESTAX",
+									"printName": "Sales Tax",
+									"taxable": "X",
+									"skuSpecific": "false",
+									"jurisdictionLevel": "Sales Tax",
+									"jurisdictionName": "Sales Tax",
+									"taxAmount": 0.00,
+									"taxRate": 0.0,
+									"taxDate": "2017-05-05"
+								}
+							]
+						},
+						"total": 0.00
+					},
+					"locationId": "K006",
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": ["GROUP_01"]
+					},
+					"hardGood": {
+						"hardGoodType": "COLLATERAL",
+						"shippedHotIndicator": true
+					}
+				}, {
+					"id": "11707000541573023",
+					"sequence": 2,
+					"productCode": "prod8600220",
+					"productSKU": "73023",
+					"billingCode": "NOT_AVAILABLE",
+					"productType": "HARDGOOD",
+					"displayName": "Embedded Nano SIM",
+					"systemName": "Embedded SIM",
+					"action": "ADD",
+					"price": {
+						"amount": 0.00,
+						"currencyType": "USD",
+						"msrp": 0.00,
+						"priceType": "DueToday",
+						"taxDetail": {
+							"amount": 0.00,
+							"preCalculatedTax": {
+								"taxableCost": 0.0,
+								"taxableMSRP": 0.0,
+								"taxableUnitPrice": 0.0,
+								"orderTaxAreaId": 390950000,
+								"shipFromTaxAreaId": 431570560,
+								"shipToTaxAreaId": 220053000
+							},
+							"lineItemTaxes": [{
+									"taxLineId": 1,
+									"taxCode": "SALESTAX",
+									"memo": "SALESTAX",
+									"printName": "Sales Tax",
+									"taxable": "X",
+									"skuSpecific": "false",
+									"jurisdictionLevel": "Sales Tax",
+									"jurisdictionName": "Sales Tax",
+									"taxAmount": 0.00,
+									"taxRate": 0.0,
+									"taxDate": "2017-05-05"
+								}
+							]
+						},
+						"total": 0.00
+					},
+					"locationId": "K006",
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": ["GROUP_01"]
+					},
+					"hardGood": {
+						"hardGoodType": "SIM"
+					}
+				}, {
+					"id": "117070005415",
+					"sequence": 3,
+					"productCode": "prod8600220",
+					"productSKU": "6359A",
+					"billingCode": "NOT_AVAILABLE",
+					"productType": "HARDGOOD",
+					"displayName": "Samsung Galaxy J3 (2016) - White",
+					"systemName": "PHO SAM J3 J320A WHT",
+					"action": "ADD",
+					"price": {
+						"amount": 209.99,
+						"currencyType": "USD",
+						"msrp": 209.99,
+						"priceType": "DueToday",
+						"taxDetail": {
+							"amount": 13.13,
+							"preCalculatedTax": {
+								"taxableCost": 139.0,
+								"taxableMSRP": 209.99,
+								"taxableUnitPrice": 209.99,
+								"orderTaxAreaId": 390950000,
+								"shipFromTaxAreaId": 431570560,
+								"shipToTaxAreaId": 220053000
+							},
+							"lineItemTaxes": [{
+									"taxLineId": 1,
+									"taxCode": "SALESTAX",
+									"memo": "SALESTAX",
+									"printName": "Sales Tax",
+									"taxable": "X",
+									"skuSpecific": "false",
+									"jurisdictionLevel": "Sales Tax",
+									"jurisdictionName": "Sales Tax",
+									"taxAmount": 13.13,
+									"taxRate": 0.0625,
+									"taxDate": "2017-05-05"
+								}
+							]
+						},
+						"total": 223.12
+					},
+					"locationId": "K006",
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"contractDetails": {
+						"totalSalePrice": 0.00,
+						"contractType": "NOCOMMIT",
+						"contractSystem": "OPTICAL",
+						"contractSent": "N",
+						"contractLength": 0
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": ["GROUP_01", "GROUP_04"]
+					},
+					"hardGood": {
+						"byodIndicator": false,
+						"hardGoodType": "DEVICE",
+						"productImageUrl": "https://www.att.com/catalog/en/skus/images/samsung-galaxy%20j3%202016-white-100x160.jpg",
+						"make": "Samsung",
+						"model": "Galaxy J3 2016",
+						"shipmentCommitDate": {
+							"fromDate": 1494226800000,
+							"toDate": 1494399600000
+						},
+						"wirelessHardGoodCharacteristics": {
+							"techType": "UMTS",
+							"equipmentType": "EDGE",
+							"imeiType": "P9",
+							"phoneType": "ANY_PHONE"
+						}
+					}
+				}, {
+					"id": "117070005461SMTLTE1",
+					"sequence": 4,
+					"productCode": "prod5290275",
+					"productSKU": "NOT_AVAILABLE",
+					"billingCode": "SMTLTE1",
+					"productType": "OPTIONAL_FEATURE",
+					"displayName": "DataPlus 300 MB",
+					"systemName": "DataPlus 300MB for Smartphone 4G LTE",
+					"action": "ADD",
+					"price": {
+						"amount": 20.00,
+						"currencyType": "USD",
+						"priceType": "RC"
+					},
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": ["GROUP_01"]
+					}
+				}, {
+					"id": "117070005462IRXP",
+					"sequence": 5,
+					"productCode": "prod3480237",
+					"productSKU": "NOT_AVAILABLE",
+					"billingCode": "IRXP",
+					"productType": "OPTIONAL_FEATURE",
+					"displayName": "Travel at Pay-per-use rate",
+					"systemName": "System X Feature",
+					"action": "ADD",
+					"price": {
+						"amount": 0.00,
+						"currencyType": "USD",
+						"priceType": "RC"
+					},
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": ["GROUP_01"]
+					}
+				}, {
+					"id": "117070005463ILWCV2",
+					"sequence": 6,
+					"productCode": "prod8191058",
+					"productSKU": "NOT_AVAILABLE",
+					"billingCode": "ILWCV2",
+					"productType": "OPTIONAL_FEATURE",
+					"displayName": "World Connect Value",
+					"systemName": "WORLD CONNECT VALUE",
+					"action": "ADD",
+					"price": {
+						"amount": 5.00,
+						"currencyType": "USD",
+						"priceType": "RC"
+					},
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": ["GROUP_01"]
+					}
+				}, {
+					"id": "117070005460MSG4",
+					"sequence": 7,
+					"productCode": "prod1140037",
+					"productSKU": "NOT_AVAILABLE",
+					"billingCode": "MSG4",
+					"productType": "OPTIONAL_FEATURE",
+					"displayName": "Family Messaging Unlimited",
+					"systemName": "Family Messaging Unlimited",
+					"action": "ADD",
+					"price": {
+						"amount": 30.00,
+						"currencyType": "USD",
+						"priceType": "RC"
+					},
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": ["GROUP_01", "GROUP_02"]
+					}
+				}, {
+					"id": "losg398542318UPG",
+					"sequence": 8,
+					"productCode": "NOT_AVAILABLE",
+					"productSKU": "NOT_AVAILABLE",
+					"billingCode": "NOT_AVAILABLE",
+					"productType": "MISC_CHARGE",
+					"displayName": "UpgradeFee",
+					"systemName": "UPGRADE_FEE",
+					"action": "ADD",
+					"price": {
+						"amount": 0.00,
+						"currencyType": "USD",
+						"priceType": "NRC"
+					},
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": ["GROUP_01"]
+					}
+				}, {
+					"id": "losg3985423183083110085REMOVE",
+					"sequence": 9,
+					"productCode": "NOT_AVAILABLE",
+					"productSKU": "NOT_AVAILABLE",
+					"billingCode": "MSGFTM2AM",
+					"productType": "OPTIONAL_FEATURE",
+					"displayName": "Family Messaging Unlimited with Mobile to Any Mobile Calling",
+					"systemName": "Family Messaging Unlimited with Mobile to Any Mobile Calling",
+					"action": "REMOVE",
+					"price": {
+						"amount": 0.00
+					},
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": ["GROUP_01", "GROUP_02"]
+					}
+				}, {
+					"id": "11707000548884514",
+					"sequence": 10,
+					"productCode": "prod8600220",
+					"productSKU": "84514",
+					"billingCode": "NOT_AVAILABLE",
+					"productType": "HARDGOOD",
+					"displayName": "Kit_guide_eCom_Phone_13.0",
+					"systemName": "COL QSG GET STARTED CONSUMER SLIP",
+					"action": "ADD",
+					"price": {
+						"amount": 0.00,
+						"currencyType": "USD",
+						"msrp": 0.00,
+						"priceType": "DueToday",
+						"taxDetail": {
+							"amount": 0.00,
+							"preCalculatedTax": {
+								"taxableCost": 0.0,
+								"taxableMSRP": 0.0,
+								"taxableUnitPrice": 0.0,
+								"orderTaxAreaId": 390950000,
+								"shipFromTaxAreaId": 431570560,
+								"shipToTaxAreaId": 220053000
+							},
+							"lineItemTaxes": [{
+									"taxLineId": 1,
+									"taxCode": "SALESTAX",
+									"memo": "SALESTAX",
+									"printName": "Sales Tax",
+									"taxable": "X",
+									"skuSpecific": "false",
+									"jurisdictionLevel": "Sales Tax",
+									"jurisdictionName": "Sales Tax",
+									"taxAmount": 0.00,
+									"taxRate": 0.0,
+									"taxDate": "2017-05-05"
+								}
+							]
+						},
+						"total": 0.00
+					},
+					"locationId": "K006",
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": ["GROUP_03"]
+					},
+					"hardGood": {
+						"hardGoodType": "COLLATERAL",
+						"shippedHotIndicator": true
+					}
+				}, {
+					"id": "11707000548873023",
+					"sequence": 11,
+					"productCode": "prod8600220",
+					"productSKU": "73023",
+					"billingCode": "NOT_AVAILABLE",
+					"productType": "HARDGOOD",
+					"displayName": "Embedded Nano SIM",
+					"systemName": "Embedded SIM",
+					"action": "ADD",
+					"price": {
+						"amount": 0.00,
+						"currencyType": "USD",
+						"msrp": 0.00,
+						"priceType": "DueToday",
+						"taxDetail": {
+							"amount": 0.00,
+							"preCalculatedTax": {
+								"taxableCost": 0.0,
+								"taxableMSRP": 0.0,
+								"taxableUnitPrice": 0.0,
+								"orderTaxAreaId": 390950000,
+								"shipFromTaxAreaId": 431570560,
+								"shipToTaxAreaId": 220053000
+							},
+							"lineItemTaxes": [{
+									"taxLineId": 1,
+									"taxCode": "SALESTAX",
+									"memo": "SALESTAX",
+									"printName": "Sales Tax",
+									"taxable": "X",
+									"skuSpecific": "false",
+									"jurisdictionLevel": "Sales Tax",
+									"jurisdictionName": "Sales Tax",
+									"taxAmount": 0.00,
+									"taxRate": 0.0,
+									"taxDate": "2017-05-05"
+								}
+							]
+						},
+						"total": 0.00
+					},
+					"locationId": "K006",
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": ["GROUP_03"]
+					},
+					"hardGood": {
+						"hardGoodType": "SIM"
+					}
+				}, {
+					"id": "117070005488",
+					"sequence": 12,
+					"productCode": "prod8600220",
+					"productSKU": "6359A",
+					"billingCode": "NOT_AVAILABLE",
+					"productType": "HARDGOOD",
+					"displayName": "Samsung Galaxy J3 (2016) - White",
+					"systemName": "PHO SAM J3 J320A WHT",
+					"action": "ADD",
+					"price": {
+						"amount": 209.99,
+						"currencyType": "USD",
+						"msrp": 209.99,
+						"priceType": "DueToday",
+						"taxDetail": {
+							"amount": 13.12,
+							"preCalculatedTax": {
+								"taxableCost": 139.0,
+								"taxableMSRP": 209.99,
+								"taxableUnitPrice": 209.99,
+								"orderTaxAreaId": 390950000,
+								"shipFromTaxAreaId": 431570560,
+								"shipToTaxAreaId": 220053000
+							},
+							"lineItemTaxes": [{
+									"taxLineId": 1,
+									"taxCode": "SALESTAX",
+									"memo": "SALESTAX",
+									"printName": "Sales Tax",
+									"taxable": "X",
+									"skuSpecific": "false",
+									"jurisdictionLevel": "Sales Tax",
+									"jurisdictionName": "Sales Tax",
+									"taxAmount": 13.12,
+									"taxRate": 0.0625,
+									"taxDate": "2017-05-05"
+								}
+							]
+						},
+						"total": 223.11
+					},
+					"locationId": "K006",
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"contractDetails": {
+						"totalSalePrice": 0.00,
+						"contractType": "NOCOMMIT",
+						"contractSystem": "OPTICAL",
+						"contractSent": "N",
+						"contractLength": 0
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": ["GROUP_03", "GROUP_04"]
+					},
+					"hardGood": {
+						"byodIndicator": false,
+						"hardGoodType": "DEVICE",
+						"productImageUrl": "https://www.att.com/catalog/en/skus/images/samsung-galaxy%20j3%202016-white-100x160.jpg",
+						"make": "Samsung",
+						"model": "Galaxy J3 2016",
+						"shipmentCommitDate": {
+							"fromDate": 1494226800000,
+							"toDate": 1494399600000
+						},
+						"wirelessHardGoodCharacteristics": {
+							"techType": "UMTS",
+							"equipmentType": "EDGE",
+							"imeiType": "P9",
+							"phoneType": "ANY_PHONE"
+						}
+					}
+				}, {
+					"id": "117070005515SMTLTE1",
+					"sequence": 13,
+					"productCode": "prod5290275",
+					"productSKU": "NOT_AVAILABLE",
+					"billingCode": "SMTLTE1",
+					"productType": "OPTIONAL_FEATURE",
+					"displayName": "DataPlus 300 MB",
+					"systemName": "DataPlus 300MB for Smartphone 4G LTE",
+					"action": "ADD",
+					"price": {
+						"amount": 20.00,
+						"currencyType": "USD",
+						"priceType": "RC"
+					},
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": ["GROUP_03"]
+					}
+				}, {
+					"id": "117070005516IRXP",
+					"sequence": 14,
+					"productCode": "prod3480237",
+					"productSKU": "NOT_AVAILABLE",
+					"billingCode": "IRXP",
+					"productType": "OPTIONAL_FEATURE",
+					"displayName": "Travel at Pay-per-use rate",
+					"systemName": "System X Feature",
+					"action": "ADD",
+					"price": {
+						"amount": 0.00,
+						"currencyType": "USD",
+						"priceType": "RC"
+					},
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": ["GROUP_03"]
+					}
+				}, {
+					"id": "117070005517ILWCV2",
+					"sequence": 15,
+					"productCode": "prod8191058",
+					"productSKU": "NOT_AVAILABLE",
+					"billingCode": "ILWCV2",
+					"productType": "OPTIONAL_FEATURE",
+					"displayName": "World Connect Value",
+					"systemName": "WORLD CONNECT VALUE",
+					"action": "ADD",
+					"price": {
+						"amount": 5.00,
+						"currencyType": "USD",
+						"priceType": "RC"
+					},
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": ["GROUP_03"]
+					}
+				}, {
+					"id": "117070005464MSG4",
+					"sequence": 16,
+					"productCode": "prod1140037",
+					"productSKU": "NOT_AVAILABLE",
+					"billingCode": "MSG4",
+					"productType": "OPTIONAL_FEATURE",
+					"displayName": "Family Messaging Unlimited",
+					"systemName": "Family Messaging Unlimited",
+					"action": "ADD",
+					"price": {
+						"amount": 30.00,
+						"currencyType": "USD",
+						"priceType": "RC"
+					},
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": ["GROUP_03", "GROUP_02"]
+					}
+				}, {
+					"id": "losg398542319UPG",
+					"sequence": 17,
+					"productCode": "NOT_AVAILABLE",
+					"productSKU": "NOT_AVAILABLE",
+					"billingCode": "NOT_AVAILABLE",
+					"productType": "MISC_CHARGE",
+					"displayName": "UpgradeFee",
+					"systemName": "UPGRADE_FEE",
+					"action": "ADD",
+					"price": {
+						"amount": 0.00,
+						"currencyType": "USD",
+						"priceType": "NRC"
+					},
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": ["GROUP_03"]
+					}
+				}, {
+					"id": "losg3985423193083110086REMOVE",
+					"sequence": 18,
+					"productCode": "NOT_AVAILABLE",
+					"productSKU": "NOT_AVAILABLE",
+					"billingCode": "NWIX2",
+					"productType": "OPTIONAL_FEATURE",
+					"displayName": "Data Opt Out for Non-Smartphones",
+					"systemName": "NWIX2",
+					"action": "REMOVE",
+					"price": {
+						"amount": 0.00
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": ["GROUP_03"]
+					}
+				}, {
+					"id": "lobi369421949ShippingFee",
+					"sequence": 19,
+					"productCode": "NOT_AVAILABLE",
+					"productSKU": "88879",
+					"billingCode": "NOT_AVAILABLE",
+					"productType": "MISC_CHARGE",
+					"displayName": "ShippingFee",
+					"systemName": "SHIPPING_FEE",
+					"action": "ADD",
+					"price": {
+						"amount": 0.00,
+						"currencyType": "USD",
+						"msrp": 0.00,
+						"priceType": "DueToday",
+						"taxDetail": {
+							"amount": 0.00,
+							"preCalculatedTax": {
+								"taxableCost": 0.0,
+								"taxableMSRP": 14.95,
+								"taxableUnitPrice": 0.0,
+								"orderTaxAreaId": 390950000,
+								"shipFromTaxAreaId": 431570560,
+								"shipToTaxAreaId": 220053000
+							},
+							"lineItemTaxes": [{
+									"taxLineId": 1,
+									"taxCode": "SALESTAX",
+									"memo": "SALESTAX",
+									"printName": "Sales Tax",
+									"taxable": "X",
+									"skuSpecific": "false",
+									"jurisdictionLevel": "Sales Tax",
+									"jurisdictionName": "Sales Tax",
+									"taxAmount": 0.00,
+									"taxRate": 0.0,
+									"taxDate": "2017-05-05"
+								}
+							]
+						},
+						"total": 0.00
+					},
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": ["GROUP_01", "GROUP_03"]
+					}
+				}
+			]
+		},
+		"names": {
+			"name": [{
+					"id": "NAME_01",
+					"firstName": "BEDROCK",
+					"lastName": "DONOTUSE",
+					"primaryContactPhones": [{
+							"phoneNumber": "9999999999",
+							"contactPhoneType": "HOME_PHONE"
+						}
+					],
+					"additionalContactPhones": [{
+							"phoneNumber": "9999999999",
+							"contactPhoneType": "WORK_PHONE"
+						}
+					]
+				}, {
+					"id": "NAME_02",
+					"firstName": "BEDROCK",
+					"lastName": "DONOTUSE",
+					"primaryContactPhones": [{
+							"phoneNumber": "9999999999",
+							"contactPhoneType": "HOME_PHONE"
+						}
+					],
+					"additionalContactPhones": [{
+							"phoneNumber": "9999999999",
+							"contactPhoneType": "WORK_PHONE"
+						}
+					]
+				}, {
+					"id": "NAME_03",
+					"firstName": "BEDROCK",
+					"lastName": "DONOTUSE",
+					"primaryContactPhones": [{
+							"phoneNumber": "9999999999",
+							"contactPhoneType": "HOME_PHONE"
+						}
+					],
+					"additionalContactPhones": [{
+							"phoneNumber": "9999999999",
+							"contactPhoneType": "WORK_PHONE"
+						}
+					]
+				}
+			]
+		},
+		"addresses": {
+			"address": [{
+					"id": "ADDRESS_01",
+					"unparsedAddress": {
+						"addressLine1": "2939 ERIC LN",
+						"city": "FARMERS BRANCH",
+						"state": "TX",
+						"zip": "75234",
+						"country": "US"
+					},
+					"additionalDetails": {
+						"additionalDetail": [{
+								"code": "ValidatedAddress",
+								"value": "false"
+							}
+						]
+					}
+				}, {
+					"id": "ADDRESS_02",
+					"unparsedAddress": {
+						"addressLine1": "2939 ERIC LN",
+						"city": "FARMERS BRANCH",
+						"state": "TX",
+						"zip": "75234"
+					},
+					"additionalDetails": {
+						"additionalDetail": [{
+								"code": "ValidatedAddress",
+								"value": "false"
+							}
+						]
+					}
+				}
+			]
+		},
+		"accounts": {
+			"account": [{
+					"id": "ACCOUNT_01",
+					"sequence": 1,
+					"accountCategory": "MOBILITY_ACCOUNT",
+					"accountSubCategory": "EXISTING",
+					"paymentArrangement": "POSTPAID",
+					"billingAccountNumber": "78457845",
+					"primaryCTN": "5085425723",
+					"billingDetail": [{
+							"nameReference": "NAME_02",
+							"addressReference": "ADDRESS_01",
+							"authentication": {
+								"dob": "aVoW-jj-Yy",
+								"driversLicense": {
+									"licenseNumber": "m6tx-Ny-h{",
+									"state": "TX",
+									"licenseExpirationDate": "2018-05-05"
+								},
+								"lastFourOfSSN": "9999",
+								"employerDetail": {
+									"employerName": "BENEVIDES",
+									"employerPhoneNumber": "9999999999"
+								}
+							},
+							"accountStatus": "ACTIVE"
+						}
+					],
+					"billingDeliveryPreference": "PAPERLESS",
+					"liabilityType": "INDIVIDUAL",
+					"accountType": "INDIVIDUAL",
+					"accountSubType": "R",
+					"enterpriseType": "IRU",
+					"b2bReference": "B2B_01",
+					"langId": "ENGLISH",
+					"market": "BOS",
+					"subMarket": "BRS",
+					"priceCode": "BRS",
+					"bankingPartner": {
+						"customerId": "CUST123456"
+					},
+					"spokenLanguagePreference": "ENGLISH"
+				}
+			]
+		},
+		"paymentOptions": {
+			"paymentOption": [{
+					"id": "PAYMENT_OPTION_01",
+					"sequence": 1,
+					"capmConfig": {
+						"merchantId": "ORDERGWCon",
+						"sourceSystem": "HARDROCK",
+						"sourceLocation": "CS",
+						"sourceUser": "HARDROCK"
+					},
+					"paymentMethod": {
+						"capm": {
+							"preAuthDetail": {
+								"authorizationCode": "OL_DF170505M03743",
+								"authorizationDate": "2017-05-05",
+								"authorizationExpirationDate": "2017-06-02",
+								"addressVerificationSystemCode": "NA",
+								"authorizationKey": "47465970"
+							},
+							"totalAmount": 446.23,
+							"creditCardLast4Digits": "9999",
+							"zipCode": "75234",
+							"creditCardType": "MASTERCARD",
+							"giftCardIndicator": false
+						}
+					}
+				}
+			]
+		},
+		"shippingDetails": {
+			"shippingDetail": [{
+					"id": "SHIPPING_INFO_01",
+					"sequence": 1,
+					"nameReference": "NAME_03",
+					"addressReference": "ADDRESS_01",
+					"shippingCode": "AA1",
+					"shippingPriceCode": "88879",
+					"shippingMethod": "Overnight"
+				}
+			]
+		},
+		"b2bs": {
+			"b2b": [{
+					"id": "B2B_01",
+					"b2bContractProvider": "ATTWS",
+					"b2bContractType": "ACDA MAC NONCB",
+					"b2bFAN": "000566646",
+					"b2bSkipUpgradeEligibilityIndicator": false,
+					"b2bIgnoreDepositRequiredIndicator": false,
+					"b2bFANBusinessName": "Lockheed M. Spon GSM-SPON"
+				}
+			]
+		},
+		"specialInstructions": "{}",
+		"dueAmount": {
+			"amount": 419.98,
+			"priceType": "DueToday",
+			"taxDetail": {
+				"amount": 26.25
+			},
+			"total": 446.23
+		},
+		"salesCode": "NOT_AVAILABLE",
+		"salesLocation": "NOT_AVAILABLE",
+		"agentCode": "K3K6I",
+		"agentLocation": "K3K6I",
+		"orderContact": {
+			"nameReference": "NAME_01",
+			"primaryEmailAddress": "va339a@us.att.com"
+		},
+		"salesChannel": "E",
+		"orderSource": {
+			"clientIP": "10.0.0.1",
+			"locale": "EN_US",
+			"region": "MA",
+			"countryCode": "US",
+			"city": "FARMERS BRANCH",
+			"county": "DALLAS",
+			"clientType": "DESKTOP",
+			"channel": "DE-MOBILITY",
+			"application": "MYATTSALES",
+			"zip": "75234",
+			"browserId": "RTBROWSERID",
+			"additionalDetails": {
+				"additionalDetail": [{
+						"code": "SENDER",
+						"value": "HARDROCK"
+					}
+				]
+			}
+		},
+		"externalOrderSource": "EST",
+		"encryptedIndicator": true,
+		"commonOrderIndicator": true,
+		"summaryCreatedIndicator": false,
+		"falloutHistory": {
+			"fallouts": [{}
+			]
+		},
+		"additionalDetails": {
+			"additionalDetail": [{
+					"type": "CONT",
+					"code": "SMS_CONTACT_NUMBER",
+					"value": "5085425723"
+				}
+			]
+		},
+		"requestId": "48e9e60f-24d8-4f98-920f-8d7e92b9d010"
+	}

@@ -1,0 +1,46 @@
+<restErrorDetailsTO>
+   <causeStackTrace>com.att.myworld.sl.shared.exception.ServiceException: SLE_BACKEND_APP:Backend application error (Caused by: TLGE_WnpNoReqFound:No request found for this query.):Failed in Telegence
+	at com.att.myworld.sl.server.impl.telegence.processor.TelegenceBaseProcessor.handleTlgValidateException(TelegenceBaseProcessor.java:240)
+	at com.att.myworld.sl.server.impl.telegence.processor.TelegenceBaseProcessor.handleException(TelegenceBaseProcessor.java:219)
+	at com.att.myworld.sl.server.base.processor.BaseProcessor.execCall(BaseProcessor.java:425)
+	at com.att.myworld.sl.server.base.executor.CallableProcessor.call(CallableProcessor.java:69)
+	at com.att.myworld.sl.server.base.processor.BaseProcessor.call(BaseProcessor.java:104)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: amdocs.TlgServer.exceptions.ValidateException: No request found for this query.
+	at amdocs.TlgServer.implementation.portRequest.PortRequestData.getCsGtPortReq(PortRequestData.java:589)
+	at amdocs.TlgServer.implementation.portRequest.PortRequestData.load(PortRequestData.java:330)
+	at amdocs.TlgServer.implementation.portRequest.UpdatePortRequest.setRequestByMdnPk(UpdatePortRequest.java:333)
+	at amdocs.TlgServer.implementation.portRequest.UpdatePortRequest.setRequestByMdnPk(UpdatePortRequest.java:284)
+	at amdocs.TlgServer.sessions.implementation.UpdatePortRequestConvBeanTracer.setRequestByMdnPk(UpdatePortRequestConvBeanTracer.java:2807)
+	at amdocs.TlgServer.sessions.implementation.UpdatePortRequestConvBean_ewhfcj_EOImpl.__WL_invoke(Unknown Source)
+	at weblogic.ejb.container.internal.SessionRemoteMethodInvoker.invoke(SessionRemoteMethodInvoker.java:32)
+	at amdocs.TlgServer.sessions.implementation.UpdatePortRequestConvBean_ewhfcj_EOImpl.setRequestByMdnPk(Unknown Source)
+	at amdocs.TlgServer.sessions.implementation.UpdatePortRequestConvBean_ewhfcj_EOImpl_WLSkel.invoke(Unknown Source)
+	at weblogic.rmi.internal.activation.ActivatableServerRef.invoke(ActivatableServerRef.java:97)
+	at weblogic.rmi.internal.BasicServerRef$1.run(BasicServerRef.java:520)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:363)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:146)
+	at weblogic.rmi.internal.BasicServerRef.handleRequest(BasicServerRef.java:516)
+	at weblogic.rmi.internal.wls.WLSExecuteRequest.run(WLSExecuteRequest.java:118)
+	at weblogic.work.ExecuteRequestAdapter.execute(ExecuteRequestAdapter.java:21)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:147)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:119)
+Caused by: amdocs.TlgServer.exceptions.ValidateException: No request found for this query.
+	at weblogic.utils.StackTraceDisabled.unknownMethod()</causeStackTrace>
+   <detailErrorMessages>SLE_BACKEND_APP:Backend application error (Caused by: TLGE_WnpNoReqFound:No request found for this query.):Failed in Telegence</detailErrorMessages>
+   <err>
+      <causeList>
+         <code>WnpNoReqFound</code>
+         <description>No request found for this query.</description>
+         <severity>E</severity>
+         <source>TLG</source>
+      </causeList>
+      <code>BACKEND_APP</code>
+      <description>Backend application error</description>
+      <severity>E</severity>
+      <source>SL</source>
+   </err>
+</restErrorDetailsTO>

@@ -1,0 +1,1265 @@
+{
+  "customerOrderNumber" : "31-304100198334195",
+  "orderType" : "CREATE",
+  "createdDate" : 1429263047000,
+  "submittedDate" : 1429263047000,
+  "productGroups" : {
+    "group" : [ {
+      "id" : "GROUP_01",
+      "name" : "EXISTING_WIRELESS",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 1,
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "UVWIRELESS",
+          "sequence" : 1,
+          "losgType" : "UNIFY",
+          "productCategory" : "WIRELESS",
+          "primaryIndicator" : true,
+          "accountReference" : "ACCOUNT_01",
+          "serviceLocationReference" : "ADDRESS_01",
+          "subscriberNameReference" : "NAME_01",
+          "termsAndConditionReferences" : {
+            "termsAndConditionReference" : [ "TC_01" ]
+          },
+          "termsAndConditionAccepted" : {
+            "accepted" : "Y",
+            "timestamp" : 1429263047000,
+            "version" : "V1",
+            "deviceInstallAgreementType" : "DEVICEAGREEMENT",
+            "econsentAgreementType" : "ECOSENTAGGREMENT"
+          },
+          "fulfillmentMethod" : "DF"
+        }
+      }
+    }, {
+      "id" : "GROUP_02",
+      "name" : "NEW_IPTV",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 2,
+      "promotionReferences" : {
+        "promotionReference" : [ "PROMOTION_01" ]
+      },
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "IPTV",
+          "sequence" : 2,
+          "losgType" : "NEW",
+          "productCategory" : "IPTV",
+          "primaryIndicator" : true,
+          "dealerCode" : "Z0066",
+          "market" : "DLS",
+          "subMarket" : "DFW",
+          "preferredAreaCode" : "469",
+          "serviceArea" : "008458004066",
+          "serviceAreaName" : "TEXAS",
+          "priceCode" : "DFW",
+          "accountReference" : "ACCOUNT_02",
+          "serviceLocationReference" : "ADDRESS_01",
+          "subscriberNameReference" : "NAME_01",
+          "serviceQualificationReference" : "SERVICE_QLFY_01",
+          "conflictingServiceDetailReferences" : {
+            "conflictingServiceDetailReference" : [ "CONF_SRV_INFO_01" ]
+          },
+          "schedulingDetailReference" : "SCHEDULINGINFO_01",
+          "installationInstructions" : {
+            "installationInstruction" : [ {
+              "question" : "what is your Pet Name ?",
+              "answers" : "Jerry"
+            } ]
+          },
+          "termsAndConditionAccepted" : {
+            "accepted" : "Y",
+            "timestamp" : 1429263047000,
+            "version" : "V1",
+            "deviceInstallAgreementType" : "DEVICEAGREEMENT",
+            "econsentAgreementType" : "ECOSENTAGGREMENT"
+          },
+          "compensation" : {
+            "submittedBy" : "CSR_AGENT",
+            "repDetails" : [ {
+              "repId" : "RID123",
+              "repAction" : "AGENT_ASSISTED",
+              "type" : "SECONDARY",
+              "dealerCode" : "DC12345"
+            } ]
+          },
+          "fulfillmentMethod" : "DF"
+        }
+      }
+    }, {
+      "id" : "GROUP_03",
+      "name" : "NEW_INTERNET",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 3,
+      "promotionReferences" : {
+        "promotionReference" : [ "PROMOTION_01" ]
+      },
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "BROADBAND",
+          "sequence" : 3,
+          "losgType" : "NEW",
+          "productCategory" : "INTERNET",
+          "primaryIndicator" : true,
+          "dealerCode" : "Z0066",
+          "market" : "DLS",
+          "subMarket" : "DFW",
+          "preferredAreaCode" : "469",
+          "serviceArea" : "008458004066",
+          "serviceAreaName" : "TEXAS",
+          "priceCode" : "DFW",
+          "accountReference" : "ACCOUNT_02",
+          "serviceLocationReference" : "ADDRESS_01",
+          "subscriberNameReference" : "NAME_01",
+          "serviceQualificationReference" : "SERVICE_QLFY_01",
+          "conflictingServiceDetailReferences" : {
+            "conflictingServiceDetailReference" : [ "CONF_SRV_INFO_01" ]
+          },
+          "profileCode" : "0951236459",
+          "schedulingDetailReference" : "SCHEDULINGINFO_01",
+          "installationInstructions" : {
+            "installationInstruction" : [ {
+              "question" : "what is your Pet Name ?",
+              "answers" : "Jerry"
+            } ]
+          },
+          "termsAndConditionAccepted" : {
+            "accepted" : "Y",
+            "timestamp" : 1429263047000,
+            "version" : "V1",
+            "deviceInstallAgreementType" : "DEVICEAGREEMENT",
+            "econsentAgreementType" : "ECOSENTAGGREMENT"
+          },
+          "internetLOSCharacteristics" : {
+            "internetProtocolDigitalSubscriberLineAccess" : "Y",
+            "primaryNetworkType" : "FTTP"
+          },
+          "compensation" : {
+            "submittedBy" : "BO_AGENT",
+            "repDetails" : [ {
+              "repId" : "RID123",
+              "repAction" : "AGENT_ASSISTED",
+              "type" : "SECONDARY",
+              "dealerCode" : "DC12345"
+            } ]
+          },
+          "fulfillmentMethod" : "DF"
+        }
+      }
+    }, {
+      "id" : "GROUP_04",
+      "name" : "Product_Offer",
+      "type" : "PACKAGE",
+      "sequence" : 4,
+      "characteristics" : {
+        "packageCharacteristics" : {
+          "category" : "OFFER",
+          "code" : "123456",
+          "description" : "PACKAGE"
+        }
+      }
+    }, {
+      "id" : "GROUP_05",
+      "name" : "MISC",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 5,
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "REWARDS001",
+          "sequence" : 4,
+          "losgType" : "REWARDS/GIFT",
+          "productCategory" : "MISC",
+          "primaryIndicator" : true,
+          "dealerCode" : "Z0066",
+          "preferredAreaCode" : "469",
+          "serviceArea" : "008458004066",
+          "serviceAreaName" : "TEXAS",
+          "priceCode" : "DFW",
+          "accountReference" : "ACCOUNT_02",
+          "serviceLocationReference" : "ADDRESS_01",
+          "subscriberNameReference" : "NAME_01",
+          "notes" : "NOTE",
+          "termsAndConditionAccepted" : {
+            "accepted" : "Y",
+            "timestamp" : 1429263047000,
+            "version" : "V1",
+            "deviceInstallAgreementType" : "DEVICEAGREEMENT",
+            "econsentAgreementType" : "ECOSENTAGGREMENT"
+          },
+          "fulfillmentMethod" : "DF"
+        }
+      }
+    } ]
+  },
+  "lineItems" : {
+    "lineItem" : [ {
+      "id" : "LINEITEM_12",
+      "sequence" : 1,
+      "productCode" : "NOT_AVAILABLE",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "Auto_Payment",
+      "systemName" : "AUTO_PAYMENT",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "RC",
+        "total" : 0.00
+      },
+      "payments" : {
+        "payment" : [ {
+          "amount" : 0.00,
+          "currencyType" : "USD",
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_04", "GROUP_01" ]
+      }
+    }, {
+      "id" : "967821111080",
+      "sequence" : 2,
+      "productCode" : "NOT_AVAILABLE",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "REWARDS/GIFT",
+      "displayName" : "Rewards",
+      "systemName" : "Rewards",
+      "description" : "Rewards for customer",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0,
+        "currencyType" : "USD",
+        "installmentEligibility" : "N",
+        "priceType" : "NOT_APPLICABLE",
+        "total" : 0
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_05", "GROUP_04" ]
+      }
+    }, {
+      "id" : "83006000079",
+      "sequence" : 3,
+      "productCode" : "uvip10005",
+      "billingCode" : "31931",
+      "productType" : "PLAN",
+      "displayName" : "AT T;T U-verse TV U450 All In",
+      "systemName" : "U450AI",
+      "description" : "Free online channel Pack",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 50,
+        "currencyType" : "USD",
+        "installmentEligibility" : "Y",
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "preCalculatedTax" : {
+            "taxableCost" : 25.00,
+            "taxableMSRP" : 25.00,
+            "taxableUnitPrice" : 25.00,
+            "orderTaxAreaId" : 123234,
+            "shipFromTaxAreaId" : 123567,
+            "shipToTaxAreaId" : 123456,
+            "exemptionId" : 12345.0
+          },
+          "lineItemTaxes" : [ {
+            "taxRate" : 0.125,
+            "taxAuthoritiesList" : {
+              "taxAuthorities" : [ {
+                "taxAuthorityCode" : "CODE",
+                "taxAuthorityValue" : 1
+              } ]
+            }
+          } ]
+        },
+        "total" : 75
+      },
+      "payments" : {
+        "payment" : [ {
+          "amount" : 75,
+          "currencyType" : "USD",
+          "numberOfInstallment" : 2,
+          "paymentOptionReference" : "PAYMENT_OPTION_02"
+        } ]
+      },
+      "contractDetails" : {
+        "installmentPlanDefinition" : "NXT12A",
+        "totalSalePrice" : 400,
+        "downPayment" : 10.00,
+        "contractType" : "REGULAR",
+        "contractLength" : 24
+      },
+      "quantity" : 1,
+      "notes" : "This is plan",
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_02", "GROUP_04" ]
+      },
+      "characteristics" : {
+        "commonCharacteristics" : {
+          "componentConfigurations" : [ {
+            "componentCode" : "QVideoBasic",
+            "componentOperations" : [ {
+              "operationNames" : [ "FIPDRequest" ]
+            } ],
+            "componentPath" : "QVideoBasic",
+            "componentMapRequiredIndicator" : true,
+            "attributes" : [ {
+              "attributeCode" : "AMSSVideoQuestion1",
+              "attributeValue" : "450ALL",
+              "attributeOperations" : [ {
+                "operationNames" : [ "FIPDRequest" ]
+              } ]
+            } ]
+          } ],
+          "requestComponentGroup" : "REQUEST",
+          "ignorePricePlanCode" : "Y"
+        }
+      }
+    }, {
+      "id" : "83006000089",
+      "sequence" : 4,
+      "productCode" : "prod7640220",
+      "billingCode" : "31931",
+      "productType" : "MISC_CHARGE",
+      "displayName" : "TV Installation Fee",
+      "systemName" : "iptvInstall-Tech",
+      "description" : "Fees colected from IPTV customer",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 40,
+        "currencyType" : "USD",
+        "installmentEligibility" : "Y",
+        "priceType" : "NRC",
+        "total" : 40
+      },
+      "payments" : {
+        "payment" : [ {
+          "amount" : 40,
+          "currencyType" : "USD",
+          "paymentOptionReference" : "PAYMENT_OPTION_02"
+        } ]
+      },
+      "contractDetails" : {
+        "installmentPlanDefinition" : "NXT12A",
+        "totalSalePrice" : 400,
+        "downPayment" : 10.00,
+        "contractType" : "REGULAR",
+        "contractLength" : 24
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_02", "GROUP_04" ]
+      }
+    }, {
+      "id" : "96782000070",
+      "sequence" : 5,
+      "productCode" : "uvh20005",
+      "billingCode" : "88727768",
+      "productType" : "PLAN",
+      "displayName" : "AT T U-verse High Speed Internet Max All In",
+      "systemName" : "AllIn:HSIA:Max",
+      "description" : "Details of Internet pack",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 400,
+        "currencyType" : "USD",
+        "installmentEligibility" : "Y",
+        "priceType" : "RC",
+        "total" : 400
+      },
+      "payments" : {
+        "payment" : [ {
+          "amount" : 400,
+          "currencyType" : "USD",
+          "numberOfInstallment" : 2,
+          "paymentOptionReference" : "PAYMENT_OPTION_02"
+        } ]
+      },
+      "contractDetails" : {
+        "installmentPlanDefinition" : "NXT12A",
+        "totalSalePrice" : 400,
+        "downPayment" : 10.00,
+        "contractType" : "REGULAR",
+        "contractLength" : 24
+      },
+      "quantity" : 1,
+      "notes" : "This is plan",
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_03", "GROUP_04" ]
+      },
+      "characteristics" : {
+        "commonCharacteristics" : {
+          "componentConfigurations" : [ {
+            "componentCode" : "CODE123",
+            "componentOperations" : [ {
+              "operationNames" : [ "IWFARequest" ]
+            } ],
+            "componentPath" : "//PATH",
+            "componentMapRequiredIndicator" : true,
+            "attributes" : [ {
+              "attributeCode" : "CODE777",
+              "attributeValue" : "UVERSE",
+              "attributeOperations" : [ {
+                "operationNames" : [ "IWFARequest" ]
+              } ]
+            } ]
+          } ],
+          "requestComponentGroup" : "REQUEST",
+          "ignorePricePlanCode" : "Y"
+        }
+      }
+    }, {
+      "id" : "96782000080",
+      "sequence" : 6,
+      "productCode" : "pncf1000012",
+      "billingCode" : "88727768",
+      "productType" : "MISC_CHARGE",
+      "displayName" : "Internet Installation Fee",
+      "systemName" : "IhsiaInstallAllIn-TechNewCo",
+      "description" : "Installation Fee Charges",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 50,
+        "currencyType" : "USD",
+        "installmentEligibility" : "Y",
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 6,
+          "lineItemTaxes" : [ {
+            "taxAuthoritiesList" : {
+              "taxAuthorities" : [ {
+                "taxAuthorityCode" : "CODE",
+                "taxAuthorityValue" : 1
+              } ]
+            }
+          } ]
+        },
+        "total" : 56
+      },
+      "payments" : {
+        "payment" : [ {
+          "amount" : 50,
+          "currencyType" : "USD",
+          "numberOfInstallment" : 2,
+          "paymentOptionReference" : "PAYMENT_OPTION_02"
+        } ]
+      },
+      "contractDetails" : {
+        "installmentPlanDefinition" : "NXT12A",
+        "totalSalePrice" : 400,
+        "downPayment" : 10.00,
+        "contractType" : "REGULAR",
+        "contractLength" : 24
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_03", "GROUP_04" ]
+      }
+    }, {
+      "id" : "8300600007683185",
+      "sequence" : 7,
+      "productCode" : "UVWIRELESS",
+      "productType" : "UNIFY",
+      "displayName" : "Commerce Component",
+      "systemName" : "Commerce Component",
+      "description" : "DESC",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.0,
+        "currencyType" : "USD",
+        "installmentEligibility" : "Y",
+        "priceType" : "NRC",
+        "total" : 0.0
+      },
+      "quantity" : 1,
+      "promotionReferences" : {
+        "promotionReference" : [ "PROMOTION_01" ]
+      },
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01", "GROUP_04" ]
+      }
+    }, {
+      "id" : "PriceMismatch01",
+      "sequence" : 8,
+      "productCode" : "uvip10005",
+      "billingCode" : "88554473",
+      "productType" : "PLAN",
+      "displayName" : "AT T;T U-verse TV U450 All In",
+      "systemName" : "U450AI",
+      "description" : "Free online channel Pack",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : -42.00,
+        "priceType" : "RC",
+        "total" : 0.00
+      },
+      "payments" : {
+        "payment" : [ {
+          "amount" : 75,
+          "currencyType" : "USD",
+          "numberOfInstallment" : 2,
+          "paymentOptionReference" : "PAYMENT_OPTION_02"
+        } ]
+      },
+      "contractDetails" : {
+        "installmentPlanDefinition" : "NXT12A",
+        "totalSalePrice" : 400,
+        "downPayment" : 10.00,
+        "contractType" : "REGULAR",
+        "contractLength" : 24
+      },
+      "quantity" : 1,
+      "notes" : "This is plan",
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_02", "GROUP_04" ]
+      },
+      "characteristics" : {
+        "commonCharacteristics" : {
+          "componentConfigurations" : [ {
+            "componentCode" : "QVideoBasic",
+            "componentOperations" : [ {
+              "operationNames" : [ "FIPDRequest" ]
+            } ],
+            "componentPath" : "QVideoBasic",
+            "componentMapRequiredIndicator" : true,
+            "attributes" : [ {
+              "attributeCode" : "AMSSVideoQuestion1",
+              "attributeValue" : "450ALL",
+              "attributeOperations" : [ {
+                "operationNames" : [ "FIPDRequest" ]
+              } ]
+            } ]
+          } ],
+          "requestComponentGroup" : "REQUEST",
+          "ignorePricePlanCode" : "Y"
+        }
+      }
+    }, {
+      "id" : "PriceMismatch02",
+      "sequence" : 9,
+      "productCode" : "uvip10005",
+      "billingCode" : "33311",
+      "productType" : "PLAN",
+      "displayName" : "AT T;T U-verse TV U450 All In",
+      "systemName" : "U450AI",
+      "description" : "Free online channel Pack",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 99.00,
+        "priceType" : "NRC",
+        "total" : 0.00
+      },
+      "payments" : {
+        "payment" : [ {
+          "amount" : 75,
+          "currencyType" : "USD",
+          "numberOfInstallment" : 2,
+          "paymentOptionReference" : "PAYMENT_OPTION_02"
+        } ]
+      },
+      "contractDetails" : {
+        "installmentPlanDefinition" : "NXT12A",
+        "totalSalePrice" : 400,
+        "downPayment" : 10.00,
+        "contractType" : "REGULAR",
+        "contractLength" : 24
+      },
+      "quantity" : 1,
+      "notes" : "This is plan",
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_02", "GROUP_04" ]
+      },
+      "characteristics" : {
+        "commonCharacteristics" : {
+          "componentConfigurations" : [ {
+            "componentCode" : "QVideoBasic",
+            "componentOperations" : [ {
+              "operationNames" : [ "FIPDRequest" ]
+            } ],
+            "componentPath" : "QVideoBasic",
+            "componentMapRequiredIndicator" : true,
+            "attributes" : [ {
+              "attributeCode" : "AMSSVideoQuestion1",
+              "attributeValue" : "450ALL",
+              "attributeOperations" : [ {
+                "operationNames" : [ "FIPDRequest" ]
+              } ]
+            } ]
+          } ],
+          "requestComponentGroup" : "REQUEST",
+          "ignorePricePlanCode" : "Y"
+        }
+      }
+    }, {
+      "id" : "PriceMismatch03",
+      "sequence" : 10,
+      "productCode" : "uvip10005",
+      "billingCode" : "33311",
+      "productType" : "PLAN",
+      "displayName" : "AT T;T U-verse TV U450 All In",
+      "systemName" : "U450AI",
+      "description" : "Free online channel Pack",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 77.00,
+        "priceType" : "RC",
+        "total" : 0.00
+      },
+      "payments" : {
+        "payment" : [ {
+          "amount" : 75,
+          "currencyType" : "USD",
+          "numberOfInstallment" : 2,
+          "paymentOptionReference" : "PAYMENT_OPTION_02"
+        } ]
+      },
+      "contractDetails" : {
+        "installmentPlanDefinition" : "NXT12A",
+        "totalSalePrice" : 400,
+        "downPayment" : 10.00,
+        "contractType" : "REGULAR",
+        "contractLength" : 24
+      },
+      "quantity" : 1,
+      "notes" : "This is plan",
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_02", "GROUP_04" ]
+      },
+      "characteristics" : {
+        "commonCharacteristics" : {
+          "componentConfigurations" : [ {
+            "componentCode" : "QVideoBasic",
+            "componentOperations" : [ {
+              "operationNames" : [ "FIPDRequest" ]
+            } ],
+            "componentPath" : "QVideoBasic",
+            "componentMapRequiredIndicator" : true,
+            "attributes" : [ {
+              "attributeCode" : "AMSSVideoQuestion1",
+              "attributeValue" : "450ALL",
+              "attributeOperations" : [ {
+                "operationNames" : [ "FIPDRequest" ]
+              } ]
+            } ]
+          } ],
+          "requestComponentGroup" : "REQUEST",
+          "ignorePricePlanCode" : "Y"
+        }
+      }
+    }, {
+      "id" : "PriceMismatch04",
+      "sequence" : 11,
+      "productCode" : "uvip10005",
+      "billingCode" : "846356",
+      "productType" : "PLAN",
+      "displayName" : "AT T;T U-verse TV U450 All In",
+      "systemName" : "U450AI",
+      "description" : "Free online channel Pack",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 7.00,
+        "priceType" : "RC",
+        "total" : 0.00
+      },
+      "payments" : {
+        "payment" : [ {
+          "amount" : 75,
+          "currencyType" : "USD",
+          "numberOfInstallment" : 2,
+          "paymentOptionReference" : "PAYMENT_OPTION_02"
+        } ]
+      },
+      "contractDetails" : {
+        "installmentPlanDefinition" : "NXT12A",
+        "totalSalePrice" : 400,
+        "downPayment" : 10.00,
+        "contractType" : "REGULAR",
+        "contractLength" : 24
+      },
+      "quantity" : 1,
+      "notes" : "This is plan",
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_02", "GROUP_04" ]
+      },
+      "characteristics" : {
+        "commonCharacteristics" : {
+          "componentConfigurations" : [ {
+            "componentCode" : "QVideoBasic",
+            "componentOperations" : [ {
+              "operationNames" : [ "FIPDRequest" ]
+            } ],
+            "componentPath" : "QVideoBasic",
+            "componentMapRequiredIndicator" : true,
+            "attributes" : [ {
+              "attributeCode" : "AMSSVideoQuestion1",
+              "attributeValue" : "450ALL",
+              "attributeOperations" : [ {
+                "operationNames" : [ "FIPDRequest" ]
+              } ]
+            } ]
+          } ],
+          "requestComponentGroup" : "REQUEST",
+          "ignorePricePlanCode" : "Y"
+        }
+      }
+    } ]
+  },
+  "names" : {
+    "name" : [ {
+      "id" : "NAME_01",
+      "prefix" : "MR.",
+      "firstName" : "BEDROCK",
+      "middleInitial" : "A",
+      "lastName" : "DONOTUSE",
+      "suffix" : "LKKCKNX",
+      "primaryContactPhones" : [ {
+        "phoneNumber" : "9677687668",
+        "extension" : "91",
+        "contactPhoneType" : "CELL_PHONE",
+        "consentDetails" : {
+          "consentDetail" : [ {
+            "consentType" : "Text",
+            "consentCategory" : "testConsentCategory",
+            "consentSelection" : "Opt-In"
+          } ]
+        }
+      } ],
+      "additionalContactPhones" : [ {
+        "phoneNumber" : "9677687668",
+        "extension" : "91",
+        "contactPhoneType" : "CELL_PHONE",
+        "consentDetails" : {
+          "consentDetail" : [ {
+            "consentType" : "Text",
+            "consentCategory" : "testConsentCategory",
+            "consentSelection" : "Opt-In"
+          } ]
+        }
+      } ]
+    } ]
+  },
+  "addresses" : {
+    "address" : [ {
+      "id" : "ADDRESS_01",
+      "addressId" : "P2797f244c",
+      "unparsedAddress" : {
+        "addressLine1" : "2111  SHADY CLIFF",
+        "city" : "San Antonio",
+        "state" : "TX",
+        "zip" : "78232",
+        "county" : "TRAVIS",
+        "country" : "US",
+        "attention" : "ATTENTION",
+        "addInstructions" : "YES",
+        "urbanizationCode" : "UC12234",
+        "ruralRoute" : {
+          "ruralRouteCenterNumber" : "RCN1234",
+          "ruralRouteBoxNumber" : "RB1234"
+        },
+        "elevation" : {
+          "type" : "NA",
+          "value" : "NA"
+        },
+        "structure" : {
+          "type" : "NA",
+          "value" : "NA"
+        },
+        "unit" : {
+          "type" : "NA",
+          "value" : "NA"
+        }
+      },
+      "parsedAddress" : {
+        "houseNumberPrefix" : "NA",
+        "houseNumber" : "305",
+        "houseNumberSuffix" : "NA",
+        "directionPrefix" : "NORTH",
+        "direction" : "NORTH_EAST",
+        "assignedStreetNumber" : "305",
+        "streetName" : "HOOK",
+        "streetNameSuffix" : "ALPHARETTA",
+        "streetType" : "ST",
+        "structure" : "STRUCTURE",
+        "structureNumber" : "34",
+        "level" : "Second",
+        "levelNumber" : "7th",
+        "apartmentUnit" : "3rd",
+        "apartmentUnitNumber" : "303",
+        "postOfficeBox" : "PO1234",
+        "ruralRouteBoxNumber" : "RB1234",
+        "ruralRouteCenterNumber" : "RCN1234",
+        "city" : "ALPHARETTA",
+        "state" : "GA",
+        "zip" : "30009",
+        "zipGeoCode" : "3214",
+        "zipCodeExtension" : "3214",
+        "county" : "TRAVIS",
+        "country" : "US",
+        "urbanizationCode" : "UC12234",
+        "attention" : "ATTENTION",
+        "addressMatchCode" : "MC1234",
+        "rateZoneBanCode" : "524",
+        "siteId" : "SID1234",
+        "siteAddressId" : "SADDR123",
+        "legalEntity" : "5G00",
+        "buildingType" : "N",
+        "tarCode" : "002701",
+        "rateCenterCode" : "ATLANTA",
+        "exchangeCode" : "ALPH",
+        "primaryNPANXX" : "770475",
+        "clli8" : "ALPRGAMA",
+        "linkKey" : "D",
+        "lastDisconnectedTransportType" : "B",
+        "lastNetworkAccessDeviceType" : "RG",
+        "videoHubOffice" : "TUKRGV",
+        "smartMoves" : "N",
+        "exhaustCode" : "OPTIONAL",
+        "disconnectDate" : "1957-08-13",
+        "addInstructions" : "NOT_APPLICABLE",
+        "addressChanged" : "N",
+        "addressType" : "UNITED_STATES",
+        "rsagValidationIndicator" : true,
+        "telephoneNumber" : "9677687668"
+      }
+    } ]
+  },
+  "accounts" : {
+    "account" : [ {
+      "id" : "ACCOUNT_01",
+      "sequence" : 1,
+      "accountCategory" : "MOBILITY_ACCOUNT",
+      "accountSubCategory" : "EXISTING",
+      "paymentArrangement" : "POSTPAID",
+      "billingAccountNumber" : "276021270756",
+      "businessAccountName" : "NINO",
+      "primaryCTN" : "9677687668",
+      "billingDetail" : [ {
+        "nameReference" : "NAME_01",
+        "addressReference" : "ADDRESS_01",
+        "authentication" : {
+          "dob" : "2kWD-pt-=m"
+        },
+        "accountStatus" : "ACTIVE",
+        "previousAddress" : "Y",
+        "previousAddressReference" : "ADDRESS_01"
+      } ],
+      "contractAcceptance" : {
+        "acceptance" : "Y",
+        "contractLength" : "12",
+        "versionNumber" : "1"
+      },
+      "unifiedAccount" : {
+        "unifiedAccountReference" : "ACCOUNT_02",
+        "convergeOrderIndicator" : true,
+        "unifiedAccountPending" : "Y",
+        "convergedBilling" : "N"
+      },
+      "liabilityType" : "INDIVIDUAL",
+      "accountType" : "F",
+      "accountSubType" : "R",
+      "enterpriseType" : "CON",
+      "passCode" : "6S):",
+      "langId" : "ENGLISH",
+      "ebillReason" : "PROMOTION",
+      "landLineNumber" : "6603454523",
+      "market" : "DLS",
+      "subMarket" : "DFW",
+      "spokenLanguagePreference" : "ENGLISH",
+      "provisioningSystems" : {
+        "provisioningSystem" : [ {
+          "systemName" : "SystemX",
+          "systemOrderReference" : "ABCD1234B",
+          "systemOrderReferenceType" : "Provisioning"
+        } ]
+      },
+      "additionalDetails" : {
+        "additionalDetail" : [ {
+          "type" : "ARCH",
+          "code" : "PMO_IND",
+          "value" : "true"
+        } ]
+      }
+    }, {
+      "id" : "ACCOUNT_02",
+      "sequence" : 2,
+      "accountCategory" : "UVERSE_ACCOUNT",
+      "accountSubCategory" : "NEW",
+      "paymentArrangement" : "POSTPAID",
+      "businessAccountName" : "NINO",
+      "billingLanguagePreference" : "ENGLISH",
+      "billingAccountTelephoneNumber" : "9876543120",
+      "billingDetail" : [ {
+        "nameReference" : "NAME_01",
+        "addressReference" : "ADDRESS_01",
+        "authentication" : {
+          "dob" : "2kWD-pt-=m",
+          "driversLicense" : {
+            "licenseNumber" : "r)Lmg\"7(]6%",
+            "state" : "TX",
+            "licenseExpirationDate" : "01/01/2024"
+          },
+          "stateId" : {
+            "idNumber" : "h:F?u!y",
+            "state" : "TX"
+          },
+          "ssn" : "HZSC2SF6L",
+          "ssnRefusedIndicator" : true,
+          "securityVerification" : {
+            "pin" : "6S):",
+            "securityQuestion" : "what's your pet name",
+            "securityAnswer" : "3bRXLp0J}2`ufF'"
+          },
+          "employerDetail" : {
+            "employerName" : "ATT",
+            "employerPhoneNumber" : "9789660682"
+          },
+          "gender" : "MALE",
+          "motherMaidenName" : "MARY"
+        },
+        "accountStatus" : "ACTIVE",
+        "previousAddress" : "Y",
+        "previousAddressReference" : "ADDRESS_01",
+        "previousPhoneNumber" : "8977256356",
+        "nextBillingCycleDate" : "2016-01-01"
+      } ],
+      "serviceLocationReference" : "ADDRESS_01",
+      "anchorCTN" : "9876543120",
+      "creditCheck" : {
+        "creditClass" : "Low",
+        "creditCheckManagementTransactionId" : "CCMT123456",
+        "creditCheckRanIndicator" : true,
+        "productsInclude" : "PRODUCTS",
+        "creditVerified" : "Y",
+        "creditInquiryOpen" : "Y",
+        "electronicIdNumber" : "EID12345",
+        "depositRequired" : "Y",
+        "expressPayDetailHeld" : "Y",
+        "currentAccountBalance" : 0.00,
+        "currentPastDueAmount" : 0.00,
+        "currentDeniablePastDueAmount" : 0.00,
+        "currentNonDeniablePastDueAmount" : 0.00,
+        "currentRegulatedPastDueAmount" : 0.00,
+        "currentNonRegulatedPastDueAmount" : 0.00,
+        "minimumAmountDue" : 0.00,
+        "exchangeListFound" : "N",
+        "customerApprovalSystemTransactionId" : "CAS12345677",
+        "safeScanAlertIndicator" : true,
+        "safeScanPassIndicator" : true,
+        "creditScoreResult" : "Access Granted",
+        "applicationNumber" : "412231021692",
+        "numberLinesRequired" : 1,
+        "numberApprovedLines" : 1,
+        "applicationApprovalDate" : "2015-03-08",
+        "applicationExpiresDate" : "2015-05-13",
+        "creditStatus" : "APPROVED",
+        "reasonCode" : "CB",
+        "reasonCodeDescription" : "Equifax Consumer",
+        "creditPolicyToken" : "1234567",
+        "creditBand" : "BAND123",
+        "treatmentCode" : "EACC123",
+        "treatmentMessage" : "EACC123"
+      },
+      "billingDeliveryPreference" : "PAPERLESS",
+      "bigData" : "I",
+      "gigaPower" : "Y",
+      "contractAcceptance" : {
+        "acceptance" : "Y",
+        "contractLength" : "12",
+        "versionNumber" : "1"
+      },
+      "liabilityType" : "INDIVIDUAL",
+      "accountType" : "F",
+      "accountSubType" : "R",
+      "enterpriseType" : "CON",
+      "passCode" : "6S):",
+      "langId" : "ENGLISH",
+      "ebillReason" : "PROMOTION",
+      "landLineNumber" : "6603454523",
+      "market" : "DLS",
+      "subMarket" : "DFW",
+      "spokenLanguagePreference" : "ENGLISH",
+      "provisioningSystems" : {
+        "provisioningSystem" : [ {
+          "systemName" : "OMS",
+          "systemOrderReference" : "ABCDEF12AC",
+          "systemOrderReferenceType" : "Provisioning"
+        } ]
+      },
+      "additionalDetails" : {
+        "additionalDetail" : [ {
+          "type" : "ARCH",
+          "code" : "PMO_IND",
+          "value" : "true"
+        } ]
+      }
+    } ]
+  },
+  "paymentOptions" : {
+    "paymentOption" : [ {
+      "id" : "PAYMENT_OPTION_01",
+      "sequence" : 1,
+      "capmConfig" : {
+        "sourceSystem" : "HARDROCK",
+        "sourceLocation" : "CS"
+      },
+      "paymentMethod" : {
+        "lastPaymentMethod" : {
+          "lpmReferenceNumber" : "123456789",
+          "customerAgreementVersion" : "V1",
+          "totalAmount" : 6300,
+          "lpmPaymentType" : "CREDIT_CARD",
+          "lpmPaymentTypeName" : "MASTERCARD",
+          "lpmLast4Digits" : "5388"
+        }
+      },
+      "autoBillReason" : "VOLUNTARY",
+      "autoBill" : "Y",
+      "additionalDetails" : {
+        "additionalDetail" : [ {
+          "code" : "PaymentType",
+          "value" : "AUTO_PAY"
+        } ]
+      }
+    }, {
+      "id" : "PAYMENT_OPTION_02",
+      "sequence" : 2,
+      "capmConfig" : {
+        "merchantId" : "MID1234",
+        "sourceSystem" : "HARDROCK",
+        "sourceLocation" : "CS",
+        "sourceUser" : "kv316g"
+      },
+      "paymentMethod" : {
+        "capm" : {
+          "paymentConfirmationDetail" : {
+            "paymentHandle" : "PAHD1934",
+            "batchNumber" : "BN12995",
+            "referenceNumber" : "RN1994",
+            "transactionId" : "TNID12995"
+          },
+          "profileName" : "EAY5IGY8CPHA4QD01V7Y7KCZ",
+          "profileOwnerId" : "CPHA4QD01V7Y7KCZ",
+          "totalAmount" : 500,
+          "customerAgreementVersion" : "V2"
+        }
+      },
+      "selectedOptionId" : 1,
+      "autoBillReason" : "VOLUNTARY",
+      "depositOption" : "CASH",
+      "autoBill" : "Y"
+    }, {
+      "id" : "PAYMENT_OPTION_03",
+      "sequence" : 3,
+      "paymentMethod" : {
+        "ach" : {
+          "bankAccountDetails" : {
+            "accountHolderName" : "NAME_01",
+            "accountNumber" : "200654845678",
+            "routingNumber" : "1456789",
+            "accountType" : "SAVINGS"
+          },
+          "preAuthDetail" : {
+            "authorizationCode" : "CODE123",
+            "authorizationDate" : "2015-03-08",
+            "authorizationExpirationDate" : "2016-03-08",
+            "addressVerificationSystemCode" : "CODEAVS",
+            "authorizationKey" : "123456"
+          }
+        }
+      }
+    } ]
+  },
+  "promotions" : {
+    "promotion" : [ {
+      "id" : "PROMOTION_01",
+      "promotionCode" : "12345671111",
+      "promotionId" : "124356",
+      "baseOfferId" : "1223345",
+      "parentPricePlanCode" : "PLAN123",
+      "promotionName" : "MONTHLY PROMOS",
+      "amount" : 0.00,
+      "duration" : 12,
+      "promotionType" : "PROMOTION",
+      "promotionCycle" : "MONTHLY",
+      "unitOfMeasurement" : "PERCENTAGE",
+      "effectiveInDays" : 20,
+      "complexDiscountIndicator" : true,
+      "couponCode" : "123456789"
+    } ]
+  },
+  "schedulingDetails" : {
+    "schedulingDetail" : [ {
+      "id" : "SCHEDULINGINFO_01",
+      "landlordDetail" : {
+        "landlordName" : "ALEX",
+        "landlordPhoneNumber" : "9789660682",
+        "landlordPermission" : "Y"
+      },
+      "connecTechInstallationOptions" : [ {
+        "connecTechInstallationOption" : "NONE",
+        "connecTechServiceDate" : "2015-04-02"
+      } ],
+      "nameReference" : "NAME_01",
+      "scheduleAsSoonAsPossibleIndicator" : true,
+      "billingInstallmentsIndicator" : true,
+      "installType" : "SELF",
+      "reservationId" : "RID123"
+    } ]
+  },
+  "serviceFacilityQualifications" : {
+    "serviceFacilityQualification" : [ {
+      "id" : "SERVICE_QLFY_01",
+      "addressReference" : "ADDRESS_01",
+      "preferredNetworkType" : "ATT",
+      "profileCode" : "0951236459",
+      "frequency17MhzIndicator" : true,
+      "vectoringIndicator" : true,
+      "cpeRequiredIndicator" : true,
+      "facilityCheck" : {
+        "validations" : [ {
+          "code" : "VCODE12",
+          "message" : "This a service check"
+        } ],
+        "serviceType" : [ {
+          "conflictingServiceIndicator" : false,
+          "serviceType" : "FACILITY"
+        } ],
+        "acknowledgeIndicator" : true
+      }
+    } ]
+  },
+  "conflictingServiceDetails" : {
+    "conflictingServiceDetail" : [ {
+      "id" : "CONF_SRV_INFO_01",
+      "addressReference" : "ADDRESS_01",
+      "productDetails" : [ {
+        "productDescription" : "Internet Pack",
+        "action" : "CONFLICT",
+        "previousProductTransportType" : "BROADBAND",
+        "productCode" : "INTERNET03",
+        "packageCode" : "33311"
+      } ],
+      "accountNumber" : "192726082",
+      "changeType" : "IPTV",
+      "disconnectNumber" : "9789660682",
+      "customerCode" : "9139547884",
+      "legacyExistIndicator" : false,
+      "btn" : {
+        "customerCode" : "CUSTOMERCODE123",
+        "tn" : "9789660682"
+      },
+      "disconnectDate" : "2015-04-10",
+      "region" : "WEST",
+      "state" : "TX",
+      "referallOfCallsIndicator" : false,
+      "dslmemberDetail" : {
+        "memberId" : "10CSSR023",
+        "authenticatedIndicator" : true,
+        "reuseDSLMemberIdIndicator" : true
+      }
+    } ]
+  },
+  "specialInstructions" : "Testing",
+  "dueAmount" : {
+    "amount" : 100,
+    "currencyType" : "USD",
+    "installmentEligibility" : "Y",
+    "msrp" : 0,
+    "priceType" : "RC",
+    "taxDetail" : {
+      "amount" : 10,
+      "lineItemTaxes" : [ {
+        "taxAuthoritiesList" : {
+          "taxAuthorities" : [ {
+            "taxAuthorityCode" : "a",
+            "taxAuthorityValue" : 0
+          } ]
+        }
+      } ]
+    },
+    "total" : 110
+  },
+  "partialOrderIndicator" : false,
+  "resubmitOrderIndicator" : false,
+  "agentUId" : "UID1245",
+  "referralAppId" : "REFAPP1234",
+  "salesCode" : "A124435",
+  "salesLocation" : "TX",
+  "agentCode" : "AG123",
+  "agentLocation" : "CACEDZ",
+  "deliveryPromiseNoteEnglish" : "DeliveryPromiseNoteEnglish",
+  "deliveryPromiseNoteSpanish" : "DeliveryPromiseNoteSpanish",
+  "chatId" : "CID1234",
+  "termsAndConditions" : {
+    "termsAndConditionAccepted" : [ {
+      "id" : "TC_01",
+      "agreementType" : "PROMTIONAL_ETF_SAVING",
+      "agreementText" : "AgreementText",
+      "accepted" : "Y",
+      "timestamp" : 1427448647000,
+      "version" : "V2",
+      "orderLevelIndicator" : false
+    } ]
+  },
+  "orderContact" : {
+    "nameReference" : "NAME_01",
+    "primaryEmailAddress" : "fr316g@att.com",
+    "secondaryEmailAddress" : "kv316g@att.com",
+    "preferredContactMethod" : "EMAIL",
+    "preferredTimeOfDayForContact" : "2015-03-27T09:30:47Z",
+    "orderConfirmationByEmailPermissionIndicator" : true,
+    "productUpdatesByEmailPermissionIndicator" : true,
+    "unpublishedContactByPhonePermissionIndicator" : false,
+    "permissionForOutboundCallIndicator" : true
+  },
+  "orderSource" : {
+    "clientIP" : "0.1.2.3.4",
+    "locale" : "EN_US",
+    "region" : "EAST",
+    "countryCode" : "30009",
+    "city" : "TRAVIS",
+    "county" : "US",
+    "clientType" : "DESKTOP",
+    "channel" : "CDE-HS",
+    "application" : "MYATTSALES",
+    "browserId" : "A001275640045",
+    "additionalDetails" : {
+      "additionalDetail" : [ {
+        "code" : "SENDER",
+        "value" : "WBFC"
+      }, {
+        "code" : "BUYFLOW",
+        "value" : "NEWCO"
+      } ]
+    }
+  },
+  "expressCheckOutIndicator" : true,
+  "geoAreaSingleDispatchAvailableIndicator" : true,
+  "satelliteTVOnlySingleDispatchEligibleIndicator" : false,
+  "singleDispatchEligibleIndicator" : false,
+  "productCombinationCode" : "PC12345",
+  "encryptedIndicator" : false,
+  "additionalDetails" : {
+    "additionalDetail" : [ {
+      "type" : "INSTALL_PAYMENT",
+      "parentType" : "INSTALLMENT",
+      "code" : "INSTALLMENT_BILLING_MONTHS",
+      "value" : "3"
+    }, {
+      "type" : "INSTALL_PAYMENT",
+      "parentType" : "INSTALLMENT",
+      "code" : "INSTALLMENT_BILLING_TOTAL_AMOUNT",
+      "value" : "100"
+    } ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "UpdatePortOrderIdTO": {
+    
+    "market": "NBI",
+    "ctn": "8901065500",
+    "orderId": "K004-giveitsometjhinf",
+    "portPath": "PI",
+    "deployAll": "true"
+  }
+}
