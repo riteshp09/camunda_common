@@ -1,0 +1,12 @@
+{
+  "metaInformation": null,
+  "traceID": null,
+  "errors": {
+    "error": [
+      {
+        "errorCode": "ERRSO4000012",
+        "errorDescription": "Invalid OrderId"
+      }
+    ]
+  }
+}
