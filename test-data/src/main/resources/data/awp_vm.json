@@ -1,0 +1,53 @@
+{
+  "messageHeader": {
+    "trackingMessageHeader": {
+      "version": "v112",
+      "messageId": "11111",
+      "originatorId": "OCE",
+      "returnURL": "",
+      "timeToLive": "",
+      "dateTimeStamp": ""
+    },
+    "securityMessageHeader": {
+      "userName": "oce",
+      "userPassword": "oce0606"
+    },
+    "sequenceMessageHeader": {
+      "sequenceNumber": "1",
+      "totalInSequence": "1"
+    }
+  },
+  "addWirelinePaymentRequest": {
+  		"source" : {
+  			"sourceSystem" : "ORDERGW",
+  			"sourceLocation" : "CS",
+  			"sourceUser" : "OCE"
+  			},
+  		"paymentDetails" : {
+  		"paymentItems" : [{
+  		"itemAmount" : {
+  			"amount" : "0.0",
+  			"monetaryUnit" : "UNITEDSTATES_DOLLAR"
+  			},
+  			"paymentItemCategory" : "CDFG",
+  			"submittedAccountId" : "456789",
+  			"billingSystem" : {
+  				"provider" : "CNG",
+  				"system" : "CNG",
+  				"systemDivision" : "TNK"
+  				}
+  			}],
+  			"paymentMethod" : {
+  				"paymentProfile" : {
+  						"profileOwnerId" : "123",
+  						"profileName" : "CDE",
+  						"merchantId" : "456",
+  						"Amount" : {
+  							"amount" : "1.0",
+  							"monetaryUnit" : "UNITEDSTATES_DOLLAR"
+  						}
+  				}  				
+  			}
+  		}
+  }
+}

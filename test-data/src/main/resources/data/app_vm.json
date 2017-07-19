@@ -1,0 +1,45 @@
+{
+  "messageHeader": {
+    "trackingMessageHeader": {
+      "version": "v112",
+      "messageId": "11111",
+      "originatorId": "OCE",
+      "returnURL": "",
+      "timeToLive": "",
+      "dateTimeStamp": ""
+    },
+    "securityMessageHeader": {
+      "userName": "oce",
+      "userPassword": "oce0606"
+    },
+    "sequenceMessageHeader": {
+      "sequenceNumber": "1",
+      "totalInSequence": "1"
+    }
+  },
+  "addPaymentProfileRequest": {
+  		
+  		"paymentProfile" : {
+  			"paymentProfileSource" : {
+  			"sourceSystem" : "HARDROCK",
+  			"sourceLocation" : "CS",
+  			"sourceUser" : "OCE"
+  			},
+  			"paymentProfileMethod" : {
+  				"cloningProfile" : {
+  					"existingProfileDetails" : {
+  					"paymentProfileSource" : {
+  							"sourceSystem" : "HARDROCK",
+  							"sourceLocation" : "CS",
+  							"sourceUser" : "OCE"
+  						},
+  						"profileOwnerId" : "123",
+  						"profileName" : "CDE",
+  						"merchantId" : "489",
+  						"verifyCreditCardIndicator" : "true"
+  					}
+  				}  				
+  			}
+  		}
+  }
+}

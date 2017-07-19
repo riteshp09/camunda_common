@@ -1,0 +1,585 @@
+ {
+  "customerOrderNumber" : "21-108100003001091",
+  "orderType" : "CREATE",
+  "requestId" : "457845456565",
+  "orderStatus" : {
+    "status" : "RECEIVED",
+    "subStatus" : "RECEIVED"
+  },
+  "createdDate" : "2016-12-05T14:43:00.859-08:00",
+  "submittedDate" : "2016-12-05T14:43:00.859-08:00",
+  "productGroups" : {
+    "group" : [ 
+    {
+      "id" : "GROUP_01",
+      "name" : "UPGRADE_WIRELESS",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 1,
+      "characteristics" : {      	
+        "losgCharacteristics" : {
+          "losgReferenceId" : "losg43250059",
+          "sequence" : 1,
+          "losgType" : "ALF",
+          "productCategory" : "WIRELESS",
+          "primaryIndicator" : false,
+          "dealerCode" : "Z0066",
+          "market" : "TNK",
+          "subMarket" : "719",
+          "priceCode" : "719",
+          "accountReference" : "ACCOUNT_01",
+          "losgStatus" : {
+            "status" : "SYS_PROCESSING",
+            "subStatus" : "RECIEVE_CONTRACT_IDENTIFIER_PASS"
+          },
+          "serviceLocationReference" : "ADDRESS_02",
+          "subscriberNameReference" : "NAME_01",
+          "numberPortDetail": {
+                  "ospAccountNumber": "365010841171",
+                  "portRequestNumber" : "2143060488",
+                  "portTelephoneNumber": "2143060488"
+               },
+          "termsAndConditionReferences" : {
+            "termsAndConditionReference" :  "TC_01"
+          },
+          "wirelessLOSCharacteristics" : {
+          		"mobileNumber" : "2145352034",
+            	"billingSystemId" : "T"            
+          },
+          "fulfillmentMethod" : "DF",
+          "shippingDetailReference" : "SHIPPING_INFO_01"
+        }
+      }
+    }
+     ]
+  },
+  "lineItems" : {
+    "lineItem" : [ {
+      "id" : "8633000028684514",
+      "sequence" : 1,
+      "productCode" : "prod8730225",
+      "productSKU" : "84514",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "Kit_guide_eCom_Phone_13.0",
+      "systemName" : "COL QSG GET STARTED CONSUMER SLIP",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00
+        },
+        "total" : 0.00
+      },
+      "locationId" : "K006",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : ["GROUP_01"]
+      },
+      "hardGood" : {
+        "hardGoodType" : "SIM",
+        "shippedHotIndicator" : true
+      }
+    }, {
+      "id" : "8633000028673023",
+      "sequence" : 2,
+      "productCode" : "prod8730225",
+      "productSKU" : "73023",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "Embedded Nano SIM for iPhone 7, 7plus",
+      "systemName" : "Embedded SIM",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00
+        },
+        "total" : 0.00
+      },
+      "locationId" : "K006",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  ["GROUP_01"] 
+      },
+      "hardGood" : {
+        "hardGoodType" : "SIM"
+      }
+    }, {
+      "id" : "8633000028684390",
+      "sequence" : 3,
+      "productCode" : "prod8730225",
+      "productSKU" : "84390",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "MPP DF Buckslip",
+      "systemName" : "MPP DF BUCKSLIP",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00
+        },
+        "total" : 0.00
+      },
+      "locationId" : "K006",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  ["GROUP_01"] 
+      },
+      "hardGood" : {
+        "hardGoodType" : "COLLATERAL",
+        "shippedHotIndicator" : true
+      }
+    }, {
+      "id" : "86330000286",
+      "sequence" : 4,
+      "productCode" : "prod8730225",
+      "productSKU" : "6478A",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "Apple iPhone 7 - 128GB - Black",
+      "systemName" : "PHO APL IPHONE 7 128GB BLK",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 749.99,
+        "currencyType" : "USD",
+        "msrp" : 749.99,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00
+        },
+        "total" : 749.99
+      },
+      "locationId" : "K006",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "contractDetails" : {
+        "installmentPlanId" : 6321547899,
+        "annualPercentageRate" : 0.00,
+        "financeCharge" : 0.00,
+        "amountFinanced" : 0.00,
+        "balancedAmount" : 0.00,
+        "totalSalePrice" : 0.00,
+        "downPayment" : 0.00,
+        "prepaidFinanceCharge" : 0.00,
+        "contractType" : "LEASE",
+        "contractSystem" : "OPTICAL",
+        "contractSent" : "N",
+        "contractLength" : 0
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  ["GROUP_01"] 
+      },
+      "hardGood" : {
+        "byodIndicator" : false,
+        "hardGoodType" : "DEVICE",
+        "productImageUrl" : "https://tst08.stage.att.com/catalog/en/skus/images/apple-iphone%207%20128gb-black-100x160.jpg",
+        "make" : "Apple",
+        "model" : "iPhone 7 128GB",
+        "shipmentCommitDate" : {
+          "fromDate" : 1482825600000,
+          "toDate" : 1482998400000
+        },
+        "wirelessHardGoodCharacteristics" : {
+          "techType" : "UMTS",
+          "equipmentType" : "EDGE",
+          "imeiType" : "J0",
+          "phoneType" : "IPHONE"
+        }
+      }
+    }, {
+      "id" : "86330000287WPINS",
+      "sequence" : 5,
+      "productCode" : "prod5280349",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "WPINS",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "AT&T Mobile Protection Pack",
+      "systemName" : "Telegence",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 7.99,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "RC",
+        "total" : 0.00
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  ["GROUP_01"] 
+      }
+    }, {
+      "id" : "86330000287QSBNDLMRC",
+      "sequence" : 6,
+      "productCode" : "prod5280349",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "QSBNDLMRC",
+      "productType" : "CONTRACT_ONLY",
+      "displayName" : "AT&T Mobile Protection Pack",
+      "systemName" : "Telegence",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 10.99,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "contractDetails" : {
+        "annualPercentageRate" : 0.00,
+        "financeCharge" : 0.00,
+        "amountFinanced" : 0.00,
+        "balancedAmount" : 0.00,
+        "totalSalePrice" : 0.00,
+        "downPayment" : 0.00,
+        "prepaidFinanceCharge" : 0.00,
+        "contractType" : "LEASE",
+        "contractSystem" : "OPTICAL",
+        "contractSent" : "N",
+        "contractLength" : 0
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  ["GROUP_01"] 
+      }
+    }, {
+      "id" : "86330000288J1K1",
+      "sequence" : 7,
+      "productCode" : "prod6170283",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "J1K1",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "DataPlus 300 MB",
+      "systemName" : "DATAPLUS300MB LTE IP",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 20.00,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  ["GROUP_01"] 
+      }
+    }, {
+      "id" : "losg43250059UPG",
+      "sequence" : 8,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "MISC_CHARGE",
+      "displayName" : "UpgradeFee",
+      "systemName" : "UPGRADE_FEE",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "priceType" : "NRC"
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  ["GROUP_01"] 
+      }
+    }, 
+    {
+         "d": "83883001885",
+         "sequence": 9,
+         "productCode": "prod6130421",
+         "productSKU": "NOT_AVAILABLE",
+         "billingCode": "SDDVRP",
+         "productType": "PLAN",
+         "displayName": "Mobile Share Plan",
+         "systemName": "Mobile Share Plan",
+         "action": "ADD",
+          "characteristics":{
+      		"wirelessLineItemChars": {"offerType": "G"}
+      	},
+         "price": {
+            "amount": "0.00",
+            "currencyType": "USD",
+            "priceType": "RC"
+         },
+         "quantity": "1",
+         "groupReferences": {
+            "groupReference": ["GROUP_01"]
+         }
+         
+      },
+    {
+      "id" : "lobi44610046ShippingFee",
+      "sequence" : 10,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "88879",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "MISC_CHARGE",
+      "displayName" : "ShippingFee",
+      "systemName" : "SHIPPING_FEE",
+      "action" : "ADD",
+      "characteristics":{
+      	"wirelessLineItemChars": {"offerType": "G"}
+      },
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00
+        },
+        "total" : 0.00
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  ["GROUP_01"]
+      }
+    } ]
+  },
+  "names" : {
+    "name" : [ {
+      "id" : "NAME_01",
+      "firstName" : "BEDROCK",
+      "lastName" : "DONOTUSE",
+      "primaryContactPhones" : [ {
+        "phoneNumber" : "9042324974",
+        "contactPhoneType" : "HOME_PHONE"
+      } ],
+      "additionalContactPhones" : [ {
+        "phoneNumber" : "9042324974",
+        "contactPhoneType" : "WORK_PHONE"
+      } ]
+    }, {
+      "id" : "NAME_02",
+      "firstName" : "BEDROCK",
+      "lastName" : "DONOTUSE",
+      "primaryContactPhones" : [ {
+        "phoneNumber" : "9042324974",
+        "contactPhoneType" : "HOME_PHONE"
+      } ],
+      "additionalContactPhones" : [ {
+        "phoneNumber" : "9042324974",
+        "contactPhoneType" : "WORK_PHONE"
+      } ]
+    }, {
+      "id" : "NAME_03",
+      "firstName" : "BEDROCK",
+      "lastName" : "DONOTUSE",
+      "primaryContactPhones" : [ {
+        "phoneNumber" : "9042324974",
+        "contactPhoneType" : "HOME_PHONE"
+      } ],
+      "additionalContactPhones" : [ {
+        "phoneNumber" : "9042324974",
+        "contactPhoneType" : "WORK_PHONE"
+      } ]
+    } ]
+  },
+  "addresses" : {
+    "address" : [ {
+      "id" : "ADDRESS_01",
+      "unparsedAddress" : {
+        "addressLine1" : "1720 CUMBERLAND AVE",
+        "city" : "KNOXVILLE",
+        "state" : "TN",
+        "zip" : "37916",
+        "country" : "US"
+      },
+      "additionalDetails" : {
+        "additionalDetail" : [ {
+          "code" : "ValidatedAddress",
+          "value" : "false"
+        } ]
+      }
+    }, {
+      "id" : "ADDRESS_02",
+      "unparsedAddress" : {
+        "addressLine1" : "1720 CUMBERLAND AVE",
+        "city" : "KNOXVILLE",
+        "state" : "TN",
+        "zip" : "37916",
+        "country" : "US"
+      },
+      "additionalDetails" : {
+        "additionalDetail" : [ {
+          "code" : "ValidatedAddress",
+          "value" : "false"
+        } ]
+      }
+    } ]
+  },
+  "accounts" : {
+    "account" : [ {
+      "id" : "ACCOUNT_01",
+      "sequence" : 1,
+      "accountCategory" : "MOBILITY_ACCOUNT",
+      "accountSubCategory" : "EXISTING",
+      "paymentArrangement" : "POSTPAID",
+      "billingAccountNumber" : "545119323733",      
+      "billingDetail" : {
+        "nameReference" : "NAME_02",
+        "addressReference" : "ADDRESS_01",
+        "authentication" : {
+          "dob" : "zDhd-E<-}%",
+          "driversLicense" : {
+            "licenseNumber" : "49+1I\"9n",
+            "state" : "TX",
+            "licenseExpirationDate" : "2017-12-21"
+          },
+          "lastFourOfSSN" : "0094",
+          "employerDetail" : {
+            "employerName" : "DONOTUSE",
+            "employerPhoneNumber" : "9042324974"
+          }
+        },
+        "accountStatus" : "ACTIVE"
+      },
+      "accountType" : "INDIVIDUAL",
+      "accountSubType" : "R",
+      "enterpriseType" : "CON",
+      "langId" : "ENGLISH",
+      "market" : "TNK",
+      "subMarket" : "719",
+      "priceCode" : "719",
+      "spokenLanguagePreference" : "ENGLISH"
+    } ]
+  },
+  "paymentOptions" : {
+    "paymentOption" : [ {
+      "id" : "PAYMENT_OPTION_01",
+      "sequence" : 1,
+      "capmConfig" : {
+        "merchantId" : "ORDERGWCon",
+        "sourceSystem" : "HARDROCK",
+        "sourceLocation" : "CS",
+        "sourceUser" : "HARDROCK"
+      },
+      "paymentMethod" : {
+        "capm" : {
+          "profileName" : "21-108100003001091",
+          "profileOwnerId" : "HRDF21-108100003001091",
+          "totalAmount" : 749.99,
+          "capmlast4Digits" : "2784",
+          "zipCode" : "37916",
+          "creditCardType" : "MASTERCARD",
+          "savedProfileIndicator" : false,
+          "giftCardIndicator" : false
+        }
+      }
+    } ]
+  },
+  "shippingDetails" : {
+    "shippingDetail" : [ {
+      "id" : "SHIPPING_INFO_01",
+      "sequence" : 1,
+      "nameReference" : "NAME_03",
+      "addressReference" : "ADDRESS_01",
+      "shippingCode" : "AA1",
+      "shippingPriceCode" : "88879",
+      "shippingMethod" : "Overnight"
+    } ]
+  },
+  "specialInstructions" : "{}",
+  "dueAmount" : {
+    "amount" : 749.99,
+    "priceType" : "DueToday",
+    "taxDetail" : {
+      "amount" : 0.00
+    },
+    "total" : 749.99
+  },
+  "salesCode" : "NOT_AVAILABLE",
+  "salesLocation" : "NOT_AVAILABLE",
+  "agentCode" : "Z0066",
+  "agentLocation" : "Z0066",
+  "termsAndConditions" : {
+    "termsAndConditionAccepted" : [ {
+      "id" : "TC_01",
+      "agreementType" : "MPP",
+      "agreementText" : "I have read the AT&T Mobile Protection Pack Terms and Conditions and agree to the terms and conditions as described.",
+      "accepted" : "Y",
+      "timestamp" : 1482349006999,
+      "version" : "/legal/terms.mobileProtectionPack.html",
+      "orderLevelIndicator" : false
+    } ]
+  },
+  "orderContact" : {
+    "nameReference" : "NAME_01",
+    "primaryEmailAddress" : "CB8477@ATT.COM"
+  },
+  "salesChannel" : "E",
+  "orderSource" : {
+    "clientIP" : "135.163.180.104",
+    "locale" : "EN_US",
+    "clientType" : "DESKTOP",
+    "channel" : "DE-MOBILITY",
+    "application" : "MYATTSALES",
+    "browserId" : "A001369510691",
+    "additionalDetails" : {
+      "additionalDetail" : [ {
+        "code" : "SENDER",
+        "value" : "HARDROCK"
+      } ]
+    }
+  },
+  "externalOrderSource" : "EST",
+  "encryptedIndicator" : true,
+  "commonOrderIndicator" : true,
+  "summaryCreatedIndicator" : false,
+  "falloutHistory" : {
+    "fallouts" : [ {
+      "falloutAPI" : "CALCULATE_SALES_TAX",
+      "falloutCode" : "DATA_ERROR_FAULT",
+      "falloutDescription" : "Data Error"
+    } ]
+  }
+}

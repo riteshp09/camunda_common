@@ -1,0 +1,58 @@
+{
+	"messageHeader": {
+		"trackingMessageHeader": {
+			"version": "v112",
+			"messageId": "11111",
+			"originatorId": "OCE",
+			"returnURL": "",
+			"timeToLive": "",
+			"dateTimeStamp": ""
+		},
+		"securityMessageHeader": {
+			"userName": "oce",
+			"userPassword": "oce0606"
+		},
+		"sequenceMessageHeader": {
+			"sequenceNumber": "1",
+			"totalInSequence": "1"
+		}
+	},
+	"addPortRequest": {
+		"marketServiceInfo": {
+			"billingMarket": {
+				"billingMarket": "DLS",
+				"billingSubMarket": "DFW"
+			},
+			"billingSystemId": "T"
+		},
+		"commission": {
+			"dealer": {
+				"code": "Z0066"
+			},
+			"location": "Z0066",
+			"salesRepresentative": "Z0066"
+		},
+		"customer": {
+			"billingAccountNumber": "823606866639",
+			"name": {
+				"firstName": "BEDROCK",
+				"lastName": "DONOTUSE"
+			},
+			"address": {
+				"addressLine1": "2501 W AIRPORT FWY",
+				"street": {
+					"streetNumber": "2501",
+					"streetName": "AIRPORT",
+					"streetType": "FWY"
+				},
+				"city": "IRVING",
+				"state": "TX",
+				"zip": {
+					"zipCode": "75062"
+				},
+				"country": "US"
+			}
+		}
+	}
+}
+}
