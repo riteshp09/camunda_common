@@ -1,0 +1,619 @@
+{
+  "customerOrderNumber" : "21-301100654831394",
+  "orderType" : "CREATE",
+  "orderStatus" : {
+    "status" : "RECEIVED"
+  },
+  "createdDate" : 1493668007686,
+  "submittedDate" : 1493668007727,
+  "productGroups" : {
+    "group" : [ {
+      "id" : "GROUP_01",
+      "name" : "NEW_WIRELESS",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 1,
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "losg397605609",
+          "sequence" : 1,
+          "losgType" : "AL",
+          "productCategory" : "WIRELESS",
+          "primaryIndicator" : false,
+          "dealerCode" : "K3K6I",
+          "market" : "TNK",
+          "subMarket" : "158",
+          "serviceArea" : "006729003020",
+          "priceCode" : "158",
+          "accountReference" : "ACCOUNT_01",
+          "serviceLocationReference" : "ADDRESS_02",
+          "subscriberNameReference" : "NAME_01",
+          "wirelessLOSCharacteristics" : {
+            "billingSystemId" : "T"
+          },
+          "fulfillmentMethod" : "DF",
+          "shippingDetailReference" : "SHIPPING_INFO_01"
+        }
+      }
+    }, {
+      "id" : "GROUP_02",
+      "name" : "SHARED_PLAN",
+      "type" : "SHARED_PLAN",
+      "sequence" : 2,
+      "characteristics" : {
+        "sharedPlanCharacteristics" : {
+          "planType" : "MOBILE_SHARE",
+          "dataGroupId" : "G5290159"
+        }
+      }
+    } ]
+  },
+  "lineItems" : {
+    "lineItem" : [ {
+      "id" : "11701001621673023",
+      "sequence" : 1,
+      "productCode" : "prod8390311",
+      "productSKU" : "73023",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "Embedded Micro SIM for Tablets",
+      "systemName" : "Embedded SIM",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00,
+          "preCalculatedTax" : {
+            "taxableCost" : 0.0,
+            "taxableMSRP" : 0.0,
+            "taxableUnitPrice" : 0.0,
+            "orderTaxAreaId" : 390950000,
+            "shipFromTaxAreaId" : 431570560,
+            "shipToTaxAreaId" : 151730000
+          },
+          "lineItemTaxes" : [ {
+            "taxLineId" : 1,
+            "taxCode" : "SALESTAX",
+            "memo" : "SALESTAX",
+            "printName" : "Sales Tax",
+            "taxable" : "X",
+            "skuSpecific" : "false",
+            "jurisdictionLevel" : "Sales Tax",
+            "jurisdictionName" : "Sales Tax",
+            "taxAmount" : 0.00,
+            "taxRate" : 0.0,
+            "taxDate" : "2017-05-01"
+          } ]
+        },
+        "total" : 0.00
+      },
+      "locationId" : "K006",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "hardGood" : {
+        "hardGoodType" : "SIM"
+      }
+    }, {
+      "id" : "11701001621684390",
+      "sequence" : 2,
+      "productCode" : "prod8390311",
+      "productSKU" : "84390",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "MPP DF Buckslip",
+      "systemName" : "MPP DF BUCKSLIP",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00,
+          "preCalculatedTax" : {
+            "taxableCost" : 0.0,
+            "taxableMSRP" : 0.0,
+            "taxableUnitPrice" : 0.0,
+            "orderTaxAreaId" : 390950000,
+            "shipFromTaxAreaId" : 431570560,
+            "shipToTaxAreaId" : 151730000
+          },
+          "lineItemTaxes" : [ {
+            "taxLineId" : 1,
+            "taxCode" : "SALESTAX",
+            "memo" : "SALESTAX",
+            "printName" : "Sales Tax",
+            "taxable" : "X",
+            "skuSpecific" : "false",
+            "jurisdictionLevel" : "Sales Tax",
+            "jurisdictionName" : "Sales Tax",
+            "taxAmount" : 0.00,
+            "taxRate" : 0.0,
+            "taxDate" : "2017-05-01"
+          } ]
+        },
+        "total" : 0.00
+      },
+      "locationId" : "K006",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "hardGood" : {
+        "hardGoodType" : "COLLATERAL",
+        "shippedHotIndicator" : true
+      }
+    }, {
+      "id" : "11701001621684514",
+      "sequence" : 3,
+      "productCode" : "prod8390311",
+      "productSKU" : "84514",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "eCom & Wired eCom Hot Tablet/Data",
+      "systemName" : "COL QSG GET STARTED CONSUMER SLIP",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00,
+          "preCalculatedTax" : {
+            "taxableCost" : 0.0,
+            "taxableMSRP" : 0.0,
+            "taxableUnitPrice" : 0.0,
+            "orderTaxAreaId" : 390950000,
+            "shipFromTaxAreaId" : 431570560,
+            "shipToTaxAreaId" : 151730000
+          },
+          "lineItemTaxes" : [ {
+            "taxLineId" : 1,
+            "taxCode" : "SALESTAX",
+            "memo" : "SALESTAX",
+            "printName" : "Sales Tax",
+            "taxable" : "X",
+            "skuSpecific" : "false",
+            "jurisdictionLevel" : "Sales Tax",
+            "jurisdictionName" : "Sales Tax",
+            "taxAmount" : 0.00,
+            "taxRate" : 0.0,
+            "taxDate" : "2017-05-01"
+          } ]
+        },
+        "total" : 0.00
+      },
+      "locationId" : "K006",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "hardGood" : {
+        "hardGoodType" : "COLLATERAL",
+        "shippedHotIndicator" : true
+      }
+    }, {
+      "id" : "117010016216",
+      "sequence" : 4,
+      "productCode" : "prod8390311",
+      "productSKU" : "6925A",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "LG G Pad X 10.1 - Brilliant Bronze",
+      "systemName" : "COM LGE GPAD X 10 LG V930 BRN",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 349.99,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00
+        },
+        "total" : 0.00
+      },
+      "locationId" : "K006",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "contractDetails" : {
+        "totalSalePrice" : 0.00,
+        "contractType" : "REGULAR",
+        "contractSystem" : "OPTICAL",
+        "contractSent" : "N",
+        "contractLength" : 24
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01", "GROUP_02" ]
+      },
+      "hardGood" : {
+        "byodIndicator" : false,
+        "hardGoodType" : "DEVICE",
+        "productImageUrl" : "https://www.att.com/catalog/en/skus/images/lg-g%20pad%20x%2010.1-brilliant%20bronze-100x160.jpg",
+        "make" : "LG",
+        "model" : "G Pad X 10.1",
+        "shipmentCommitDate" : {
+          "fromDate" : 1493708400000,
+          "toDate" : 1493881200000
+        },
+        "wirelessHardGoodCharacteristics" : {
+          "techType" : "UMTS",
+          "equipmentType" : "EDGE",
+          "imeiType" : "T6",
+          "phoneType" : "TABLET"
+        }
+      }
+    }, {
+      "id" : "117010016218",
+      "sequence" : 5,
+      "productCode" : "prod6130427",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "SDDDRP",
+      "productType" : "PLAN",
+      "displayName" : "Mobile Share Plan - Data Device",
+      "systemName" : "Mobile Share Plan - Data Device",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "characteristics" : {
+        "wirelessLineItemCharacteristics" : {
+          "nciEligibleIndicator" : true,
+          "offerType" : "B"
+        }
+      }
+    }, {
+      "id" : "117010016217MSDGD003G",
+      "sequence" : 6,
+      "productCode" : "prod8150728",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "MSDGD003G",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "Mobile Share Value 3GB with Rollover Data",
+      "systemName" : "Mobile Share Value Plan 3GB",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01", "GROUP_02" ]
+      },
+      "characteristics" : {
+        "wirelessLineItemCharacteristics" : {
+          "nciEligibleIndicator" : true,
+          "offerType" : "G"
+        }
+      }
+    }, {
+      "id" : "117010016219SDPTBLTCC",
+      "sequence" : 7,
+      "productCode" : "prod6130354",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "SDPTBLTCC",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "Access for Tablet 4G LTE",
+      "systemName" : "MOBILE SHR TABLET L",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 10.00,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01", "GROUP_02" ]
+      },
+      "characteristics" : {
+        "wirelessLineItemCharacteristics" : {
+          "nciEligibleIndicator" : true,
+          "offerType" : "P"
+        }
+      }
+    }, {
+      "id" : "losg397605609ACT",
+      "sequence" : 8,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "MISC_CHARGE",
+      "displayName" : "ActivationFee",
+      "systemName" : "ACTIVATION_FEE",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "priceType" : "NRC"
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      }
+    }, {
+      "id" : "lobi368934347ShippingFee",
+      "sequence" : 9,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "88888",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "MISC_CHARGE",
+      "displayName" : "ShippingFee",
+      "systemName" : "SHIPPING_FEE",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00
+        },
+        "total" : 0.00
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      }
+    } ]
+  },
+  "names" : {
+    "name" : [ {
+      "id" : "NAME_01",
+      "firstName" : "BEDROCK",
+      "lastName" : "DONOTUSE",
+      "primaryContactPhones" : [ {
+        "phoneNumber" : "9999999999",
+        "contactPhoneType" : "HOME_PHONE"
+      } ],
+      "additionalContactPhones" : [ {
+        "phoneNumber" : "9999999999",
+        "contactPhoneType" : "WORK_PHONE"
+      } ]
+    }, {
+      "id" : "NAME_02",
+      "firstName" : "BEDROCK",
+      "lastName" : "DONOTUSE",
+      "primaryContactPhones" : [ {
+        "phoneNumber" : "9999999999",
+        "contactPhoneType" : "HOME_PHONE"
+      } ],
+      "additionalContactPhones" : [ {
+        "phoneNumber" : "9999999999",
+        "contactPhoneType" : "WORK_PHONE"
+      } ]
+    }, {
+      "id" : "NAME_03",
+      "firstName" : "BEDROCK",
+      "lastName" : "DONOTUSE",
+      "primaryContactPhones" : [ {
+        "phoneNumber" : "9999999999",
+        "contactPhoneType" : "HOME_PHONE"
+      } ],
+      "additionalContactPhones" : [ {
+        "phoneNumber" : "9999999999",
+        "contactPhoneType" : "WORK_PHONE"
+      } ]
+    } ]
+  },
+  "addresses" : {
+    "address" : [ {
+      "id" : "ADDRESS_01",
+      "unparsedAddress" : {
+        "addressLine1" : "2939 ERIC LN",
+        "city" : "FARMERS BRANCH",
+        "state" : "TX",
+        "zip" : "75234",
+        "country" : "USA"
+      },
+      "additionalDetails" : {
+        "additionalDetail" : [ {
+          "code" : "ValidatedAddress",
+          "value" : "false"
+        } ]
+      }
+    }, {
+      "id" : "ADDRESS_02",
+      "unparsedAddress" : {
+        "addressLine1" : "2939 ERIC LN",
+        "city" : "FARMERS BRANCH",
+        "state" : "TX",
+        "zip" : "75234"
+      },
+      "additionalDetails" : {
+        "additionalDetail" : [ {
+          "code" : "ValidatedAddress",
+          "value" : "false"
+        } ]
+      }
+    } ]
+  },
+  "accounts" : {
+    "account" : [ {
+      "id" : "ACCOUNT_01",
+      "sequence" : 1,
+      "accountCategory" : "MOBILITY_ACCOUNT",
+      "accountSubCategory" : "EXISTING",
+      "paymentArrangement" : "POSTPAID",
+      "billingAccountNumber" : "78457845",
+      "billingDetail" : [ {
+        "nameReference" : "NAME_02",
+        "addressReference" : "ADDRESS_01",
+        "authentication" : {
+          "dob" : "aVoW-jj-Yy",
+          "driversLicense" : {
+            "licenseNumber" : "m6tx-Ny-h{",
+            "state" : "TX",
+            "licenseExpirationDate" : "2018-05-01"
+          },
+          "lastFourOfSSN" : "9999",
+          "employerDetail" : {
+            "employerName" : "SHRODE",
+            "employerPhoneNumber" : "9999999999"
+          }
+        }
+      } ],
+      "liabilityType" : "INDIVIDUAL",
+      "accountType" : "INDIVIDUAL",
+      "accountSubType" : "R",
+      "enterpriseType" : "IRU",
+      "b2bReference" : "B2B_01",
+      "langId" : "ENGLISH",
+      "market" : "TNK",
+      "subMarket" : "158",
+      "priceCode" : "158",
+      "spokenLanguagePreference" : "ENGLISH"
+    } ]
+  },
+  "paymentOptions" : {
+    "paymentOption" : [ {
+      "id" : "PAYMENT_OPTION_01",
+      "sequence" : 1,
+      "paymentMethod" : {
+        "creditCard" : {
+          "expirationYearMonth" : "2019-02",
+          "creditCardHolderName" : "CHERYL SHRODE",
+          "creditCardType" : "MASTERCARD",
+          "creditCardNumber" : "0MF2YVZ09C7YHFYT",
+          "cardBillingZipCode" : "47630",
+          "paymentAmount" : 0.00,
+          "creditCardLast4Digits" : "9999",
+          "saveProfileIndicator" : false,
+          "giftCardIndicator" : false
+        }
+      }
+    } ]
+  },
+  "shippingDetails" : {
+    "shippingDetail" : [ {
+      "id" : "SHIPPING_INFO_01",
+      "sequence" : 1,
+      "nameReference" : "NAME_03",
+      "addressReference" : "ADDRESS_01",
+      "shippingCode" : "AA0",
+      "shippingPriceCode" : "88888",
+      "shippingMethod" : "priority"
+    } ]
+  },
+  "b2bs" : {
+    "b2b" : [ {
+      "id" : "B2B_01",
+      "b2bContractProvider" : "ATTWS",
+      "b2bContractType" : "ACDA MAC NONCB",
+      "b2bFAN" : "000566646",
+      "b2bSkipUpgradeEligibilityIndicator" : false,
+      "b2bIgnoreDepositRequiredIndicator" : false,
+      "b2bFANBusinessName" : "Tyco Intl GSM-SPON"
+    } ]
+  },
+  "specialInstructions" : "{}",
+  "dueAmount" : {
+    "amount" : 0.00,
+    "priceType" : "DueToday",
+    "taxDetail" : {
+      "amount" : 0.00
+    },
+    "total" : 0.00
+  },
+  "salesCode" : "NOT_AVAILABLE",
+  "salesLocation" : "NOT_AVAILABLE",
+  "agentCode" : "K3K6I",
+  "agentLocation" : "K3K6I",
+  "termsAndConditions" : {
+    "termsAndConditionAccepted" : [ {
+      "id" : "TC_01",
+      "agreementType" : "WCA",
+      "agreementText" : "I have read the Wireless Customer Agreement and agree to the terms and conditions as described.",
+      "accepted" : "Y",
+      "timestamp" : 1493667836999,
+      "version" : "/legal/terms.wirelessServiceAgreement.html",
+      "orderLevelIndicator" : true
+    } ]
+  },
+  "orderContact" : {
+    "nameReference" : "NAME_01",
+    "primaryEmailAddress" : "va339a@us.att.com"
+  },
+  "salesChannel" : "E",
+  "orderSource" : {
+    "clientIP" : "10.0.0.1",
+    "locale" : "EN_US",
+    "region" : "IN",
+    "countryCode" : "US",
+    "city" : "FARMERS BRANCH",
+    "county" : "DALLAS",
+    "clientType" : "DESKTOP",
+    "channel" : "DE-MOBILITY",
+    "application" : "MYATTSALES",
+    "zip" : "75234",
+    "browserId" : "RTBROWSERID",
+    "additionalDetails" : {
+      "additionalDetail" : [ {
+        "code" : "SENDER",
+        "value" : "HARDROCK"
+      } ]
+    }
+  },
+  "externalOrderSource" : "EST",
+  "encryptedIndicator" : true,
+  "commonOrderIndicator" : true,
+  "summaryCreatedIndicator" : false,
+  "falloutHistory" : {
+    "fallouts" : [ {
+      "falloutAPI" : "ADD_PAYMENT_PROFILE"
+    }, {
+      "falloutAPI" : "AUTHORIZE_CREDIT_CARD"
+    }, {
+      "falloutAPI" : "ADD_ACCOUNT"
+    } ]
+  }
+, "requestId" : "11665702-2b39-4309-8e81-d751b551ebbe"}

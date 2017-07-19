@@ -1,0 +1,705 @@
+{
+  "customerOrderNumber" : "21-304100198334188",
+  "orderType" : "CREATE",
+  "orderStatus" : {
+    "status" : "RECEIVED"
+  },
+  "createdDate" : 1481925152905,
+  "submittedDate" : 1481926365732,
+  "productGroups" : {
+    "group" : [ {
+      "id" : "GROUP_01",
+      "name" : "UPGRADE_WIRELESS",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 1,
+      "price" : {
+    	"amount" : 749.99,
+    	"priceType" : "DueToday",
+    	"taxDetail" : {
+      		"amount" : 0.00
+    	},
+    	"total" : 749.99
+  	  },
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "losg338730904",
+          "sequence" : 1,
+          "losgType" : "ALF",
+          "losgStatus" : {
+            "status" : "SYS_PROCESSING",
+            "subStatus" : "INQUIRE_SUBSCRIBER_PROFILE_PASS"
+          },
+          "productCategory" : "WIRELESS",
+          "primaryIndicator" : false,
+          "dealerCode" : "K3K6I",
+          "market" : "PAC",
+          "subMarket" : "LAX",
+          "priceCode" : "LAX",
+          "accountReference" : "ACCOUNT_01",
+          "serviceLocationReference" : "ADDRESS_01",
+          "subscriberNameReference" : "NAME_01",
+          "termsAndConditionReferences" : {
+            "termsAndConditionReference" : [ "TC_01", "TC_02" ]
+          },
+          "wirelessLOSCharacteristics" : {
+            "mobileNumber" : "8183195224",
+            "upgradeQualificationDetails" : [ {
+              "offerCategory" : "NE",
+              "qualificationLevel" : "29011",
+              "qualificationType" : "B",
+              "qualificationMessage" : "Congratulations!  Your line is upgrade eligible.  Before upgrading your phone, be sure to back it up to make it easier to transfer content to your new phone.  Go to Settings on your phone to learn how.",
+              "policyCategory" : "C",
+              "deviceType" : "N",
+              "upgradeFeeWaivedIndicator" : false,
+              "discountUOM" : "A",
+              "priceList" : "C",
+              "minimumCommitment" : 30,
+              "minimumMRC" : 0.0,
+              "maximumMRC" : 0.0,
+              "contractExtended" : "SUCCESS",
+              "approvalNumber" : "0",
+              "newAEUCheckerIndicator" : true,
+              "upgradeEligibilityDate" : 1481926391999
+            } ],
+            "billingSystemId" : "T"
+          },
+          "fulfillmentMethod" : "DF",
+          "shippingDetailReference" : "SHIPPING_INFO_01"
+        }
+      }
+    } ]
+  },
+  "lineItems" : {
+    "lineItem" : [ {
+      "id" : "11410900552584514",
+      "sequence" : 1,
+      "productCode" : "prod8420723",
+      "productSKU" : "84514",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "Kit_guide_eCom_Phone_13.0",
+      "systemName" : "COL QSG GET STARTED CONSUMER SLIP",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 10.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00,
+          "preCalculatedTax" : {
+            "taxableCost" : 0.0,
+            "taxableMSRP" : 0.0,
+            "taxableUnitPrice" : 0.0,
+            "orderTaxAreaId" : 390950000,
+            "shipFromTaxAreaId" : 431570560,
+            "shipToTaxAreaId" : 50371900
+          },
+          "lineItemTaxes" : [ {
+            "taxLineId" : 1,
+            "taxCode" : "SALESTAX",
+            "memo" : "SALESTAX",
+            "printName" : "Sales Tax",
+            "taxable" : "X",
+            "skuSpecific" : "false",
+            "jurisdictionLevel" : "Sales Tax",
+            "jurisdictionName" : "Sales Tax",
+            "taxAmount" : 0.00,
+            "taxRate" : 0.0,
+            "taxDate" : "2016-12-16"
+          } ]
+        },
+        "total" : 0.00
+      },
+      "locationId" : "K006",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "hardGood" : {
+        "hardGoodType" : "COLLATERAL",
+        "shippedHotIndicator" : true
+      }
+    }, {
+      "id" : "11410900552584390",
+      "sequence" : 2,
+      "productCode" : "prod8420723",
+      "productSKU" : "84390",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "MPP DF Buckslip",
+      "systemName" : "MPP DF BUCKSLIP",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 15.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 1.00,
+          "preCalculatedTax" : {
+            "taxableCost" : 0.0,
+            "taxableMSRP" : 0.0,
+            "taxableUnitPrice" : 0.0,
+            "orderTaxAreaId" : 390950000,
+            "shipFromTaxAreaId" : 431570560,
+            "shipToTaxAreaId" : 50371900
+          },
+          "lineItemTaxes" : [ {
+            "taxLineId" : 1,
+            "taxCode" : "SALESTAX",
+            "memo" : "SALESTAX",
+            "printName" : "Sales Tax",
+            "taxable" : "X",
+            "skuSpecific" : "false",
+            "jurisdictionLevel" : "Sales Tax",
+            "jurisdictionName" : "Sales Tax",
+            "taxAmount" : 0.00,
+            "taxRate" : 0.0,
+            "taxDate" : "2016-12-16"
+          } ]
+        },
+        "total" : 0.00
+      },
+      "locationId" : "K006",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "hardGood" : {
+        "hardGoodType" : "COLLATERAL",
+        "shippedHotIndicator" : true
+      }
+    }, {
+      "id" : "11410900552573023",
+      "sequence" : 3,
+      "productCode" : "prod8420723",
+      "productSKU" : "73023",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "Embedded Nano SIM for iPhone 6, 6s, 6 Plus, 6s Plus",
+      "systemName" : "Embedded SIM",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 5.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.50,
+          "preCalculatedTax" : {
+            "taxableCost" : 0.0,
+            "taxableMSRP" : 0.0,
+            "taxableUnitPrice" : 0.0,
+            "orderTaxAreaId" : 390950000,
+            "shipFromTaxAreaId" : 431570560,
+            "shipToTaxAreaId" : 50371900
+          },
+          "lineItemTaxes" : [ {
+            "taxLineId" : 1,
+            "taxCode" : "SALESTAX",
+            "memo" : "SALESTAX",
+            "printName" : "Sales Tax",
+            "taxable" : "X",
+            "skuSpecific" : "false",
+            "jurisdictionLevel" : "Sales Tax",
+            "jurisdictionName" : "Sales Tax",
+            "taxAmount" : 0.00,
+            "taxRate" : 0.0,
+            "taxDate" : "2016-12-16"
+          } ]
+        },
+        "total" : 0.00
+      },
+      "locationId" : "K006",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "hardGood" : {
+        "hardGoodType" : "SIM"
+      }
+    }, {
+      "id" : "114109005525",
+      "sequence" : 4,
+      "productCode" : "prod8420723",
+      "productSKU" : "6822A",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "Apple iPhone 6s - 128GB - Rose Gold",
+      "systemName" : "PHO APL IPHONE6S 128GB RGD",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 649.99,
+        "baseAmount" : 649.99,
+        "currencyType" : "USD",
+        "msrp" : 649.99,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 58.50,
+          "preCalculatedTax" : {
+            "taxableCost" : 649.0,
+            "taxableMSRP" : 649.99,
+            "taxableUnitPrice" : 649.99,
+            "orderTaxAreaId" : 390950000,
+            "shipFromTaxAreaId" : 431570560,
+            "shipToTaxAreaId" : 50371900
+          },
+          "lineItemTaxes" : [ {
+            "taxLineId" : 1,
+            "taxCode" : "SALESTAX",
+            "memo" : "SALESTAX",
+            "printName" : "Sales Tax",
+            "taxable" : "X",
+            "skuSpecific" : "false",
+            "jurisdictionLevel" : "Sales Tax",
+            "jurisdictionName" : "Sales Tax",
+            "taxAmount" : 58.50,
+            "taxRate" : 0.09,
+            "taxDate" : "2016-12-16"
+          } ]
+        },
+        "total" : 58.50
+      },
+      "locationId" : "K006",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "contractDetails" : {
+        "installmentPlanId" : 330000017821807,
+        "contractDisplayName" : "Next",
+        "installmentPlanDefinition" : "NE30M80P",
+        "annualPercentageRate" : 0.00,
+        "financeCharge" : 0.00,
+        "amountFinanced" : 649.99,
+        "balancedAmount" : 649.99,
+        "totalSalePrice" : 649.99,
+        "downPayment" : 0.00,
+        "downPaymentPercent" : 0.00,
+        "prepaidFinanceCharge" : 0.00,
+        "installmentAmount" : 21.67,
+        "installmentType" : "PHONE",
+        "contractType" : "LEASE",
+        "contractSystem" : "OPTICAL",
+        "contractSent" : "N",
+        "contractLength" : 30
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "hardGood" : {
+        "byodIndicator" : false,
+        "hardGoodType" : "DEVICE",
+        "productImageUrl" : "https://www.att.com/catalog/en/skus/images/apple-iphone%206s%20128gb-rose%20gold-100x160.jpg",
+        "make" : "Apple",
+        "model" : "iPhone 6s 128GB",
+        "shipmentCommitDate" : {
+          "fromDate" : 1482134400000,
+          "toDate" : 1482307200000
+        },
+        "wirelessHardGoodCharacteristics" : {
+          "techType" : "UMTS",
+          "equipmentType" : "EDGE",
+          "imeiType" : "J5",
+          "phoneType" : "IPHONE"
+        }
+      }
+    }, {
+      "id" : "114109005526WPINS",
+      "sequence" : 5,
+      "productCode" : "prod1040075",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "WPINS",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "AT&T Mobile Insurance",
+      "systemName" : "Wireless Phone Insurance",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 7.99,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      }
+    }, {
+      "id" : "losg338730904UPG",
+      "sequence" : 6,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "MISC_CHARGE",
+      "displayName" : "UpgradeFee",
+      "systemName" : "UPGRADE_FEE",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 20.00,
+        "currencyType" : "USD",
+        "priceType" : "NRC"
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      }
+    }, {
+      "id" : "losg3387309042771000038REMOVE",
+      "sequence" : 7,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "SDFIPLTV",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "Access for iPhone on 4G LTE w/ VVM",
+      "systemName" : "SDFIPLTV IPHN LTE VVM TV",
+      "action" : "REMOVE",
+      "price" : {
+        "amount" : 0.00
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      }
+    }, {
+      "id" : "losg3387309042771000039ADD",
+      "sequence" : 8,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "SDFIPLTV",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "Access for iPhone on 4G LTE w/ VVM",
+      "systemName" : "SDFIPLTV IPHN LTE VVM TV",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      },
+      "characteristics" : {
+        "wirelessLineItemCharacteristics" : {
+          "nciEligibleIndicator" : true,
+          "offerType" : "P"
+        }
+      }
+    }, {
+      "id" : "lobi325530765ShippingFee",
+      "sequence" : 9,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "88879",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "MISC_CHARGE",
+      "displayName" : "ShippingFee",
+      "systemName" : "SHIPPING_FEE",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00,
+          "preCalculatedTax" : {
+            "taxableCost" : 0.0,
+            "taxableMSRP" : 14.95,
+            "taxableUnitPrice" : 0.0,
+            "orderTaxAreaId" : 390950000,
+            "shipFromTaxAreaId" : 431570560,
+            "shipToTaxAreaId" : 50371900
+          },
+          "lineItemTaxes" : [ {
+            "taxLineId" : 1,
+            "taxCode" : "SALESTAX",
+            "memo" : "SALESTAX",
+            "printName" : "Sales Tax",
+            "taxable" : "X",
+            "skuSpecific" : "false",
+            "jurisdictionLevel" : "Sales Tax",
+            "jurisdictionName" : "Sales Tax",
+            "taxAmount" : 0.00,
+            "taxRate" : 0.0,
+            "taxDate" : "2016-12-16"
+          } ]
+        },
+        "total" : 0.00
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : [ "GROUP_01" ]
+      }
+    } ]
+  },
+  "names" : {
+    "name" : [ {
+      "id" : "NAME_01",
+      "firstName" : "EMILY",
+      "lastName" : "ITO",
+      "primaryContactPhones" : [ {
+        "phoneNumber" : "8188328037",
+        "contactPhoneType" : "HOME_PHONE"
+      } ],
+      "additionalContactPhones" : [ {
+        "phoneNumber" : "6612547086",
+        "contactPhoneType" : "WORK_PHONE"
+      } ]
+    }, {
+      "id" : "NAME_02",
+      "firstName" : "EMILY",
+      "lastName" : "ITO",
+      "primaryContactPhones" : [ {
+        "phoneNumber" : "8188328037",
+        "contactPhoneType" : "HOME_PHONE"
+      } ],
+      "additionalContactPhones" : [ {
+        "phoneNumber" : "6612547086",
+        "contactPhoneType" : "WORK_PHONE"
+      } ]
+    }, {
+      "id" : "NAME_03",
+      "firstName" : "EMILY",
+      "lastName" : "ITO",
+      "primaryContactPhones" : [ {
+        "phoneNumber" : "8188328037",
+        "contactPhoneType" : "HOME_PHONE"
+      } ],
+      "additionalContactPhones" : [ {
+        "phoneNumber" : "6612547086",
+        "contactPhoneType" : "WORK_PHONE"
+      } ]
+    } ]
+  },
+  "addresses" : {
+    "address" : [ {
+      "id" : "ADDRESS_01",
+      "unparsedAddress" : {
+        "addressLine1" : "13301 GOLDEN VALLEY LN",
+        "city" : "GRANADA HILLS",
+        "state" : "CA",
+        "zip" : "91344",
+        "country" : "US"
+      },
+      "additionalDetails" : {
+        "additionalDetail" : [ {
+          "code" : "ValidatedAddress",
+          "value" : "false"
+        } ]
+      }
+    } ]
+  },
+  "accounts" : {
+    "account" : [ {
+      "id" : "ACCOUNT_01",
+      "sequence" : 1,
+      "accountCategory" : "MOBILITY_ACCOUNT",
+      "accountSubCategory" : "EXISTING",
+      "paymentArrangement" : "POSTPAID",
+      "billingAccountNumber" : "127170514",
+      "billingInfo" : {
+      	"nameReference": "NAME_02",
+        "addressReference": "ADDRESS_01",
+        "authentication": {
+               "DOB": "gYDi-3-FM",
+               "driversLicense": {
+                  "licenseNumber": ".G*Hz8g",
+                  "state": "TX",
+                  "licenseExpirationDate": "2017-10-10"
+               },
+               "SSN": "FEA1J7AVN",
+               "employerInfo": {
+                  "employerName": "TEST",
+                  "employerPhoneNum": "1235246658"
+               }
+            }
+       },
+      "billingDetail" : [{
+        "nameReference" : "NAME_02",
+        "addressReference" : "ADDRESS_01",
+         "authentication": {
+               "DOB": "gYDi-3-FM",
+               "driversLicense": {
+                  "licenseNumber": ".G*Hz8g",
+                  "state": "TX",
+                  "licenseExpirationDate": "2017-10-10"
+               },
+               "SSN": "FEA1J7AVN",
+               "employerInfo": {
+                  "employerName": "TEST",
+                  "employerPhoneNum": "1235246658"
+               }
+            },
+        "accountStatus" : "ACTIVE"
+      }],
+      "liabilityType" : "INDIVIDUAL",
+      "accountType" : "INDIVIDUAL",
+      "accountSubType" : "R",
+      "enterpriseType" : "IRU",
+      "b2bReference" : "B2B_01",
+      "langId" : "ENGLISH",
+      "market" : "PAC",
+      "subMarket" : "LAX",
+      "priceCode" : "LAX",
+      "spokenLanguagePreference" : "ENGLISH"
+    } ]
+  },
+ "paymentOptions" : {
+    "paymentOption" : [ {
+      "id" : "PAYMENT_OPTION_01",
+      "sequence" : 1,
+      "capmConfig" : {
+        "merchantId" : "ORDERGWCon",
+        "sourceSystem" : "HARDROCK",
+        "sourceLocation" : "CS",
+        "sourceUser" : "HARDROCK"
+      },
+      "paymentMethod" : {
+        "capm" : {
+          "preAuthDetail" : {
+            "authorizationCode" : "OL_DF161216J34491",
+            "authorizationDate" : "2016-12-16",
+            "authorizationExpirationDate" : "2017-01-13",
+            "addressVerificationSystemCode" : "NA",
+            "authorizationKey" : "47591200"
+          },
+          "totalAmount" : 58.50,
+          "capmlast4Digits" : "5917",
+          "zipCode" : "91344",
+          "creditCardType" : "VISA",
+          "giftCardIndicator" : false,
+          "profileName": "OCE_TEST1"
+        }
+      }
+    } ]
+  },
+  "shippingDetails" : {
+    "shippingDetail" : [ {
+      "id" : "SHIPPING_INFO_01",
+      "sequence" : 1,
+      "nameReference" : "NAME_03",
+      "addressReference" : "ADDRESS_01",
+      "shippingCode" : "AA1",
+      "shippingPriceCode" : "88879",
+      "shippingMethod" : "Overnight"
+    } ]
+  },
+  "b2bs" : {
+    "b2b" : [ {
+      "id" : "B2B_01",
+      "b2bContractProvider" : "ATTWS",
+      "b2bContractType" : "CBE",
+      "b2bFAN" : "05940679",
+      "b2bSkipUpgradeEligibilityIndicator" : false,
+      "b2bIgnoreDepositRequiredIndicator" : false,
+      "b2bFANBusinessName" : "BEHAVIORAL LEARNING CENTER INC-N CBE IRU",
+      "businessType" : "Enterprise"
+    } ]
+  },
+  "specialInstructions" : "{}",
+  "dueAmount" : {
+    "amount" : 700.00,
+    "priceType" : "DueToday",
+    "taxDetail" : {
+      "amount" : 60.05
+    },
+    "total" : 760.50
+  },
+  "salesCode" : "NOT_AVAILABLE",
+  "salesLocation" : "NOT_AVAILABLE",
+  "agentCode" : "K3K6I",
+  "agentLocation" : "K3K6I",
+  "termsAndConditions" : {
+    "termsAndConditionAccepted" : [ {
+      "id" : "TC_01",
+      "agreementType" : "MI",
+      "agreementText" : "I have read the AT&T Mobile Insurance Terms and Conditions and agree to the terms and conditions as described.",
+      "accepted" : "Y",
+      "timestamp" : 1481926191999,
+      "version" : "/legal/terms.mobileInsurance.html",
+      "orderLevelIndicator" : false
+    }, {
+      "id" : "TC_02",
+      "agreementType" : "DEV",
+      "agreementText" : "I have read the Retail Installment Agreement and agree to the terms and conditions as described.",
+      "accepted" : "Y",
+      "timestamp" : 1481926191999,
+      "version" : "/legal/terms.deviceInstallmentPlan.html",
+      "orderLevelIndicator" : false
+    }, {
+      "id" : "TC_03",
+      "agreementType" : "WCA",
+      "agreementText" : "I have read the Wireless Customer Agreement and agree to the terms and conditions as described.",
+      "accepted" : "Y",
+      "timestamp" : 1481926191999,
+      "version" : "/legal/terms.wirelessServiceAgreement.html",
+      "orderLevelIndicator" : true
+    }, {
+      "id" : "TC_04",
+      "agreementType" : "CON",
+      "agreementText" : "I have read the Electronic Consent and agree to the terms and conditions as described.",
+      "accepted" : "Y",
+      "timestamp" : 1481926191999,
+      "version" : "/legal/terms.electronicConsent.html",
+      "orderLevelIndicator" : true
+    } ]
+  },
+  "orderContact" : {
+    "nameReference" : "NAME_01",
+    "primaryEmailAddress" : "MELDAB0824@YAHOO.COM"
+  },
+  "salesChannel" : "E",
+  "orderSource" : {
+    "clientIP" : "12.201.224.26",
+    "locale" : "EN_US",
+    "region" : "UT",
+    "countryCode" : "US",
+    "city" : "SALTLAKECITY",
+    "county" : "SALTLAKE",
+    "clientType" : "DESKTOP",
+    "channel" : "DE-MOBILITY",
+    "application" : "MYATTSALES",
+    "zip" : "84101-84134+84136+84138-84139+84141+84143+84145+84",
+    "browserId" : "A002869988654",
+    "additionalDetails" : {
+      "additionalDetail" : [ {
+        "code" : "SENDER",
+        "value" : "HARDROCK"
+      } ]
+    }
+  },
+  "externalOrderSource" : "EST",
+  "encryptedIndicator" : true,
+  "commonOrderIndicator" : true,
+  "summaryCreatedIndicator" : false
+}

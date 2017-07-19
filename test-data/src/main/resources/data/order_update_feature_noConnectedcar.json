@@ -1,0 +1,484 @@
+{
+	"Order":{
+  "AgentUID": "SYSTEM",
+  "RequestType": "SCR",
+  "AdditionalDetails": {
+    "AdditionalDetail": [
+      {
+        "Type": "Order",
+        "Value": "WIRELESS_UP",
+        "Code": "PRODUCT_COMBINATION"
+      }
+    ]
+  },
+  "UpdatedDate": 1467664281642,
+  "DueAmount": {
+    "MSRP": 938.98,
+    "Amount": 938.98,
+    "Total": 938.98,
+    "CurrencyType": "USD",
+    "PriceType": "DUE_TODAY"
+  },
+  "SalesCode": "6F728",
+  "AgentLocation": "Z0066",
+  "IsCommonOrder": false,
+  "Names": {
+    "Name": [
+      {
+        "LegalFirstName": "TEST",
+        "FirstName": "TEST",
+        "MiddleInitial": "MIDDLE1",
+        "LegalLastName": "DATA1",
+        "Id": "NAME_01",
+        "LastName": "DATA1",
+        "EmailAddress": "ns511t@att.com",
+        "PrimaryContactPhone": [
+          {
+            "ContactPhoneType": "CELL_PHONE",
+            "PhoneNumber": "2142041234"
+          }
+        ]
+      },
+      {
+        "LegalFirstName": "TEST",
+        "FirstName": "TEST",
+        "MiddleInitial": "MIDDLE2",
+        "LegalLastName": "DATA2",
+        "Id": "NAME_02",
+        "LastName": "DATA2",
+        "EmailAddress": "ns511t@att.com",
+        "PrimaryContactPhone": [
+          {
+            "ContactPhoneType": "CELL_PHONE",
+            "PhoneNumber": "2142041235"
+          }
+        ]
+      }
+    ]
+  },
+  "Addresses": {
+          "Address": [
+            {
+              "Id": "ADDRESS_01",
+              "UnparsedAddress": {
+                "AddressLine1": "1125 E Campbell Road",
+                "City": "Richardson",
+                "State": "TX",
+                "Zip": "75081",
+                "Country": "US"
+              },
+              "ParsedAddress": {
+                "AddressStreetLine": "1125 E Campbell Road",
+                "HouseNumber": "1125",
+                "Direction": "E",
+                "StreetName": "Campbell",
+                "StreetType": "Road",
+                "City": "Richardson",
+                "State": "TX",
+                "Zip": "75081",
+                "County": "SAN DIEGO",
+                "Country": "US",
+                "AddressType": "UNITED_STATES"
+              }
+            },
+            {
+              "Id": "ADDRESS_02",
+              "UnparsedAddress": {
+                "AddressLine1": "1125 E Campbell Road",
+                "AddressLine2": "",
+                "City": "RICHARDSON",
+                "State": "TX",
+                "Zip": "75081",
+                "Country": "US"
+              },
+              "ParsedAddress": {}
+            }
+          ]
+        },
+  
+  
+  "SalesChannel": "B",
+  "AcceptedDate": 1467166269957,
+  "OrderStatus": {
+    "Status": "IN_PROGRESS",
+    "SubStatus": "IN_PROGRESS"
+  },
+  "OrderType": "CREATE",
+  "Groups": {
+    "Group": [
+      {
+        "Type": "LINE_OF_SERVICE",
+        "GroupCharacteristics": {      	
+          "LoSGCharacteristics": {
+             "ActionType": "UPDATE_FEATURE",
+            "LoSGStatus": {
+              "Status": "SYS_PROCESSING",
+              "SubStatus": "FRAUD_APPROVED"
+            },
+            "AdditionalDetails": {
+              "AdditionalDetail": [
+                {
+                  "Type": "WaiveUpgradeFee",
+                  "Value": "Y",
+                  "Code": "InquireFANProfileResponse"
+                }
+              ]
+            },
+            "TCRefs": {},
+            "InstallationInstructions": {},
+            "DirecTVLOSChars": {},
+            "FulfillmentMethod": "DF",
+            "AccountRef": "ACCOUNT_01",
+           
+            "LoSGType": "CHANGE",
+            "ConflictingServiceInfoRefs": {},
+            "LoSGReferenceId": "losg15379412601",
+            "LoSGSequenceNumber": 1,
+            "NumberPortInfo": {
+              "DisconnectAcknowledged": {}
+            },
+            "VOIPLOSChars": {},
+            "DealerCode": "6F728",
+            "Compensation": {
+              "RepDetails": {}
+            },
+            "ProductCategory": "WIRELESS",
+            "IsPrimary": true,
+            "ShippingInfoRef": "SHIPPING_INFO_01",
+            "UDLs": {
+            "UDL":[
+            {
+            	"SequenceNumber": "1",
+            	"Value": "ONE"
+            },
+            {
+            	"SequenceNumber": "2",
+            	"Value": "TWO"
+            },
+            {
+            	"SequenceNumber": "3",
+            	"Value": "THREE"
+            },
+            {
+            	"SequenceNumber": "4",
+            	"Value": "FOUR"
+            }
+            ]
+            },
+            "InternetLOSChars": {},
+            "TCAccepted": {},
+            "WirelessLOSChars":{
+            	"MobileNumber":"1234567890"            
+            },
+            
+            "ServiceLocationRef": "ADDRESS_02",
+            "SubscriberNameRef": "NAME_01"
+          }
+        },
+        "Id": "GROUP_01",
+        "Sequence": 1,
+        "Name": "UPGRADE"
+      },
+      {
+        "Type": "SHARED_PLAN",
+        "GroupCharacteristics": {
+         "SharedPlanCharacteristics":{
+        	"PlanType": "MOBILE_SHARE",
+        	"DataGroupId": "12345",
+        	"GroupReferenceCode": "GROUP_01"
+        	}      	
+        },
+        "Id": "GROUP_02",
+        "Sequence": 1,
+        "Name": "UPGRADE"
+      }
+    ]
+  },
+  "IsResubmitOrder": false,
+  "IsPartialOrder": false,
+  "OrderContact": {
+    "PrimaryEmailAddress": "ns511t@att.com",
+    "NameRef": "NAME_02"
+  },
+  "ShippingInfos": {
+    "ShippingInfo": [
+      {
+        "ShippingMethod": "hardgoodShippingGroup",
+        "NameRef": "NAME_02",
+        "ShippingCode": "AA0",
+        "Id": "SHIPPING_INFO_02",
+        "ShippingPriceCode": "88879",
+        "ShippingInfoSequence": 2,
+        "AddressRef": "ADDRESS_01"
+      }
+    ]
+  },
+  "Notes": "Order Updated with Status : IN_PROGRESS and comments: Order Updated with Status : IN_PROGRESS",
+  "ExternalOrderSource": "PRE",
+   "LineItems": {
+          "LineItem": [
+
+            {
+              "Id": "689409694",
+              "LineItemSequence": 3,
+              "ProductCode": "NOT_AVAILABLE",
+              "ProductSku": "NOT_AVAILABLE",
+              "BillingCode": "BN1NM0A60",
+              "ProductType": "PLAN",
+              "DisplayName": "Business Nation 450 with Rollover $39.99",
+              "SystemName": "Business Nation 450 with Rollover $39.99",
+              "Description": "Business Nation 450 with Rollover $39.99",
+              "Action": "ADD",
+              "Price": {
+                "Amount": 39.99,
+                "CurrencyType": "USD",
+                "MSRP": 39.99,
+                "PriceType": "RC",
+                "Total": 39.99
+              },
+              "LocationID": "K008",
+              "Payments": {
+                "Payment": [
+                  {
+                    "Amount": 39.99,
+                    "CurrencyType": "USD",
+                    "NoOfInstallment": 0,
+                    "PaymentOptionRef": "PAYMENT_OPTION_01"
+                  }
+                ]
+              },
+              "EffectiveDate": "2016-12-28Z",
+              "Quantity": 1,
+              "GroupRefs": {
+                "GroupRef": [
+                  "GROUP_01",
+                  "GROUP_02"
+                ]
+              },
+              "Characteristics": {
+                "CommonCharacteristics": {},
+                "WirelessLineItemChars": {
+                  "TradeInInfo": {},
+                  "isNCIEligible": "",
+                  "OfferType": "P"
+                  
+                },
+                "InternetLineItemChars": {},
+                "VOIPLineItemChars": {}
+              },
+              "SupplyChainInfo": {
+                "claimRMANumber": ""
+              }
+            },
+            {
+              "Id": "689409695",
+              "LineItemSequence": 4,
+              "ProductCode": "NOT_AVAILABLE",
+              "ProductSku": "NOT_AVAILABLE",
+              "BillingCode": "EJK3",
+              "ProductType": "OPTIONAL_FEATURE",
+              "DisplayName": "DataPro 3GB for iPhone on 4G LTE with VVM Enterprise $45",
+              "SystemName": "DataPro 3GB for iPhone on 4G LTE with VVM Enterprise $45",
+              "Description": "DataPro 3GB for iPhone on 4G LTE with VVM Enterprise $45",
+              "Action": "ADD",
+              "Price": {
+                "Amount": 45,
+                "CurrencyType": "USD",
+                "MSRP": 45,
+                "PriceType": "RC",
+                "Total": 45
+              },
+              "LocationID": "K008",
+              "Payments": {
+                "Payment": [
+                  {
+                    "Amount": 45,
+                    "CurrencyType": "USD",
+                    "NoOfInstallment": 0,
+                    "PaymentOptionRef": "PAYMENT_OPTION_01"
+                  }
+                ]
+              },
+              "EffectiveDate": "2016-12-28Z",
+              "Quantity": 1,
+              "GroupRefs": {
+                "GroupRef": [
+                  "GROUP_01"
+                ]
+              },
+              "Characteristics": {
+                "CommonCharacteristics": {},
+                "WirelessLineItemChars": {
+                  "TradeInInfo": {},
+                  "isNCIEligible": "",
+                  "OfferType": "G",
+                  "ADTM":{
+                  "ManifestURL": "hghgv",
+                  "EnterpriseID": "yvgyv",
+                  "ManifestLabel": "hybhb"
+                  }
+                },
+                "InternetLineItemChars": {},
+                "VOIPLineItemChars": {}
+              },
+              "SupplyChainInfo": {
+                "claimRMANumber": ""
+              }
+            },
+            {
+              "Id": "689409702",
+              "LineItemSequence": 11,
+              "ProductCode": "NOT_AVAILABLE",
+              "ProductSku": "NOT_AVAILABLE",
+              "BillingCode": "EJK3",
+              "ProductType": "OPTIONAL_FEATURE",
+              "DisplayName": "DataPro 3GB for iPhone on 4G LTE with VVM Enterprise $45",
+              "SystemName": "DataPro 3GB for iPhone on 4G LTE with VVM Enterprise $45",
+              "Description": "DataPro 3GB for iPhone on 4G LTE with VVM Enterprise $45",
+              "Action": "REMOVE",
+              "Price": {
+                "Amount": 45,
+                "CurrencyType": "USD",
+                "MSRP": 45,
+                "PriceType": "RC",
+                "Total": 45
+              },
+              "LocationID": "K008",
+              "Payments": {
+                "Payment": [
+                  {
+                    "Amount": 45,
+                    "CurrencyType": "USD",
+                    "NoOfInstallment": 0,
+                    "PaymentOptionRef": "PAYMENT_OPTION_01"
+                  }
+                ]
+              },
+              "Quantity": 1,
+              "GroupRefs": {
+                "GroupRef": [
+                  "GROUP_01"
+                ]
+              },
+              "Characteristics": {
+                "CommonCharacteristics": {},
+                "WirelessLineItemChars": {
+                  "TradeInInfo": {},
+                  "isNCIEligible": "",
+                  "OfferType": "G"
+                },
+                "InternetLineItemChars": {},
+                "VOIPLineItemChars": {}
+              },
+              "SupplyChainInfo": {
+                "claimRMANumber": ""
+              }
+            }          
+          ]
+        },
+  "RequestId": "416_492_3666_UPGRADE_1466605723189",
+  "TCs": {
+    "TCAccepted": []
+  },
+  "SalesLocation": "6F728",
+  "IsExpressCheckOut": false,
+  "IsLocked": false,
+  "CurrentDateTime": 1467699803262,
+  "ApproverNameRefs": {},
+  "PaymentOptions": {
+    "PaymentOption": [
+      {
+        "PaymentSequence": 1,
+        "CAPMConfig": {},
+        "PaymentMethod": {
+          "AR": {
+            "PONumber": "6372",
+            "ARIndicator": true
+          }
+        },
+        "Id": "PAYMENT_OPTION_01"
+      }
+    ]
+  },
+  "SubmitedDate": 1466630923000,
+  "PRCTicketNumber": "TestUP18",
+  "CustomerOrderNumber": "SANITYTEST_D4B2835",
+  "ParentOrderNumber": "",
+  "AgentCode": "6F728",
+  "CreatedDate": 1466630923000,
+  "BulkOrderWorkRequestNumber": "416",
+  "IsBulk": true,
+  "OrderSource": {
+    "Locale": "NOT_AVAILABLE",
+    "Channel": "CRU-MOBILITY",
+    "ClientIP": "NOT_AVAILABLE",
+    "Application": "OCE",
+     "RequestType": "SCR"
+  },
+  "OCEOrderNumber": "OCE34270005E",
+  "Accounts": {
+    "Account": [
+      {
+        "BillingAccountTelephoneNumber": "2142041234",
+        "EnterpriseType": "GBS",
+        "AccountSequenceNumber": 1,
+        "ContractAcceptance": {},
+        "AccountCategory": "MOBILITY_ACCOUNT",
+        "BillingInfo": {
+          "NameRef": "NAME_01",
+          "CassAddress": {},
+          "Authentication": {
+            "EmployerInfo": {},
+            "SecurityVerification": {},
+            "DriversLicense": {}
+          },
+          "LastUpdated": 1410800400000,
+          "AddressRef": "ADDRESS_01"
+        },
+        "LiabilityType": "CORPORATE",
+        "SubMarket": "DFW",
+        "UnifiedAccount": {
+          "PremierIndicator": false,
+          "ConvergeValidation": false,
+          "ConvergeOrder": false
+        },
+        "ELOA": {},
+        "ProvisioningSystems": {},
+        "B2BRef": "B2B_01",
+        "PaymentArrangement": "POSTPAID",
+        "CustomerCode": "4546778",
+        "AccountSubCategory": "NEW",
+        "BillingLanguagePreference": "ENGLISH",
+        "CreditAlert": {},
+        "CreditCheck": {
+          "DebtAccount": [
+            {}
+          ]
+        },
+        "AccountType": "BUSINESS",
+        "Market": "DLS",
+        "LangId": "ENGLISH",
+        "BankingPartner": {},
+        "BillingAccountNumber": "287269270721",
+        "Id": "ACCOUNT_01",
+        "AccountSubType": "R",
+        "EffectiveDate": 1410764400000
+      }
+    ]
+  },
+  "B2Bs": {
+    "B2B": [
+      {
+        "B2BFANBusinessName": "TEST",
+        "TaxExemptInd": true,
+        "BusinessType": "CORPORATE",
+        "Id": "B2B_01",
+        "B2BContractType": "CCDA MAC",
+        "B2BFAN": "6728261",
+        "ExemptOrderId": "4546778"
+      }
+    ]
+  }
+},
+"TransactionLogs": []
+}

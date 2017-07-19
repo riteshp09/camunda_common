@@ -1,0 +1,1075 @@
+{
+  "customerOrderNumber" : "T1473319002813",
+  "orderType" : "CREATE",
+  "requestId" : "457845456565",
+  "orderStatus" : {
+    "status" : "RECEIVED",
+    "subStatus" : "RECEIVED"
+  },
+  "createdDate" : 1439932754271,
+  "submittedDate" : 1439932993918,
+  "productGroups" : {
+    "group" : [ {
+      "id" : "GROUP_01",
+      "name" : "UPGRADE_WIRELESS",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 1,
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "losg7980031",
+          "sequence" : 1,
+          "losgType" : "NEW",
+          "losgStatus" : {
+            "status" : "CANCELED",
+            "subStatus" : "INQUIRE_ACCOUNT_PROFILE_PASS"
+          },
+          "productCategory" : "WIRELESS",
+          "primaryIndicator" : true,
+          "dealerCode" : "Z0066",
+          "market" : "TNK",
+          "subMarket" : "719",
+          "priceCode" : "719",
+          "accountReference" : "ACCOUNT_01",
+          "serviceLocationReference" : "ADDRESS_02",
+          "subscriberNameReference" : "NAME_02",
+          "termsAndConditionAccepted" : {
+            "accepted" : "Y",
+            "timestamp" : 1439932977999,
+            "version" : "/content/tos/en/multi-deviceProtectionPack/2014/10/22/1,/content/tos/en/wirelessServiceAgreement/2014/02/11/1,/content/tos/en/electronicConsent/2013/05/23/1,/content/tos/en/deviceInstallmentPlan/2015/02/24/1,/content/tos/en/nexttradein/2014/01/10/1",
+            "deviceInstallAgreementType" : "DEV",
+            "econsentAgreementType" : "CON"
+          },
+          "wirelessLOSCharacteristics" : {
+            "mobileNumber" : "8655911429",
+            "upgradeQualificationDetails" : [ {
+              "offerCategory" : "NE",
+              "qualificationLevel" : "29007",
+              "qualificationType" : "B",
+              "qualificationMessage" : "Congratulations!  This line is eligible for an upgrade with the trade in of the current installment billed device.",
+              "policyCategory" : "C",
+              "deviceType" : "N",
+              "upgradeFeeWaivedIndicator" : false,
+              "discountUOM" : "A",
+              "priceList" : "C",
+              "minimumCommitment" : 28,
+              "minimumMRC" : 0.0,
+              "maximumMRC" : 0.0,
+              "contractExtended" : "PENDING",
+              "approvalNumber" : "0",
+              "newAEUCheckerIndicator" : true
+            } ],
+            "billingSystemId" : "T"
+          },
+          "fulfillmentMethod" : "DF",
+          "shippingDetailReference" : "SHIPPING_INFO_01"
+        }
+      }
+    },  {
+      "id" : "GROUP_03",
+      "name" : "UPGRADE_WIRELESS",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 3,
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "WIRELESS_03",
+          "sequence" : 2,
+          "losgType" : "CHANGE",
+          "productCategory" : "WIRELESS",
+          "dealerCode" : "Z0066",
+          "priceCode" : "719",
+          "accountReference" : "ACCOUNT_01",
+          "serviceLocationReference" : "ADDRESS_02",
+          "subscriberNameReference" : "NAME_02",
+          "termsAndConditionAccepted" : {
+            "accepted" : "Y",
+            "timestamp" : 1439932977999,
+            "version" : "/content/tos/en/multi-deviceProtectionPack/2014/10/22/1,/content/tos/en/wirelessServiceAgreement/2014/02/11/1,/content/tos/en/electronicConsent/2013/05/23/1,/content/tos/en/nexttradein/2014/01/10/1",
+            "econsentAgreementType" : "CON"
+          },
+          "wirelessLOSCharacteristics" : {
+            "mobileNumber" : "8655911430",
+            "billingSystemId" : "T"
+          },
+          "fulfillmentMethod" : "DF"
+        }
+      }
+    }, {
+      "id" : "GROUP_04",
+      "name" : "UPGRADE_WIRELESS",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 4,
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "WIRELESS_04",
+          "sequence" : 3,
+          "losgType" : "CHANGE",
+          "productCategory" : "WIRELESS",
+          "dealerCode" : "Z0066",
+          "priceCode" : "719",
+          "accountReference" : "ACCOUNT_01",
+          "serviceLocationReference" : "ADDRESS_02",
+          "subscriberNameReference" : "NAME_02",
+          "termsAndConditionAccepted" : {
+            "accepted" : "Y",
+            "timestamp" : 1439932977999,
+            "version" : "/content/tos/en/multi-deviceProtectionPack/2014/10/22/1,/content/tos/en/wirelessServiceAgreement/2014/02/11/1,/content/tos/en/electronicConsent/2013/05/23/1,/content/tos/en/nexttradein/2014/01/10/1",
+            "econsentAgreementType" : "CON"
+          },
+          "wirelessLOSCharacteristics" : {
+            "mobileNumber" : "8655911431",
+            "billingSystemId" : "T"
+          },
+          "fulfillmentMethod" : "DF"
+        }
+      }
+    }, {
+      "id" : "GROUP_05",
+      "name" : "UPGRADE_WIRELESS",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 5,
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "WIRELESS_05",
+          "sequence" : 4,
+          "losgType" : "CHANGE",
+          "productCategory" : "WIRELESS",
+          "dealerCode" : "Z0066",
+          "priceCode" : "719",
+          "accountReference" : "ACCOUNT_01",
+          "serviceLocationReference" : "ADDRESS_02",
+          "subscriberNameReference" : "NAME_02",
+          "termsAndConditionAccepted" : {
+            "accepted" : "Y",
+            "timestamp" : 1439932977999,
+            "version" : "/content/tos/en/multi-deviceProtectionPack/2014/10/22/1,/content/tos/en/wirelessServiceAgreement/2014/02/11/1,/content/tos/en/electronicConsent/2013/05/23/1,/content/tos/en/nexttradein/2014/01/10/1",
+            "econsentAgreementType" : "CON"
+          },
+          "wirelessLOSCharacteristics" : {
+            "mobileNumber" : "8655911432",
+            "billingSystemId" : "T"
+          },
+          "fulfillmentMethod" : "DF"
+        }
+      }
+    }, {
+      "id" : "GROUP_06",
+      "name" : "UPGRADE_WIRELESS",
+      "type" : "LINE_OF_SERVICE",
+      "sequence" : 6,
+      "characteristics" : {
+        "losgCharacteristics" : {
+          "losgReferenceId" : "WIRELESS_06",
+          "sequence" : 5,
+          "losgType" : "CHANGE",
+          "productCategory" : "WIRELESS",
+          "dealerCode" : "Z0066",
+          "priceCode" : "719",
+          "accountReference" : "ACCOUNT_01",
+          "serviceLocationReference" : "ADDRESS_02",
+          "subscriberNameReference" : "NAME_02",
+          "termsAndConditionAccepted" : {
+            "accepted" : "Y",
+            "timestamp" : 1439932977999,
+            "version" : "/content/tos/en/multi-deviceProtectionPack/2014/10/22/1,/content/tos/en/wirelessServiceAgreement/2014/02/11/1,/content/tos/en/electronicConsent/2013/05/23/1,/content/tos/en/nexttradein/2014/01/10/1",
+            "econsentAgreementType" : "CON"
+          },
+          "wirelessLOSCharacteristics" : {
+            "mobileNumber" : "8655911433",
+            "billingSystemId" : "T"
+          },
+          "fulfillmentMethod" : "DF"
+        }
+      }
+    } ]
+  },
+  "lineItems" : {
+    "lineItem" : [ {
+      "id" : "8301100001883793",
+      "sequence" : 1,
+      "productCode" : "prod8070236",
+      "productSKU" : "83793",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "eCom Phone Quick Start Guide",
+      "systemName" : "Kit_guide_eCom_Phone_12.0",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00
+        },
+        "total" : 0.00
+      },
+      "locationId" : "K004",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_01" 
+      },
+      "hardGood" : {
+        "hardGoodType" : "DEVICE",
+        "shippedHotIndicator" : true
+      }
+    }, {
+      "id" : "8301100001873023",
+      "sequence" : 2,
+      "productCode" : "prod8070236",
+      "productSKU" : "73023",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "Embedded Micro SIM for Phones",
+      "systemName" : "Embedded SIM",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00
+        },
+        "total" : 0.00
+      },
+      "locationId" : "K004",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_01" 
+      },
+      "hardGood" : {
+        "hardGoodType" : "DEVICE"
+      }
+    }, {
+      "id" : "83011000018",
+      "sequence" : 3,
+      "productCode" : "prod8070236",
+      "productSKU" : "6613A",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "Samsung Galaxy Note 4 - Charcoal Black",
+      "systemName" : "PHO SAM GLXY NOTE 4 SMN910 BLK",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 206.00,
+        "currencyType" : "USD",
+        "msrp" : 685.59,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00
+        },
+        "total" : 206.00
+      },
+      "locationId" : "K004",
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "contractDetails" : {
+        "installmentPlanId" : 0,
+        "installmentStatus" :"Reserved",
+        "contractDisplayName" : "Next 12 Down Payment 1",
+        "installmentPlanDefinition" : "NXT12DP1",
+        "annualPercentageRate" : 0.00,
+        "financeCharge" : 0.00,
+        "amountFinanced" : 479.59,
+        "balancedAmount" : 685.59,
+        "totalSalePrice" : 685.59,
+        "downPayment" : 206.00,
+        "downPaymentPercent" : 30.00,
+        "prepaidFinanceCharge" : 0.00,
+        "installmentAmount" : 17.13,
+        "installmentType" : "PHONE",
+        "contractType" : "LEASE",
+        "contractSystem" : "OPTICAL",
+        "contractSent" : "N",
+        "contractLength" : 28
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" : "GROUP_01"
+      },
+      "hardGood" : {
+        "hardGoodType" : "DEVICE",
+        "productImageUrl" : "https://tst34.stage.att.com/catalog/en/skus/images/samsung-galaxy%20note%204-charcoal%20black-100x160.jpg",
+        "make" : "Samsung",
+        "shipmentCommitDate" : {
+          "fromDate" : 1440658800000,
+          "toDate" : 1441090800000
+        },
+        "wirelessHardGoodCharacteristics" : {
+          "techType" : "UMTS",
+          "equipmentType" : "EDGE",
+          "imeiType" : "P6",
+          "phoneType" : "ANY_PHONE"
+        }
+      }
+    }, {
+      "id" : "83011000021",
+      "sequence" : 4,
+      "productCode" : "prod6130421",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "SDDVRP",
+      "productType" : "PLAN",
+      "displayName" : "Mobile Share Plan",
+      "systemName" : "Mobile Share Plan",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_01" 
+      },
+      "characteristics" : {
+        "wirelessLineItemCharacteristics" : { }
+      }
+    }, {
+      "id" : "83011000021MM",
+      "sequence" : 5,
+      "productCode" : "prod6130421",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "MM",
+      "productType" : "INCLUDED_FEATURE",
+      "displayName" : "Unlimited Mobile to Mobile Calling",
+      "systemName" : "Unlimited Mobile to Mobile Calling - Nation",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_01" 
+      }
+    }, {
+      "id" : "83011000021BWBN",
+      "sequence" : 6,
+      "productCode" : "prod6130421",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "BWBN",
+      "productType" : "INCLUDED_FEATURE",
+      "displayName" : "Basic Voice Mail",
+      "systemName" : "Basic Voice Mail for Postpaid",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_01" 
+      }
+    }, {
+      "id" : "83011000021CW",
+      "sequence" : 7,
+      "productCode" : "prod6130421",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "CW",
+      "productType" : "INCLUDED_FEATURE",
+      "displayName" : "Call Waiting",
+      "systemName" : "Call Waiting for Postpaid",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_01" 
+      }
+    }, {
+      "id" : "83011000021CNTF",
+      "sequence" : 8,
+      "productCode" : "prod6130421",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "CNTF",
+      "productType" : "INCLUDED_FEATURE",
+      "displayName" : "Long Distance",
+      "systemName" : "Long Distance",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_01" 
+      }
+    }, {
+      "id" : "83011000021CLI",
+      "sequence" : 9,
+      "productCode" : "prod6130421",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "CLI",
+      "productType" : "INCLUDED_FEATURE",
+      "displayName" : "Caller ID",
+      "systemName" : "Caller ID",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_01" 
+      }
+    }, {
+      "id" : "83011000021MPTY",
+      "sequence" : 10,
+      "productCode" : "prod6130421",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "MPTY",
+      "productType" : "INCLUDED_FEATURE",
+      "displayName" : "Conference Calling",
+      "systemName" : "Conference Calling",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_01" 
+      }
+    }, {
+      "id" : "83011000021UNLMSGSO",
+      "sequence" : 11,
+      "productCode" : "prod6130421",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "UNLMSGSO",
+      "productType" : "INCLUDED_FEATURE",
+      "displayName" : "Mobile Share Unlimited Messaging - UNLMSGSO",
+      "systemName" : "UNLMSGSO",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_01" 
+      }
+    }, {
+      "id" : "83011000021CFI",
+      "sequence" : 12,
+      "productCode" : "prod6130421",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "CFI",
+      "productType" : "INCLUDED_FEATURE",
+      "displayName" : "Call Forwarding",
+      "systemName" : "Call Forwarding",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_01" 
+      }
+    }, {
+      "id" : "83011000021MDPPSUPP",
+      "sequence" : 13,
+      "productCode" : "prod7950364",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "MDPPSUPP",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "Multi-Device Protection Pack - Support",
+      "systemName" : "Multi-Device Protection Pack - Support",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_01" 
+      }
+    }, {
+      "id" : "83011000022MDPPINS",
+      "sequence" : 14,
+      "productCode" : "prod7950364",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "MDPPINS",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "AT&T Multi-Device Protection Pack",
+      "systemName" : "Multi-Device Protection Pack - Insurance",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 29.99,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_01" 
+      }
+    }, {
+      "id" : "83011000019MSDGE006G",
+      "sequence" : 15,
+      "productCode" : "prod8150662",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "MSDGE006G",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "Mobile Share Value 6GB with Rollover Data",
+      "systemName" : "Mobile Share Value Plan 6GB",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 70.00,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_01"
+      },
+      "characteristics" : {
+        "wirelessLineItemCharacteristics" : {
+          "nciEligibleIndicator" : true,
+          "offerType" : "G"
+        }
+      }
+    }, {
+      "id" : "83011000020SDFVSL64",
+      "sequence" : 16,
+      "productCode" : "prod7830305",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "SDFVSL64",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "Mobile Share Value Smartphone 4G LTE with Visual Voicemail",
+      "systemName" : "Mobile Share Value Smartphone 4G LTE with Visual Voicemail",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 40.00,
+        "currencyType" : "USD",
+        "priceType" : "RC"
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_01"
+      },
+      "characteristics" : {
+        "wirelessLineItemCharacteristics" : {
+          "nciEligibleIndicator" : true,
+          "offerType" : "P"
+        }
+      }
+    }, {
+      "id" : "A9301REMOVE",
+      "sequence" : 17,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "A9301",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "HARDGOOD",
+      "displayName" : "NOT_AVAILABLE",
+      "systemName" : "NOT_AVAILABLE",
+      "action" : "REMOVE",
+      "locationId" : "K004",
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_02" 
+      },
+      "characteristics" : {
+        "wirelessLineItemCharacteristics" : {
+          "tradeInDetail" : {
+            "claimId" : "1456206063635",
+            "exchangeType" : "NUG",
+            "installmentPlanId" : "390000000011556",
+            "deviceClearingAgreement" : "WIP",
+            "nonComplianceFee" : 95.00,
+            "payupAmount" : 0.00
+          }
+        }
+      },
+       "contractDetails" : {
+        "totalSalePrice" : 0.00,
+        "contractType" : "LEASE",
+        "contractSystem" : "OPTICAL",
+        "contractSent" : "N",
+        "contractLength" : 24
+      },
+      "hardGood" : {
+        "hardGoodType" : "DEVICE",
+        "make" : "Apple",
+        "wirelessHardGoodCharacteristics" : {
+          "imei" : "013330003606668"
+        }
+      }
+    }, {
+      "id" : "losg7980031UPG",
+      "sequence" : 18,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "MISC_CHARGE",
+      "displayName" : "UpgradeFee",
+      "systemName" : "UPGRADE_FEE",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 15.00,
+        "currencyType" : "USD",
+        "priceType" : "NRC"
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_01" 
+      }
+    }, {
+      "id" : "LINEITEM_19",
+      "sequence" : 19,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "AN31",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "AT&T Navigator",
+      "systemName" : "NAV ROUTES UNL",
+      "action" : "REMOVE",
+      "price" : {
+        "amount" : 0.00
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_03"
+      }
+    }, {
+      "id" : "LINEITEM_20",
+      "sequence" : 20,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "AN01",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "AT&T Navigator",
+      "systemName" : "NAV ROUTES UNL",
+      "action" : "REMOVE",
+      "price" : {
+        "amount" : 0.00
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_03"
+      }
+    }, {
+      "id" : "LINEITEM_21",
+      "sequence" : 21,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "SDFVSL64",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "Mobile Share Value Smartphone 4G LTE with Visual Voicemail",
+      "systemName" : "Mobile Share Value Smartphone 4G LTE with Visual Voicemail",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_03"
+      }
+    }, {
+      "id" : "LINEITEM_22",
+      "sequence" : 22,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "MSDGE006G",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "Mobile Share Value 6GB with Rollover Data",
+      "systemName" : "Mobile Share Value Plan 6GB",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_03"
+      }
+    }, {
+      "id" : "LINEITEM_23",
+      "sequence" : 23,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "AN31",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "AT&T Navigator",
+      "systemName" : "NAV ROUTES UNL",
+      "action" : "REMOVE",
+      "price" : {
+        "amount" : 0.00
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_04"
+      }
+    }, {
+      "id" : "LINEITEM_24",
+      "sequence" : 24,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "AN01",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "AT&T Navigator",
+      "systemName" : "NAV ROUTES UNL",
+      "action" : "REMOVE",
+      "price" : {
+        "amount" : 0.00
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_04"
+      }
+    }, {
+      "id" : "LINEITEM_25",
+      "sequence" : 25,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "SDFVSL64",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "Mobile Share Value Smartphone 4G LTE with Visual Voicemail",
+      "systemName" : "Mobile Share Value Smartphone 4G LTE with Visual Voicemail",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_04"
+      }
+    }, {
+      "id" : "LINEITEM_26",
+      "sequence" : 26,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "MSDGE006G",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "Mobile Share Value 6GB with Rollover Data",
+      "systemName" : "Mobile Share Value Plan 6GB",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_04"
+      }
+    }, {
+      "id" : "LINEITEM_27",
+      "sequence" : 27,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "SDFVIL64",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "Mobile Share Value iPhone&#174; on 4G LTE with Visual Voicemail",
+      "systemName" : "Mobile Share Value iPhone on 4G LTE with Visual Voicemail",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_05"
+      }
+    }, {
+      "id" : "LINEITEM_28",
+      "sequence" : 28,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "MSDGE006G",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "Mobile Share Value 6GB with Rollover Data",
+      "systemName" : "Mobile Share Value Plan 6GB",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_05"
+      }
+    }, {
+      "id" : "LINEITEM_29",
+      "sequence" : 29,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "SDFVSL64",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "Mobile Share Value Smartphone 4G LTE with Visual Voicemail",
+      "systemName" : "Mobile Share Value Smartphone 4G LTE with Visual Voicemail",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_06"
+      }
+    }, {
+      "id" : "LINEITEM_30",
+      "sequence" : 30,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "NOT_AVAILABLE",
+      "billingCode" : "MSDGE006G",
+      "productType" : "OPTIONAL_FEATURE",
+      "displayName" : "Mobile Share Value 6GB with Rollover Data",
+      "systemName" : "Mobile Share Value Plan 6GB",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0.00
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_06"
+      }
+    }, {
+      "id" : "lobi8280019ShippingFee",
+      "sequence" : 31,
+      "productCode" : "NOT_AVAILABLE",
+      "productSKU" : "88879",
+      "billingCode" : "NOT_AVAILABLE",
+      "productType" : "MISC_CHARGE",
+      "displayName" : "ShippingFee",
+      "systemName" : "SHIPPING_FEE",
+      "action" : "ADD",
+      "price" : {
+        "amount" : 0,
+        "currencyType" : "USD",
+        "msrp" : 0.00,
+        "priceType" : "DueToday",
+        "taxDetail" : {
+          "amount" : 0.00
+        },
+        "total" : 0.00
+      },
+      "payments" : {
+        "payment" : [ {
+          "paymentOptionReference" : "PAYMENT_OPTION_01"
+        } ]
+      },
+      "quantity" : 1,
+      "groupReferences" : {
+        "groupReference" :  "GROUP_01"
+      }
+    } ]
+  },
+  "names" : {
+    "name" : [ {
+      "id" : "NAME_01",
+      "firstName" : "BEDROCK",
+      "lastName" : "DONOTUSE",
+      "primaryContactPhones" : [ {
+        "phoneNumber" : "4252881213",
+        "contactPhoneType" : "HOME_PHONE"
+      } ],
+      "additionalContactPhones" : [ {
+        "phoneNumber" : "4252889999",
+        "contactPhoneType" : "WORK_PHONE"
+      } ]
+    }, {
+      "id" : "NAME_02",
+      "firstName" : "BEDROCK",
+      "lastName" : "DONOTUSE",
+      "primaryContactPhones" : [ {
+        "phoneNumber" : "4252881213",
+        "contactPhoneType" : "HOME_PHONE"
+      } ],
+      "additionalContactPhones" : [ {
+        "phoneNumber" : "4252889999",
+        "contactPhoneType" : "WORK_PHONE"
+      } ]
+    }, {
+      "id" : "NAME_03",
+      "firstName" : "BEDROCK",
+      "lastName" : "DONOTUSE",
+      "primaryContactPhones" : [ {
+        "phoneNumber" : "4252881213",
+        "contactPhoneType" : "HOME_PHONE"
+      } ],
+      "additionalContactPhones" : [ {
+        "phoneNumber" : "4252889999",
+        "contactPhoneType" : "WORK_PHONE"
+      } ]
+    } ]
+  },
+  "addresses" : {
+    "address" : [ {
+      "id" : "ADDRESS_01",
+      "unparsedAddress" : {
+        "addressLine1" : "1720 CUMBERLAND AVE",
+        "city" : "KNOXVILLE",
+        "state" : "TN",
+        "zip" : "37916",
+        "country" : "US"
+      }
+    }, {
+      "id" : "ADDRESS_02",
+      "unparsedAddress" : {
+        "addressLine1" : "1720 CUMBERLAND AVE",
+        "city" : "KNOXVILLE",
+        "state" : "TN",
+        "zip" : "37916",
+        "country" : "US"
+      }
+    }, {
+      "id" : "ADDRESS_03",
+      "unparsedAddress" : {
+        "addressLine1" : "1720 CUMBERLAND AVE",
+        "city" : "KNOXVILLE",
+        "state" : "TN",
+        "zip" : "37916"
+      }
+    }, {
+      "id" : "ADDRESS_04",
+      "unparsedAddress" : {
+        "addressLine1" : "1720 CUMBERLAND AVE",
+        "city" : "KNOXVILLE",
+        "state" : "TN",
+        "zip" : "37916",
+        "country" : "US"
+      }
+    } ]
+  },
+  "accounts" : {
+    "account" : [ {
+      "id" : "ACCOUNT_01",
+      "sequence" : 1,
+      "accountCategory" : "MOBILITY_ACCOUNT",
+      "accountSubCategory" : "EXISTING",
+      "paymentArrangement" : "POSTPAID",
+      "billingAccountNumber" : "545111492693",
+      "billingDetail" : {
+        "nameReference" : "NAME_02",
+        "addressReference" : "ADDRESS_02",
+        "authentication" : {
+          "dob" : "OqBY-'k-FY",
+          "driversLicense" : {
+            "licenseNumber" : ".G*{Hz8g",
+            "state" : "TX",
+            "licenseExpirationDate" : "(nDr-/{-E$"
+          },
+          "lastFourOfSSN" : "0094",
+          "employerDetail" : {
+            "employerName" : "DONOTUSE",
+            "employerPhoneNumber" : "4252881213"
+          }
+        },
+        "accountStatus" : "ACTIVE"
+      },
+      "billingDeliveryPreference" : "PAPERLESS",
+      "accountType" : "INDIVIDUAL",
+      "accountSubType" : "R",
+      "enterpriseType" : "CON",
+      "langId" : "ENGLISH",
+      "market" : "TNK",
+      "subMarket" : "719",
+      "priceCode" : "719",
+      "spokenLanguagePreference" : "ENGLISH"
+    } ]
+  },
+  "paymentOptions" : {
+    "paymentOption" : [ {
+      "id" : "PAYMENT_OPTION_01",
+      "sequence" : 1,
+      "paymentMethod" : {
+        "creditCard" : {
+          "addressReference" : "ADDRESS_01",
+          "expirationYearMonth" : "1712",
+          "creditCardHolderName" : "BEDROCKDONOTUSE",
+          "creditCardType" : "MASTERCARD",
+          "creditCardNumber" : "RNISX78B83ML2OSW",
+          "cardBillingZipCode" : "30004",
+          "paymentAmount" : 206.00
+        }
+      }
+    } ]
+  },
+  "shippingDetails" : {
+    "shippingDetail" : [ {
+      "id" : "SHIPPING_INFO_01",
+      "sequence" : 1,
+      "nameReference" : "NAME_03",
+      "addressReference" : "ADDRESS_04",
+      "shippingCode" : "AA1",
+      "shippingPriceCode" : "88879",
+      "shippingMethod" : "Overnight"
+    } ]
+  },
+  "specialInstructions" : "{}",
+  "dueAmount" : {
+    "amount" : 206.00,
+    "priceType" : "DueToday",
+    "taxDetail" : {
+      "amount" : 0.00
+    },
+    "total" : 206.00
+  },
+  "agentCode" : "Z0066",
+  "agentLocation" : "Z0066",
+  "orderContact" : {
+    "nameReference" : "NAME_02",
+    "primaryEmailAddress" : "sp676t@att.com"
+  },
+  "orderSource" : {
+    "clientIP" : "135.163.180.104",
+    "locale" : "EN_US",
+    "clientType" : "DESKTOP",
+    "channel" : "DE-MOBILITY",
+    "application" : "MYATTSALES",
+    "browserId" : "A001280170370",
+    "additionalDetails" : {
+      "additionalDetail" : [ {
+        "code" : "SENDER",
+        "value" : "HARDROCK"
+      } ]
+    }
+  },
+  "encryptedIndicator" : true,
+  "passThroughIndicator" : false,
+  "commonOrderIndicator" : true,
+  "summaryCreatedIndicator" : false
+}

@@ -1,0 +1,972 @@
+{
+	"CustomerOrderNumber": "22-17349677912320343SJ",
+	"RequestId": "27b620ec-0ed7-4118-9729-21041e22d403",
+	"OCEOrderNumber": "D56440149",
+	"ParentOrderNumber": null,
+	"OrderType": "CREATE",
+	"OrderStatus": {
+		"Status": "RECEIVED",
+		"SubStatus": "RECEIVED"
+	},
+	"CreatedDate": 1498186104000,
+	"SubmitedDate": 1498186104000,
+	"UpdatedDate": 1498572549000,
+	"AcceptedDate": 1498572547923,
+	"CurrentDateTime": 1498572549202,
+	"Groups": {
+		"Group": [{
+			"Id": "GROUP_03",
+			"Name": "Package",
+			"Type": "PACKAGE",
+			"Sequence": 3,
+			"GroupCharacteristics": {
+				"PackageCharacteristics": {
+					"Category": "OFFER",
+					"Code": "2000043"
+				}
+			}
+		}, {
+			"Id": "GROUP_02",
+			"Type": "LINE_OF_SERVICE",
+			"Sequence": 2,
+			"GroupCharacteristics": {
+				"LoSGCharacteristics": {
+					"LoSGReferenceId": "hsia",
+					"LoSGSequenceNumber": 2,
+					"LoSGType": "NEW",
+					"ProductCategory": "INTERNET",
+					"DealerCode": "Z0066",
+					"AccountRef": "ACCOUNT_01",
+					"LoSGStatus": {
+						"Status": "SYS_RECEIVED",
+						"SubStatus": "NEW"
+					},
+					"ServiceLocationRef": "ADDRESS_01",
+					"ServiceQualificationRef": "SERVICE_QLFY_01",
+					"ConflictingServiceInfoRefs": {},
+					"TCRefs": {
+						"TCRef": ["TC_02"]
+					},
+					"SchedulingInfoRef": "SCHEDULINGINFO_01",
+					"InstallationInstructions": {},
+					"NumberPortInfo": {
+						"DisconnectAcknowledged": {}
+					},
+					"InstallType": "TECH",
+					"TCAccepted": {},
+					"WirelessLOSChars": {
+						"UpgradeInfo": {},
+						"ManageCallListReferences": {},
+						"ConnectedCarInfo": {}
+					},
+					"InternetLOSChars": {
+						"IPDSLAIndicator": "Y",
+						"PrimaryNetworkType": "IP-CO",
+						"InternetProgramType": "IPBB"
+					},
+					"DirecTVLOSChars": {},
+					"VOIPLOSChars": {},
+					"CommonLOSCharacteristics": {},
+					"IsAutomationEnabled": false,
+					"Compensation": {},
+					"FulfillmentMethod": "DF",
+					"AdditionalDetails": {
+						"AdditionalDetail": [{
+							"Type": "Order",
+							"Code": "TotalDataAllowance",
+							"Value": "0"
+						}]
+					}
+				}
+			}
+		}, {
+			"Id": "GROUP_01",
+			"Type": "LINE_OF_SERVICE",
+			"Sequence": 1,
+			"GroupCharacteristics": {
+				"LoSGCharacteristics": {
+					"LoSGReferenceId": "voipP",
+					"LoSGSequenceNumber": 1,
+					"LoSGType": "NEW",
+					"ProductCategory": "VOIP",
+					"IsPrimary": true,
+					"DealerCode": "Z0066",
+					"AccountRef": "ACCOUNT_01",
+					"LoSGStatus": {
+						"Status": "SYS_RECEIVED",
+						"SubStatus": "NEW"
+					},
+					"ServiceLocationRef": "ADDRESS_01",
+					"ServiceQualificationRef": "SERVICE_QLFY_01",
+					"ConflictingServiceInfoRefs": {},
+					"TCRefs": {},
+					"SchedulingInfoRef": "SCHEDULINGINFO_01",
+					"InstallationInstructions": {
+						"InstallationInstruction": [{
+							"Question": "customerWillingForCSI",
+							"Answers": "Default"
+						}, {
+							"Question": "useExistingJacks",
+							"Answers": "Default"
+						}, {
+							"Question": "additionalJacksOrWiring",
+							"Answers": "Default"
+						}]
+					},
+					"NumberPortInfo": {
+						"DisconnectAcknowledged": {}
+					},
+					"InstallType": "TECH",
+					"TCAccepted": {},
+					"WirelessLOSChars": {
+						"UpgradeInfo": {},
+						"ManageCallListReferences": {},
+						"ConnectedCarInfo": {}
+					},
+					"InternetLOSChars": {},
+					"DirecTVLOSChars": {},
+					"VOIPLOSChars": {
+						"DirectoryListing": [{
+							"NameRef": "NAME_04",
+							"Listing": {
+								"ListingType": "LISTED",
+								"ListBy": "BUSINESS_NAME"
+							},
+							"OmitAddress": false
+						}]
+					},
+					"CommonLOSCharacteristics": {},
+					"IsAutomationEnabled": false,
+					"Compensation": {},
+					"FulfillmentMethod": "DF"
+				}
+			}
+		}]
+	},
+	"LineItems": {
+		"LineItem": [{
+			"Id": "98919806439",
+			"LineItemSequence": 1,
+			"ProductCode": "prod9040358",
+			"ProductSku": "SKU8340385",
+			"BillingCode": "1",
+			"ProductType": "OPTIONAL_FEATURE",
+			"DisplayName": "Internet for Business - Dynamic IP",
+			"SystemName": "SMB: ATT U-verse IP Dynamic",
+			"Action": "ADD",
+			"Price": {
+				"Amount": 0.00,
+				"CurrencyType": "USD",
+				"MSRP": 0.00,
+				"PriceType": "RC",
+				"Total": 0.00
+			},
+			"LocationID": "K006",
+			"Payments": {},
+			"Quantity": 1,
+			"GroupRefs": {
+				"GroupRef": ["GROUP_03", "GROUP_02"]
+			},
+			"Characteristics": {
+				"CommonCharacteristics": {
+					"IgnorePricePlanCode": "N"
+				},
+				"WirelessLineItemChars": {
+					"TradeInInfo": {},
+					"PDP": {},
+					"ADTM": {}
+				},
+				"InternetLineItemChars": {
+					"BucketAllowance": "0",
+					"OverageBucketAllowance": "0",
+					"IpType": "DYNAMIC"
+				},
+				"VOIPLineItemChars": {},
+				"AddOnSolutionCharacterstics": {}
+			},
+			"SupplyChainInfo": {}
+		}, {
+			"Id": "98919806437",
+			"LineItemSequence": 2,
+			"ProductCode": "prod9040248",
+			"ProductSku": "SKU8340231",
+			"BillingCode": "88806246",
+			"ProductType": "PLAN",
+			"DisplayName": "AT&T Phone Unlimited North America ",
+			"SystemName": "SMB : Primary Voice Unlimited ",
+			"Action": "ADD",
+			"Price": {
+				"Amount": 40.00,
+				"CurrencyType": "USD",
+				"MSRP": 55.00,
+				"PriceType": "RC",
+				"Total": 40.00
+			},
+			"LocationID": "K006",
+			"Payments": {},
+			"Quantity": 1,
+			"PromotionRefs": {
+				"PromotionRef": ["PROMOTION_3"]
+			},
+			"GroupRefs": {
+				"GroupRef": ["GROUP_03", "GROUP_01"]
+			},
+			"Characteristics": {
+				"CommonCharacteristics": {
+					"ComponentConfiguration": [{
+						"ComponentCode": "VOIPLN",
+						"ComponentOperations": [{
+							"OperationName": ["IWFARequest"]
+						}],
+						"ComponentPath": "CVOIP|VOIPLN",
+						"ComponentMapRequired": true
+					}, {
+						"ComponentCode": "PLST",
+						"ComponentOperations": [{
+							"OperationName": ["IWFARequest"]
+						}],
+						"ComponentPath": "PLST",
+						"ComponentMapRequired": true
+					}, {
+						"ComponentCode": "VOIPLINE",
+						"ComponentOperations": [{
+							"OperationName": ["PUSPOQtResponse"]
+						}],
+						"ComponentPath": "CVOIP|VOIPLINE",
+						"ComponentMapRequired": true
+					}, {
+						"ComponentCode": "CVOIP",
+						"ComponentOperations": [{
+							"OperationName": ["PUSPO1Request"]
+						}],
+						"ComponentPath": "CVOIP",
+						"ComponentMapRequired": true,
+						"Attributes": [{
+							"AttributeCode": "usagePlan",
+							"AttributeValue": "VPUNNA",
+							"AttributeOperations": [{
+								"OperationName": ["PUSPO1Request"]
+							}]
+						}]
+					}],
+					"IgnorePricePlanCode": "N"
+				},
+				"WirelessLineItemChars": {
+					"TradeInInfo": {},
+					"PDP": {},
+					"ADTM": {}
+				},
+				"InternetLineItemChars": {},
+				"VOIPLineItemChars": {},
+				"AddOnSolutionCharacterstics": {}
+			},
+			"SupplyChainInfo": {}
+		}, {
+			"Id": "98919806438",
+			"LineItemSequence": 3,
+			"ProductCode": "prod9040811",
+			"ProductSku": "SKU8340476",
+			"BillingCode": "34189",
+			"ProductType": "OPTIONAL_FEATURE",
+			"DisplayName": "Published Phone Listing",
+			"SystemName": "SMB: Compatable Published",
+			"Action": "ADD",
+			"Price": {
+				"Amount": 0.00,
+				"CurrencyType": "USD",
+				"MSRP": 0.00,
+				"PriceType": "RC",
+				"Total": 0.00
+			},
+			"LocationID": "K006",
+			"Payments": {},
+			"Quantity": 1,
+			"GroupRefs": {
+				"GroupRef": ["GROUP_03", "GROUP_01"]
+			},
+			"Characteristics": {
+				"CommonCharacteristics": {
+					"ComponentConfiguration": [{
+						"ComponentCode": "VOIPDL",
+						"ComponentOperations": [{
+							"OperationName": ["PUSPO1Request"]
+						}],
+						"ComponentPath": "CVOIP|VOIPLN|VOIPDL",
+						"ComponentMapRequired": true,
+						"Attributes": [{
+							"AttributeCode": "directoryListingType",
+							"AttributeValue": "Published",
+							"AttributeOperations": [{
+								"OperationName": ["PUSPO1Request"]
+							}]
+						}]
+					}, {
+						"ComponentCode": "VOIPLINE",
+						"ComponentOperations": [{
+							"OperationName": ["PUSPOQtResponse"]
+						}],
+						"ComponentPath": "CVOIP|VOIPLINE",
+						"ComponentMapRequired": true
+					}],
+					"IgnorePricePlanCode": "N"
+				},
+				"WirelessLineItemChars": {
+					"TradeInInfo": {},
+					"PDP": {},
+					"ADTM": {}
+				},
+				"InternetLineItemChars": {},
+				"VOIPLineItemChars": {},
+				"AddOnSolutionCharacterstics": {}
+			},
+			"SupplyChainInfo": {}
+		}, {
+			"Id": "98919806436",
+			"LineItemSequence": 4,
+			"ProductCode": "prod9040303",
+			"ProductSku": "SKU8340256",
+			"BillingCode": "33311",
+			"ProductType": "PLAN",
+			"DisplayName": "AT&T Internet for Business 5",
+			"SystemName": "SMB - Internet 5x1",
+			"Action": "ADD",
+			"Price": {
+				"Amount": 40.00,
+				"CurrencyType": "USD",
+				"MSRP": 110.00,
+				"PriceType": "RC",
+				"Total": 40.00
+			},
+			"LocationID": "K006",
+			"Payments": {},
+			"Quantity": 1,
+			"PromotionRefs": {
+				"PromotionRef": ["PROMOTION_2"]
+			},
+			"GroupRefs": {
+				"GroupRef": ["GROUP_02", "GROUP_03"]
+			},
+			"Characteristics": {
+				"CommonCharacteristics": {
+					"ComponentConfiguration": [{
+						"ComponentCode": "PLST",
+						"ComponentOperations": [{
+							"OperationName": ["IWFARequest"]
+						}],
+						"ComponentPath": "PLST",
+						"ComponentMapRequired": true
+					}, {
+						"ComponentCode": "QHSIA",
+						"ComponentOperations": [{
+							"OperationName": ["PUSPO1Request"]
+						}],
+						"ComponentPath": "QHSIA",
+						"ComponentMapRequired": true,
+						"Attributes": [{
+							"AttributeCode": "AMSSHSIAQuestion1",
+							"AttributeValue": "Hsia5x1",
+							"AttributeOperations": [{
+								"OperationName": ["PUSPO1Request"]
+							}]
+						}]
+					}, {
+						"ComponentCode": "HSIA",
+						"ComponentOperations": [{
+							"OperationName": ["IWFARequest"]
+						}, {
+							"OperationName": ["IUSPDResponse"]
+						}, {
+							"OperationName": ["PUSPOQtResponse"]
+						}],
+						"ComponentPath": "HSIA",
+						"ComponentMapRequired": true,
+						"Attributes": [{
+							"AttributeCode": "Speed",
+							"AttributeValue": "Hsia5x1",
+							"AttributeOperations": [{
+								"OperationName": ["PUSPOQtResponse"]
+							}, {
+								"OperationName": ["IUSPDResponse"]
+							}, {
+								"OperationName": ["IWFARequest"]
+							}]
+						}, {
+							"AttributeCode": "Speed",
+							"AttributeValue": "Hsia5x1",
+							"AttributeOperations": [{
+								"OperationName": ["IWFARequest"]
+							}]
+						}]
+					}],
+					"IgnorePricePlanCode": "N"
+				},
+				"WirelessLineItemChars": {
+					"TradeInInfo": {},
+					"PDP": {},
+					"ADTM": {}
+				},
+				"InternetLineItemChars": {
+					"BucketAllowance": "0",
+					"OverageBucketAllowance": "0",
+					"PlanDownloadSpeed": "5 Mbps"
+				},
+				"VOIPLineItemChars": {},
+				"AddOnSolutionCharacterstics": {}
+			},
+			"SupplyChainInfo": {}
+		}, {
+			"Id": "98919808163",
+			"LineItemSequence": 5,
+			"ProductCode": "prod9040796",
+			"ProductSku": "SKU8340463",
+			"BillingCode": "33311",
+			"ProductType": "MISC_CHARGE",
+			"DisplayName": "Professional Installation",
+			"SystemName": "SMB: hsiaInstall-SMB",
+			"Action": "ADD",
+			"Price": {
+				"Amount": 99.00,
+				"CurrencyType": "USD",
+				"MSRP": 99.00,
+				"PriceType": "NRC",
+				"Total": 99.00
+			},
+			"LocationID": "K006",
+			"Payments": {},
+			"Quantity": 1,
+			"GroupRefs": {
+				"GroupRef": ["GROUP_02", "GROUP_03"]
+			},
+			"Characteristics": {
+				"CommonCharacteristics": {
+					"ComponentConfiguration": [{
+						"ComponentCode": "HSIA",
+						"ComponentOperations": [{
+							"OperationName": ["PUSPOQtResponse"]
+						}],
+						"ComponentPath": "HSIA",
+						"ComponentMapRequired": true
+					}, {
+						"ComponentCode": "QCSRCSI",
+						"ComponentOperations": [{
+							"OperationName": ["FVPD1Request"]
+						}, {
+							"OperationName": ["PUSPO1Request"]
+						}],
+						"ComponentPath": "QCSRCSI",
+						"ComponentMapRequired": true,
+						"Attributes": [{
+							"AttributeCode": "questionCsrCsiInstallationOption",
+							"AttributeValue": "Tech",
+							"AttributeOperations": [{
+								"OperationName": ["PUSPO1Request"]
+							}]
+						}]
+					}],
+					"IgnorePricePlanCode": "N"
+				},
+				"WirelessLineItemChars": {
+					"TradeInInfo": {},
+					"PDP": {},
+					"ADTM": {}
+				},
+				"InternetLineItemChars": {},
+				"VOIPLineItemChars": {},
+				"AddOnSolutionCharacterstics": {}
+			},
+			"SupplyChainInfo": {}
+		}, {
+			"Id": "98919808165",
+			"LineItemSequence": 6,
+			"ProductCode": "prod9040808",
+			"ProductSku": "SKU8340461",
+			"BillingCode": "33311",
+			"ProductType": "PLAN",
+			"DisplayName": "High Speed Internet Equipment Fee SMB",
+			"SystemName": "SMB: HSIAEquipmentAccess-SMB ",
+			"Action": "ADD",
+			"Price": {
+				"Amount": 0.00,
+				"CurrencyType": "USD",
+				"MSRP": 0.00,
+				"PriceType": "RC",
+				"Total": 0.00
+			},
+			"LocationID": "K006",
+			"Payments": {},
+			"Quantity": 1,
+			"GroupRefs": {
+				"GroupRef": ["GROUP_02", "GROUP_03"]
+			},
+			"Characteristics": {
+				"CommonCharacteristics": {
+					"ComponentConfiguration": [{
+						"ComponentCode": "RG",
+						"ComponentOperations": [{
+							"OperationName": ["PUSPO1Request"]
+						}],
+						"ComponentPath": "RG",
+						"ComponentMapRequired": true
+					}],
+					"IgnorePricePlanCode": "N"
+				},
+				"WirelessLineItemChars": {
+					"TradeInInfo": {},
+					"PDP": {},
+					"ADTM": {}
+				},
+				"InternetLineItemChars": {},
+				"VOIPLineItemChars": {},
+				"AddOnSolutionCharacterstics": {}
+			},
+			"SupplyChainInfo": {}
+		}, {
+			"Id": "autopay",
+			"LineItemSequence": 7,
+			"ProductCode": "NOT_AVAILABLE",
+			"BillingCode": "NOT_AVAILABLE",
+			"ProductType": "OPTIONAL_FEATURE",
+			"DisplayName": "Auto_Payment",
+			"SystemName": "AUTO_PAYMENT",
+			"Action": "ADD",
+			"Price": {
+				"Amount": 0.00,
+				"CurrencyType": "USD",
+				"MSRP": 0.00,
+				"PriceType": "RC",
+				"Total": 0.00
+			},
+			"Payments": {
+				"Payment": [{
+					"CurrencyType": "USD",
+					"PaymentOptionRef": "PAYMENT_OPTION_01"
+				}]
+			},
+			"Quantity": 1,
+			"GroupRefs": {
+				"GroupRef": ["GROUP_01"]
+			},
+			"SupplyChainInfo": {}
+		}]
+	},
+	"Names": {
+		"Name": [{
+			"Id": "NAME_01",
+			"FirstName": "LEKISHA",
+			"LastName": "EPPS",
+			"EmailAddress": "LIVEWIRECUSTOMS@YAHOO.COM",
+			"PrimaryContactPhone": [{
+				"PhoneNumber": "5614630164",
+				"ContactPhoneType": "WORK_PHONE",
+				"ConsentDetails": {}
+			}, {
+				"PhoneNumber": "5614630164",
+				"ContactPhoneType": "WORK_PHONE",
+				"ConsentDetails": {}
+			}]
+		}, {
+			"Id": "NAME_02",
+			"FirstName": "LEKISHA",
+			"LastName": "EPPS",
+			"EmailAddress": "LIVEWIRECUSTOMS@YAHOO.COM",
+			"PrimaryContactPhone": [{
+				"PhoneNumber": "7822677314",
+				"ConsentDetails": {}
+			}]
+		}, {
+			"Id": "NAME_03",
+			"FirstName": "JEFFERY",
+			"LastName": "EPPS"
+		}, {
+			"Id": "NAME_04",
+			"FirstName": "LIVEWIRE",
+			"LastName": "CUSTOMS"
+		}]
+	},
+	"Addresses": {
+		"Address": [{
+			"Id": "ADDRESS_01",
+			"AddressId": "00001FKXCO",
+			"UnparsedAddress": {
+				"AddressLine1": "500 BAINES TER",
+				"City": "PAHOKEE",
+				"State": "FL",
+				"Zip": "33476",
+				"Country": "US"
+			},
+			"ParsedAddress": {
+				"HouseNumber": "500",
+				"StreetName": "BAINES",
+				"StreetType": "TER",
+				"City": "PAH",
+				"State": "FL",
+				"Zip": "33476",
+				"ZipCodeExtension": "1206",
+				"RateZoneBanCode": "548",
+				"LegalEntity": "5F00",
+				"BuildingType": "N",
+				"TarCode": "035802",
+				"RateCenterCode": "PAHOKEE",
+				"ExchangeCode": "PAH",
+				"PrimaryNpaNxx": "561924",
+				"Clli8": "PAHKFLMA",
+				"LinkKey": "D",
+				"VideoHubOffice": "WEPBFL",
+				"SmartMoves": "N"
+			},
+			"AdditionalDetails": {
+				"AdditionalDetail": [{
+					"Type": "Profile",
+					"Code": "ValidatedAddress",
+					"Value": "true"
+				}]
+			}
+		}, {
+			"Id": "ADDRESS_02",
+			"UnparsedAddress": {
+				"AddressLine1": "500 W BAINES TER ",
+				"City": "PAHOKEE",
+				"State": "FL",
+				"Zip": "33476",
+				"County": "PALM BEACH",
+				"Country": "US"
+			},
+			"ParsedAddress": {
+				"AddressStreetLine": "500 W BAINES TER ",
+				"HouseNumber": "500",
+				"Direction": "W",
+				"AssignedStreetNumber": "null",
+				"StreetName": "BAINES",
+				"StreetType": "TER",
+				"City": "PAHOKEE",
+				"State": "FL",
+				"Zip": "33476",
+				"ZipCodeExtension": "1206",
+				"County": "PALM BEACH",
+				"Country": "PALM BEACH"
+			},
+			"AdditionalDetails": {
+				"AdditionalDetail": [{
+					"Type": "Profile",
+					"Code": "ValidatedAddress",
+					"Value": "true"
+				}]
+			}
+		}, {
+			"Id": "ADDRESS_03",
+			"UnparsedAddress": {
+				"AddressLine1": "500 W BAINES TER ",
+				"City": "PAHOKEE",
+				"State": "FL",
+				"Zip": "33476",
+				"County": "PALM BEACH",
+				"Country": "US"
+			},
+			"ParsedAddress": {
+				"AddressStreetLine": "500 W BAINES TER ",
+				"HouseNumber": "500",
+				"Direction": "W",
+				"AssignedStreetNumber": "null",
+				"StreetName": "BAINES",
+				"StreetType": "TER",
+				"City": "PAHOKEE",
+				"State": "FL",
+				"Zip": "33476",
+				"ZipCodeExtension": "1206",
+				"County": "PALM BEACH",
+				"Country": "PALM BEACH"
+			},
+			"AdditionalDetails": {
+				"AdditionalDetail": [{
+					"Type": "BIUP",
+					"Code": "AuxAddressLine0",
+					"Value": "LEKISHA EPPS"
+				}, {
+					"Type": "Profile",
+					"Code": "ValidatedAddress",
+					"Value": "true"
+				}]
+			}
+		}]
+	},
+	"Accounts": {
+		"Account": [{
+			"Id": "ACCOUNT_01",
+			"AccountSequenceNumber": 1,
+			"AccountCategory": "UVERSE_ACCOUNT",
+			"AccountSubCategory": "NEW",
+			"PaymentArrangement": "POSTPAID",
+			"BusinessAccountName": "LiveWire customs",
+			"BillingLanguagePreference": "ENGLISH",
+			"BillingInfo": [{
+				"NameRef": "NAME_02",
+				"AddressRef": "ADDRESS_03",
+				"Authentication": {
+					"DOB": "xVU}-[{-/_&<>'",
+					"DriversLicense": {},
+					"StateId": {},
+					"SSN": "RHMX48OVF",
+					"LastFourOfSSN": "1909",
+					"EmployerInfo": {}
+				},
+				"CassAddress": {
+					"AddressLine": ["LEKISHA EPPS"]
+				},
+				"PreviousAddressIndicator": "N",
+				"BillingType": "OWNER"
+			}, {
+				"NameRef": "NAME_03",
+				"Authentication": {
+					"DOB": "92W{-i0-B<&",
+					"DriversLicense": {},
+					"StateId": {},
+					"EmployerInfo": {}
+				},
+				"BillingType": "AUTHORIZED"
+			}],
+			"ServiceLocationRef": "ADDRESS_01",
+			"BusinessAddressReference": "ADDRESS_02",
+			"CreditCheck": {
+				"CreditClass": "HIGH",
+				"CCMTransactionID": "U20170622704015039",
+				"CCRan": true,
+				"EIDNumber": "U20170622704015039",
+				"SafeScanAlertIndicator": false,
+				"SingleCreditQueryWirelessIndicator": false,
+				"SafeScanPassIndicator": false
+			},
+			"BankingPartner": {},
+			"CreditAlert": {},
+			"BillingDeliveryPreference": "PAPERLESS",
+			"ELOA": {},
+			"GigaPowerIndicator": "N",
+			"ContractAcceptance": {},
+			"UnifiedAccount": {
+				"ConvergeOrder": false,
+				"ConvergeValidation": false,
+				"PremierIndicator": false
+			},
+			"AccountType": "BUSINESS",
+			"AccountSubType": "9",
+			"B2BRef": "B2B_01",
+			"PassCode": "XXXX",
+			"LangId": "ENGLISH",
+			"Market": "NOT_AVAILABLE",
+			"SpokenLanguagePreference": "ENGLISH",
+			"ProvisioningSystems": {},
+			"AdditionalDetails": {
+				"AdditionalDetail": [{
+					"Type": "ARCH",
+					"Code": "PMO_IND",
+					"Value": "true"
+				}]
+			},
+			"CPNI": true
+		}]
+	},
+	"PaymentOptions": {
+		"PaymentOption": [{
+			"Id": "D56420268",
+			"CAPMConfig": {},
+			"PaymentMethod": {
+				"CreditCard": {
+					"PaymentToken": {},
+					"PreAuthDetail": {},
+					"PaymentConfirmationDetail": {},
+					"SaveProfile": {}
+				}
+			}
+		}, {
+			"Id": "PAYMENT_OPTION_01",
+			"PaymentSequence": 1,
+			"CAPMConfig": {
+				"SourceSystem": "HARDROCK",
+				"SourceLocation": "CS",
+				"SourceUser": "HARDROCK"
+			},
+			"PaymentMethod": {
+				"ACH": {
+					"BankAccountDetails": {
+						"AccountHolderName": "Lekisha Epps",
+						"AccountNumber": "XXXX",
+						"RoutingNumber": "067014822",
+						"AccountType": "CHECKING"
+					},
+					"PaymentAmount": 0.00,
+					"PreAuthDetail": {},
+					"PaymentConfirmationDetail": {}
+				}
+			},
+			"AdditionalDetails": {
+				"AdditionalDetail": [{
+					"Type": "Order",
+					"Code": "PaymentType",
+					"Value": "AUTO_PAY"
+				}]
+			}
+		}]
+	},
+	"Promotions": {
+		"Promotion": [{
+			"Id": "PROMOTION_3",
+			"PromotionCode": "UBV005",
+			"PromotionId": "88335133",
+			"DisplayLevel": "ITEM",
+			"DisplaySequence": 2,
+			"BaseOfferId": "88806246",
+			"PromotionName": "Promotional offer",
+			"Amount": 15.00,
+			"Percent": 0.0,
+			"FixedAmount": 0,
+			"Duration": 24,
+			"PromotionType": "PROMOTION",
+			"PromotionCycle": "MONTHLY",
+			"UnitOfMeasurement": "FLATOFF",
+			"EffectiveInDays": 0,
+			"IsComplexDiscount": false
+		}, {
+			"Id": "PROMOTION_2",
+			"PromotionCode": "BN0008",
+			"PromotionId": "88716763",
+			"DisplayLevel": "ITEM",
+			"DisplaySequence": 1,
+			"BaseOfferId": "33311",
+			"PromotionName": "Promotional offer",
+			"Amount": 70.00,
+			"Percent": 0.0,
+			"FixedAmount": 0,
+			"Duration": 24,
+			"PromotionType": "PROMOTION",
+			"PromotionCycle": "MONTHLY",
+			"UnitOfMeasurement": "FLATOFF",
+			"EffectiveInDays": 0,
+			"IsComplexDiscount": false
+		}]
+	},
+	"SchedulingInfos": {
+		"SchedulingInfo": [{
+			"Id": "SCHEDULINGINFO_01",
+			"NameRef": "NAME_01",
+			"ActualSchedule": {
+				"SelectedAppointmentDate": "2017-06-27",
+				"SelectedAppointmentTime": "09:00:00",
+				"StartTime": "09:00 AM",
+				"EndTime": "11:00 AM"
+			},
+			"InstallType": "TECH",
+			"DispatchType": "ATT Only Install",
+			"IsRealTimeCalendar": true,
+			"BestTimeToReach": "morning",
+			"AdditionalDetails": {
+				"AdditionalDetail": [{
+					"Code": "InstallationBusinessName",
+					"Value": "LiveWire customs"
+				}]
+			}
+		}]
+	},
+	"ServiceFacilityQualifications": {
+		"ServiceFacilityQualification": [{
+			"Id": "SERVICE_QLFY_01",
+			"AddressRef": "ADDRESS_01",
+			"PreferredNetworkType": "IP-CO",
+			"ProfileCode": "IP-Low",
+			"Frequency17MhzIndicator": false,
+			"VectoringIndicator": false,
+			"CpeRequiredIndicator": false,
+			"FacilityCheck": {
+				"Validation": [{
+					"Code": "SC1-0000",
+					"Message": "No conflicts. OK to proceed."
+				}],
+				"ServiceType": [{}]
+			},
+			"IsDSLAvailable": true
+		}]
+	},
+	"ConflictingServiceInfos": {
+		"ConflictingServiceInfo": [{
+			"Id": "CONF_SRV_INFO_01",
+			"AddressRef": "ADDRESS_01",
+			"AccountNumber": "4727055",
+			"LegacyExistIndicator": true,
+			"BTN": {},
+			"ReferallOfCalls": false,
+			"DSLMemberInfo": {}
+		}]
+	},
+	"B2Bs": {
+		"B2B": [{
+			"Id": "B2B_01",
+			"BusinessType": "soleproprietorship",
+			"ManageCallListReferences": {}
+		}]
+	},
+	"TotalPrice": {},
+	"CreditPolicy": {
+		"CRSMOnFlag": false
+	},
+	"SalesCode": "2ZYZFAA",
+	"SalesLocation": "Default",
+	"AgentCode": "Z0066",
+	"AgentLocation": "Z0066",
+	"AffiliateReferalDate": 18000000,
+	"TCs": {
+		"TCAccepted": [{
+			"Id": "TC_02",
+			"AgreementType": "UVERSE_INTERNET",
+			"AgreementText": "<strong>All for Less AT&T Phone Promotional Offer:</strong> Offer expires 8/31/2017. Excludes taxes, surcharges,\\r\\nrecovery fees and other similar charges, which are extra. New or existing Business customers who\\r\\nsubscribe to AT&T Internet for Business or AT&T Business Fiber are eligible for promotional rates\\r\\nwhen adding AT&T Phone for Business. Customer will receive the following promotional rates for a\\r\\nperiod of 24 months: AT&T Phone for Business first line at $40/month with Unlimited North America\\r\\nplan or $45/month with International Plus plan. Additional lines are subject to current rates. After the\\r\\npromotional period, rates are subject to change to the then current rates. Offer also available to\\r\\ncustomers migrating from FastAccess? Business DSL or AT&T High Speed internet Business Edition\\r\\nto AT&T Internet for Business or AT&T Business Fiber. Offer available only for new AT&T Phone for\\r\\nBusiness customers. Renewals and current All For Less subscribers are not eligible. Credit restrictions\\r\\nand other terms, conditions and limitations apply. AT&T may modify or cancel offers at any time\\r\\nwithout notice. Advertised services not available in all areas. May not be combined with other like\\r\\noffers, discounts or promotions. For complete details, go to <a href=att.com/aflterms.>att.com/aflterms.</a><br><br>\\r\\n\\r\\n<strong>AT&T All for Less?: Offer expires 08/31/2017. Excludes taxes, surcharges, recovery fees and\\r\\nother similar charges, which are extra.</strong> Pricing will vary depending on services purchased. Depending\\r\\non service(s) purchased, term commitment may be required and early termination fees may apply. Rates\\r\\nare subject to change at the end of the term or rate guarantee. Services may be subject to early\\r\\ntermination fees.<strong>All for Less</strong>eligibility requires the purchase of at least one product from two of the\\r\\nfour following categories; qualifying voice plan, qualifying Internet plan, qualifying TV service,\\r\\nqualifying wireless service (?an All for Less bundle?).<strong>Qualifying voice plans:</strong><br>\\r\\n(1) Local calling plan<br>\\r\\nplus long distance which includes AT&T Business Local Calling Unlimited A with one of the following\\r\\nlong distance plans: All for Less? Unlimited, All for Less? 500, or AT&T Business Block of Timesm,\\r\\n700 II, 1200 II, 2500 II, 5000 II, 7500 II, 10,000 II plan, or<br>\\r\\n(2) AT&T Phone for Business.<u>Qualifying Internet plans:</u> AT&T Internet for Business, \\r\\nAT&T High Speed Internet Business Edition, FastAccess?\\r\\nBusiness DSL, or AT&T Business Fiber.<u> Qualifying TV Service:</u> U-verse TV or DIRECTV. <u>Qualifying\\r\\nwireless service:</u> Requires qualified activation of a new CRU (Corporate Responsibility User) line of\\r\\neligible wireless service on an eligible device under a qualified business agreement (Business\\r\\nAgreement).<br>\\r\\n<strong>Eligible Wireless Service:</strong>All wireless voice and data service plans except for the\\r\\nDataConnect 250MB for Tablets and iPad?.<strong>Eligible Wireless Devices:</strong>Phones, Tablets, Laptops,\\r\\nLaptop Connect, Stand-alone Mobile Hotspot devices and Netbooks. Individual Responsibility Users do\\r\\nnot qualify.<strong>Additional All for Less Requirements:</strong>Internet service, wireless service, or TV service\\r\\nactivation must be NEW. Existing AT&T Internet customers can upgrade their current service to AT&T\\r\\nInternet for Business 6 Mbps or higher and also qualify. Upgrades or renewal of terms on existing\\r\\nMobility lines are not eligible. Customer must agree that wireline and wireless services may be on a\\r\\ncombined bill when possible. Available to eligible Customers under one billing telephone number\\r\\n(BTN) at a single location only; not available on accounts billing to another number or receiving billed\\r\\ncharges from another number. Credit restrictions and other terms, conditions and limitations apply.\\r\\nLimited to in-franchise subscribers of local service from AT&T Arkansas, AT&T California, AT&T\\r\\nIllinois, AT&T Indiana, AT&T Kansas, AT&T Michigan, AT&T Missouri, AT&T Nevada, AT&T\\r\\nOhio, AT&T Oklahoma, AT&T Texas, AT&T Wisconsin, AT&T Alabama, AT&T Florida, AT&T\\r\\nGeorgia, AT&T Kentucky, AT&T Louisiana, AT&T Mississippi, AT&T North Carolina, AT&T South\\r\\nCarolina or AT&T Tennessee, based upon the service address location. Long distance service provided\\r\\nby AT&T Long Distance or AT&T Long Distance Service, based upon the service address location.\\r\\nAT&T may modify or cancel offers at any time without notice. Advertised services not available in all\\r\\nareas. May not be combined with other offers, discounts or promotions.<strong><u>General terms and conditions:</u></strong>\\r\\nCredit restrictions and other terms, conditions and limitations apply. AT&T may modify or cancel offers\\r\\nat any time without notice. Advertised services not available in all areas. May not be combined with\\r\\nother offers, discounts or promotions.<strong>Offer, terms, and restrictions subject to change and may be\\r\\nmodified, or terminated at any time without notice.</strong><br><br>\\r\\n<strong>Additional Information - AT&T All for Less Packages</strong><br><br>\\r\\n<strong>AT&T All for Less? Plus</strong> includes an All for Less bundle as set forth above in this paragraph and\\r\\nqualifying discounted application services with a minimum $15 monthly recurring charge. Qualifying\\r\\napplication services include, AT&T Tech Support 360SM, AT&T Tech Support 360SM Back up and Go,\\r\\nAT&T Website SolutionsSM, AT&T Online Fax Plans, AT&T Email Marketing, Microsoft? Office 365\\r\\nfrom AT&T, AT&T Wi-Fi Small Site, or McAfee Endpoint Protection with AT&T.<br><br>\\r\\n<strong>AT&T All for Less? Premium Package:</strong> Monthly rate of $55 applies when the following<strong>4 (four)</strong>\\r\\nservices are purchased via the All for Less Premium application bundle:<br>\\r\\n<strong>\\r\\n(1) AT&T Tech Support 360SM Premium PLUS;<br> \\r\\n(2) AT&T Website SolutionsSM Website-Basic;<br>\\r\\n(3) AT&T Wi-Fi ? Small Site; and,<br> \\r\\n(4) Microsoft? Office 365 from AT&T.<br>\\r\\n</strong>All 4 (four) of the aforementioned services are\\r\\nrequired to be active for the duration of the term commitment; request for the termination of 1 (one)\\r\\nservice shall be deemed request for termination of all 4 (four) services. Early Termination Fee: 50% of\\r\\nthe monthly rate of the All for Less Premium application bundle for the remaining period of the term\\r\\ncommitment will apply if customer terminates any of the services prior to the end of the committed\\r\\nterm.<br>\\r\\n<strong>1) AT&T Tech Support 360SM Premium PLUS</strong>combines one subscription package each of 2\\r\\n(two) services: AT&T Tech Support 360SM Advanced and AT&T Tech Support 360SM Backup and Go\\r\\nPremium. AT&T Tech Support 360SM Advanced is a remote technical support service; each\\r\\nsubscription includes technical support for one (1) PC or Mac?, one (1) tablet, one (1) smartphone,\\r\\nmobile and smart devices and tethered peripherals. Onsite support is available at an extra hourly charge.\\r\\nAT&T does not guarantee any results or response times. This service is not a hardware warranty or\\r\\nrepair service. Purchase and use of an AT&T Tech Support 360SM Advanced subscription package\\r\\nconstitute acceptance of the then current Terms of Service which may be found at<br>\\r\\n<a href=https://tech360.att.com/ATT/termsofservice.asp.>https://tech360.att.com/ATT/termsofservice.asp.</a>\\r\\nWe may change those Terms of Service at any time, so\\r\\nwe encourage you to check them on our website periodically. By continuing to use the service after any\\r\\nsuch change, you agree to be bound by such changes. AT&T Tech Support 360SM Backup and Go is a\\r\\nservice that enables the user to backup computer files (from a single personal computer excluding\\r\\nexternal storage devices) onto the Backup and Go servers. Although highly secure the service does not\\r\\nguarantee security of user data. Data backup and access capabilities and restoration completion time are\\r\\nsubject to Internet connectivity, available bandwidth and amount of data. Purchase and use of an AT&T\\r\\nTech Support 360SM Backup and Go subscription package constitutes acceptance of the then current\\r\\nTerms of Service which may be found at <a href=https://tech360.att.com/ATT/termsofservice.asp.>https://tech360.att.com/ATT/termsofservice.asp.</a>\\r\\nWe may change those Terms of Service at any time, so we encourage you to check them on our website\\r\\nperiodically. By continuing to use the service after any such change, you agree to be bound by such\\r\\nchanges.<br>\\r\\n<strong>2) AT&T Website Solutions-Website Basic</strong>is a self-design website plan. Purchase and use of\\r\\nAT&T Website Solutions-Website Basic constitutes acceptance of the Terms & Conditions (T&Cs) and\\r\\nAcceptable Use Policy which may be found at <a href=http://webhosting.att.com/terms/>http://webhosting.att.com/terms</a>and\\r\\n<a href=http://www.corp.att.com/aup/>http://www.corp.att.com/aup/</a>, as use of the account is bound by these items. If you do not agree to the\\r\\nTerms & Conditions and Acceptable Use Policy, you must not use your AT&T Website Solutions\\r\\naccount and must cancel it immediately by calling 888.932.4678. Absent any such call, usage of the\\r\\nservice constitutes acceptance of the Terms & Conditions.<br>\\r\\n<strong>3) AT&T Wi-Fi ? Small Site <br>\\r\\n4) Microsoft? Office 365 from AT&T</strong> is a suite of Internet-based products consisting of email, collaboration, and\\r\\nproductivity services. Purchase and use of these services constitutes acceptance of the Terms of Use and\\r\\nService Guide for Microsoft? Office 365 Services posted at <a href=http://att.com/office365terms>http://att.com/office365terms</a> which\\r\\ncontains the descriptions and terms of use for these services. We may change the Terms of Use at any\\r\\ntime, so we encourage you to check them on our website periodically. By continuing to use the service\\r\\nafter any such change, you agree to be bound by such changes<br><br>\\r\\n<strong>All for Less Standard Package:</strong> Monthly rate of $30 applies when the following three services are\\r\\npurchased as a bundle of services via the All for Less Standard application bundle:<br>\\r\\n<strong>\\r\\n(1) AT&T Tech Support 360SM Premium PLUS;<br> \\r\\n(2) AT&T Website Solutions - Email Marketing 250; and,<br> \\r\\n(3)AT&T Website Solutions - Online Fax-300.</strong><br>\\r\\nAll 3 (three) of the aforementioned services are required\\r\\nto be active for the duration of the term commitment; request for the termination of 1 (one) service shall\\r\\nbe deemed request for termination of all 3 (three) services. Early Termination Fee: 50% of the All for\\r\\nLess Standard application bundle monthly rate for the remaining period of the term commitment will\\r\\napply if customer terminates any of the services prior to the end of the committed term.<br>\\r\\n<strong>1) AT&T Tech Support 360SM Premium PLUS</strong>combines one subscription package each of 2 (two) services: AT&T\\r\\nTech Support 360SM Advanced and AT&T Tech Support 360SM Backup and Go Premium. AT&T Tech\\r\\nSupport 360SM Advanced is a remote technical support service; each subscription includes technical\\r\\nsupport for one (1) PC or Mac?, one (1) tablet, one (1) smartphone, mobile and smart devices and\\r\\ntethered peripherals. Onsite support is available at an extra hourly charge. AT&T does not guarantee any\\r\\nresults or response times. This service is not a hardware warranty or repair service. Purchase and use of\\r\\nan AT&T Tech Support 360SM Advanced subscription package constitute acceptance of the then current\\r\\nTerms of Service which may be found at <a href=https://tech360.att.com/ATT/termsofservice.asp>https://tech360.att.com/ATT/termsofservice.asp</a>. We may\\r\\nchange those Terms of Service at any time, so we encourage you to check them on our website\\r\\nperiodically. By continuing to use the service after any such change, you agree to be bound by such\\r\\nchanges. AT&T Tech Support 360SM Backup and Go is a service that enables the user to backup\\r\\ncomputer files (from a single personal computer excluding external storage devices) onto the Backup\\r\\nand Go servers. Although highly secure the service does not guarantee security of user data. Data\\r\\nbackup and access capabilities and restoration completion time are subject to Internet connectivity,\\r\\navailable bandwidth and amount of data. Purchase and use of an AT&T Tech Support 360SM Backup\\r\\nand Go subscription package constitute acceptance of the then current Terms of Service which may be\\r\\nfound at <a href=https://tech360.att.com/ATT/termsofservice.asp>https://tech360.att.com/ATT/termsofservice.asp.</a> We may change those Terms of Service at any\\r\\ntime, so we encourage you to check them on our website periodically. By continuing to use the service\\r\\nafter any such change, you agree to be bound by such changes.<br>\\r\\n<strong>2) AT&T Website Solutions-EmailMarketing 250</strong>provides the customer 250 contacts in their plan and in connection with their internal\\r\\npurposes and business operations and not as a service for any third party. Email and facsimile\\r\\ntransmissions sent using AT&T Services must include the following items as listed in the service guide:<br>\\r\\n<a href=http://serviceguidenew.att.com/sg_landingpage?tgtPg=sg_libraryCustom.>http://serviceguidenew.att.com/sg_landingpage?tgtPg=sg_libraryCustom.</a>Please review the AT&T\\r\\nWebsite SolutionsSM Terms & Conditions and Acceptable Use Policy, as your use of this account is\\r\\nbound by these items. If you do not agree to the Terms & Conditions and Acceptable Use Policy, you\\r\\nmust not use your AT&T Website Solutions account and must cancel it immediately by calling\\r\\n888.932.4678. Absent any such call, usage of the service constitutes acceptance of the Terms & Conditions.<br>\\r\\n<strong>3) AT&T Website Solutions-Online Fax 300</strong>plan is based on a total of 300 monthly sent\\r\\nand received page usage; unused pages within a month are not carried over to the following month. This\\r\\nservice does not support international dialing at this time. Email addresses are not included; customer\\r\\nmust provide. Purchase and use of an AT&T Online Fax plan constitutes acceptance of the Terms and\\r\\nConditions (T&Cs), which may be found at <a href=http://webhosting.att.com/terms/>http://webhosting.att.com/terms/</a>. Service terms and Fees are\\r\\nsubject to change pursuant to the T&Cs. Please read the T&Cs for additional information. If you do not\\r\\nagree to the Terms & Conditions and Acceptable Use Policy, you must not use your AT&T Website\\r\\nSolutions account and must cancel it immediately by calling 888.932.4678. Absent any such call, usage\\r\\nof the service constitutes acceptance of the Terms & Conditions.<br><br>\\r\\n\\r\\n<strong>All for Less Starter Package:</strong> Monthly rate of $15 applies when the following 3 (three) services are\\r\\npurchased as a bundle of services via the All for Less Starter application bundle: <br>\\r\\n<strong>\\r\\n(1) AT&T Tech Support 360 Backup and Go;<br> \\r\\n(2) AT&T Website Solutions-Online Fax 300;<br> \\r\\n(3) McAfee SaaS Endpoint Protection with AT&T.<br>\\r\\n</strong><br>\\r\\nAll 3 (three) services are required for the duration of the term\\r\\ncommitment; request for termination of 1 (one) service shall be deemed request for termination of all 3\\r\\n(three) services. Early Termination Fee: 50% of the All for Less Starter bundle monthly rate for the\\r\\nremaining term will apply if customer terminates services prior to the end of the committed term.<br>\\r\\n<strong>1) AT&T Tech Support 360SM Backup and Go</strong>is a service that enables the user to backup computer\\r\\nfiles (from a single personal computer excluding external storage devices) onto the Backup and Go\\r\\nservers. Although highly secure the service does not guarantee security of user data. Data backup and\\r\\naccess capabilities and restoration completion time are subject to Internet connectivity, available\\r\\nbandwidth and amount of data. Purchase and use of an AT&T Tech Support 360SM Backup and Go\\r\\nsubscription package constitute acceptance of the then current Terms of Service which may be found at\\r\\n<a href=https://tech360.att.com/ATT/termsofservice.asp.>https://tech360.att.com/ATT/termsofservice.asp.</a> We may change those Terms of Service at any time, so\\r\\nwe encourage you to check them on our website periodically. By continuing to use the service after any\\r\\nsuch change, you agree to be bound by such changes. 2) AT&T Website Solutions-Online Fax 300 plan\\r\\nis based on a total of 300 monthly sent and received page usage; unused pages within a month are not\\r\\ncarried over to the following month. This service does not support international dialing at this time.\\r\\nEmail addresses are not included; customer must provide. Purchase and use of an AT&T Online Fax\\r\\nplan constitutes acceptance of the Terms and Conditions (T&Cs), which may be found at<br>\\r\\n<a href=http://webhosting.att.com/terms/>http://webhosting.att.com/terms/</a>. Service terms and Fees are subject to change pursuant to the T&Cs.\\r\\nPlease read the T&Cs for additional information. If you do not agree to the Terms & Conditions and\\r\\nAcceptable Use Policy, you must not use your AT&T Website Solutions account and must cancel it\\r\\nimmediately by calling 888.932.4678. Absent any such call, usage of the service constitutes acceptance\\r\\nof the Terms & Conditions.<br>\\r\\n<strong>3) McAfee? SaaS Endpoint Protection with AT&T</strong> provides cloud-based\\r\\nendpoint security solutions accessed over the Internet. Purchase and use of this service constitutes\\r\\nacceptance of the Terms of Use and Service Guide for McAfee? SaaS Endpoint Protection with AT&T\\r\\nposted at <a href=http://www.att.com/mcafeeterms>http://www.att.com/mcafeeterms</a> which contains the descriptions and Terms of Use for these\\r\\nservices. We may change those Terms of Service at any time, so we encourage you to check them on our\\r\\nwebsite periodically. By continuing to use the service after any such change you agree to be bound by\\r\\nsuch changes.<br><br>\\r\\n<strong><u>Additional Information ? Qualifying Wireless Service:</u></strong><br><br>\\r\\n<strong>General Wireless Svc Terms:</strong> Subject to Business Agreement. See applicable Business Agreement,\\r\\nrate plan brochure, and coverage maps for details. For plan details visit att.com/wca. Usage and other\\r\\nterms, conditions and restrictions apply, and may result in service termination. Taxes, fees, overage,\\r\\nmonthly and other charges & restrictions apply. Subscriber must live and have a mailing address within\\r\\nthe AT&T-owned wireless network coverage area. Up to $45 activation fee may apply. Coverage and\\r\\nservices not available in all areas. 4G speeds not available everywhere. Early Termination/Cancellation\\r\\nFee (att.com/equipmentETF): After 30 days, up to $325 on Smartphone and $150 on tablet.<br><br>\\r\\n<strong><u>Additional Information - Qualifying Voice Plans:</u></strong><br><br>\\r\\n<strong>AT&T Business Local Calling Midwest.</strong> Service provided by AT&T Illinois, AT&T Indiana, AT&T\\r\\nMichigan, AT&T Ohio, or AT&T Wisconsin, based upon the service address location. One year term\\r\\ncommitment required. Failure to maintain initial number of business lines may result in shortfall fees.\\r\\nSpecial terms and conditions apply based on the options selected. Unlimited local usage in Illinois is\\r\\nBand A and B calls. Michigan zone calling is considered local toll. Local toll/Band C calls include\\r\\nIntrastate/IntraLATA local toll calls that originate and terminate in the AT&T local exchange companies\\r\\nterritory. Interstate/IntraLATA calls are billed on a per minute basis and are not included in the\\r\\nunlimited local usage. Usage from Ohio Local Calling Plus and Wisconsin Extended Area Calling are\\r\\nincluded. Customer must subscribe to AT&T Business Local Calling on all local business access lines\\r\\non the BTN; AT&T Business Local Calling plan cannot be combined with any other business access\\r\\nline, local usage or feature discount plan. Package option prices may vary by state, term length, and line\\r\\nsize. Caller ID may be blocked or unavailable. Caller ID display equipment required for use of Caller\\r\\nID. Use of Call Forwarding, Call Return, Three-Way Calling, Alternate Answer, and Busy Line Transfer\\r\\nmay result in local toll or long distance charges, depending on the location of the called party.\\r\\nInstallation and extended area service charges may apply.<strong> Early Termination Fee:</strong> Wisconsin, Indiana,\\r\\nOhio $15/line per month; Michigan $9.50/line per month; Illinois $6.50/line per month for the remaining\\r\\nterm will apply if customer terminates service prior to the end of the committed term. See applicable\\r\\nstate tariff or AT&T Guidebook for additional details, terms and conditions.<br><br>\\r\\n\\r\\n<strong>AT&T Business Local Calling Southwest.</strong> AT&T local service is provided by AT&T Arkansas,\\r\\nAT&T Kansas, AT&T Missouri, AT&T Oklahoma, or AT&T Texas, based upon the service address\\r\\nlocation. One year term commitment required. Failure to maintain initial number of business lines may\\r\\nresult in shortfall fees. Special terms and conditions apply based on the options selected. Unlimited local\\r\\nusage includes EAC/ELC/WACP. Local toll includes Intrastate/IntraLATA calls that originate and\\r\\nterminate in the AT&T local exchange companies territory and are not included in local usage.\\r\\nInterstate/IntraLATA calls are billed on a per minute basis and are not included in the unlimited local\\r\\nusage. Customer must subscribe to AT&T Business Local Calling on all local business access lines on\\r\\nthe BTN; AT&T Business Local Calling plan cannot be combined with any other business access line,\\r\\nlocal usage or feature discount plan. Package option prices may vary by term length and line size. Caller\\r\\nID may be blocked or unavailable. Caller ID display equipment required for use of Caller ID. Use of\\r\\nCall Forwarding, Call Return, Three-Way Calling, Call Forward Busy and Call Forward Don''t Answer\\r\\nmay result in local toll or long distance charges, depending on the location of the called party.\\r\\n<strong>Early Termination Fee:</strong> $15/line per month for the remaining term will apply if customer terminates service\\r\\nprior to the end of the committed term. See applicable state tariff or AT&T Guidebook for additional\\r\\ndetails, terms and conditions.<br><br>\\r\\n\\r\\n<strong>AT&T Business Local Calling West.</strong> AT&T local service is provided by AT&T California or AT&T\\r\\nNevada, based upon the service address location. One year term commitment required. Failure to\\r\\nmaintain initial number of business lines may result in shortfall fees. Special terms and conditions apply\\r\\nbased on the options selected. Unlimited local usage in California includes ZUM 1, 2 and 3. Local toll\\r\\nincludes Intrastate/IntraLATA calls that originate and terminate in the AT&T local exchange companies\\r\\nterritory and are not included in local usage. Interstate/IntraLATA calls are billed on a per minute basis\\r\\nand are not included in the unlimited local usage. Extended Area Service (EAS) is included in AT&T\\r\\nBusiness Local Calling unlimited local usage. Customer must subscribe to AT&T Business Local\\r\\nCalling on all local business access lines on the BTN; AT&T Business Local Calling plan cannot be\\r\\ncombined with any other business access line, local usage or feature discount plan. Package option\\r\\nprices may vary by term length and line size. Caller ID may be blocked or unavailable. Caller ID display\\r\\nequipment required for use of Caller ID. Use of Call Forwarding, Call Return, Three-Way Calling,\\r\\nAlternate Answer, and Busy Line Transfer may result in local toll or long distance charges, depending\\r\\non the location of the called party.<strong> Early Termination Fee:</strong> $15/line per month for the remaining term\\r\\nwill apply if customer terminates service prior to the end of the committed term. See applicable state\\r\\ntariff or AT&T Guidebook for additional details, terms and conditions.<br><br>\\r\\n\\r\\n<strong>AT&T Business Local Calling Southeast.</strong> Available to customers with business lines who commit to a\\r\\none-year term. AT&T local service is provided by AT&T Alabama, AT&T Florida, AT&T Georgia,\\r\\nAT&T Kentucky, AT&T Louisiana, AT&T Mississippi, AT&T North Carolina, AT&T South Carolina,\\r\\nor AT&T Tennessee, based upon the service address location. One year term commitment required.\\r\\nShortfall and Early Termination Fees may apply. Special terms and conditions apply based on the\\r\\noptions selected. Interstate/IntraLATA calls are billed on a per minute basis and are not included in the\\r\\nunlimited local usage plan options. Customer must subscribe to AT&T Business Local Calling on all\\r\\nlocal business access lines. AT&T Business Local Calling plan cannot be combined with any other\\r\\nbusiness access line, local usage or feature discount plan. Package option prices may vary by term length\\r\\nand line size. Caller ID calls may be blocked or unavailable. Caller ID display equipment is required for\\r\\nuse of Caller ID. Use of Call Forwarding or Remote Access to Call Forwarding, Repeat Dialing, Three-\\r\\nWay Calling, Call Forward Don?t Answer, and Call Forward Busy Line may result in local toll or long\\r\\ndistance charges, depending on the location of the called party. Taxes, fees, and universal service\\r\\ncharges are extra. See applicable AT&T Guidebook for additional details, terms and conditions.<br><br>\\r\\n\\r\\n<strong>AT&T All for Less? Unlimited.</strong> Plan available for business customers with 1-10 business local access\\r\\nlines who qualify for, and purchase All for Less. One year term commitment required. Applies only to\\r\\ndomestic direct-dialed, live voice calls. Toll-free calls and operator-assisted calls incur additional\\r\\ncharges. AT&T Long Distance must be designated as the in-state (including intraLATA toll) and\\r\\ninterstate long distance carrier on all lines. Certain applications, e.g., auto-dialing, broadcast FAX,\\r\\nmodem-to-modem calls, long distance Internet or intranet access, call center and certain switching\\r\\napplications, prohibited. Customers not complying with the terms of the plan will be changed to a perminute\\r\\nrated plan. At expiration of the term, services are provided at out of term month-to-month rates.<br>\\r\\n<strong>Early Termination Fee for customers in AR, CA, IL, IN, KS, MI, MO, NV, OH, OK, TX and WI:</strong>\\r\\n50% of the monthly recurring charge per month for the remaining term will apply if customer terminates\\r\\nservice prior to the end of the committed term. See Voice Product Reference and Pricing Guidebook for\\r\\nplan details at <a href=http://cpr.att.com/pdf/sbcld/fccsbcld.htm>http://cpr.att.com/pdf/sbcld/fccsbcld.htm</a>.<br> \\r\\n<strong>Early Termination Fee for customers in AL, FL, GA, KY, LA, MS, NC, SC and TN:</strong> $5.00 per\\r\\nmonth for the remaining term will apply if customer terminates service prior to the end of the committed\\r\\nterm. 1+ call detail is available for an additional charge. Certain applications, e.g., call centers, autodialing,\\r\\nPBX/ PBX-like, data transmission, broadcast FAX, Centrex, or ISDN, prohibited. Arrangements\\r\\naggregating end user traffic are not eligible (e.g., for educational institutions or businesses). Noncompliance\\r\\nwith Plan terms may result in a change to another plan or in long distance service being\\r\\nsuspended, restricted or canceled, without prior notice. Plan not available for resale. See Business\\r\\nServices Pricing and Service Guide for plan details at <a href=http://cpr.att.com/bsldmain.html>http://cpr.att.com/bsldmain.html</a><br><br>\\r\\n\\r\\n<strong>AT&T All for Less? 500.</strong> Plan available for business customers who qualify for and purchase All for\\r\\nLess. One year term commitment required. Block of minutes apply only to domestic usage (direct-dialed\\r\\noutbound and inbound Toll Free, if applicable), and are billed at 30 second minimum and 1 second\\r\\nincrements thereafter. Per-minute rates apply to all usage in excess of the block. Unused minutes do not\\r\\nrollover to the next month. Toll Free service, international calls and operator-assisted calls incur\\r\\nadditional charges. AT&T Long Distance must be designated as the in-state (including intraLATA toll)\\r\\nand interstate long distance carrier on all lines subscribing to the Plan. At expiration of the term, services\\r\\nare provided at out of term month-to-month rates.<strong> Early Termination Fee for customers in AR, CA,\\r\\nIL, IN, KS, MI, MO, NV, OH, OK, TX and WI:</strong> 50% of the monthly recurring charge per month for\\r\\nthe remaining term will apply if customer terminates service prior to the end of the committed term. See\\r\\nVoice Product Reference and Pricing Guidebook for plan details at<br>\\r\\n<a href=http://cpr.att.com/pdf/sbcld/fccsbcld.htm.>http://cpr.att.com/pdf/sbcld/fccsbcld.htm.</a>\\r\\n<strong>Early Termination Fee for customers in AL, FL, GA, KY, LA, MS, NC, SC and TN:</strong> $5.00 per\\r\\nmonth for the remaining term will apply if customer terminates service prior to the end of the committed\\r\\nterm. Plan not available for resale. See Business Services Pricing and Service Guide for plan details at<br>\\r\\n<a href=http://cpr.att.com/bsldmain.html>http://cpr.att.com/bsldmain.html</a>.<br><br>\\r\\n\\r\\n<strong>AT&T Business Block of Time IISM.</strong> Block of minutes apply only to domestic usage (direct-dialed\\r\\noutbound and inbound Toll Free, if applicable), and are billed at 30 second minimum and 1 second\\r\\nthereafter increments. Per-minute rates apply to all usage in excess of the block. Unused minutes do not\\r\\nrollover to the next month. Toll Free service, international calls, operator-assisted calls, and calling card\\r\\ncalls incur additional charges. AT&T Long Distance must be designated as the in-state (including\\r\\nintraLATA toll) and interstate long distance carrier on all lines subscribing to the Plan. For customers in\\r\\n<strong>AR, CA, IL, IN, KS, MI, MO, NV, OH, OK, TX and WI:</strong> Minimum one year term commitment\\r\\nrequired. One year term:<strong> subject to automatic term renewal, the term renews for successive like\\r\\nperiods at the renewal term rates, terms and conditions then in effect, unless AT&T is contacted\\r\\nand services are cancelled within thirty (30) days of the end of a term.</strong> Two year term: at expiration\\r\\nof the initial term, services are provided at out-of-term month-to-month rates. Early Termination Fee:\\r\\n50% of the monthly recurring charge per month for the remaining term will apply if customer terminates\\r\\nservice prior to the end of the committed term. See Voice Product Reference and Pricing Guidebook for\\r\\nplan details at <a href=http://cpr.att.com/pdf/sbcld/fccsbcld.htm>http://cpr.att.com/pdf/sbcld/fccsbcld.htm</a>.\\r\\nFor customers in <strong>AL, FL, GA, KY, LA, MS, NC, SC and TN</strong> see Business Services Pricing and\\r\\nService Guide for plan details at <a href=http://cpr.att.com/bsldmain.html>http://cpr.att.com/bsldmain.html</a>.<br><br>\\r\\n\\r\\n<strong>AT&T Phone for Business.</strong> Prices subject to change. Installation, taxes, fees, and other charges apply.\\r\\nInternational calls billed at additional per-minute rates; higher rates may apply for calls terminating on\\r\\nmobile phones or other wireless devices. Service cannot be moved to a different address from where\\r\\noriginally provisioned unless AT&T moves the service; will function only at the provisioned location.\\r\\nAT&T Phone, including 911 dialing, will not function during a power outage without battery backup\\r\\npower, during a network outage, with relocation of the AT&T Gateway, with delays that may occur in\\r\\nmaking a registered location available through the ALI Database or with disconnection of service due to\\r\\nbilling issues. Non-returned equipment charges may apply if equipment is not returned within required\\r\\ntimeframe upon disconnect of services. Refer to AT&T Phone Terms of Service at<br>\\r\\n<a href=http://www.att.com/gen/general?pid=6622>http://www.att.com/gen/general?pid=6622</a> for more information on 911, and alarm systems. Acceptance\\r\\nof AT&T Phone Terms of Service and 911 Acknowledgement required. Credit and other restrictions\\r\\napply. AT&T Phone Voicemail may not be fully compatible with all AT&T wireless voicemail systems.\\r\\nSome call information may be blocked or otherwise not displayed, including information for some calls\\r\\noriginating outside of AT&T''s network and calls carried over facilities that do not transmit Caller ID\\r\\ninformation. AT&T Phone requires AT&T Internet and acceptance of AT&T Internet Terms of Service\\r\\nat <a href=http://www.att.com/internet-terms>http://www.att.com/internet-terms</a>. If AT&T Phone service plan is terminated, AT&T will charge its\\r\\nthen current list AT&T Internet rates, (monthly or term rates as applicable).<br><br>\\r\\n\\r\\n<strong>AT&T Phone for Business IAD-Port Extender Promotion:</strong> Offer expires 8/31/2017. Available to\\r\\neligible new or existing business customers. A 100% discount will be applied to the non-recurring\\r\\ncharge associated with the IAD-Port Extender Equipment.<br><br>\\r\\n\\r\\n<strong>AT&T Phone for Business Winback Promotion:</strong> Offer expires 8/31/2017. Available to new AT&T\\r\\nbusiness customers switching local service from another provider. Requires an All For Less bundle.\\r\\nProvides a monthly recurring charge discount of $25 off the primary line and $5 off each additional line\\r\\nof new AT&T Phone service for the initial 12 months of service. After the promotional period, rates are\\r\\nsubject to change to the then current rates.<br><br>\\r\\n<strong>Geographic and service restrictions apply to AT&T Phone services. Call or go to www.att.com to\\r\\nsee if you qualify.</strong><br><br>\\r\\n\\r\\n<strong><u>Additional Information - Qualifying Internet Plans</u></strong><br><br>\\r\\n<strong>AT&T All for Less? AT&T High Speed Internet Business Edition Promotion.</strong> Available only to\\r\\nnew business customers. Promotional discounted rate of $40/month applies for AT&T High Speed\\r\\nInternet Business Edition Basic, Express, Pro, or Elite. Static IP available at an additional charge.\\r\\n<strong>SERVICE REQUIRES:</strong>DSL Modem/Gateway/Router. Customer must have or purchase a qualifying\\r\\nAT&T local voice plan.<strong>EARLY TERMINATION FEE</strong> of $20 per month for the remaining term will\\r\\napply if customer terminates service prior to the end of the committed term in the following states: AR,\\r\\nCA, IL, IN, KS, MI, MO, NV, OH, OK, TX, & WI. If qualifying local voice rate plan is terminated,\\r\\nAT&T will charge its then current list AT&T High Speed Business Edition rates (monthly or term rates\\r\\nas applicable). In order to receive High Speed Internet service, customer must at all-time maintain local\\r\\nAT&T voice service. If the local voice service is terminated the High Speed Internet service will be\\r\\nautomatically terminated and early termination fee will apply. At the expiration of the contracted term,\\r\\nthe current monthly rates are subject to change.<br><br>\\r\\n\\r\\n\\r\\n<strong>ADDITIONAL TERMS: SHIPPING and HANDLING.</strong> A shipping and handling fee applies for\\r\\nAT&T-provided modem/gateway/router. Prices vary depending upon shipment method.<strong> EQUIPMENT\\r\\nREBATE:</strong>Modem or Router rebate available with new purchase of AT&T High Speed Internet\\r\\nBusiness Edition and AT&T High Speed Internet Business Edition Direct and a minimum 12 month\\r\\nterm commitment. Information about the AT&T Business Reward Center and online rebate redemption\\r\\nwill be sent by regular U.S. mail to the Customer?s address after the Customer?s order of AT&T High\\r\\nSpeed Internet Business Edition has been received and Customer has maintained service for at least 60\\r\\ncalendar days. Customers must complete the online rebate redemption process within 90 calendar days\\r\\nof AT&T High Speed Internet Business Edition Service activation. The equipment rebate offer is valid\\r\\nin the following states: AR, CA, IL, IN, KS, MI, MO, NV, OH, OK, TX, WI. Rebate void where\\r\\nprohibited, taxed or restricted by law. Rebate may not be assigned, transferred or sold. AT&T may\\r\\nprovide refurbished modem or router. One equipment rebate allowed per AT&T High Speed Internet\\r\\nBusiness Edition line. Account must be current and in service for a minimum of 60 calendar days to be\\r\\neligible for rebate. Rebate cannot exceed total purchase price of equipment. Rebate check will be mailed\\r\\nto the customer''s billing address within 6 weeks of completion of the online rebate redemption process\\r\\nprovided the Customer has met the 60 calendar day minimum service requirement. AT&T is not\\r\\nresponsible for late, lost, misdirected, or postage-due mail or mail damaged by the U.S. Post Office.\\r\\nRebate is offered by AT&T Internet Services and cannot be applied to your AT&T local exchange\\r\\ncarrier bill. Some customers may need to purchase additional equipment (for example: Ethernet card\\r\\nand/or cable) which will not be eligible for rebate.<strong> OTHER CHARGES:</strong> $150-$200 charge will apply\\r\\nif technician installation is required or desired on Dynamic IP Plans.<strong> OTHER TERMS:</strong> Actual speeds\\r\\nare \\\"up to\\\" and are based on DSL synch rate, which may vary, and are not guaranteed. Many factors\\r\\naffect speed. Acceptance of Terms of Service required. Advertised services and speed options are not\\r\\navailable in all areas. Offer may be modified or discontinued at any time without notice. Read the High\\r\\nSpeed Internet Terms of Service at att.com/internet-terms. See AT&T High Speed Internet Business\\r\\nEdition Service Guide at <a href=http://www.att.com/gen/public-affairs?pid=11970>http://www.att.com/gen/public-affairs?pid=11970</a>.<br><br>\\r\\n\\r\\n\\r\\n<strong>AT&T All for Less? FastAccess? Business DSL Promotion.</strong> Available only to new business\\r\\ncustomers. Promotional discounted rate of $40/month applies for Dynamic IP FastAccess Business DSL\\r\\nLite, FastAccess Business DSL, FastAccess Business DSL Plus or FastAccess DSL 6.0. Static IP\\r\\navailable at an additional charge. Promotional price not available with FastAccess Business DSL Direct\\r\\n(i.e. DSL line without voice service).<strong> SERVICE REQUIRES:</strong> DSL Modem/Gateway/Router.\\r\\nCustomer must have or purchase a qualifying AT&T local voice plan.<strong> Early termination fee</strong> of $20 per\\r\\nmonth for the remaining term will apply if customer terminates service prior to the end of the committed\\r\\nterm in the following states: AL, FL, GA, KY, LA, MS, NC, SC & TN. If qualifying local voice rate\\r\\nplan is terminated, AT&T will charge its then current list FastAccess Business DSL rates (monthly or\\r\\nterm rates as applicable). In order to receive FastAccess Business DSL service, customer must at all\\r\\ntimes maintain local AT&T voice service. If the local voice service is terminated the FastAccess\\r\\nBusiness DSL service will be automatically terminated and early termination fee will apply. At the\\r\\nexpiration of the contracted term, the current monthly rates are subject to change.<br><br>\\r\\n\\r\\n\\r\\n<strong>EQUIPMENT REBATE.</strong> Modem or Router rebate available with new purchase of AT&T FastAccess\\r\\nBusiness DSL and a minimum 12-month commitment purchase of FastAccess Business DSL 6.0,\\r\\nFastAccess Business DSL Plus, FastAccess Business DSL or FastAccess Business DSL Lite. Rebate on\\r\\nthe modem or router will be issued in the form of a credit on the customer''s AT&T phone bill subject to\\r\\nthe following terms and conditions. Customers must complete the online rebate redemption process\\r\\nwithin 90 calendar days of AT&T FastAccess Business DSL service activation. Instructions to redeem\\r\\nrebates are also included in the self-installation kit sent to the Customer via U.S. mail. Early termination\\r\\nresults in a charge of up to 100% of router or modem rebate. AT&T may provide refurbished modem or\\r\\nrouter. The equipment rebate offer is valid in the following states: AL, FL, GA, KY, LA, MS, NC, SC,\\r\\nTN. One equipment rebate allowed per AT&T FastAccess Business DSL line. Account must be current\\r\\nand in service for a minimum of 60 calendar days to be eligible for rebate. Rebate cannot exceed total\\r\\npurchase price of equipment. Credits will be applied within two billing cycles following completion of\\r\\nthe online rebate redemption process. Applicable taxes and fees based on the full price of all products\\r\\nand services, and no taxes, fees or shipping and handling charges will be added to any reward or rebate.\\r\\nInformation about the AT&T Business Reward Center and online rebate redemption will be sent by\\r\\nregular U.S. mail to the Customer?s address after the Customer?s order of FastAccess Business DSL has\\r\\nbeen received and maintained for at least 60 calendar days. Customer must have or purchase a\\r\\nqualifying AT&T local voice plan under term. THE FASTACCESS BUSINESS DSL SERVICE IS\\r\\nPROVIDED UNDER A TERM AGREEMENT OF 12 MONTHS.<strong> SHIPPING and HANDLING:</strong> A\\r\\nshipping and handling fee applies for AT&T-provided modem/gateway/router. Prices vary depending\\r\\nupon shipment method. <strong>OTHER CHARGES:</strong> $75 Activation Charge applies. Additional $200.00\\r\\ncharge will apply if technician install is required or desired.<strong> OTHER TERMS:</strong> Actual speeds are \\\"up\\r\\nto\\\" and are based on DSL synch rate, which may vary, and are not guaranteed. Many factors affect\\r\\nspeed. Acceptance of Terms of Service required. Advertised services and speed options are not available\\r\\nin all areas. Offer may be modified or discontinued at any time without notice. Read the High Speed\\r\\nInternet Terms of Service at att.com/internet-terms. See FastAccess Business DSL Service Guide at<br>\\r\\n<a href=http://serviceguidenew.att.com/sg_flashPlayerPage/FADSL>http://serviceguidenew.att.com/sg_flashPlayerPage/FADSL</a><br><br>\\r\\n\\r\\n \\r\\n\\r\\n\\r\\n<strong>AT&T All for Less? AT&T Internet for Business Promotion.</strong> Discounted promotional rates apply,\\r\\nbased on <strong>designated market</strong> area and speed selected. Initial rate guaranteed for a period of 24 months.\\r\\nAfter 24 months, the then current rates will apply. SERVICE REQUIRES: Modem or Gateway.\\r\\nCustomer must have or purchase a qualifying AT&T voice service.<strong>Equipment:</strong> There is up to a $99\\r\\ninstallation charge. Geographic and service restrictions apply. Call or go to <a href=http://att.com>www.att.com</a> to see if you\\r\\nqualify. Read the Terms of Service at: <a href=http://att.com/internet-terms>www.att.com/internet-terms</a>. Acceptance of AT&T Internet\\r\\nTerms of Service required. Prices and offers subject to change without notice. Internet speed claim(s)\\r\\nrepresent maximum downstream and/or upstream speed capabilities. Speeds may vary and are not\\r\\nguaranteed. Many factors can affect actual speeds. Credit restrictions and other terms, conditions, and\\r\\nlimitations apply. Advertised services not available in all areas. May not be combined with other offers,\\r\\ndiscounts or promotions. Offer, terms, and restrictions subject to change and may be modified, or\\r\\nterminated at any time without notice.<br><br>\\r\\n\\r\\n\\r\\n<strong>AT&T Business Fiber</strong><br><br>\\r\\nGeographic and service restrictions apply to AT&T Business Fiber. Acceptance of AT&T High Speed\\r\\nInternet Terms of Service at att.com/internet-terms is required. Internet speed claims represent\\r\\nmaximum network Service Capability speeds. Actual customer speeds may vary and are not guaranteed.\\r\\nActual speeds vary based on factors including site traffic, content provider server capacity, internal\\r\\nnetwork management factors, device capabilities and use of other services.<br><br>\\r\\n\\r\\n\\r\\n\\r\\n<strong>Additional Information - Qualifying TV Service</strong><br><br>\\r\\n<strong>U-verse? TV</strong><br><br>\\r\\nCustomers must have AT&T Internet in order to have AT&T U-verse TV Business Edition. Acceptance\\r\\nof AT&T Internet Terms of Service att.com/internet-terms and AT&T Phone and TV Terms of Service\\r\\nfor Business <a href=https://www.att.com/smallbusiness/terms/tos-attphone-and-uversetv-for-business-brand-\\r\\n07262016.pdf>https://www.att.com/smallbusiness/terms/tos-attphone-and-uversetv-for-business-brand-\\r\\n07262016.pdf</a> required.<br><br>\\r\\n\\r\\n<strong>DIRECTV<br><br>\\r\\nFor all DIRECTV offers noted below, 24-mo agreement and Auto Bill Pay required unless\\r\\nexplicitly stated otherwise Add''l fees may apply. New approved commercial customers only.\\r\\nCredit card req''d (except MA & PA). Prorated Early Cancellation Fee ( ECF) fee (up to $960)\\r\\napplies. Pricing based on Estimated Viewing Occupancy (EVO) for select packages.<br><br>\\r\\n\\r\\n\\r\\nBASE PACKAGE OFFERS:<br><br>\\r\\nPublic Viewing Segment:<br>\\r\\nAll DIRECTV OFFERS REQUIRE A 24-MO TV AGREEMENT. EARLY CANCELLATION\\r\\nFEE OF $40/MO. FOR EACH MONTH REMAINING ON AGMT. ADD'L FEES APPLY.<br>\\r\\nNew approved commercial customers only. Credit card req'd (except MA & PA). Pricing based on\\r\\nEstimated Viewing Occupancy (EVO) for select packages.<br>\\r\\nRegional Sports fee applies in certain markets.<br>\\r\\nBASE PACKAGE OFFERS:</strong>Ends 10/29/17. After (3 or 12 mos.) then-prevailing rate for base package\\r\\napplies (currently: $61.99/mo. for BUSINESS SELECT PACK; $102.99/mo. for COMMERCIAL\\r\\nENTERTAINMENT PACK, $151.49/mo for COMMERCIAL XTRA PACK, up to $237.99/mo. (based\\r\\non EVO, Estimated Viewing Occupancy) for COMMERCIAL CHOICE, and up to $553.99 /mo. (based\\r\\non EVO for COMMERCIAL CHOICE PLUS) unless canceled or changed by customer prior to end of\\r\\nthe promotional period.<strong>ABP OFFER:</strong>New customers who subscribe to BUSINESS SELECT PACK or\\r\\nabove with 24-mo. agmt and enroll in Auto Bill Pay will receive $5/mo. bill credit for 24 mos. starting\\r\\nin the 2nd mo. After (24 mos.) the credit will end and services will automatically continue at the thenprevailing\\r\\nrate.<strong>SonicTap Music Channels Offer:</strong>After 3 mos., then-prevailing rate for SonicTap\\r\\nMusic Channels (currently $37.99/mo.) applies unless canceled or changed by customer prior to end of\\r\\nthe promotional period.<strong>HARDWARE OFFER:</strong>Programming agreement, as defined by customer''s\\r\\ncommercial programming rate card, required. Offer available to new commercial customers in\\r\\ncommercial structures no more than three stories high. No single-family residences allowed. Up to four\\r\\nfree HD Receivers per commercial location. Make and model of system at DIRECTV''s sole discretion.\\r\\nOffer void where prohibited or restricted.<strong>DIRECTV SVC TERMS: Subject to terms of DIRECTV\\r\\nCommercial Customer Agreement. Add''l fees & Terms:</strong>Regional Sports network fee of up to $24.99\\r\\napplies in certain markets for COMMERCIAL CHOICE PLUS and COMMERCIAL XTRA PACK.\\r\\nReceiver fees of $15/mo. apply for each receiver for BUSINESS SELECT PACK, COMMERCIAL\\r\\nENTERTAINMENT PACK, and COMMERCIAL XTRA PACK. Receiver fees of a flat fee of $30/mo\\r\\nwill apply for COMMERCIAL CHOICE and a flat fee of $90/mo for COMMERCIAL CHOICE PLUS.\\r\\n$19.95 Handling and Delivery fee may apply. Taxes not included. Programming, pricing, terms and\\r\\nconditions subject to change at any time.<strong>Installation:</strong>Standard commercial installation included for\\r\\nBUSINESS SELECT PACK and above customers. $49 standard installation applies for\\r\\nCOMMERCIAL BASIC customers. Complex/custom installation extra. Applicable use tax adjustment\\r\\nmay apply on retail value of installation. Visit <a href=directv.com/legal>directv.com/legal</a> or call for details. To access HD\\r\\nprogramming, HD equipment required. Number of HD channels based on package selection. Eligibility\\r\\nfor local channels based on service address. Not all networks available in all markets. All DIRECTV\\r\\nReceivers must be continuously connected to the same land-based phone line or the Internet. ?2017\\r\\nAT&T Intellectual Property. All Rights Reserved. AT&T, Globe logo, DIRECTV, and all other\\r\\nDIRECTV marks contained herein are trademarks of AT&T Intellectual Property and/or AT&T\\r\\naffiliated companies. All other marks are the property of their respective owners.<br><br>\\r\\n<strong>Business/Private Segment:</strong>\\r\\nALL DIRECTV OFFERS REQUIRE 24-MO TV AGREEMENT. EARLY CANCELLATION FEE OF\\r\\nUP TO $20/MO. FOR EACH MONTH REMAINING ON AGMT. ADD''L FEES APPLY.New\\r\\napproved commercial customers only. Credit card req''d (except MA & PA).Regional Sports fee may\\r\\napply in certain markets.<br><br>\\r\\n<strong>BASE PACKAGE OFFERS:</strong> Package offers end 10/29/17. After 12 mos., then-prevailing rate for base\\r\\npackage applies (currently: $61.99/mo. for BUSINESS SELECT PACK; $81.99/mo. for BUSINESS\\r\\nENTERTAINMENT PACK, and $104.99/mo. for BUSINESS XTRA PACK) unless canceled or\\r\\nchanged by customer prior to end of the promotional period.<strong>ABP OFFER:</strong>New customers who\\r\\nsubscribe to BUSINESS SELECT PACK or above with 24-mo. agmt and enroll in Auto Bill Pay will\\r\\nreceive $5/mo. bill credit for 24 mos. starting in the 2nd mo. After (24 mos.) the credit will end and\\r\\nservices will automatically continue at the then-prevailing rate.<strong>SonicTap Music Channels Offer:</strong>After\\r\\n3 mos., then-prevailing rate for SonicTap Music Channels (currently $37.99/mo.) applies unless\\r\\ncanceled or changed by customer prior to end of the promotional period.<strong>Showtime offer, Private\\r\\nViewing only:</strong>After 3 mos., services continue at then prevailing rate (currently $19.99/mo.) unless\\r\\nchanged/canceled <strong>HARDWARE OFFER:</strong> Programming agreement, as defined by customer''s\\r\\ncommercial programming rate card, required. Offer available to new commercial customers in\\r\\ncommercial structures no more than three stories high. No single-family residences allowed. Business\\r\\nViewing: new BUSINESS XTRA PACK, BUSINESS ENTERTAINMENT PACK and BUSINESS\\r\\nSELECT PACK customers are eligible for up to four HD Receivers. Private Viewing: new BUSINESS\\r\\nXTRA PACK, BUSINESS ENTERTAINMENT PACK and BUSINESS SELECT PACK customers are\\r\\neligible for any combination of up to four HD or two HD DVRs. DVR Service ($12/mo.) required for\\r\\nDVR and HD DVR equipment. Make and model of system at DIRECTV''s sole discretion. Offer void\\r\\nwhere prohibited or restricted.<strong>DIRECTV SVC TERMS: Subject to terms of DIRECTV\\r\\nCommercial Customer Agreement. Add''l fees & Terms:</strong>Regional Sports network fee of up to $5.99\\r\\napplies in certain markets for BUSINESS XTRA PACK. Business Viewing receiver fees of $7/mo. each\\r\\napply for 1st - 9th receivers; $4/mo. each for 10th - 21st receivers; $2/mo. each for 22nd and each\\r\\nadditional receiver. Private receiver fees of $7/mo. for the first and each additional receiver. $19.95\\r\\nHandling and Delivery fee may apply. Taxes not included. Programming, pricing, terms and conditions\\r\\nsubject to change at any time.<strong>Installation:</strong>Standard commercial installation included for BUSINESS\\r\\nSELECT PACK and above customers. Complex/custom installation extra. $49 standard installation\\r\\napplies for COMMERCIAL BASIC customers. Applicable use tax adjustment may apply on retail value\\r\\nof installation. Visit <a href=http://directv.com/legal>directv.com/legal</a> or call for details. To access HD programming, HD equipment\\r\\nrequired. Number of HD channels based on package selection. Eligibility for local channels based on\\r\\nservice address. Not all networks available in all markets. All DIRECTV Receivers must be\\r\\ncontinuously connected to the same land-based phone line or the Internet. ?2017 AT&T Intellectual\\r\\nProperty. All Rights Reserved. AT&T, Globe logo, DIRECTV, and all other DIRECTV marks contained\\r\\nherein are trademarks of AT&T Intellectual Property and/or AT&T affiliated companies. All other\\r\\nmarks are the property of their respective owners.<br><br>\\r\\n\\r\\n<strong>Combined Spanish Segment:</strong><br><br>\\r\\nALL DIRECTV OFFERS REQUIRE 24-MO TV AGREEMENT. EARLY CANCELLATION FEE OF\\r\\nUP TO $40/MO. FOR EACH MONTH REMAINING ON AGMT. ADD''L FEES APPLY.New\\r\\napproved commercial customers only. Credit card req''d (except MA & PA). Pricing based on Estimated\\r\\nViewing Occupancy (EVO) for select packages.<br><br>\\r\\n<strong>BASE PACKAGE OFFERS:</strong>Package offers end 10/29/17. After 12 mos., then-prevailing rate for base\\r\\npackage applies (currently for Public Viewing: $95.99/mo. for COMERCIAL OPTIMO MAS PACK,\\r\\n$116.99/mo. for COMERCIAL MAS ULTRA PACK, and $24.99/mo. for COMMERCIAL BASIC w/\\r\\nInternational Add-On. Business and Private Viewing: $75.99/mo for COMERCIAL OPTIMO MAS\\r\\nPACK) unless canceled or changed by customer prior to end of the promotional period.<strong>ABP OFFER:</strong>\\r\\nNew customers who subscribe to BUSINESS SELECT PACK or above with 24-mo. agmt and enroll in\\r\\nAuto Bill Pay will receive $5/mo. bill credit for 24 mos. starting in the 2nd mo. After (24 mos.) the\\r\\ncredit will end and services will automatically continue at the then-prevailing rate.\\r\\n<strong>Channels Offer:</strong>After 3 mos., then-prevailing rate for SonicTap Music Channels (currently\\r\\n$37.99/mo.) applies unless canceled or changed by customer prior to end of the promotional period.\\r\\n<strong>Showtime offer, Private Viewing only:</strong>After 3 mos., services continue at then prevailing rate\\r\\n(currently $19.99/mo.) unless changed/canceled.<strong>HARDWARE OFFER:</strong>Programming agreement, as\\r\\ndefined by customer''s commercial programming rate card, required. Offer available to new commercial\\r\\ncustomers in commercial structures no more than three stories high. No single-family residences\\r\\nallowed. Up to four free HD Receivers per commercial location. Private Viewing customers are eligible\\r\\nfor any combination of up to four HD Receivers or two HD DVRs. DVR Service ($12/mo.) required for\\r\\nDVR and HD DVR equipment. Make and model of system at DIRECTV''s sole discretion. Offer void\\r\\nwhere prohibited or restricted.<strong>DIRECTV SVC TERMS: Subject to terms of DIRECTV\\r\\nCommercial Customer Agreement. Add''l fees & Terms:</strong>Regional Sports network fee of up to $24.99\\r\\napplies in certain markets. Public Viewing receiver fees of $15/mo. apply for each receiver. Business\\r\\nViewing receiver fees of $7/mo. each apply for 1st - 9th receivers; $4/mo. each for 10th - 21st receivers;\\r\\n$2/mo. each for 22nd and each additional receiver. Private Viewing receiver fees of $7/mo. for the first\\r\\nand each additional receiver. $19.95 Handling and Delivery fee may apply. Taxes not included.\\r\\nProgramming, pricing, terms and conditions subject to change at any time.<strong>Installation:</strong>\\r\\nStandard commercial installation included. $49 standard installation applies for COMMERCIAL BASIC\\r\\ncustomers. Complex/custom installation extra. Applicable use tax adjustment may apply on retail value\\r\\nof installation. Visit directv.com/legal or call for details. To access HD programming, HD equipment\\r\\nrequired. Number of HD channels based on package selection. Eligibility for local channels based on\\r\\nservice address. Not all networks available in all markets. All DIRECTV Receivers must be\\r\\ncontinuously connected to the same land-based phone line or the Internet. ?2017 AT&T Intellectual\\r\\nProperty. All Rights Reserved. AT&T, Globe logo, DIRECTV, and all other DIRECTV marks contained\\r\\nherein are trademarks of AT&T Intellectual Property and/or AT&T affiliated companies. All other\\r\\nmarks are the property of their respective owners.<br><br>\\r\\n\\r\\n<strong>iPad App Legal</strong><br><br>\\r\\nCertain remote control functions require a standard DIRECTV remote. iPad? remote control\\r\\nfunctionality requires an Internet or Wi-Fi connection and is limited to the range of network. Internet\\r\\naccess and directv.com login required. Internet connections may vary. Only available on certain\\r\\nInternet-connected receivers. Visit directv.com/apps for complete details. Remote connections may vary.\\r\\nCharges may apply for an Internet Connection Kit and installation. Requires DIRECTV Plus HD DVR\\r\\n(models HR20, HR21, HR22, HR23, HR24), DIRECTV Plus DVR model R22, or DIRECTV HD\\r\\nReceiver (models H21, H23, H24, H25) connected to broadband. DIRECTV Receiver(s) and the iPad?\\r\\nmust be connected to the same network. iPad? is a registered trademark of Apple Inc.<br><br>\\r\\n\\r\\n\\r\\n\\r\\n<strong>Sports Bar App</strong><br><br>\\r\\nBy downloading this app you are verifying that you are over the U.S. legal drinking age of 21 years old.\\r\\nUse of DIRECTV mobile apps is licensed under DIRECTV''s current End User License Agreement. Use\\r\\nof DIRECTV mobile apps is also subject to DIRECTV''s privacy policy and other legal policies,\\r\\nincluding DIRECTV''s Customer Agreement for users who are DIRECTV customers.<br><br>\\r\\n<strong>COMMERCIAL REFERRAL OFFER:</strong>Limit 10 referrals per 24-consecutive-month period. Referral\\r\\noffer ends xx/x/17; on approved credit. You must refer new DIRECTV business customers by providing\\r\\nthem with your DIRECTV account number. Referred customers must sign up for service and hardware\\r\\nusing the phone number provided and mention your DIRECTV account number at the time order is\\r\\nplaced. Referred customers must order their DIRECTV System by xx/xx/xx and have their service\\r\\nactivated with a 24-month agreement to a DIRECTV commercial base programming package within 30\\r\\ndays. Land-based phone line or Internet connection required. You and your referred business customer\\r\\nwill each receive 10 non-refundable/non-transferable credits of $10 each over 10 DIRECTV billing\\r\\ncycles totaling $100. Bill credits will be applied in months 2 through 11 for new customer subscriptions.\\r\\nExisting customers will receive their credits beginning in the first month after the new customer\\r\\nactivates; allow up to 12 weeks for referring customers. Determination of program eligibility and\\r\\nqualifying referrals, as well as any exceptions, is at the sole discretion of DIRECTV. DIRECTV reserves\\r\\nthe right to verify and adjust credits at any time prior to or following posting and redemption. May not\\r\\nbe combined with other DIRECTV referral programs. Any balance will carry forward on your\\r\\nDIRECTV bill until credit is exhausted. Offer not transferable or redeemable for cash. Business\\r\\ncustomers are not eligible to refer a residential customer. Telco customers not eligible. DIRECTV\\r\\nreserves the sole right to modify, suspend or cancel this referral program at any time without notice.\\r\\nProgramming, pricing, terms and conditions subject to change at any time. Taxes not included. Receipt\\r\\nof DIRECTV programming subject to terms of DIRECTV Commercial Customer Viewing Agreement;\\r\\ncopy provided with new customer information packet. Hardware and programming available separately.\\r\\n?2017 AT&T Intellectual Property. All Rights Reserved. AT&T, Globe logo, DIRECTV, and all other\\r\\nDIRECTV marks contained herein are trademarks of AT&T Intellectual Property and/or AT&T\\r\\naffiliated companies. All other marks are the property of their respective owners.<br><br>\\r\\n<strong>Application Services</strong><br><br>\\r\\n<strong>AT&T Tech Support 360SM</strong>is a remote technical support service; each subscription includes technical\\r\\nsupport for one (1) PC or Mac?, one (1) tablet, one (1) smartphone, mobile and smart devices and\\r\\ntethered peripherals. Onsite support is available at an extra hourly charge. AT&T does not guarantee any\\r\\nresults or response times. This service is not a hardware warranty or repair service. Purchase and use of\\r\\nAT&T Tech Support 360 services constitute acceptance of the then current Terms of Service which may\\r\\nbe found at <a href=https://tech360.att.com/ATT/termsofservice.asp>https://tech360.att.com/ATT/termsofservice.asp</a>. We may change those Terms of Service at\\r\\nany time, so we encourage you to check them on our website periodically. By continuing to use the\\r\\nservice after any such change, you agree to be bound by such changes. Early termination fees may\\r\\napply.<br><br>\\r\\n<strong>AT&T Tech Support 360SM Backup and Go</strong>is a service that enables the user to backup computer\\r\\nfiles (from a single personal computer excluding external storage devices) onto the Backup and Go\\r\\nservers. Although highly secure the service does not guarantee security of user data. Data backup and\\r\\naccess capabilities and restoration completion time are subject to Internet connectivity, available\\r\\nbandwidth and amount of data. Purchase and use of AT&T Tech Support 360 services constitute\\r\\nacceptance of the then current Terms of Service which may be found at<br>\\r\\n<a href=https://tech360.att.com/ATT/termsofservice.asp>https://tech360.att.com/ATT/termsofservice.asp</a>. We may change those Terms of Service at any time, so\\r\\nwe encourage you to check them on our website periodically. By continuing to use the service after any\\r\\nsuch change, you agree to be bound by such changes. Early termination fees may apply.<br><br>\\r\\n\\r\\n<strong>AT&T Website SolutionsSM.</strong>Purchase and use of AT&T Website Solutions constitute acceptance of\\r\\nthe Terms & Conditions (T&Cs) and Acceptable Use Policy which may be found at\\r\\n<a href=http://webhosting.att.com/terms/>http://webhosting.att.com/terms/</a> and <a href=http://www.corp.att.com/aup/>http://www.corp.att.com/aup/</a>, as use of the account is bound by\\r\\nthese items. If you do not agree to the Terms & Conditions and Acceptable Use Policy, you must not use\\r\\nyour AT&T Website Solutions account and must cancel it immediately by calling 888.932.4678. Absent\\r\\nany such call, usage of the service constitutes acceptance of the Terms & Conditions.<br><br>\\r\\n\\r\\n\\r\\n<strong>Online Fax Plans.</strong>Plans are based on total monthly sent and received page usage; unused pages within\\r\\na month are not carried over to the following month. This service does not support international dialing\\r\\nat this time. Email addresses are not included; customer must provide their own addresses to use service.\\r\\nPurchase and use of an AT&T Online Fax plan constitutes acceptance of the Terms and Conditions\\r\\n(T&Cs), which may be found at <a href=http://webhosting.att.com/terms/>http://webhosting.att.com/terms/</a>. Service terms and Fees are subject to\\r\\nchange pursuant to the T&Cs. Please read the T&Cs for additional information. If you do not agree to\\r\\nthe Terms & Conditions and Acceptable Use Policy, you must not use your AT&T Website Solutions\\r\\naccount and must cancel it immediately by calling 888.932.4678. Absent any such call, usage of the\\r\\nservice constitutes acceptance of the Terms & Conditions.<br><br>\\r\\n\\r\\n\\r\\n<strong>Email Marketing Plans.</strong>The Customer may use the service in accordance with the number of contacts\\r\\nin their plan and in connection with their internal purposes and business operations and not as a service\\r\\nfor any third party. Email and facsimile transmissions sent using AT&T Website Solutions E-Mail\\r\\nMarketing must follow the terms and conditions set forth in the Service Guide located at the following\\r\\nlink: <a href=http://serviceguidenew.att.com/sg_flashPlayerPage/WH>http://serviceguidenew.att.com/sg_flashPlayerPage/WH</a>. Please review the AT&T Website\\r\\nSolutionsSM Terms & Conditions and Acceptable Use Policy, as your use of this account is bound by\\r\\nthese items. If you do not agree to the Terms & Conditions and Acceptable Use Policy, you must not use\\r\\nyour AT&T Website Solutions account and must cancel it immediately by calling 888.932.4678. Absent\\r\\nany such call, usage of the service constitutes acceptance of the Terms & Conditions.<br><br>\\r\\n<strong>McAfee? SaaS Endpoint Protection with AT&T.</strong>McAfee? SaaS Endpoint Protection with AT&T\\r\\nprovides cloud-based endpoint security solutions accessed over the Internet. Purchase and use of this\\r\\nservice constitute acceptance of the Terms of Use and Service Guide for McAfee? SaaS Endpoint\\r\\nProtection with AT&T posted at <a href=http://www.att.com/mcafeeterms>http://www.att.com/mcafeeterms</a> which contains the descriptions and\\r\\nTerms of Use for these services. We may change those Terms of Service at any time, so we encourage\\r\\nyou to check them on our website periodically. By continuing to use the service after any such change\\r\\nyou agree to be bound by such changes. Early termination fees may apply.<br><br>\\r\\n\\r\\n<strong>Microsoft? Office 365 from AT&T</strong>\\r\\nis a suite of Internet-based products consisting of email,\\r\\ncollaboration, and productivity services. Purchase and use of these services constitutes acceptance of the\\r\\nTerms of Use and Service Guide for Microsoft? Office 365 Services posted at\\r\\n<a href=http://att.com/office365terms>http://att.com/office365terms</a> which contains the descriptions and terms of use for these services. We\\r\\nmay change the Terms of Use at any time, so we encourage you to check them on our website\\r\\nperiodically. By continuing to use the service after any such change, you agree to be bound by such\\r\\nchanges.<br><br>\\r\\n\\r\\n<strong>AT&T Wi-Fi ? Small Site </strong>With AT&T Wi-Fi ? Small Site, AT&T is not responsible for interference or\\r\\nservice degradation caused by or to third ?party Wi-Fi services at the Site(s). Upon termination, all\\r\\nAT&T equipment must be returned to AT&T within 30 days. Purchase and use of this service\\r\\nconstitutes acceptance of the AT&T Terms of Service and AT&T Wi-Fi Service Guide posted at\\r\\n<a href=http://serviceguidenew.att.com/sg_flashPlayerPage/AWS>http://serviceguidenew.att.com/sg_flashPlayerPage/AWS</a>. By continuing to use the service, you agree to\\r\\nbe bound by the then current Terms of Service. The Wi-Fi signal is provided on an ?as-is? basis. No\\r\\nrepresentation, warranties, or service performance guarantees or levels exist for the Wi-Fi signal. The\\r\\nService may not provide access to the Internet without interruption.<br><br>\\r\\n\\r\\n\\r\\n<strong>OPTIONAL SERVICE</strong>AT&T Unified MessagingSM: Discounted rate of $10 per month per mailbox. Installation fee is waived.\\r\\nAdditional AT&T local telephone company charges may apply for call forwarding features in the States\\r\\nof IL, IN, WI, OH, MI, TX, MO, AR, KS, OK . Macintosh users will not be able to record or listen to\\r\\nvoice messages using Unified Messaging. Unified Messaging is compatible with most wireless phones\\r\\nfrom AT&T but not all. Retrieving or accessing the mailbox for any reason is treated as a local call\\r\\nsubject to usage charges Applicable local toll or long distance charges apply when the mailbox is\\r\\naccessed from outside the local calling area of the associated telephone number. Airtime charges may\\r\\napply when using wireless service to retrieve messages. Service not available to customers in all areas\\r\\nfor all classes of service. AT&T Unified MessagingSM is provided by AT&T Messaging. <strong>For customers in AR, CA, IL, IN, KS, MI, MO, NV, OH, OK, TX, WI.\\r\\n</strong><br><br>\\r\\n\\r\\n<strong>AT&T Voice Mail Service for Business:</strong>Discounted rate of $10 per month per mailbox. Installation\\r\\nfee is waived. At least one call forwarding feature required to support voice mail services. Additional\\r\\nAT&T local telephone company charges may apply for call forwarding features in Alabama, Florida,\\r\\nGeorgia, Kentucky, Louisiana, Mississippi, North Carolina, South Carolina, and Tennessee. Retrieving\\r\\nor accessing the mailbox for any reason is treated as a local call subject to usage charges. Applicable\\r\\nlocal toll or long distance charges apply when the mailbox is accessed from outside the local calling area\\r\\nof the associated telephone number. Airtime charges may apply when using wireless service to retrieve\\r\\nmessages. Service not available to customers in all areas for all classes of service. <strong>For customers in\\r\\nAL, FL, GA, KY, LA, MS, NC, SC, TN.</strong><br><br>\\r\\nSubsidiaries and affiliates of AT&T Inc. provide products and services under the AT&T brand. ?2015\\r\\nAT&T Intellectual Property. All rights reserved. AT&T, the AT&T logo and all other AT&T marks\\r\\ncontained herein are trademarks of AT&T Intellectual Property and/or AT&T affiliated companies. All\\r\\nother trademarks are the property of their owners.<br><br>",
+			"Accepted": "Y",
+			"Version": "1"
+		}, {
+			"Id": "TC_01",
+			"AgreementType": "TOS",
+			"AgreementText": "<strong>All for Less AT&T Phone Promotional Offer:</strong> Offer expires 8/31/2017. Excludes taxes, surcharges,\\r\\nrecovery fees and other similar charges, which are extra. New or existing Business customers who\\r\\nsubscribe to AT&T Internet for Business or AT&T Business Fiber are eligible for promotional rates\\r\\nwhen adding AT&T Phone for Business. Customer will receive the following promotional rates for a\\r\\nperiod of 24 months: AT&T Phone for Business first line at $40/month with Unlimited North America\\r\\nplan or $45/month with International Plus plan. Additional lines are subject to current rates. After the\\r\\npromotional period, rates are subject to change to the then current rates. Offer also available to\\r\\ncustomers migrating from FastAccess? Business DSL or AT&T High Speed internet Business Edition\\r\\nto AT&T Internet for Business or AT&T Business Fiber. Offer available only for new AT&T Phone for\\r\\nBusiness customers. Renewals and current All For Less subscribers are not eligible. Credit restrictions\\r\\nand other terms, conditions and limitations apply. AT&T may modify or cancel offers at any time\\r\\nwithout notice. Advertised services not available in all areas. May not be combined with other like\\r\\noffers, discounts or promotions. For complete details, go to <a href=att.com/aflterms.>att.com/aflterms.</a><br><br>\\r\\n\\r\\n<strong>AT&T All for Less?: Offer expires 08/31/2017. Excludes taxes, surcharges, recovery fees and\\r\\nother similar charges, which are extra.</strong> Pricing will vary depending on services purchased. Depending\\r\\non service(s) purchased, term commitment may be required and early termination fees may apply. Rates\\r\\nare subject to change at the end of the term or rate guarantee. Services may be subject to early\\r\\ntermination fees.<strong>All for Less</strong>eligibility requires the purchase of at least one product from two of the\\r\\nfour following categories; qualifying voice plan, qualifying Internet plan, qualifying TV service,\\r\\nqualifying wireless service (?an All for Less bundle?).<strong>Qualifying voice plans:</strong><br>\\r\\n(1) Local calling plan<br>\\r\\nplus long distance which includes AT&T Business Local Calling Unlimited A with one of the following\\r\\nlong distance plans: All for Less? Unlimited, All for Less? 500, or AT&T Business Block of Timesm,\\r\\n700 II, 1200 II, 2500 II, 5000 II, 7500 II, 10,000 II plan, or<br>\\r\\n(2) AT&T Phone for Business.<u>Qualifying Internet plans:</u> AT&T Internet for Business, \\r\\nAT&T High Speed Internet Business Edition, FastAccess?\\r\\nBusiness DSL, or AT&T Business Fiber.<u> Qualifying TV Service:</u> U-verse TV or DIRECTV. <u>Qualifying\\r\\nwireless service:</u> Requires qualified activation of a new CRU (Corporate Responsibility User) line of\\r\\neligible wireless service on an eligible device under a qualified business agreement (Business\\r\\nAgreement).<br>\\r\\n<strong>Eligible Wireless Service:</strong>All wireless voice and data service plans except for the\\r\\nDataConnect 250MB for Tablets and iPad?.<strong>Eligible Wireless Devices:</strong>Phones, Tablets, Laptops,\\r\\nLaptop Connect, Stand-alone Mobile Hotspot devices and Netbooks. Individual Responsibility Users do\\r\\nnot qualify.<strong>Additional All for Less Requirements:</strong>Internet service, wireless service, or TV service\\r\\nactivation must be NEW. Existing AT&T Internet customers can upgrade their current service to AT&T\\r\\nInternet for Business 6 Mbps or higher and also qualify. Upgrades or renewal of terms on existing\\r\\nMobility lines are not eligible. Customer must agree that wireline and wireless services may be on a\\r\\ncombined bill when possible. Available to eligible Customers under one billing telephone number\\r\\n(BTN) at a single location only; not available on accounts billing to another number or receiving billed\\r\\ncharges from another number. Credit restrictions and other terms, conditions and limitations apply.\\r\\nLimited to in-franchise subscribers of local service from AT&T Arkansas, AT&T California, AT&T\\r\\nIllinois, AT&T Indiana, AT&T Kansas, AT&T Michigan, AT&T Missouri, AT&T Nevada, AT&T\\r\\nOhio, AT&T Oklahoma, AT&T Texas, AT&T Wisconsin, AT&T Alabama, AT&T Florida, AT&T\\r\\nGeorgia, AT&T Kentucky, AT&T Louisiana, AT&T Mississippi, AT&T North Carolina, AT&T South\\r\\nCarolina or AT&T Tennessee, based upon the service address location. Long distance service provided\\r\\nby AT&T Long Distance or AT&T Long Distance Service, based upon the service address location.\\r\\nAT&T may modify or cancel offers at any time without notice. Advertised services not available in all\\r\\nareas. May not be combined with other offers, discounts or promotions.<strong><u>General terms and conditions:</u></strong>\\r\\nCredit restrictions and other terms, conditions and limitations apply. AT&T may modify or cancel offers\\r\\nat any time without notice. Advertised services not available in all areas. May not be combined with\\r\\nother offers, discounts or promotions.<strong>Offer, terms, and restrictions subject to change and may be\\r\\nmodified, or terminated at any time without notice.</strong><br><br>\\r\\n<strong>Additional Information - AT&T All for Less Packages</strong><br><br>\\r\\n<strong>AT&T All for Less? Plus</strong> includes an All for Less bundle as set forth above in this paragraph and\\r\\nqualifying discounted application services with a minimum $15 monthly recurring charge. Qualifying\\r\\napplication services include, AT&T Tech Support 360SM, AT&T Tech Support 360SM Back up and Go,\\r\\nAT&T Website SolutionsSM, AT&T Online Fax Plans, AT&T Email Marketing, Microsoft? Office 365\\r\\nfrom AT&T, AT&T Wi-Fi Small Site, or McAfee Endpoint Protection with AT&T.<br><br>\\r\\n<strong>AT&T All for Less? Premium Package:</strong> Monthly rate of $55 applies when the following<strong>4 (four)</strong>\\r\\nservices are purchased via the All for Less Premium application bundle:<br>\\r\\n<strong>\\r\\n(1) AT&T Tech Support 360SM Premium PLUS;<br> \\r\\n(2) AT&T Website SolutionsSM Website-Basic;<br>\\r\\n(3) AT&T Wi-Fi ? Small Site; and,<br> \\r\\n(4) Microsoft? Office 365 from AT&T.<br>\\r\\n</strong>All 4 (four) of the aforementioned services are\\r\\nrequired to be active for the duration of the term commitment; request for the termination of 1 (one)\\r\\nservice shall be deemed request for termination of all 4 (four) services. Early Termination Fee: 50% of\\r\\nthe monthly rate of the All for Less Premium application bundle for the remaining period of the term\\r\\ncommitment will apply if customer terminates any of the services prior to the end of the committed\\r\\nterm.<br>\\r\\n<strong>1) AT&T Tech Support 360SM Premium PLUS</strong>combines one subscription package each of 2\\r\\n(two) services: AT&T Tech Support 360SM Advanced and AT&T Tech Support 360SM Backup and Go\\r\\nPremium. AT&T Tech Support 360SM Advanced is a remote technical support service; each\\r\\nsubscription includes technical support for one (1) PC or Mac?, one (1) tablet, one (1) smartphone,\\r\\nmobile and smart devices and tethered peripherals. Onsite support is available at an extra hourly charge.\\r\\nAT&T does not guarantee any results or response times. This service is not a hardware warranty or\\r\\nrepair service. Purchase and use of an AT&T Tech Support 360SM Advanced subscription package\\r\\nconstitute acceptance of the then current Terms of Service which may be found at<br>\\r\\n<a href=https://tech360.att.com/ATT/termsofservice.asp.>https://tech360.att.com/ATT/termsofservice.asp.</a>\\r\\nWe may change those Terms of Service at any time, so\\r\\nwe encourage you to check them on our website periodically. By continuing to use the service after any\\r\\nsuch change, you agree to be bound by such changes. AT&T Tech Support 360SM Backup and Go is a\\r\\nservice that enables the user to backup computer files (from a single personal computer excluding\\r\\nexternal storage devices) onto the Backup and Go servers. Although highly secure the service does not\\r\\nguarantee security of user data. Data backup and access capabilities and restoration completion time are\\r\\nsubject to Internet connectivity, available bandwidth and amount of data. Purchase and use of an AT&T\\r\\nTech Support 360SM Backup and Go subscription package constitutes acceptance of the then current\\r\\nTerms of Service which may be found at <a href=https://tech360.att.com/ATT/termsofservice.asp.>https://tech360.att.com/ATT/termsofservice.asp.</a>\\r\\nWe may change those Terms of Service at any time, so we encourage you to check them on our website\\r\\nperiodically. By continuing to use the service after any such change, you agree to be bound by such\\r\\nchanges.<br>\\r\\n<strong>2) AT&T Website Solutions-Website Basic</strong>is a self-design website plan. Purchase and use of\\r\\nAT&T Website Solutions-Website Basic constitutes acceptance of the Terms & Conditions (T&Cs) and\\r\\nAcceptable Use Policy which may be found at <a href=http://webhosting.att.com/terms/>http://webhosting.att.com/terms</a>and\\r\\n<a href=http://www.corp.att.com/aup/>http://www.corp.att.com/aup/</a>, as use of the account is bound by these items. If you do not agree to the\\r\\nTerms & Conditions and Acceptable Use Policy, you must not use your AT&T Website Solutions\\r\\naccount and must cancel it immediately by calling 888.932.4678. Absent any such call, usage of the\\r\\nservice constitutes acceptance of the Terms & Conditions.<br>\\r\\n<strong>3) AT&T Wi-Fi ? Small Site <br>\\r\\n4) Microsoft? Office 365 from AT&T</strong> is a suite of Internet-based products consisting of email, collaboration, and\\r\\nproductivity services. Purchase and use of these services constitutes acceptance of the Terms of Use and\\r\\nService Guide for Microsoft? Office 365 Services posted at <a href=http://att.com/office365terms>http://att.com/office365terms</a> which\\r\\ncontains the descriptions and terms of use for these services. We may change the Terms of Use at any\\r\\ntime, so we encourage you to check them on our website periodically. By continuing to use the service\\r\\nafter any such change, you agree to be bound by such changes<br><br>\\r\\n<strong>All for Less Standard Package:</strong> Monthly rate of $30 applies when the following three services are\\r\\npurchased as a bundle of services via the All for Less Standard application bundle:<br>\\r\\n<strong>\\r\\n(1) AT&T Tech Support 360SM Premium PLUS;<br> \\r\\n(2) AT&T Website Solutions - Email Marketing 250; and,<br> \\r\\n(3)AT&T Website Solutions - Online Fax-300.</strong><br>\\r\\nAll 3 (three) of the aforementioned services are required\\r\\nto be active for the duration of the term commitment; request for the termination of 1 (one) service shall\\r\\nbe deemed request for termination of all 3 (three) services. Early Termination Fee: 50% of the All for\\r\\nLess Standard application bundle monthly rate for the remaining period of the term commitment will\\r\\napply if customer terminates any of the services prior to the end of the committed term.<br>\\r\\n<strong>1) AT&T Tech Support 360SM Premium PLUS</strong>combines one subscription package each of 2 (two) services: AT&T\\r\\nTech Support 360SM Advanced and AT&T Tech Support 360SM Backup and Go Premium. AT&T Tech\\r\\nSupport 360SM Advanced is a remote technical support service; each subscription includes technical\\r\\nsupport for one (1) PC or Mac?, one (1) tablet, one (1) smartphone, mobile and smart devices and\\r\\ntethered peripherals. Onsite support is available at an extra hourly charge. AT&T does not guarantee any\\r\\nresults or response times. This service is not a hardware warranty or repair service. Purchase and use of\\r\\nan AT&T Tech Support 360SM Advanced subscription package constitute acceptance of the then current\\r\\nTerms of Service which may be found at <a href=https://tech360.att.com/ATT/termsofservice.asp>https://tech360.att.com/ATT/termsofservice.asp</a>. We may\\r\\nchange those Terms of Service at any time, so we encourage you to check them on our website\\r\\nperiodically. By continuing to use the service after any such change, you agree to be bound by such\\r\\nchanges. AT&T Tech Support 360SM Backup and Go is a service that enables the user to backup\\r\\ncomputer files (from a single personal computer excluding external storage devices) onto the Backup\\r\\nand Go servers. Although highly secure the service does not guarantee security of user data. Data\\r\\nbackup and access capabilities and restoration completion time are subject to Internet connectivity,\\r\\navailable bandwidth and amount of data. Purchase and use of an AT&T Tech Support 360SM Backup\\r\\nand Go subscription package constitute acceptance of the then current Terms of Service which may be\\r\\nfound at <a href=https://tech360.att.com/ATT/termsofservice.asp>https://tech360.att.com/ATT/termsofservice.asp.</a> We may change those Terms of Service at any\\r\\ntime, so we encourage you to check them on our website periodically. By continuing to use the service\\r\\nafter any such change, you agree to be bound by such changes.<br>\\r\\n<strong>2) AT&T Website Solutions-EmailMarketing 250</strong>provides the customer 250 contacts in their plan and in connection with their internal\\r\\npurposes and business operations and not as a service for any third party. Email and facsimile\\r\\ntransmissions sent using AT&T Services must include the following items as listed in the service guide:<br>\\r\\n<a href=http://serviceguidenew.att.com/sg_landingpage?tgtPg=sg_libraryCustom.>http://serviceguidenew.att.com/sg_landingpage?tgtPg=sg_libraryCustom.</a>Please review the AT&T\\r\\nWebsite SolutionsSM Terms & Conditions and Acceptable Use Policy, as your use of this account is\\r\\nbound by these items. If you do not agree to the Terms & Conditions and Acceptable Use Policy, you\\r\\nmust not use your AT&T Website Solutions account and must cancel it immediately by calling\\r\\n888.932.4678. Absent any such call, usage of the service constitutes acceptance of the Terms & Conditions.<br>\\r\\n<strong>3) AT&T Website Solutions-Online Fax 300</strong>plan is based on a total of 300 monthly sent\\r\\nand received page usage; unused pages within a month are not carried over to the following month. This\\r\\nservice does not support international dialing at this time. Email addresses are not included; customer\\r\\nmust provide. Purchase and use of an AT&T Online Fax plan constitutes acceptance of the Terms and\\r\\nConditions (T&Cs), which may be found at <a href=http://webhosting.att.com/terms/>http://webhosting.att.com/terms/</a>. Service terms and Fees are\\r\\nsubject to change pursuant to the T&Cs. Please read the T&Cs for additional information. If you do not\\r\\nagree to the Terms & Conditions and Acceptable Use Policy, you must not use your AT&T Website\\r\\nSolutions account and must cancel it immediately by calling 888.932.4678. Absent any such call, usage\\r\\nof the service constitutes acceptance of the Terms & Conditions.<br><br>\\r\\n\\r\\n<strong>All for Less Starter Package:</strong> Monthly rate of $15 applies when the following 3 (three) services are\\r\\npurchased as a bundle of services via the All for Less Starter application bundle: <br>\\r\\n<strong>\\r\\n(1) AT&T Tech Support 360 Backup and Go;<br> \\r\\n(2) AT&T Website Solutions-Online Fax 300;<br> \\r\\n(3) McAfee SaaS Endpoint Protection with AT&T.<br>\\r\\n</strong><br>\\r\\nAll 3 (three) services are required for the duration of the term\\r\\ncommitment; request for termination of 1 (one) service shall be deemed request for termination of all 3\\r\\n(three) services. Early Termination Fee: 50% of the All for Less Starter bundle monthly rate for the\\r\\nremaining term will apply if customer terminates services prior to the end of the committed term.<br>\\r\\n<strong>1) AT&T Tech Support 360SM Backup and Go</strong>is a service that enables the user to backup computer\\r\\nfiles (from a single personal computer excluding external storage devices) onto the Backup and Go\\r\\nservers. Although highly secure the service does not guarantee security of user data. Data backup and\\r\\naccess capabilities and restoration completion time are subject to Internet connectivity, available\\r\\nbandwidth and amount of data. Purchase and use of an AT&T Tech Support 360SM Backup and Go\\r\\nsubscription package constitute acceptance of the then current Terms of Service which may be found at\\r\\n<a href=https://tech360.att.com/ATT/termsofservice.asp.>https://tech360.att.com/ATT/termsofservice.asp.</a> We may change those Terms of Service at any time, so\\r\\nwe encourage you to check them on our website periodically. By continuing to use the service after any\\r\\nsuch change, you agree to be bound by such changes. 2) AT&T Website Solutions-Online Fax 300 plan\\r\\nis based on a total of 300 monthly sent and received page usage; unused pages within a month are not\\r\\ncarried over to the following month. This service does not support international dialing at this time.\\r\\nEmail addresses are not included; customer must provide. Purchase and use of an AT&T Online Fax\\r\\nplan constitutes acceptance of the Terms and Conditions (T&Cs), which may be found at<br>\\r\\n<a href=http://webhosting.att.com/terms/>http://webhosting.att.com/terms/</a>. Service terms and Fees are subject to change pursuant to the T&Cs.\\r\\nPlease read the T&Cs for additional information. If you do not agree to the Terms & Conditions and\\r\\nAcceptable Use Policy, you must not use your AT&T Website Solutions account and must cancel it\\r\\nimmediately by calling 888.932.4678. Absent any such call, usage of the service constitutes acceptance\\r\\nof the Terms & Conditions.<br>\\r\\n<strong>3) McAfee? SaaS Endpoint Protection with AT&T</strong> provides cloud-based\\r\\nendpoint security solutions accessed over the Internet. Purchase and use of this service constitutes\\r\\nacceptance of the Terms of Use and Service Guide for McAfee? SaaS Endpoint Protection with AT&T\\r\\nposted at <a href=http://www.att.com/mcafeeterms>http://www.att.com/mcafeeterms</a> which contains the descriptions and Terms of Use for these\\r\\nservices. We may change those Terms of Service at any time, so we encourage you to check them on our\\r\\nwebsite periodically. By continuing to use the service after any such change you agree to be bound by\\r\\nsuch changes.<br><br>\\r\\n<strong><u>Additional Information ? Qualifying Wireless Service:</u></strong><br><br>\\r\\n<strong>General Wireless Svc Terms:</strong> Subject to Business Agreement. See applicable Business Agreement,\\r\\nrate plan brochure, and coverage maps for details. For plan details visit att.com/wca. Usage and other\\r\\nterms, conditions and restrictions apply, and may result in service termination. Taxes, fees, overage,\\r\\nmonthly and other charges & restrictions apply. Subscriber must live and have a mailing address within\\r\\nthe AT&T-owned wireless network coverage area. Up to $45 activation fee may apply. Coverage and\\r\\nservices not available in all areas. 4G speeds not available everywhere. Early Termination/Cancellation\\r\\nFee (att.com/equipmentETF): After 30 days, up to $325 on Smartphone and $150 on tablet.<br><br>\\r\\n<strong><u>Additional Information - Qualifying Voice Plans:</u></strong><br><br>\\r\\n<strong>AT&T Business Local Calling Midwest.</strong> Service provided by AT&T Illinois, AT&T Indiana, AT&T\\r\\nMichigan, AT&T Ohio, or AT&T Wisconsin, based upon the service address location. One year term\\r\\ncommitment required. Failure to maintain initial number of business lines may result in shortfall fees.\\r\\nSpecial terms and conditions apply based on the options selected. Unlimited local usage in Illinois is\\r\\nBand A and B calls. Michigan zone calling is considered local toll. Local toll/Band C calls include\\r\\nIntrastate/IntraLATA local toll calls that originate and terminate in the AT&T local exchange companies\\r\\nterritory. Interstate/IntraLATA calls are billed on a per minute basis and are not included in the\\r\\nunlimited local usage. Usage from Ohio Local Calling Plus and Wisconsin Extended Area Calling are\\r\\nincluded. Customer must subscribe to AT&T Business Local Calling on all local business access lines\\r\\non the BTN; AT&T Business Local Calling plan cannot be combined with any other business access\\r\\nline, local usage or feature discount plan. Package option prices may vary by state, term length, and line\\r\\nsize. Caller ID may be blocked or unavailable. Caller ID display equipment required for use of Caller\\r\\nID. Use of Call Forwarding, Call Return, Three-Way Calling, Alternate Answer, and Busy Line Transfer\\r\\nmay result in local toll or long distance charges, depending on the location of the called party.\\r\\nInstallation and extended area service charges may apply.<strong> Early Termination Fee:</strong> Wisconsin, Indiana,\\r\\nOhio $15/line per month; Michigan $9.50/line per month; Illinois $6.50/line per month for the remaining\\r\\nterm will apply if customer terminates service prior to the end of the committed term. See applicable\\r\\nstate tariff or AT&T Guidebook for additional details, terms and conditions.<br><br>\\r\\n\\r\\n<strong>AT&T Business Local Calling Southwest.</strong> AT&T local service is provided by AT&T Arkansas,\\r\\nAT&T Kansas, AT&T Missouri, AT&T Oklahoma, or AT&T Texas, based upon the service address\\r\\nlocation. One year term commitment required. Failure to maintain initial number of business lines may\\r\\nresult in shortfall fees. Special terms and conditions apply based on the options selected. Unlimited local\\r\\nusage includes EAC/ELC/WACP. Local toll includes Intrastate/IntraLATA calls that originate and\\r\\nterminate in the AT&T local exchange companies territory and are not included in local usage.\\r\\nInterstate/IntraLATA calls are billed on a per minute basis and are not included in the unlimited local\\r\\nusage. Customer must subscribe to AT&T Business Local Calling on all local business access lines on\\r\\nthe BTN; AT&T Business Local Calling plan cannot be combined with any other business access line,\\r\\nlocal usage or feature discount plan. Package option prices may vary by term length and line size. Caller\\r\\nID may be blocked or unavailable. Caller ID display equipment required for use of Caller ID. Use of\\r\\nCall Forwarding, Call Return, Three-Way Calling, Call Forward Busy and Call Forward Don''t Answer\\r\\nmay result in local toll or long distance charges, depending on the location of the called party.\\r\\n<strong>Early Termination Fee:</strong> $15/line per month for the remaining term will apply if customer terminates service\\r\\nprior to the end of the committed term. See applicable state tariff or AT&T Guidebook for additional\\r\\ndetails, terms and conditions.<br><br>\\r\\n\\r\\n<strong>AT&T Business Local Calling West.</strong> AT&T local service is provided by AT&T California or AT&T\\r\\nNevada, based upon the service address location. One year term commitment required. Failure to\\r\\nmaintain initial number of business lines may result in shortfall fees. Special terms and conditions apply\\r\\nbased on the options selected. Unlimited local usage in California includes ZUM 1, 2 and 3. Local toll\\r\\nincludes Intrastate/IntraLATA calls that originate and terminate in the AT&T local exchange companies\\r\\nterritory and are not included in local usage. Interstate/IntraLATA calls are billed on a per minute basis\\r\\nand are not included in the unlimited local usage. Extended Area Service (EAS) is included in AT&T\\r\\nBusiness Local Calling unlimited local usage. Customer must subscribe to AT&T Business Local\\r\\nCalling on all local business access lines on the BTN; AT&T Business Local Calling plan cannot be\\r\\ncombined with any other business access line, local usage or feature discount plan. Package option\\r\\nprices may vary by term length and line size. Caller ID may be blocked or unavailable. Caller ID display\\r\\nequipment required for use of Caller ID. Use of Call Forwarding, Call Return, Three-Way Calling,\\r\\nAlternate Answer, and Busy Line Transfer may result in local toll or long distance charges, depending\\r\\non the location of the called party.<strong> Early Termination Fee:</strong> $15/line per month for the remaining term\\r\\nwill apply if customer terminates service prior to the end of the committed term. See applicable state\\r\\ntariff or AT&T Guidebook for additional details, terms and conditions.<br><br>\\r\\n\\r\\n<strong>AT&T Business Local Calling Southeast.</strong> Available to customers with business lines who commit to a\\r\\none-year term. AT&T local service is provided by AT&T Alabama, AT&T Florida, AT&T Georgia,\\r\\nAT&T Kentucky, AT&T Louisiana, AT&T Mississippi, AT&T North Carolina, AT&T South Carolina,\\r\\nor AT&T Tennessee, based upon the service address location. One year term commitment required.\\r\\nShortfall and Early Termination Fees may apply. Special terms and conditions apply based on the\\r\\noptions selected. Interstate/IntraLATA calls are billed on a per minute basis and are not included in the\\r\\nunlimited local usage plan options. Customer must subscribe to AT&T Business Local Calling on all\\r\\nlocal business access lines. AT&T Business Local Calling plan cannot be combined with any other\\r\\nbusiness access line, local usage or feature discount plan. Package option prices may vary by term length\\r\\nand line size. Caller ID calls may be blocked or unavailable. Caller ID display equipment is required for\\r\\nuse of Caller ID. Use of Call Forwarding or Remote Access to Call Forwarding, Repeat Dialing, Three-\\r\\nWay Calling, Call Forward Don?t Answer, and Call Forward Busy Line may result in local toll or long\\r\\ndistance charges, depending on the location of the called party. Taxes, fees, and universal service\\r\\ncharges are extra. See applicable AT&T Guidebook for additional details, terms and conditions.<br><br>\\r\\n\\r\\n<strong>AT&T All for Less? Unlimited.</strong> Plan available for business customers with 1-10 business local access\\r\\nlines who qualify for, and purchase All for Less. One year term commitment required. Applies only to\\r\\ndomestic direct-dialed, live voice calls. Toll-free calls and operator-assisted calls incur additional\\r\\ncharges. AT&T Long Distance must be designated as the in-state (including intraLATA toll) and\\r\\ninterstate long distance carrier on all lines. Certain applications, e.g., auto-dialing, broadcast FAX,\\r\\nmodem-to-modem calls, long distance Internet or intranet access, call center and certain switching\\r\\napplications, prohibited. Customers not complying with the terms of the plan will be changed to a perminute\\r\\nrated plan. At expiration of the term, services are provided at out of term month-to-month rates.<br>\\r\\n<strong>Early Termination Fee for customers in AR, CA, IL, IN, KS, MI, MO, NV, OH, OK, TX and WI:</strong>\\r\\n50% of the monthly recurring charge per month for the remaining term will apply if customer terminates\\r\\nservice prior to the end of the committed term. See Voice Product Reference and Pricing Guidebook for\\r\\nplan details at <a href=http://cpr.att.com/pdf/sbcld/fccsbcld.htm>http://cpr.att.com/pdf/sbcld/fccsbcld.htm</a>.<br> \\r\\n<strong>Early Termination Fee for customers in AL, FL, GA, KY, LA, MS, NC, SC and TN:</strong> $5.00 per\\r\\nmonth for the remaining term will apply if customer terminates service prior to the end of the committed\\r\\nterm. 1+ call detail is available for an additional charge. Certain applications, e.g., call centers, autodialing,\\r\\nPBX/ PBX-like, data transmission, broadcast FAX, Centrex, or ISDN, prohibited. Arrangements\\r\\naggregating end user traffic are not eligible (e.g., for educational institutions or businesses). Noncompliance\\r\\nwith Plan terms may result in a change to another plan or in long distance service being\\r\\nsuspended, restricted or canceled, without prior notice. Plan not available for resale. See Business\\r\\nServices Pricing and Service Guide for plan details at <a href=http://cpr.att.com/bsldmain.html>http://cpr.att.com/bsldmain.html</a><br><br>\\r\\n\\r\\n<strong>AT&T All for Less? 500.</strong> Plan available for business customers who qualify for and purchase All for\\r\\nLess. One year term commitment required. Block of minutes apply only to domestic usage (direct-dialed\\r\\noutbound and inbound Toll Free, if applicable), and are billed at 30 second minimum and 1 second\\r\\nincrements thereafter. Per-minute rates apply to all usage in excess of the block. Unused minutes do not\\r\\nrollover to the next month. Toll Free service, international calls and operator-assisted calls incur\\r\\nadditional charges. AT&T Long Distance must be designated as the in-state (including intraLATA toll)\\r\\nand interstate long distance carrier on all lines subscribing to the Plan. At expiration of the term, services\\r\\nare provided at out of term month-to-month rates.<strong> Early Termination Fee for customers in AR, CA,\\r\\nIL, IN, KS, MI, MO, NV, OH, OK, TX and WI:</strong> 50% of the monthly recurring charge per month for\\r\\nthe remaining term will apply if customer terminates service prior to the end of the committed term. See\\r\\nVoice Product Reference and Pricing Guidebook for plan details at<br>\\r\\n<a href=http://cpr.att.com/pdf/sbcld/fccsbcld.htm.>http://cpr.att.com/pdf/sbcld/fccsbcld.htm.</a>\\r\\n<strong>Early Termination Fee for customers in AL, FL, GA, KY, LA, MS, NC, SC and TN:</strong> $5.00 per\\r\\nmonth for the remaining term will apply if customer terminates service prior to the end of the committed\\r\\nterm. Plan not available for resale. See Business Services Pricing and Service Guide for plan details at<br>\\r\\n<a href=http://cpr.att.com/bsldmain.html>http://cpr.att.com/bsldmain.html</a>.<br><br>\\r\\n\\r\\n<strong>AT&T Business Block of Time IISM.</strong> Block of minutes apply only to domestic usage (direct-dialed\\r\\noutbound and inbound Toll Free, if applicable), and are billed at 30 second minimum and 1 second\\r\\nthereafter increments. Per-minute rates apply to all usage in excess of the block. Unused minutes do not\\r\\nrollover to the next month. Toll Free service, international calls, operator-assisted calls, and calling card\\r\\ncalls incur additional charges. AT&T Long Distance must be designated as the in-state (including\\r\\nintraLATA toll) and interstate long distance carrier on all lines subscribing to the Plan. For customers in\\r\\n<strong>AR, CA, IL, IN, KS, MI, MO, NV, OH, OK, TX and WI:</strong> Minimum one year term commitment\\r\\nrequired. One year term:<strong> subject to automatic term renewal, the term renews for successive like\\r\\nperiods at the renewal term rates, terms and conditions then in effect, unless AT&T is contacted\\r\\nand services are cancelled within thirty (30) days of the end of a term.</strong> Two year term: at expiration\\r\\nof the initial term, services are provided at out-of-term month-to-month rates. Early Termination Fee:\\r\\n50% of the monthly recurring charge per month for the remaining term will apply if customer terminates\\r\\nservice prior to the end of the committed term. See Voice Product Reference and Pricing Guidebook for\\r\\nplan details at <a href=http://cpr.att.com/pdf/sbcld/fccsbcld.htm>http://cpr.att.com/pdf/sbcld/fccsbcld.htm</a>.\\r\\nFor customers in <strong>AL, FL, GA, KY, LA, MS, NC, SC and TN</strong> see Business Services Pricing and\\r\\nService Guide for plan details at <a href=http://cpr.att.com/bsldmain.html>http://cpr.att.com/bsldmain.html</a>.<br><br>\\r\\n\\r\\n<strong>AT&T Phone for Business.</strong> Prices subject to change. Installation, taxes, fees, and other charges apply.\\r\\nInternational calls billed at additional per-minute rates; higher rates may apply for calls terminating on\\r\\nmobile phones or other wireless devices. Service cannot be moved to a different address from where\\r\\noriginally provisioned unless AT&T moves the service; will function only at the provisioned location.\\r\\nAT&T Phone, including 911 dialing, will not function during a power outage without battery backup\\r\\npower, during a network outage, with relocation of the AT&T Gateway, with delays that may occur in\\r\\nmaking a registered location available through the ALI Database or with disconnection of service due to\\r\\nbilling issues. Non-returned equipment charges may apply if equipment is not returned within required\\r\\ntimeframe upon disconnect of services. Refer to AT&T Phone Terms of Service at<br>\\r\\n<a href=http://www.att.com/gen/general?pid=6622>http://www.att.com/gen/general?pid=6622</a> for more information on 911, and alarm systems. Acceptance\\r\\nof AT&T Phone Terms of Service and 911 Acknowledgement required. Credit and other restrictions\\r\\napply. AT&T Phone Voicemail may not be fully compatible with all AT&T wireless voicemail systems.\\r\\nSome call information may be blocked or otherwise not displayed, including information for some calls\\r\\noriginating outside of AT&T''s network and calls carried over facilities that do not transmit Caller ID\\r\\ninformation. AT&T Phone requires AT&T Internet and acceptance of AT&T Internet Terms of Service\\r\\nat <a href=http://www.att.com/internet-terms>http://www.att.com/internet-terms</a>. If AT&T Phone service plan is terminated, AT&T will charge its\\r\\nthen current list AT&T Internet rates, (monthly or term rates as applicable).<br><br>\\r\\n\\r\\n<strong>AT&T Phone for Business IAD-Port Extender Promotion:</strong> Offer expires 8/31/2017. Available to\\r\\neligible new or existing business customers. A 100% discount will be applied to the non-recurring\\r\\ncharge associated with the IAD-Port Extender Equipment.<br><br>\\r\\n\\r\\n<strong>AT&T Phone for Business Winback Promotion:</strong> Offer expires 8/31/2017. Available to new AT&T\\r\\nbusiness customers switching local service from another provider. Requires an All For Less bundle.\\r\\nProvides a monthly recurring charge discount of $25 off the primary line and $5 off each additional line\\r\\nof new AT&T Phone service for the initial 12 months of service. After the promotional period, rates are\\r\\nsubject to change to the then current rates.<br><br>\\r\\n<strong>Geographic and service restrictions apply to AT&T Phone services. Call or go to www.att.com to\\r\\nsee if you qualify.</strong><br><br>\\r\\n\\r\\n<strong><u>Additional Information - Qualifying Internet Plans</u></strong><br><br>\\r\\n<strong>AT&T All for Less? AT&T High Speed Internet Business Edition Promotion.</strong> Available only to\\r\\nnew business customers. Promotional discounted rate of $40/month applies for AT&T High Speed\\r\\nInternet Business Edition Basic, Express, Pro, or Elite. Static IP available at an additional charge.\\r\\n<strong>SERVICE REQUIRES:</strong>DSL Modem/Gateway/Router. Customer must have or purchase a qualifying\\r\\nAT&T local voice plan.<strong>EARLY TERMINATION FEE</strong> of $20 per month for the remaining term will\\r\\napply if customer terminates service prior to the end of the committed term in the following states: AR,\\r\\nCA, IL, IN, KS, MI, MO, NV, OH, OK, TX, & WI. If qualifying local voice rate plan is terminated,\\r\\nAT&T will charge its then current list AT&T High Speed Business Edition rates (monthly or term rates\\r\\nas applicable). In order to receive High Speed Internet service, customer must at all-time maintain local\\r\\nAT&T voice service. If the local voice service is terminated the High Speed Internet service will be\\r\\nautomatically terminated and early termination fee will apply. At the expiration of the contracted term,\\r\\nthe current monthly rates are subject to change.<br><br>\\r\\n\\r\\n\\r\\n<strong>ADDITIONAL TERMS: SHIPPING and HANDLING.</strong> A shipping and handling fee applies for\\r\\nAT&T-provided modem/gateway/router. Prices vary depending upon shipment method.<strong> EQUIPMENT\\r\\nREBATE:</strong>Modem or Router rebate available with new purchase of AT&T High Speed Internet\\r\\nBusiness Edition and AT&T High Speed Internet Business Edition Direct and a minimum 12 month\\r\\nterm commitment. Information about the AT&T Business Reward Center and online rebate redemption\\r\\nwill be sent by regular U.S. mail to the Customer?s address after the Customer?s order of AT&T High\\r\\nSpeed Internet Business Edition has been received and Customer has maintained service for at least 60\\r\\ncalendar days. Customers must complete the online rebate redemption process within 90 calendar days\\r\\nof AT&T High Speed Internet Business Edition Service activation. The equipment rebate offer is valid\\r\\nin the following states: AR, CA, IL, IN, KS, MI, MO, NV, OH, OK, TX, WI. Rebate void where\\r\\nprohibited, taxed or restricted by law. Rebate may not be assigned, transferred or sold. AT&T may\\r\\nprovide refurbished modem or router. One equipment rebate allowed per AT&T High Speed Internet\\r\\nBusiness Edition line. Account must be current and in service for a minimum of 60 calendar days to be\\r\\neligible for rebate. Rebate cannot exceed total purchase price of equipment. Rebate check will be mailed\\r\\nto the customer''s billing address within 6 weeks of completion of the online rebate redemption process\\r\\nprovided the Customer has met the 60 calendar day minimum service requirement. AT&T is not\\r\\nresponsible for late, lost, misdirected, or postage-due mail or mail damaged by the U.S. Post Office.\\r\\nRebate is offered by AT&T Internet Services and cannot be applied to your AT&T local exchange\\r\\ncarrier bill. Some customers may need to purchase additional equipment (for example: Ethernet card\\r\\nand/or cable) which will not be eligible for rebate.<strong> OTHER CHARGES:</strong> $150-$200 charge will apply\\r\\nif technician installation is required or desired on Dynamic IP Plans.<strong> OTHER TERMS:</strong> Actual speeds\\r\\nare \\\"up to\\\" and are based on DSL synch rate, which may vary, and are not guaranteed. Many factors\\r\\naffect speed. Acceptance of Terms of Service required. Advertised services and speed options are not\\r\\navailable in all areas. Offer may be modified or discontinued at any time without notice. Read the High\\r\\nSpeed Internet Terms of Service at att.com/internet-terms. See AT&T High Speed Internet Business\\r\\nEdition Service Guide at <a href=http://www.att.com/gen/public-affairs?pid=11970>http://www.att.com/gen/public-affairs?pid=11970</a>.<br><br>\\r\\n\\r\\n\\r\\n<strong>AT&T All for Less? FastAccess? Business DSL Promotion.</strong> Available only to new business\\r\\ncustomers. Promotional discounted rate of $40/month applies for Dynamic IP FastAccess Business DSL\\r\\nLite, FastAccess Business DSL, FastAccess Business DSL Plus or FastAccess DSL 6.0. Static IP\\r\\navailable at an additional charge. Promotional price not available with FastAccess Business DSL Direct\\r\\n(i.e. DSL line without voice service).<strong> SERVICE REQUIRES:</strong> DSL Modem/Gateway/Router.\\r\\nCustomer must have or purchase a qualifying AT&T local voice plan.<strong> Early termination fee</strong> of $20 per\\r\\nmonth for the remaining term will apply if customer terminates service prior to the end of the committed\\r\\nterm in the following states: AL, FL, GA, KY, LA, MS, NC, SC & TN. If qualifying local voice rate\\r\\nplan is terminated, AT&T will charge its then current list FastAccess Business DSL rates (monthly or\\r\\nterm rates as applicable). In order to receive FastAccess Business DSL service, customer must at all\\r\\ntimes maintain local AT&T voice service. If the local voice service is terminated the FastAccess\\r\\nBusiness DSL service will be automatically terminated and early termination fee will apply. At the\\r\\nexpiration of the contracted term, the current monthly rates are subject to change.<br><br>\\r\\n\\r\\n\\r\\n<strong>EQUIPMENT REBATE.</strong> Modem or Router rebate available with new purchase of AT&T FastAccess\\r\\nBusiness DSL and a minimum 12-month commitment purchase of FastAccess Business DSL 6.0,\\r\\nFastAccess Business DSL Plus, FastAccess Business DSL or FastAccess Business DSL Lite. Rebate on\\r\\nthe modem or router will be issued in the form of a credit on the customer''s AT&T phone bill subject to\\r\\nthe following terms and conditions. Customers must complete the online rebate redemption process\\r\\nwithin 90 calendar days of AT&T FastAccess Business DSL service activation. Instructions to redeem\\r\\nrebates are also included in the self-installation kit sent to the Customer via U.S. mail. Early termination\\r\\nresults in a charge of up to 100% of router or modem rebate. AT&T may provide refurbished modem or\\r\\nrouter. The equipment rebate offer is valid in the following states: AL, FL, GA, KY, LA, MS, NC, SC,\\r\\nTN. One equipment rebate allowed per AT&T FastAccess Business DSL line. Account must be current\\r\\nand in service for a minimum of 60 calendar days to be eligible for rebate. Rebate cannot exceed total\\r\\npurchase price of equipment. Credits will be applied within two billing cycles following completion of\\r\\nthe online rebate redemption process. Applicable taxes and fees based on the full price of all products\\r\\nand services, and no taxes, fees or shipping and handling charges will be added to any reward or rebate.\\r\\nInformation about the AT&T Business Reward Center and online rebate redemption will be sent by\\r\\nregular U.S. mail to the Customer?s address after the Customer?s order of FastAccess Business DSL has\\r\\nbeen received and maintained for at least 60 calendar days. Customer must have or purchase a\\r\\nqualifying AT&T local voice plan under term. THE FASTACCESS BUSINESS DSL SERVICE IS\\r\\nPROVIDED UNDER A TERM AGREEMENT OF 12 MONTHS.<strong> SHIPPING and HANDLING:</strong> A\\r\\nshipping and handling fee applies for AT&T-provided modem/gateway/router. Prices vary depending\\r\\nupon shipment method. <strong>OTHER CHARGES:</strong> $75 Activation Charge applies. Additional $200.00\\r\\ncharge will apply if technician install is required or desired.<strong> OTHER TERMS:</strong> Actual speeds are \\\"up\\r\\nto\\\" and are based on DSL synch rate, which may vary, and are not guaranteed. Many factors affect\\r\\nspeed. Acceptance of Terms of Service required. Advertised services and speed options are not available\\r\\nin all areas. Offer may be modified or discontinued at any time without notice. Read the High Speed\\r\\nInternet Terms of Service at att.com/internet-terms. See FastAccess Business DSL Service Guide at<br>\\r\\n<a href=http://serviceguidenew.att.com/sg_flashPlayerPage/FADSL>http://serviceguidenew.att.com/sg_flashPlayerPage/FADSL</a><br><br>\\r\\n\\r\\n \\r\\n\\r\\n\\r\\n<strong>AT&T All for Less? AT&T Internet for Business Promotion.</strong> Discounted promotional rates apply,\\r\\nbased on <strong>designated market</strong> area and speed selected. Initial rate guaranteed for a period of 24 months.\\r\\nAfter 24 months, the then current rates will apply. SERVICE REQUIRES: Modem or Gateway.\\r\\nCustomer must have or purchase a qualifying AT&T voice service.<strong>Equipment:</strong> There is up to a $99\\r\\ninstallation charge. Geographic and service restrictions apply. Call or go to <a href=http://att.com>www.att.com</a> to see if you\\r\\nqualify. Read the Terms of Service at: <a href=http://att.com/internet-terms>www.att.com/internet-terms</a>. Acceptance of AT&T Internet\\r\\nTerms of Service required. Prices and offers subject to change without notice. Internet speed claim(s)\\r\\nrepresent maximum downstream and/or upstream speed capabilities. Speeds may vary and are not\\r\\nguaranteed. Many factors can affect actual speeds. Credit restrictions and other terms, conditions, and\\r\\nlimitations apply. Advertised services not available in all areas. May not be combined with other offers,\\r\\ndiscounts or promotions. Offer, terms, and restrictions subject to change and may be modified, or\\r\\nterminated at any time without notice.<br><br>\\r\\n\\r\\n\\r\\n<strong>AT&T Business Fiber</strong><br><br>\\r\\nGeographic and service restrictions apply to AT&T Business Fiber. Acceptance of AT&T High Speed\\r\\nInternet Terms of Service at att.com/internet-terms is required. Internet speed claims represent\\r\\nmaximum network Service Capability speeds. Actual customer speeds may vary and are not guaranteed.\\r\\nActual speeds vary based on factors including site traffic, content provider server capacity, internal\\r\\nnetwork management factors, device capabilities and use of other services.<br><br>\\r\\n\\r\\n\\r\\n\\r\\n<strong>Additional Information - Qualifying TV Service</strong><br><br>\\r\\n<strong>U-verse? TV</strong><br><br>\\r\\nCustomers must have AT&T Internet in order to have AT&T U-verse TV Business Edition. Acceptance\\r\\nof AT&T Internet Terms of Service att.com/internet-terms and AT&T Phone and TV Terms of Service\\r\\nfor Business <a href=https://www.att.com/smallbusiness/terms/tos-attphone-and-uversetv-for-business-brand-\\r\\n07262016.pdf>https://www.att.com/smallbusiness/terms/tos-attphone-and-uversetv-for-business-brand-\\r\\n07262016.pdf</a> required.<br><br>\\r\\n\\r\\n<strong>DIRECTV<br><br>\\r\\nFor all DIRECTV offers noted below, 24-mo agreement and Auto Bill Pay required unless\\r\\nexplicitly stated otherwise Add''l fees may apply. New approved commercial customers only.\\r\\nCredit card req''d (except MA & PA). Prorated Early Cancellation Fee ( ECF) fee (up to $960)\\r\\napplies. Pricing based on Estimated Viewing Occupancy (EVO) for select packages.<br><br>\\r\\n\\r\\n\\r\\nBASE PACKAGE OFFERS:<br><br>\\r\\nPublic Viewing Segment:<br>\\r\\nAll DIRECTV OFFERS REQUIRE A 24-MO TV AGREEMENT. EARLY CANCELLATION\\r\\nFEE OF $40/MO. FOR EACH MONTH REMAINING ON AGMT. ADD'L FEES APPLY.<br>\\r\\nNew approved commercial customers only. Credit card req'd (except MA & PA). Pricing based on\\r\\nEstimated Viewing Occupancy (EVO) for select packages.<br>\\r\\nRegional Sports fee applies in certain markets.<br>\\r\\nBASE PACKAGE OFFERS:</strong>Ends 10/29/17. After (3 or 12 mos.) then-prevailing rate for base package\\r\\napplies (currently: $61.99/mo. for BUSINESS SELECT PACK; $102.99/mo. for COMMERCIAL\\r\\nENTERTAINMENT PACK, $151.49/mo for COMMERCIAL XTRA PACK, up to $237.99/mo. (based\\r\\non EVO, Estimated Viewing Occupancy) for COMMERCIAL CHOICE, and up to $553.99 /mo. (based\\r\\non EVO for COMMERCIAL CHOICE PLUS) unless canceled or changed by customer prior to end of\\r\\nthe promotional period.<strong>ABP OFFER:</strong>New customers who subscribe to BUSINESS SELECT PACK or\\r\\nabove with 24-mo. agmt and enroll in Auto Bill Pay will receive $5/mo. bill credit for 24 mos. starting\\r\\nin the 2nd mo. After (24 mos.) the credit will end and services will automatically continue at the thenprevailing\\r\\nrate.<strong>SonicTap Music Channels Offer:</strong>After 3 mos., then-prevailing rate for SonicTap\\r\\nMusic Channels (currently $37.99/mo.) applies unless canceled or changed by customer prior to end of\\r\\nthe promotional period.<strong>HARDWARE OFFER:</strong>Programming agreement, as defined by customer''s\\r\\ncommercial programming rate card, required. Offer available to new commercial customers in\\r\\ncommercial structures no more than three stories high. No single-family residences allowed. Up to four\\r\\nfree HD Receivers per commercial location. Make and model of system at DIRECTV''s sole discretion.\\r\\nOffer void where prohibited or restricted.<strong>DIRECTV SVC TERMS: Subject to terms of DIRECTV\\r\\nCommercial Customer Agreement. Add''l fees & Terms:</strong>Regional Sports network fee of up to $24.99\\r\\napplies in certain markets for COMMERCIAL CHOICE PLUS and COMMERCIAL XTRA PACK.\\r\\nReceiver fees of $15/mo. apply for each receiver for BUSINESS SELECT PACK, COMMERCIAL\\r\\nENTERTAINMENT PACK, and COMMERCIAL XTRA PACK. Receiver fees of a flat fee of $30/mo\\r\\nwill apply for COMMERCIAL CHOICE and a flat fee of $90/mo for COMMERCIAL CHOICE PLUS.\\r\\n$19.95 Handling and Delivery fee may apply. Taxes not included. Programming, pricing, terms and\\r\\nconditions subject to change at any time.<strong>Installation:</strong>Standard commercial installation included for\\r\\nBUSINESS SELECT PACK and above customers. $49 standard installation applies for\\r\\nCOMMERCIAL BASIC customers. Complex/custom installation extra. Applicable use tax adjustment\\r\\nmay apply on retail value of installation. Visit <a href=directv.com/legal>directv.com/legal</a> or call for details. To access HD\\r\\nprogramming, HD equipment required. Number of HD channels based on package selection. Eligibility\\r\\nfor local channels based on service address. Not all networks available in all markets. All DIRECTV\\r\\nReceivers must be continuously connected to the same land-based phone line or the Internet. ?2017\\r\\nAT&T Intellectual Property. All Rights Reserved. AT&T, Globe logo, DIRECTV, and all other\\r\\nDIRECTV marks contained herein are trademarks of AT&T Intellectual Property and/or AT&T\\r\\naffiliated companies. All other marks are the property of their respective owners.<br><br>\\r\\n<strong>Business/Private Segment:</strong>\\r\\nALL DIRECTV OFFERS REQUIRE 24-MO TV AGREEMENT. EARLY CANCELLATION FEE OF\\r\\nUP TO $20/MO. FOR EACH MONTH REMAINING ON AGMT. ADD''L FEES APPLY.New\\r\\napproved commercial customers only. Credit card req''d (except MA & PA).Regional Sports fee may\\r\\napply in certain markets.<br><br>\\r\\n<strong>BASE PACKAGE OFFERS:</strong> Package offers end 10/29/17. After 12 mos., then-prevailing rate for base\\r\\npackage applies (currently: $61.99/mo. for BUSINESS SELECT PACK; $81.99/mo. for BUSINESS\\r\\nENTERTAINMENT PACK, and $104.99/mo. for BUSINESS XTRA PACK) unless canceled or\\r\\nchanged by customer prior to end of the promotional period.<strong>ABP OFFER:</strong>New customers who\\r\\nsubscribe to BUSINESS SELECT PACK or above with 24-mo. agmt and enroll in Auto Bill Pay will\\r\\nreceive $5/mo. bill credit for 24 mos. starting in the 2nd mo. After (24 mos.) the credit will end and\\r\\nservices will automatically continue at the then-prevailing rate.<strong>SonicTap Music Channels Offer:</strong>After\\r\\n3 mos., then-prevailing rate for SonicTap Music Channels (currently $37.99/mo.) applies unless\\r\\ncanceled or changed by customer prior to end of the promotional period.<strong>Showtime offer, Private\\r\\nViewing only:</strong>After 3 mos., services continue at then prevailing rate (currently $19.99/mo.) unless\\r\\nchanged/canceled <strong>HARDWARE OFFER:</strong> Programming agreement, as defined by customer''s\\r\\ncommercial programming rate card, required. Offer available to new commercial customers in\\r\\ncommercial structures no more than three stories high. No single-family residences allowed. Business\\r\\nViewing: new BUSINESS XTRA PACK, BUSINESS ENTERTAINMENT PACK and BUSINESS\\r\\nSELECT PACK customers are eligible for up to four HD Receivers. Private Viewing: new BUSINESS\\r\\nXTRA PACK, BUSINESS ENTERTAINMENT PACK and BUSINESS SELECT PACK customers are\\r\\neligible for any combination of up to four HD or two HD DVRs. DVR Service ($12/mo.) required for\\r\\nDVR and HD DVR equipment. Make and model of system at DIRECTV''s sole discretion. Offer void\\r\\nwhere prohibited or restricted.<strong>DIRECTV SVC TERMS: Subject to terms of DIRECTV\\r\\nCommercial Customer Agreement. Add''l fees & Terms:</strong>Regional Sports network fee of up to $5.99\\r\\napplies in certain markets for BUSINESS XTRA PACK. Business Viewing receiver fees of $7/mo. each\\r\\napply for 1st - 9th receivers; $4/mo. each for 10th - 21st receivers; $2/mo. each for 22nd and each\\r\\nadditional receiver. Private receiver fees of $7/mo. for the first and each additional receiver. $19.95\\r\\nHandling and Delivery fee may apply. Taxes not included. Programming, pricing, terms and conditions\\r\\nsubject to change at any time.<strong>Installation:</strong>Standard commercial installation included for BUSINESS\\r\\nSELECT PACK and above customers. Complex/custom installation extra. $49 standard installation\\r\\napplies for COMMERCIAL BASIC customers. Applicable use tax adjustment may apply on retail value\\r\\nof installation. Visit <a href=http://directv.com/legal>directv.com/legal</a> or call for details. To access HD programming, HD equipment\\r\\nrequired. Number of HD channels based on package selection. Eligibility for local channels based on\\r\\nservice address. Not all networks available in all markets. All DIRECTV Receivers must be\\r\\ncontinuously connected to the same land-based phone line or the Internet. ?2017 AT&T Intellectual\\r\\nProperty. All Rights Reserved. AT&T, Globe logo, DIRECTV, and all other DIRECTV marks contained\\r\\nherein are trademarks of AT&T Intellectual Property and/or AT&T affiliated companies. All other\\r\\nmarks are the property of their respective owners.<br><br>\\r\\n\\r\\n<strong>Combined Spanish Segment:</strong><br><br>\\r\\nALL DIRECTV OFFERS REQUIRE 24-MO TV AGREEMENT. EARLY CANCELLATION FEE OF\\r\\nUP TO $40/MO. FOR EACH MONTH REMAINING ON AGMT. ADD''L FEES APPLY.New\\r\\napproved commercial customers only. Credit card req''d (except MA & PA). Pricing based on Estimated\\r\\nViewing Occupancy (EVO) for select packages.<br><br>\\r\\n<strong>BASE PACKAGE OFFERS:</strong>Package offers end 10/29/17. After 12 mos., then-prevailing rate for base\\r\\npackage applies (currently for Public Viewing: $95.99/mo. for COMERCIAL OPTIMO MAS PACK,\\r\\n$116.99/mo. for COMERCIAL MAS ULTRA PACK, and $24.99/mo. for COMMERCIAL BASIC w/\\r\\nInternational Add-On. Business and Private Viewing: $75.99/mo for COMERCIAL OPTIMO MAS\\r\\nPACK) unless canceled or changed by customer prior to end of the promotional period.<strong>ABP OFFER:</strong>\\r\\nNew customers who subscribe to BUSINESS SELECT PACK or above with 24-mo. agmt and enroll in\\r\\nAuto Bill Pay will receive $5/mo. bill credit for 24 mos. starting in the 2nd mo. After (24 mos.) the\\r\\ncredit will end and services will automatically continue at the then-prevailing rate.\\r\\n<strong>Channels Offer:</strong>After 3 mos., then-prevailing rate for SonicTap Music Channels (currently\\r\\n$37.99/mo.) applies unless canceled or changed by customer prior to end of the promotional period.\\r\\n<strong>Showtime offer, Private Viewing only:</strong>After 3 mos., services continue at then prevailing rate\\r\\n(currently $19.99/mo.) unless changed/canceled.<strong>HARDWARE OFFER:</strong>Programming agreement, as\\r\\ndefined by customer''s commercial programming rate card, required. Offer available to new commercial\\r\\ncustomers in commercial structures no more than three stories high. No single-family residences\\r\\nallowed. Up to four free HD Receivers per commercial location. Private Viewing customers are eligible\\r\\nfor any combination of up to four HD Receivers or two HD DVRs. DVR Service ($12/mo.) required for\\r\\nDVR and HD DVR equipment. Make and model of system at DIRECTV''s sole discretion. Offer void\\r\\nwhere prohibited or restricted.<strong>DIRECTV SVC TERMS: Subject to terms of DIRECTV\\r\\nCommercial Customer Agreement. Add''l fees & Terms:</strong>Regional Sports network fee of up to $24.99\\r\\napplies in certain markets. Public Viewing receiver fees of $15/mo. apply for each receiver. Business\\r\\nViewing receiver fees of $7/mo. each apply for 1st - 9th receivers; $4/mo. each for 10th - 21st receivers;\\r\\n$2/mo. each for 22nd and each additional receiver. Private Viewing receiver fees of $7/mo. for the first\\r\\nand each additional receiver. $19.95 Handling and Delivery fee may apply. Taxes not included.\\r\\nProgramming, pricing, terms and conditions subject to change at any time.<strong>Installation:</strong>\\r\\nStandard commercial installation included. $49 standard installation applies for COMMERCIAL BASIC\\r\\ncustomers. Complex/custom installation extra. Applicable use tax adjustment may apply on retail value\\r\\nof installation. Visit directv.com/legal or call for details. To access HD programming, HD equipment\\r\\nrequired. Number of HD channels based on package selection. Eligibility for local channels based on\\r\\nservice address. Not all networks available in all markets. All DIRECTV Receivers must be\\r\\ncontinuously connected to the same land-based phone line or the Internet. ?2017 AT&T Intellectual\\r\\nProperty. All Rights Reserved. AT&T, Globe logo, DIRECTV, and all other DIRECTV marks contained\\r\\nherein are trademarks of AT&T Intellectual Property and/or AT&T affiliated companies. All other\\r\\nmarks are the property of their respective owners.<br><br>\\r\\n\\r\\n<strong>iPad App Legal</strong><br><br>\\r\\nCertain remote control functions require a standard DIRECTV remote. iPad? remote control\\r\\nfunctionality requires an Internet or Wi-Fi connection and is limited to the range of network. Internet\\r\\naccess and directv.com login required. Internet connections may vary. Only available on certain\\r\\nInternet-connected receivers. Visit directv.com/apps for complete details. Remote connections may vary.\\r\\nCharges may apply for an Internet Connection Kit and installation. Requires DIRECTV Plus HD DVR\\r\\n(models HR20, HR21, HR22, HR23, HR24), DIRECTV Plus DVR model R22, or DIRECTV HD\\r\\nReceiver (models H21, H23, H24, H25) connected to broadband. DIRECTV Receiver(s) and the iPad?\\r\\nmust be connected to the same network. iPad? is a registered trademark of Apple Inc.<br><br>\\r\\n\\r\\n\\r\\n\\r\\n<strong>Sports Bar App</strong><br><br>\\r\\nBy downloading this app you are verifying that you are over the U.S. legal drinking age of 21 years old.\\r\\nUse of DIRECTV mobile apps is licensed under DIRECTV''s current End User License Agreement. Use\\r\\nof DIRECTV mobile apps is also subject to DIRECTV''s privacy policy and other legal policies,\\r\\nincluding DIRECTV''s Customer Agreement for users who are DIRECTV customers.<br><br>\\r\\n<strong>COMMERCIAL REFERRAL OFFER:</strong>Limit 10 referrals per 24-consecutive-month period. Referral\\r\\noffer ends xx/x/17; on approved credit. You must refer new DIRECTV business customers by providing\\r\\nthem with your DIRECTV account number. Referred customers must sign up for service and hardware\\r\\nusing the phone number provided and mention your DIRECTV account number at the time order is\\r\\nplaced. Referred customers must order their DIRECTV System by xx/xx/xx and have their service\\r\\nactivated with a 24-month agreement to a DIRECTV commercial base programming package within 30\\r\\ndays. Land-based phone line or Internet connection required. You and your referred business customer\\r\\nwill each receive 10 non-refundable/non-transferable credits of $10 each over 10 DIRECTV billing\\r\\ncycles totaling $100. Bill credits will be applied in months 2 through 11 for new customer subscriptions.\\r\\nExisting customers will receive their credits beginning in the first month after the new customer\\r\\nactivates; allow up to 12 weeks for referring customers. Determination of program eligibility and\\r\\nqualifying referrals, as well as any exceptions, is at the sole discretion of DIRECTV. DIRECTV reserves\\r\\nthe right to verify and adjust credits at any time prior to or following posting and redemption. May not\\r\\nbe combined with other DIRECTV referral programs. Any balance will carry forward on your\\r\\nDIRECTV bill until credit is exhausted. Offer not transferable or redeemable for cash. Business\\r\\ncustomers are not eligible to refer a residential customer. Telco customers not eligible. DIRECTV\\r\\nreserves the sole right to modify, suspend or cancel this referral program at any time without notice.\\r\\nProgramming, pricing, terms and conditions subject to change at any time. Taxes not included. Receipt\\r\\nof DIRECTV programming subject to terms of DIRECTV Commercial Customer Viewing Agreement;\\r\\ncopy provided with new customer information packet. Hardware and programming available separately.\\r\\n?2017 AT&T Intellectual Property. All Rights Reserved. AT&T, Globe logo, DIRECTV, and all other\\r\\nDIRECTV marks contained herein are trademarks of AT&T Intellectual Property and/or AT&T\\r\\naffiliated companies. All other marks are the property of their respective owners.<br><br>\\r\\n<strong>Application Services</strong><br><br>\\r\\n<strong>AT&T Tech Support 360SM</strong>is a remote technical support service; each subscription includes technical\\r\\nsupport for one (1) PC or Mac?, one (1) tablet, one (1) smartphone, mobile and smart devices and\\r\\ntethered peripherals. Onsite support is available at an extra hourly charge. AT&T does not guarantee any\\r\\nresults or response times. This service is not a hardware warranty or repair service. Purchase and use of\\r\\nAT&T Tech Support 360 services constitute acceptance of the then current Terms of Service which may\\r\\nbe found at <a href=https://tech360.att.com/ATT/termsofservice.asp>https://tech360.att.com/ATT/termsofservice.asp</a>. We may change those Terms of Service at\\r\\nany time, so we encourage you to check them on our website periodically. By continuing to use the\\r\\nservice after any such change, you agree to be bound by such changes. Early termination fees may\\r\\napply.<br><br>\\r\\n<strong>AT&T Tech Support 360SM Backup and Go</strong>is a service that enables the user to backup computer\\r\\nfiles (from a single personal computer excluding external storage devices) onto the Backup and Go\\r\\nservers. Although highly secure the service does not guarantee security of user data. Data backup and\\r\\naccess capabilities and restoration completion time are subject to Internet connectivity, available\\r\\nbandwidth and amount of data. Purchase and use of AT&T Tech Support 360 services constitute\\r\\nacceptance of the then current Terms of Service which may be found at<br>\\r\\n<a href=https://tech360.att.com/ATT/termsofservice.asp>https://tech360.att.com/ATT/termsofservice.asp</a>. We may change those Terms of Service at any time, so\\r\\nwe encourage you to check them on our website periodically. By continuing to use the service after any\\r\\nsuch change, you agree to be bound by such changes. Early termination fees may apply.<br><br>\\r\\n\\r\\n<strong>AT&T Website SolutionsSM.</strong>Purchase and use of AT&T Website Solutions constitute acceptance of\\r\\nthe Terms & Conditions (T&Cs) and Acceptable Use Policy which may be found at\\r\\n<a href=http://webhosting.att.com/terms/>http://webhosting.att.com/terms/</a> and <a href=http://www.corp.att.com/aup/>http://www.corp.att.com/aup/</a>, as use of the account is bound by\\r\\nthese items. If you do not agree to the Terms & Conditions and Acceptable Use Policy, you must not use\\r\\nyour AT&T Website Solutions account and must cancel it immediately by calling 888.932.4678. Absent\\r\\nany such call, usage of the service constitutes acceptance of the Terms & Conditions.<br><br>\\r\\n\\r\\n\\r\\n<strong>Online Fax Plans.</strong>Plans are based on total monthly sent and received page usage; unused pages within\\r\\na month are not carried over to the following month. This service does not support international dialing\\r\\nat this time. Email addresses are not included; customer must provide their own addresses to use service.\\r\\nPurchase and use of an AT&T Online Fax plan constitutes acceptance of the Terms and Conditions\\r\\n(T&Cs), which may be found at <a href=http://webhosting.att.com/terms/>http://webhosting.att.com/terms/</a>. Service terms and Fees are subject to\\r\\nchange pursuant to the T&Cs. Please read the T&Cs for additional information. If you do not agree to\\r\\nthe Terms & Conditions and Acceptable Use Policy, you must not use your AT&T Website Solutions\\r\\naccount and must cancel it immediately by calling 888.932.4678. Absent any such call, usage of the\\r\\nservice constitutes acceptance of the Terms & Conditions.<br><br>\\r\\n\\r\\n\\r\\n<strong>Email Marketing Plans.</strong>The Customer may use the service in accordance with the number of contacts\\r\\nin their plan and in connection with their internal purposes and business operations and not as a service\\r\\nfor any third party. Email and facsimile transmissions sent using AT&T Website Solutions E-Mail\\r\\nMarketing must follow the terms and conditions set forth in the Service Guide located at the following\\r\\nlink: <a href=http://serviceguidenew.att.com/sg_flashPlayerPage/WH>http://serviceguidenew.att.com/sg_flashPlayerPage/WH</a>. Please review the AT&T Website\\r\\nSolutionsSM Terms & Conditions and Acceptable Use Policy, as your use of this account is bound by\\r\\nthese items. If you do not agree to the Terms & Conditions and Acceptable Use Policy, you must not use\\r\\nyour AT&T Website Solutions account and must cancel it immediately by calling 888.932.4678. Absent\\r\\nany such call, usage of the service constitutes acceptance of the Terms & Conditions.<br><br>\\r\\n<strong>McAfee? SaaS Endpoint Protection with AT&T.</strong>McAfee? SaaS Endpoint Protection with AT&T\\r\\nprovides cloud-based endpoint security solutions accessed over the Internet. Purchase and use of this\\r\\nservice constitute acceptance of the Terms of Use and Service Guide for McAfee? SaaS Endpoint\\r\\nProtection with AT&T posted at <a href=http://www.att.com/mcafeeterms>http://www.att.com/mcafeeterms</a> which contains the descriptions and\\r\\nTerms of Use for these services. We may change those Terms of Service at any time, so we encourage\\r\\nyou to check them on our website periodically. By continuing to use the service after any such change\\r\\nyou agree to be bound by such changes. Early termination fees may apply.<br><br>\\r\\n\\r\\n<strong>Microsoft? Office 365 from AT&T</strong>\\r\\nis a suite of Internet-based products consisting of email,\\r\\ncollaboration, and productivity services. Purchase and use of these services constitutes acceptance of the\\r\\nTerms of Use and Service Guide for Microsoft? Office 365 Services posted at\\r\\n<a href=http://att.com/office365terms>http://att.com/office365terms</a> which contains the descriptions and terms of use for these services. We\\r\\nmay change the Terms of Use at any time, so we encourage you to check them on our website\\r\\nperiodically. By continuing to use the service after any such change, you agree to be bound by such\\r\\nchanges.<br><br>\\r\\n\\r\\n<strong>AT&T Wi-Fi ? Small Site </strong>With AT&T Wi-Fi ? Small Site, AT&T is not responsible for interference or\\r\\nservice degradation caused by or to third ?party Wi-Fi services at the Site(s). Upon termination, all\\r\\nAT&T equipment must be returned to AT&T within 30 days. Purchase and use of this service\\r\\nconstitutes acceptance of the AT&T Terms of Service and AT&T Wi-Fi Service Guide posted at\\r\\n<a href=http://serviceguidenew.att.com/sg_flashPlayerPage/AWS>http://serviceguidenew.att.com/sg_flashPlayerPage/AWS</a>. By continuing to use the service, you agree to\\r\\nbe bound by the then current Terms of Service. The Wi-Fi signal is provided on an ?as-is? basis. No\\r\\nrepresentation, warranties, or service performance guarantees or levels exist for the Wi-Fi signal. The\\r\\nService may not provide access to the Internet without interruption.<br><br>\\r\\n\\r\\n\\r\\n<strong>OPTIONAL SERVICE</strong>AT&T Unified MessagingSM: Discounted rate of $10 per month per mailbox. Installation fee is waived.\\r\\nAdditional AT&T local telephone company charges may apply for call forwarding features in the States\\r\\nof IL, IN, WI, OH, MI, TX, MO, AR, KS, OK . Macintosh users will not be able to record or listen to\\r\\nvoice messages using Unified Messaging. Unified Messaging is compatible with most wireless phones\\r\\nfrom AT&T but not all. Retrieving or accessing the mailbox for any reason is treated as a local call\\r\\nsubject to usage charges Applicable local toll or long distance charges apply when the mailbox is\\r\\naccessed from outside the local calling area of the associated telephone number. Airtime charges may\\r\\napply when using wireless service to retrieve messages. Service not available to customers in all areas\\r\\nfor all classes of service. AT&T Unified MessagingSM is provided by AT&T Messaging. <strong>For customers in AR, CA, IL, IN, KS, MI, MO, NV, OH, OK, TX, WI.\\r\\n</strong><br><br>\\r\\n\\r\\n<strong>AT&T Voice Mail Service for Business:</strong>Discounted rate of $10 per month per mailbox. Installation\\r\\nfee is waived. At least one call forwarding feature required to support voice mail services. Additional\\r\\nAT&T local telephone company charges may apply for call forwarding features in Alabama, Florida,\\r\\nGeorgia, Kentucky, Louisiana, Mississippi, North Carolina, South Carolina, and Tennessee. Retrieving\\r\\nor accessing the mailbox for any reason is treated as a local call subject to usage charges. Applicable\\r\\nlocal toll or long distance charges apply when the mailbox is accessed from outside the local calling area\\r\\nof the associated telephone number. Airtime charges may apply when using wireless service to retrieve\\r\\nmessages. Service not available to customers in all areas for all classes of service. <strong>For customers in\\r\\nAL, FL, GA, KY, LA, MS, NC, SC, TN.</strong><br><br>\\r\\nSubsidiaries and affiliates of AT&T Inc. provide products and services under the AT&T brand. ?2015\\r\\nAT&T Intellectual Property. All rights reserved. AT&T, the AT&T logo and all other AT&T marks\\r\\ncontained herein are trademarks of AT&T Intellectual Property and/or AT&T affiliated companies. All\\r\\nother trademarks are the property of their owners.<br><br>",
+			"Accepted": "Y",
+			"Timestamp": 1498185517000,
+			"Version": "1"
+		}]
+	},
+	"OrderContact": {
+		"NameRef": "NAME_01",
+		"PrimaryEmailAddress": "LIVEWIRECUSTOMS@YAHOO.COM",
+		"PreferredContactMethod": "EMAIL"
+	},
+	"ApproverNameRefs": {},
+	"OrderSource": {
+		"Locale": "en_US",
+		"Region": "SOUTHEAST",
+		"ClientType": "DESKTOP",
+		"Channel": "SMB-WEB-CENTER",
+		"Application": "MYATTSALES",
+		"BrowserID": "A003811590263",
+		"AdditionalDetails": {
+			"AdditionalDetail": [{
+				"Type": "Order",
+				"Code": "SENDER",
+				"Value": "CCC"
+			}]
+		}
+	},
+	"Version": 2,
+	"IsLocked": false,
+	"IsGeoAreaSingleDispatchAvailable": false,
+	"IsSatelliteTVOnlySingleDispatchEligible": false,
+	"IsSingleDispatchEligible": true,
+	"IsEncrypted": true,
+	"IsSummaryCreated": false,
+	"Partner": "ATLANTA-WC",
+	"Program": "NEW",
+	"ManageCallList": {},
+	"AdditionalDetails": {
+		"AdditionalDetail": [{
+			"Type": "Order",
+			"Code": "INSTALLMENT_BILLING_MONTHS",
+			"Value": "0"
+		}, {
+			"Type": "STKOR",
+			"Code": "MULTI_INSTALLMENT_TERMS",
+			"Value": "False"
+		}]
+	}
+}
