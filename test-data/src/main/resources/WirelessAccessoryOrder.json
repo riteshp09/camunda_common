@@ -1,0 +1,350 @@
+{
+	"CustomerOrderNumber": "21-104100001941478",
+	"RequestId": "f62d049c-f6ea-4849-9615-891456988720",
+	"OrderType": "CREATE",
+	"OrderStatus": {
+		"Status": "SYS_RECEIVED",
+		"SubStatus": "NEW"
+	},
+	"CreatedDate": 1477603576000,
+	"SubmitedDate": 1477603812000,
+	"UpdatedDate": 1477769846381,
+	"AcceptedDate": 1477751524747,
+	"CurrentDateTime": 1477928975007,
+	"Groups": {
+		"Group": [{
+			"Id": "GROUP_01",
+			"Name": "NEW_WIRELESS",
+			"Type": "LINE_OF_SERVICE",
+			"Sequence": 1,
+			"GroupCharacteristics": {
+				"LoSGCharacteristics": {
+					"LoSGReferenceId": "losg15190023",
+					"LoSGSequenceNumber": 1,
+					"LoSGType": "ACC",
+					"ProductCategory": "WIRELESS",
+					"DealerCode": "Z0066",
+					"Market": "TNK",
+					"SubMarket": "719",
+					"PriceCode": "719",
+					"AccountRef": "ACCOUNT_01",
+					"WirelessLOSChars": {
+						"BillingSystemId": "T"
+					},
+					"IsAutomationEnabled": false,
+					"FulfillmentMethod": "DF",
+					"ShippingInfoRef": "SHIPPING_INFO_01"
+				}
+			}
+		}]
+	},
+	"LineItems": {
+		"LineItem": [{
+			"Id": "83709000086",
+			"LineItemSequence": 1,
+			"ProductCode": "prod8050257",
+			"ProductSku": "4730D",
+			"BillingCode": "NOT_AVAILABLE",
+			"ProductType": "HARDGOOD",
+			"DisplayName": "AT&T Pink Car Charger 3.4A Lightning",
+			"SystemName": "CLA SUP 3 4A 8PIN PNK",
+			"Action": "ADD",
+			"Price": {
+				"Amount": 30,
+				"CurrencyType": "USD",
+				"MSRP": 0,
+				"PriceType": "DUE_TODAY",
+				"TaxInfo": {
+					"Amount": 2.78,
+					"PreCalculatedTax": {
+						"TaxableCost": 7.77,
+						"TaxableMSRP": 30,
+						"TaxableUnitPrice": 30,
+						"OrderTaxAreaID": 390950000,
+						"ShipFromTaxAreaID": 431570560,
+						"ShipToTaxAreaID": 430930400
+					},
+					"LineItemTax": [{
+						"TaxLineID": 1,
+						"TaxCode": "SALESTAX",
+						"Memo": "SALESTAX",
+						"PrintName": "Sales Tax",
+						"TaxableIndicator": "X",
+						"SKUSpecificIndicator": "false",
+						"JurisdictionLevel": "Sales Tax",
+						"JurisdictionName": "Sales Tax",
+						"TaxAmount": 2.78,
+						"TaxRate": 0.0924999999999999988897769753748434595763683319091796875,
+						"TaxDate": 1477544400000
+					}]
+				},
+				"Total": 32.78
+			},
+			"LocationID": "K006",
+			"Payments": {
+				"Payment": [{
+					"PaymentOptionRef": "PAYMENT_OPTION_01"
+				}]
+			},
+			"Quantity": 1,
+			"Status": "SUBMITTED",
+			"GroupRefs": {
+				"GroupRef": ["GROUP_01"]
+			},
+			"HardGood": {
+				"HardGoodType": "ACCESSORY"
+			},
+			"SupplyChainInfo": {
+				"OrderDocumentInfo": {
+					"Location": "K006",
+					"Activity": "OY",
+					"OrderId": "874159"
+				},
+				"claimRMANumber": null
+			}
+		},
+		{
+			"Id": "lobi15170023ShippingFee",
+			"LineItemSequence": 2,
+			"ProductCode": "NOT_AVAILABLE",
+			"ProductSku": "88888",
+			"BillingCode": "NOT_AVAILABLE",
+			"ProductType": "MISC_CHARGE",
+			"DisplayName": "ShippingFee",
+			"SystemName": "SHIPPING_FEE",
+			"Action": "ADD",
+			"Price": {
+				"Amount": 0,
+				"CurrencyType": "USD",
+				"MSRP": 0,
+				"PriceType": "DUE_TODAY",
+				"TaxInfo": {
+					"Amount": 0,
+					"PreCalculatedTax": {
+						"TaxableCost": 0,
+						"TaxableMSRP": 9.95,
+						"TaxableUnitPrice": 0,
+						"OrderTaxAreaID": 390950000,
+						"ShipFromTaxAreaID": 431570560,
+						"ShipToTaxAreaID": 430930400
+					},
+					"LineItemTax": [{
+						"TaxLineID": 1,
+						"TaxCode": "SALESTAX",
+						"Memo": "SALESTAX",
+						"PrintName": "Sales Tax",
+						"TaxableIndicator": "X",
+						"SKUSpecificIndicator": "false",
+						"JurisdictionLevel": "Sales Tax",
+						"JurisdictionName": "Sales Tax",
+						"TaxAmount": 0,
+						"TaxRate": 0,
+						"TaxDate": 1477544400000
+					}]
+				},
+				"Total": 0
+			},
+			"Payments": {
+				"Payment": [{
+					"PaymentOptionRef": "PAYMENT_OPTION_01"
+				}]
+			},
+			"Quantity": 1,
+			"GroupRefs": {
+				"GroupRef": ["GROUP_01"]
+			},
+			"SupplyChainInfo": {
+				"claimRMANumber": null
+			}
+		}]
+	},
+	"Names": {
+		"Name": [{
+			"Id": "NAME_01",
+			"FirstName": "TEST",
+			"LastName": "TEST",
+			"PrimaryContactPhone": [{
+				"PhoneNumber": "4256587495",
+				"ContactPhoneType": "WORK_PHONE"
+			}],
+			"AdditionalContactPhone": [{
+				"PhoneNumber": "4256587495",
+				"ContactPhoneType": "WORK_PHONE"
+			}]
+		},
+		{
+			"Id": "NAME_02",
+			"FirstName": "TEST",
+			"LastName": "TEST",
+			"PrimaryContactPhone": [{
+				"PhoneNumber": "4256587495",
+				"ContactPhoneType": "WORK_PHONE"
+			}],
+			"AdditionalContactPhone": [{
+				"PhoneNumber": "4256587495",
+				"ContactPhoneType": "WORK_PHONE"
+			}]
+		},
+		{
+			"Id": "NAME_03",
+			"FirstName": "TEST",
+			"LastName": "TEST",
+			"PrimaryContactPhone": [{
+				"PhoneNumber": "4256587495",
+				"ContactPhoneType": "WORK_PHONE"
+			}],
+			"AdditionalContactPhone": [{
+				"PhoneNumber": "4256587495",
+				"ContactPhoneType": "WORK_PHONE"
+			}]
+		}]
+	},
+	"Addresses": {
+		"Address": [{
+			"Id": "ADDRESS_01",
+			"UnparsedAddress": {
+				"AddressLine1": "1720 CUMBERLAND AVE",
+				"City": "KNOXVILLE",
+				"State": "TN",
+				"Zip": "37916",
+				"County": "KNOX",
+				"Country": "US"
+			},
+			"ParsedAddress": {
+				"AddressStreetLine": "1720 CUMBERLAND AVE",
+				"HouseNumber": "1720",
+				"StreetName": "CUMBERLAND",
+				"StreetType": "AVE",
+				"City": "KNOXVILLE",
+				"State": "TN",
+				"Zip": "37916",
+				"ZipCodeExtension": "3002",
+				"County": "KNOX",
+				"Country": "US",
+				"AddressType": "UNITED_STATES"
+			},
+			"AdditionalDetails": {
+				"AdditionalDetail": [{
+					"Type": "Profile",
+					"Code": "ValidatedAddress",
+					"Value": "true"
+				}]
+			}
+		}]
+	},
+	"Accounts": {
+		"Account": [{
+			"Id": "ACCOUNT_01",
+			"AccountSequenceNumber": 1,
+			"AccountCategory": "MOBILITY_ACCOUNT",
+			"AccountSubCategory": "ANONYMOUS",
+			"PaymentArrangement": "POSTPAID",
+			"BillingInfo": {
+				"NameRef": "NAME_02",
+				"AddressRef": "ADDRESS_01"
+			},
+			"BillingDeliveryPreference": "PAPER",
+			"UnifiedAccount": {
+				"ConvergeOrder": false,
+				"ConvergeValidation": false,
+				"PremierIndicator": false
+			},
+			"AccountType": "INDIVIDUAL",
+			"EnterpriseType": "CON",
+			"LangId": "ENGLISH",
+			"Market": "TNK",
+			"SubMarket": "719",
+			"PriceCode": "719",
+			"SpokenLanguagePreference": "ENGLISH"
+		}]
+	},
+	"PaymentOptions": {
+		"PaymentOption": [{
+			"Id": "PAYMENT_OPTION_01",
+			"PaymentSequence": 1,
+			"CAPMConfig": {
+				"MerchantID": "ORDERGWCon",
+				"SourceSystem": "HARDROCK",
+				"SourceLocation": "CS",
+				"SourceUser": "HARDROCK"
+			},
+			"PaymentMethod": {
+				"CAPM": {
+					"PreAuthDetail": {
+						"AuthorizationCode": "OL_DF161027C59831",
+						"AuthorizationDate": 1477544400000,
+						"AuthorizationExpirationDate": 1479963600000,
+						"AVScode": "NA",
+						"AuthorizationKey": "40173558"
+					},
+					"PaymentConfirmationDetail": {
+
+					},
+					"TotalAmount": 32.78,
+					"CAPMLast4Digits": "8431",
+					"ZipCode": "37916",
+					"CreditCardType": "AMERICAN_EXPRESS",
+					"IsGiftCard": false
+				}
+			}
+		}]
+	},
+	"ShippingInfos": {
+		"ShippingInfo": [{
+			"Id": "SHIPPING_INFO_01",
+			"ShippingInfoSequence": 1,
+			"NameRef": "NAME_03",
+			"AddressRef": "ADDRESS_01",
+			"ShippingCode": "AA0",
+			"ShippingPriceCode": "88888",
+			"ShippingMethod": "Priority"
+		}]
+	},
+	"SpecialInstructions": "{}",
+	"DueAmount": {
+		"Amount": 30,
+		"PriceType": "DUE_TODAY",
+		"TaxInfo": {
+			"Amount": 2.78
+		},
+		"Total": 32.78
+	},
+	"AgentUID": "SYSTEM",
+	"SalesCode": "NOT_AVAILABLE",
+	"SalesLocation": "NOT_AVAILABLE",
+	"AgentCode": "Z0066",
+	"AgentLocation": "Z0066",
+	"TCs": {
+		"TCAccepted": []
+	},
+	"OrderContact": {
+		"NameRef": "NAME_01",
+		"PrimaryEmailAddress": "BM115Y@ATT.COM"
+	},
+	"ApproverNameRefs": {
+
+	},
+	"SalesChannel": "E",
+	"OrderSource": {
+		"ClientIP": "135.163.180.104",
+		"Locale": "EN_US",
+		"ClientType": "DESKTOP",
+		"Channel": "DE-MOBILITY",
+		"Application": "MYATTSALES",
+		"BrowserID": "A001288769020",
+		"AdditionalDetails": {
+			"AdditionalDetail": [{
+				"Type": "Order",
+				"Code": "SENDER",
+				"Value": "HARDROCK"
+			}]
+		}
+	},
+	"ExternalOrderSource": "EST",
+	"Version": 9,
+	"IsLocked": false,
+	"IsEncrypted": true,
+	"IsCommonOrder": true,
+	"IsSummaryCreated": false
+}
+

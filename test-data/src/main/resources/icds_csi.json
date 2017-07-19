@@ -1,0 +1,26 @@
+{
+  "messageHeader": {
+    "trackingMessageHeader": {
+      "version": "v112",
+      "messageId": "11111",
+      "originatorId": "OCE",
+      "returnURL": "",
+      "timeToLive": "",
+      "dateTimeStamp": ""
+    },
+    "securityMessageHeader": {
+      "userName": "oce_iot",
+      "userPassword": "oce_iot0826"
+    },
+    "sequenceMessageHeader": {
+      "sequenceNumber": "1",
+      "totalInSequence": "1"
+    }
+  },
+"inquireConnectedDeviceSummaryRequest": {
+    "deviceDetails": {
+      "vin": "9867543210"
+    },
+    "subscriptionClass": "S"
+  }
+}

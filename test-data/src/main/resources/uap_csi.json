@@ -1,0 +1,60 @@
+{
+
+  "messageHeader": {
+    "trackingMessageHeader": {
+      "version": "v112",
+      "messageId": "11111",
+      "originatorId": "OCE",
+      "returnURL": "",
+      "timeToLive": "",
+      "dateTimeStamp": ""
+    },
+    "securityMessageHeader": {
+      "userName": "oce_iot",
+      "userPassword": "oce_iot0826"
+    },
+    "sequenceMessageHeader": {
+      "sequenceNumber": "1",
+      "totalInSequence": "1"
+    }
+  },
+"UpdateAccountProfileRequest": {
+		"marketServiceInfo": {
+      "billingMarket": {
+        "billingMarket": "MK",
+        "billingSubMarket": "MKL"
+      }
+    },
+    "billingAccountNumber": "287270624270",
+    "Customer": {
+      "businessName": {
+        "businessName": "B",
+        "contact": {
+          "firstName": "ded",
+          "middleName": "edde",
+          "lastName": "frfr"
+        }
+      },
+      "Address": {
+        "fieldIndicator": "true",
+        "Attention": "yes",
+        "AddressLine1": "9391 PINYON TREE LN",
+        "AddressLine2": "9391 PINYON TREE LN",
+        "PostOfficeBox": "76543",
+        "RuralRoute": {
+          "ruralRouteCenterNumber": "23323",
+          "ruralRouteBoxNumber": "343434"
+        },
+        "City": "DALLAS",
+        "State": "TX",
+        "Zip": { "zipCode": "75062" },
+        "Country": "US"
+      },
+      "Phone": { "canBeReachedPhone": "97283737373" },
+      "Email": {
+        "emailAddress": "kyle2gmail.com",
+        "primaryAddressIndicator": "true"
+      }
+    }
+  }
+}

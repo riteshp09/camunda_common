@@ -1,0 +1,10 @@
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header/>
+   <S:Body>
+      <ns3:executeFraudChecksResponse xmlns:ns2="http://oce.att.com/OCE/Namespaces/Types/Private/OCEDataModel.xsd" xmlns:ns3="http://services.brms.oce.att.com/" xmlns:ns4="http://brms.oce.att.com/FraudDetectionServiceSchema" xmlns:ns5="http://brms.oce.att.com/QueueDeterminationServiceSchema">
+         <return>
+            <StatusDetails/>
+         </return>
+      </ns3:executeFraudChecksResponse>
+   </S:Body>
+</S:Envelope>

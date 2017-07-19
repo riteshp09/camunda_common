@@ -1,0 +1,33 @@
+{
+  "messageHeader": {
+    "trackingMessageHeader": {
+      "version": "v112",
+      "messageId": "11111",
+      "originatorId": "OCE",
+      "returnURL": "",
+      "timeToLive": "",
+      "dateTimeStamp": ""
+    },
+    "securityMessageHeader": {
+      "userName": "oce_iot",
+      "userPassword": "oce_iot0826"
+    },
+    "sequenceMessageHeader": {
+      "sequenceNumber": "1",
+      "totalInSequence": "1"
+    }
+  },
+ "addNoteRequest": {
+            "accountType": "Billing",
+            "accountSelector": {
+               "accountSubscriberSelector": {
+                  "subscriberNumber": "4698040403"
+               }
+            },
+            "notes": {
+               "noteText": "Automation not successful for Action type:TRANSFER_BAN_CHANGES, Order Information:Order#21-201100003447178, FAN:6728261 ,BAN:287270624270 ,CTN:4698040429, SDFIPLTV, QuikCell Corded Earphones - Purple, Agent Code:Z0066",
+               "noteType": "CSM",
+               "priority": "R"
+            }
+         }
+      }

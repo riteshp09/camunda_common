@@ -1,0 +1,643 @@
+{
+		"customerOrderNumber": "T3-61488778460747",
+		"requestId": "f3591333-f0af-455f-a28f-6d5229fcaa1b",
+		"orderType": "CREATE",
+		"orderStatus": {
+			"status": "RECEIVED"
+		},
+		"createdDate": 1439066415444,
+		"submittedDate": 1439066674535,
+		"productGroups": {
+			"group": [{
+					"id": "GROUP_01",
+					"name": "UPGRADE_WIRELESS",
+					"type": "LINE_OF_SERVICE",
+					"sequence": 1,
+					"characteristics": {
+						"losgCharacteristics": {
+							"losgReferenceId": "losg7830078",
+							"sequence": 1,
+							"losgType": "ACC",
+							"productCategory": "WIRELESS",
+							"primaryIndicator": false,
+							"dealerCode": "Z0066",
+							"market": "TNK",
+							"subMarket": "719",
+							"priceCode": "719",
+							"accountReference": "ACCOUNT_01",
+							"serviceLocationReference": "ADDRESS_03",
+							"subscriberNameReference": "NAME_02",
+							"termsAndConditionAccepted": {
+								"accepted": "Y",
+								"timestamp": 1439066664999,
+								"version": "/content/tos/en/wirelessServiceAgreement/2014/02/11/1,/content/tos/en/electronicConsent/2013/05/23/1,/content/tos/en/deviceInstallmentPlan/2015/02/24/1,/content/tos/en/nexttradein/2014/01/10/1",
+								"deviceInstallAgreementType": "DEV",
+								"econsentAgreementType": "CON"
+							},
+							"wirelessLOSCharacteristics": {
+								"mobileNumber": "8656075367",
+								"upgradeQualificationDetails": [{
+										"offerCategory": "NE",
+										"qualificationLevel": "29005",
+										"qualificationType": "B",
+										"qualificationMessage": "Congratulations!  This line is eligible for an upgrade with the trade in of the current installment billed device.",
+										"policyCategory": "C",
+										"deviceType": "N",
+										"upgradeFeeWaivedIndicator": false,
+										"discountUOM": "A",
+										"priceList": "C",
+										"minimumCommitment": 30,
+										"minimumMRC": 0,
+										"maximumMRC": 0,
+										"contractExtended": "PENDING",
+										"approvalNumber": "0"
+									}
+								],
+								"billingSystemId": "T"
+							},
+							"fulfillmentMethod": "DF",
+							"shippingDetailReference": "SHIPPING_INFO_01"
+						}
+					}
+				}
+			]
+		},
+		"lineItems": {
+			"lineItem": [{
+					"id": "8299700008083873",
+					"sequence": 1,
+					"productCode": "prod8070471",
+					"productSKU": "83873",
+					"billingCode": "NOT_AVAILABLE",
+					"productType": "HARDGOOD",
+					"displayName": "MPP DF BUCKSLIP",
+					"systemName": "MPP DF BUCKSLIP",
+					"action": "ADD",
+					"price": {
+						"amount": 0,
+						"currencyType": "USD",
+						"msrp": 0,
+						"priceType": "DueToday",
+						"taxDetail": {
+							"amount": 0,
+							"preCalculatedTax": {
+								"taxableCost": 0,
+								"taxableMSRP": 0,
+								"taxableUnitPrice": 0,
+								"orderTaxAreaId": 390950000,
+								"shipFromTaxAreaId": 431570560,
+								"shipToTaxAreaId": 441131490
+							},
+							"lineItemTaxes": [{
+									"taxLineId": 1,
+									"taxCode": "SALESTAX",
+									"memo": "SALESTAX",
+									"printName": "Sales Tax",
+									"taxable": "X",
+									"skuSpecific": "false",
+									"jurisdictionLevel": "Sales Tax",
+									"jurisdictionName": "Sales Tax",
+									"taxAmount": 0,
+									"taxRate": 0,
+									"taxDate": "2015-08-08"
+								}
+							]
+						},
+						"total": 0
+					},
+					"locationId": "K004",
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": [
+							"GROUP_01"
+						]
+					},
+					"hardGood": {
+						"hardGoodType": "COLLATERAL",
+						"shippedHotIndicator": true
+					}
+				}, {
+					"id": "8299700008083793",
+					"sequence": 2,
+					"productCode": "prod8070471",
+					"productSKU": "83793",
+					"billingCode": "NOT_AVAILABLE",
+					"productType": "HARDGOOD",
+					"displayName": "eCom Phone Quick Start Guide",
+					"systemName": "Kit_guide_eCom_Phone_12.0",
+					"action": "ADD",
+					"price": {
+						"amount": 0,
+						"currencyType": "USD",
+						"msrp": 0,
+						"priceType": "DueToday",
+						"taxDetail": {
+							"amount": 0,
+							"preCalculatedTax": {
+								"taxableCost": 0,
+								"taxableMSRP": 0,
+								"taxableUnitPrice": 0,
+								"orderTaxAreaId": 390950000,
+								"shipFromTaxAreaId": 431570560,
+								"shipToTaxAreaId": 441131490
+							},
+							"lineItemTaxes": [{
+									"taxLineId": 1,
+									"taxCode": "SALESTAX",
+									"memo": "SALESTAX",
+									"printName": "Sales Tax",
+									"taxable": "X",
+									"skuSpecific": "false",
+									"jurisdictionLevel": "Sales Tax",
+									"jurisdictionName": "Sales Tax",
+									"taxAmount": 0,
+									"taxRate": 0,
+									"taxDate": "2015-08-08"
+								}
+							]
+						},
+						"total": 0
+					},
+					"locationId": "K004",
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": [
+							"GROUP_01"
+						]
+					},
+					"hardGood": {
+						"hardGoodType": "COLLATERAL",
+						"shippedHotIndicator": true
+					}
+				}, {
+					"id": "8299700008073023",
+					"sequence": 3,
+					"productCode": "prod8070471",
+					"productSKU": "73023",
+					"billingCode": "NOT_AVAILABLE",
+					"productType": "HARDGOOD",
+					"displayName": "Embedded Nano SIM",
+					"systemName": "Embedded SIM",
+					"action": "ADD",
+					"price": {
+						"amount": 0,
+						"currencyType": "USD",
+						"msrp": 0,
+						"priceType": "DueToday",
+						"taxDetail": {
+							"amount": 0,
+							"preCalculatedTax": {
+								"taxableCost": 0,
+								"taxableMSRP": 0,
+								"taxableUnitPrice": 0,
+								"orderTaxAreaId": 390950000,
+								"shipFromTaxAreaId": 431570560,
+								"shipToTaxAreaId": 441131490
+							},
+							"lineItemTaxes": [{
+									"taxLineId": 1,
+									"taxCode": "SALESTAX",
+									"memo": "SALESTAX",
+									"printName": "Sales Tax",
+									"taxable": "X",
+									"skuSpecific": "false",
+									"jurisdictionLevel": "Sales Tax",
+									"jurisdictionName": "Sales Tax",
+									"taxAmount": 0,
+									"taxRate": 0,
+									"taxDate": "2015-08-08"
+								}
+							]
+						},
+						"total": 0
+					},
+					"locationId": "K004",
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": [
+							"GROUP_01"
+						]
+					},
+					"hardGood": {
+						"hardGoodType": "SIM"
+					}
+				}, {
+					"id": "82997000080",
+					"sequence": 4,
+					"productCode": "prod8070471",
+					"productSKU": "6649A",
+					"billingCode": "NOT_AVAILABLE",
+					"productType": "HARDGOOD",
+					"displayName": "Apple iPhone 5c - 8GB - White",
+					"systemName": "PHO APL IPHONE 5C 8 GB WHT",
+					"action": "ADD",
+					"price": {
+						"amount": 0,
+						"currencyType": "USD",
+						"msrp": 449.99,
+						"priceType": "DueToday",
+						"taxDetail": {
+							"amount": 37.12,
+							"preCalculatedTax": {
+								"taxableCost": 450,
+								"taxableMSRP": 449.99,
+								"taxableUnitPrice": 449.99,
+								"orderTaxAreaId": 390950000,
+								"shipFromTaxAreaId": 431570560,
+								"shipToTaxAreaId": 441131490
+							},
+							"lineItemTaxes": [{
+									"taxLineId": 1,
+									"taxCode": "SALESTAX",
+									"memo": "SALESTAX",
+									"printName": "Sales Tax",
+									"taxable": "X",
+									"skuSpecific": "false",
+									"jurisdictionLevel": "Sales Tax",
+									"jurisdictionName": "Sales Tax",
+									"taxAmount": 37.12,
+									"taxRate": 0.0825,
+									"taxDate": "2015-08-08"
+								}
+							]
+						},
+						"total": 37.12
+					},
+					"locationId": "K004",
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"contractDetails": {
+						"installmentPlanId": 390000000009676,
+						"contractDisplayName": "Next 24",
+						"installmentPlanDefinition": "NXT24A",
+						"annualPercentageRate": 0,
+						"financeCharge": 0,
+						"amountFinanced": 449.99,
+						"balancedAmount": 449.99,
+						"totalSalePrice": 449.99,
+						"downPayment": 0,
+						"downPaymentPercent": 0,
+						"prepaidFinanceCharge": 0,
+						"installmentAmount": 15,
+						"installmentType": "PHONE",
+						"contractType": "LEASE",
+						"contractSystem": "OPTICAL",
+						"contractSent": "N",
+						"contractLength": 30
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": [
+							"GROUP_01"
+						]
+					},
+					"hardGood": {
+						"hardGoodType": "DEVICE",
+						"productImageUrl": "https://tst34.stage.att.com/catalog/en/skus/images/apple-iphone%205c%20-%208gb-white-100x160.jpg",
+						"make": "Apple",
+						"shipmentCommitDate": {
+							"fromDate": 1439276400000,
+							"toDate": 1439449200000
+						},
+						"wirelessHardGoodCharacteristics": {
+							"techType": "UMTS",
+							"equipmentType": "EDGE",
+							"imeiType": "J3",
+							"phoneType": "IPHONE"
+						}
+					}
+				}, {
+					"id": "A088AREMOVE",
+					"sequence": 5,
+					"productCode": "NOT_AVAILABLE",
+					"productSKU": "A088A",
+					"billingCode": "NOT_AVAILABLE",
+					"productType": "HARDGOOD",
+					"displayName": "NOT_AVAILABLE",
+					"systemName": "NOT_AVAILABLE",
+					"action": "REMOVE",
+					"locationId": "K004",
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": [
+							"GROUP_01"
+						]
+					},
+					"characteristics": {
+						"wirelessLineItemCharacteristics": {
+							"tradeInDetail": {
+								"claimId": "1466404070428",
+								"exchangeType": "NUG",
+								"installmentPlanId": "390000000002778",
+								"deviceClearingAgreement": "WIP",
+								"nonComplianceFee": 19.84,
+								"payupAmount": 0
+							}
+						}
+					},
+					"hardGood": {
+						"hardGoodType": "DEVICE",
+						"make": "Samsung",
+						"wirelessHardGoodCharacteristics": {
+							"imei": "356554050430137"
+						}
+					}
+				}, {
+					"id": "losg7830078UPG",
+					"sequence": 6,
+					"productCode": "NOT_AVAILABLE",
+					"productSKU": "NOT_AVAILABLE",
+					"billingCode": "NOT_AVAILABLE",
+					"productType": "MISC_CHARGE",
+					"displayName": "UpgradeFee",
+					"systemName": "UPGRADE_FEE",
+					"action": "ADD",
+					"price": {
+						"amount": 15,
+						"currencyType": "USD",
+						"priceType": "NRC"
+					},
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": [
+							"GROUP_01"
+						]
+					}
+				}, {
+					"id": "lobi8130044ShippingFee",
+					"sequence": 7,
+					"productCode": "NOT_AVAILABLE",
+					"productSKU": "88879",
+					"billingCode": "NOT_AVAILABLE",
+					"productType": "MISC_CHARGE",
+					"displayName": "ShippingFee",
+					"systemName": "SHIPPING_FEE",
+					"action": "ADD",
+					"price": {
+						"amount": 0,
+						"currencyType": "USD",
+						"msrp": 0,
+						"priceType": "DueToday",
+						"taxDetail": {
+							"amount": 0,
+							"preCalculatedTax": {
+								"taxableCost": 0,
+								"taxableMSRP": 14.95,
+								"taxableUnitPrice": 0,
+								"orderTaxAreaId": 390950000,
+								"shipFromTaxAreaId": 431570560,
+								"shipToTaxAreaId": 441131490
+							},
+							"lineItemTaxes": [{
+									"taxLineId": 1,
+									"taxCode": "SALESTAX",
+									"memo": "SALESTAX",
+									"printName": "Sales Tax",
+									"taxable": "X",
+									"skuSpecific": "false",
+									"jurisdictionLevel": "Sales Tax",
+									"jurisdictionName": "Sales Tax",
+									"taxAmount": 0,
+									"taxRate": 0,
+									"taxDate": "2015-08-08"
+								}
+							]
+						},
+						"total": 0
+					},
+					"payments": {
+						"payment": [{
+								"paymentOptionReference": "PAYMENT_OPTION_01"
+							}
+						]
+					},
+					"quantity": 1,
+					"groupReferences": {
+						"groupReference": [
+							"GROUP_01"
+						]
+					}
+				}
+			]
+		},
+		"names": {
+			"name": [{
+					"id": "NAME_01",
+					"firstName": "BEDROCK",
+					"lastName": "DONOTUSE",
+					"primaryContactPhones": [{
+							"phoneNumber": "9042324974",
+							"contactPhoneType": "HOME_PHONE"
+						}
+					],
+					"additionalContactPhones": [{
+							"phoneNumber": "9042324974",
+							"contactPhoneType": "WORK_PHONE"
+						}
+					]
+				}, {
+					"id": "NAME_02",
+					"firstName": "BEDROCK",
+					"lastName": "DONOTUSE",
+					"primaryContactPhones": [{
+							"phoneNumber": "9042324974",
+							"contactPhoneType": "HOME_PHONE"
+						}
+					],
+					"additionalContactPhones": [{
+							"phoneNumber": "9042324974",
+							"contactPhoneType": "WORK_PHONE"
+						}
+					]
+				}, {
+					"id": "NAME_03",
+					"firstName": "BEDROCK",
+					"lastName": "DONOTUSE",
+					"primaryContactPhones": [{
+							"phoneNumber": "9042324974",
+							"contactPhoneType": "HOME_PHONE"
+						}
+					],
+					"additionalContactPhones": [{
+							"phoneNumber": "9042324974",
+							"contactPhoneType": "WORK_PHONE"
+						}
+					]
+				}
+			]
+		},
+		"addresses": {
+			"address": [{
+					"id": "ADDRESS_01",
+					"unparsedAddress": {
+						"addressLine1": "2501 W AIRPORT FWY",
+						"city": "IRVING",
+						"state": "TX",
+						"zip": "75062",
+						"country": "US"
+					}
+				}, {
+					"id": "ADDRESS_02",
+					"unparsedAddress": {
+						"addressLine1": "2501 W AIRPORT FWY",
+						"city": "IRVING",
+						"state": "TX",
+						"zip": "75062",
+						"country": "US"
+					}
+				}, {
+					"id": "ADDRESS_03",
+					"unparsedAddress": {
+						"addressLine1": "2501 W AIRPORT FWY",
+						"city": "IRVING",
+						"state": "TX",
+						"zip": "75062"
+					}
+				}, {
+					"id": "ADDRESS_04",
+					"unparsedAddress": {
+						"addressLine1": "2501 W AIRPORT FWY",
+						"city": "IRVING",
+						"state": "TX",
+						"zip": "75062",
+						"country": "US"
+					}
+				}
+			]
+		},
+		"accounts": {
+			"account": [{
+					"id": "ACCOUNT_01",
+					"sequence": 1,
+					"accountCategory": "MOBILITY_ACCOUNT",
+					"accountSubCategory": "EXISTING",
+					"paymentArrangement": "POSTPAID",
+					"billingAccountNumber": "545111472918",
+					"billingDetail": [{
+						"nameReference": "NAME_02",
+						"addressReference": "ADDRESS_02",
+						"authentication": {
+							"dob": "OqBY-'k-FY",
+							"driversLicense": {
+								"licenseNumber": ".G*{Hz8g",
+								"state": "TX",
+								"licenseExpirationDate": "MOVd-W0-NM"
+							},
+							"lastFourOfSSN": "0094",
+							"employerDetail": {
+								"employerName": "DONOTUSE",
+								"employerPhoneNumber": "9042324974"
+							}
+						},
+						"accountStatus": "ACTIVE"
+					}],
+					"accountType": "INDIVIDUAL",
+					"accountSubType": "R",
+					"enterpriseType": "CON",
+					"langId": "ENGLISH",
+					"market": "TNK",
+					"subMarket": "719",
+					"priceCode": "719",
+					"spokenLanguagePreference": "ENGLISH"
+				}
+			]
+		},
+		"paymentOptions": {
+			"paymentOption": [{
+					"id": "PAYMENT_OPTION_01",
+					"sequence": 1,
+					"paymentMethod": {
+						"creditCard": {
+							"addressReference": "ADDRESS_01",
+							"expirationYearMonth": "1712",
+							"creditCardHolderName": "BEDROCKDONOTUSE",
+							"creditCardType": "VISA",
+							"creditCardNumber": "CRH5B6OFQ1KOMN2X",
+							"cardBillingZipCode": "75062",
+							"preAuthDetail": {
+								"authorizationCode": "TX4739",
+								"authorizationDate": "2015-10-28",
+								"authorizationExpirationDate": "2015-11-04",
+								"authorizationKey": "60144873"
+							},
+							"paymentAmount": 37.12
+						}
+					}
+				}
+			]
+		},
+		"shippingDetails": {
+			"shippingDetail": [{
+					"id": "SHIPPING_INFO_01",
+					"sequence": 1,
+					"nameReference": "NAME_03",
+					"addressReference": "ADDRESS_04",
+					"shippingCode": "AA1",
+					"shippingPriceCode": "88879",
+					"shippingMethod": "Overnight"
+				}
+			]
+		},
+		"specialInstructions": "{}",
+		"dueAmount": {
+			"amount": 0,
+			"priceType": "DueToday",
+			"taxDetail": {
+				"amount": 37.12
+			},
+			"total": 37.12
+		},
+		"agentCode": "Z0066",
+		"agentLocation": "Z0066",
+		"orderContact": {
+			"nameReference": "NAME_02",
+			"primaryEmailAddress": "A@ATT.COM"
+		},
+		"orderSource": {
+			"clientIP": "135.163.180.104",
+			"locale": "EN_US",
+			"clientType": "DESKTOP",
+			"channel": "DE-MOBILITY",
+			"application": "MYATTSALES",
+			"browserId": "A001279601216",
+			"additionalDetails": {
+				"additionalDetail": [{
+						"code": "SENDER",
+						"value": "HARDROCK"
+					}
+				]
+			}
+		},
+		"encryptedIndicator": true,
+		"passThroughIndicator": false,
+		"commonOrderIndicator": true,
+		"summaryCreatedIndicator": false
+	}

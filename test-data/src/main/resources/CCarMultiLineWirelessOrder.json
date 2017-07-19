@@ -1,0 +1,869 @@
+{
+	"CustomerOrderNumber": "T1473830709711",
+	"RequestId": "IAPFAIL-T1473830709711",
+	"OCEOrderNumber": "D51950044",
+	"ParentOrderNumber": "",
+	"RequestType": "SCR",
+	"OrderType": "CREATE",
+	"OrderStatus": {
+		"Status": "IN_PROGRESS",
+		"SubStatus": "IN_PROGRESS"
+	},
+	"CreatedDate": 1438909912000,
+	"SubmitedDate": 1438910095000,
+	"UpdatedDate": 1473856036703,
+	"AcceptedDate": 1473830827337,
+	"CurrentDateTime": 1473880283841,
+  "Groups": {
+    "Group": [
+      {
+        "Id": "GROUP_01",
+        "Name": "UPGRADE",
+        "Type": "LINE_OF_SERVICE",
+        "Sequence": 1,
+        "PromotionRefs": {
+          "PromotionRef": [
+            "PROMOTION_03",
+            "PROMOTION_04",
+            "PROMOTION_05"
+          ]
+        },
+        "GroupCharacteristics": {
+          "LoSGCharacteristics": {
+            "LoSGReferenceId": "losg15379412601",
+            "LoSGSequenceNumber": 1,
+            "LoSGType": "CHANGE",
+            "ProductCategory": "WIRELESS",
+            "IsPrimary": true,
+            "ActionType":"TRANSFER_BAN_CHANGES",
+            "AccountRef": "ACCOUNT_01",
+            "DealerCode": "6F728",
+            "LoSGStatus": {
+              "Status": "SUBMITTED",
+              "SubStatus": "ORDER_EQUIPMENT_PASS"
+            },
+            "EffectiveDate": "01-05-2016Z",
+            "ServiceLocationRef": "ADDRESS_02",
+            "ConflictingServiceInfoRefs": {
+              
+            },
+            "TCRefs": {
+              
+            },
+            "InstallationInstructions": {
+              
+            },
+            "NumberPortInfo": {
+              "DisconnectAcknowledged": {
+                
+              }
+            },
+            "TCAccepted": {
+              
+            },
+          
+              "WirelessLOSChars": {
+              "MobileNumber": "9729460956",
+              "IsCrossUpgrade": false,
+              "UpgradeInfo": {
+                
+              },
+              "UpgradeQualificationInfo": [
+                {
+                  "ContractExtended": "SUCCESS",
+                  "IsParked": true
+                }
+              ],
+              "BillingSystemId": "T",
+               
+                "ConnectedCarInfo": {
+             
+              "VIN": "99556645",
+              "Make": "FORD",
+              "Model": "MUSTANG"
+            }
+            },
+            "InternetLOSChars": {
+              
+            },
+            "DirecTVLOSChars": {
+              
+            },
+            "VOIPLOSChars": {
+              
+            },
+            "Compensation": {
+              "RepDetails": {
+                
+              }
+            },
+            "FulfillmentMethod": "DF",
+            "ShippingInfoRef": "SHIPPING_INFO_01",
+            "AdditionalDetails": {
+              "AdditionalDetail": [
+                {
+                  "Type": "WaiveUpgradeFee",
+                  "Code": "InquireFANProfileResponse",
+                  "Value": "Y"
+                },
+                {
+                  "Code": "FROM_CTN",
+                  "Value": "1234567890"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "Id": "GROUP_02",
+        "Name": "UPGRADE",
+        "Type": "LINE_OF_SERVICE",
+        "Sequence": 1,
+        "GroupCharacteristics": {
+          "LoSGCharacteristics": {
+            "LoSGReferenceId": "losg15379412602",
+            "LoSGSequenceNumber": 2,
+            "LoSGType": "CHANGE",
+            "ProductCategory": "WIRELESS",
+            "IsPrimary": true,
+            "DealerCode": "6F728",
+            "AccountRef": "ACCOUNT_01",
+            "LoSGStatus": {
+              "Status": "SUBMITTED",
+              "SubStatus": "ORDER_EQUIPMENT_PASS"
+            },
+            "EffectiveDate": "01-05-2016Z",
+            "ServiceLocationRef": "ADDRESS_02",
+            "ConflictingServiceInfoRefs": {
+              
+            },
+            "TCRefs": {
+              
+            },
+            "InstallationInstructions": {
+              
+            },
+            "NumberPortInfo": {
+              "DisconnectAcknowledged": {
+                
+              }
+            },
+            "TCAccepted": {
+              
+            },
+            "WirelessLOSChars": {
+              "MobileNumber": "9729460956",
+              "IsCrossUpgrade": false,
+              "UpgradeInfo": {
+                
+              },
+              "UpgradeQualificationInfo": [
+                {
+                  "ContractExtended": "SUCCESS",
+                  "IsParked": true
+                }
+              ],
+              "BillingSystemId": "T"
+            },
+            "InternetLOSChars": {
+              
+            },
+            "DirecTVLOSChars": {
+              
+            },
+            "VOIPLOSChars": {
+              
+            },
+            "Compensation": {
+              "RepDetails": {
+                
+              }
+            },
+            "FulfillmentMethod": "DF",
+            "ShippingInfoRef": "SHIPPING_INFO_01",
+            "AdditionalDetails": {
+              "AdditionalDetail": [
+                {
+                  "Type": "WaiveUpgradeFee",
+                  "Code": "InquireFANProfileResponse",
+                  "Value": "Y"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "Id": "GROUP_03",
+        "Name": "SHARED_PLAN",
+        "Type": "SHARED_PLAN",
+        "Sequence": 3,
+        "GroupCharacteristics": {
+          "SharedPlanCharacteristics": {
+            "PlanType": "MOBILE_SHARE",
+            "GroupReferenceCode": "GROUP_01"
+          }
+        }
+      }
+    ]
+  },
+	"LineItems": {
+		"LineItem": [{
+			"Id": "8299300002383793",
+			"LineItemSequence": 1,
+			"ProductCode": "prod7820230",
+			"ProductSku": "83793",
+			"BillingCode": "NOT_AVAILABLE",
+			"ProductType": "HARDGOOD",
+			"DisplayName": "eCom Phone Quick Start Guide",
+			"SystemName": "Kit_guide_eCom_Phone_12.0",
+			"Action": "ADD",
+			"Price": {
+				"Amount": 0,
+				"CurrencyType": "USD",
+				"MSRP": 0,
+				"PriceType": "DUE_TODAY",
+				"TaxInfo": {
+					"Amount": 0,
+					"PreCalculatedTax": {
+						"TaxableCost": 0,
+						"TaxableMSRP": 0,
+						"TaxableUnitPrice": 0,
+						"OrderTaxAreaID": 390950000,
+						"ShipFromTaxAreaID": 431570560,
+						"ShipToTaxAreaID": 441131490
+					},
+					"LineItemTax": [{
+						"TaxLineID": 1,
+						"TaxCode": "SALESTAX",
+						"Memo": "SALESTAX",
+						"PrintName": "Sales Tax",
+						"TaxableIndicator": "X",
+						"SKUSpecificIndicator": "false",
+						"JurisdictionLevel": "Sales Tax",
+						"JurisdictionName": "Sales Tax",
+						"TaxAmount": 0,
+						"TaxRate": 0,
+						"TaxDate": 1438844400000
+					}]
+				},
+				"Total": 0
+			},
+			"LocationID": "K004",
+			"Payments": {
+				"Payment": [{
+					"PaymentOptionRef": "PAYMENT_OPTION_01"
+				}]
+			},
+			"Quantity": 1,
+			"Status": "SUBMITTED",
+			"GroupRefs": {
+				"GroupRef": ["GROUP_01"]
+			},
+			"HardGood": {
+				"HardGoodType": "COLLATERAL",
+				"IsShippedHot": true,
+				"DeliveryByDate": {
+					"FromDate": 1439930075000,
+					"ToDate": 1440110075000
+				},
+				"WirelessHardGoodChars": {
+					
+				}
+			},
+			"SupplyChainInfo": {
+				"OrderDocumentInfo": {
+					"Location": "K004",
+					"Activity": "OY",
+					"OrderId": "7396796"
+				},
+				"claimRMANumber": ""
+			}
+		},
+		{
+			"Id": "8299300002373023",
+			"LineItemSequence": 2,
+			"ProductCode": "prod7820230",
+			"ProductSku": "73023",
+			"BillingCode": "NOT_AVAILABLE",
+			"ProductType": "HARDGOOD",
+			"DisplayName": "Embedded Micro SIM for Phones",
+			"SystemName": "Embedded SIM",
+			"Action": "ADD",
+			"Price": {
+				"Amount": 0,
+				"CurrencyType": "USD",
+				"MSRP": 0,
+				"PriceType": "DUE_TODAY",
+				"TaxInfo": {
+					"Amount": 0,
+					"PreCalculatedTax": {
+						"TaxableCost": 0,
+						"TaxableMSRP": 0,
+						"TaxableUnitPrice": 0,
+						"OrderTaxAreaID": 390950000,
+						"ShipFromTaxAreaID": 431570560,
+						"ShipToTaxAreaID": 441131490
+					},
+					"LineItemTax": [{
+						"TaxLineID": 1,
+						"TaxCode": "SALESTAX",
+						"Memo": "SALESTAX",
+						"PrintName": "Sales Tax",
+						"TaxableIndicator": "X",
+						"SKUSpecificIndicator": "false",
+						"JurisdictionLevel": "Sales Tax",
+						"JurisdictionName": "Sales Tax",
+						"TaxAmount": 0,
+						"TaxRate": 0,
+						"TaxDate": 1438844400000
+					}]
+				},
+				"Total": 0
+			},
+			"LocationID": "K004",
+			"Payments": {
+				"Payment": [{
+					"PaymentOptionRef": "PAYMENT_OPTION_01"
+				}]
+			},
+			"Quantity": 1,
+			"Status": "SUBMITTED",
+			"GroupRefs": {
+				"GroupRef": ["GROUP_01"]
+			},
+			"HardGood": {
+				"HardGoodType": "SIM",
+				"DeliveryByDate": {
+					"FromDate": 1439930075000,
+					"ToDate": 1440110075000
+				},
+				"WirelessHardGoodChars": {
+					
+				}
+			},
+			"SupplyChainInfo": {
+				"OrderDocumentInfo": {
+					"Location": "K004",
+					"Activity": "OY",
+					"OrderId": "7396796"
+				},
+				"claimRMANumber": ""
+			}
+		},
+		{
+			"Id": "82993000023",
+			"LineItemSequence": 3,
+			"ProductCode": "prod7820230",
+			"ProductSku": "6234A",
+			"BillingCode": "NOT_AVAILABLE",
+			"ProductType": "HARDGOOD",
+			"DisplayName": "Samsung Galaxy S5 - Charcoal Black",
+			"SystemName": "PHO SAM GLXY S5 G900A BLK",
+			"Action": "ADD",
+			"Price": {
+				"Amount": 0,
+				"CurrencyType": "USD",
+				"MSRP": 729.99,
+				"PriceType": "DUE_TODAY",
+				"TaxInfo": {
+					"Amount": 47.02,
+					"PreCalculatedTax": {
+						"TaxableCost": 484,
+						"TaxableMSRP": 549.99,
+						"TaxableUnitPrice": 569.99,
+						"OrderTaxAreaID": 390950000,
+						"ShipFromTaxAreaID": 431570560,
+						"ShipToTaxAreaID": 441131490
+					},
+					"LineItemTax": [{
+						"TaxLineID": 1,
+						"TaxCode": "SALESTAX",
+						"Memo": "SALESTAX",
+						"PrintName": "Sales Tax",
+						"TaxableIndicator": "X",
+						"SKUSpecificIndicator": "false",
+						"JurisdictionLevel": "Sales Tax",
+						"JurisdictionName": "Sales Tax",
+						"TaxAmount": 47.02,
+						"TaxRate": 0.08,
+						"TaxDate": 1438844400000
+					}]
+				},
+				"Total": 47.02
+			},
+			"LocationID": "K004",
+			"Payments": {
+				"Payment": [{
+					"PaymentOptionRef": "PAYMENT_OPTION_01"
+				}]
+			},
+			"ContractDetails": {
+				"InstallmentPlanID": 290000000010660,
+				"ContractDisplayName": "Next 24",
+				"InstallmentPlanDef": "NXT24A",
+				"AnnualPercentageRate": 0,
+				"FinanceCharge": 0,
+				"AmountFinanced": 569.99,
+				"BalancedAmount": 569.99,
+				"TotalSalePrice": 569.99,
+				"DownPayment": 0,
+				"DownPaymentPercent": 0,
+				"PrepaidFinanceCharge": 0,
+				"InstallmentAmount": 19,
+				"InstallmentStatus": "RESERVED",
+				"InstallmentType": "PHONE",
+				"ContractType": "LEASE",
+				"ContractSystem": "OPTICAL",
+				"ContractSent": "N",
+				"ContractLength": 30
+			},
+			"Quantity": 1,
+			"Status": "SUBMITTED",
+			"GroupRefs": {
+				"GroupRef": ["GROUP_01"]
+			},
+			"HardGood": {
+				"HardGoodType": "DEVICE",
+				"ProductImageUrl": "https://tst34.stage.att.com/catalog/en/skus/images/samsung-galaxy%20s%205-charcoal%20black-100x160.jpg",
+				"Make": "Samsung",
+				"ShipmentCommitDate": {
+					"FromDate": 1439794800000,
+					"ToDate": 1440054000000
+				},
+				"DeliveryByDate": {
+					"FromDate": 1439930075000,
+					"ToDate": 1440110075000
+				},
+				"WirelessHardGoodChars": {
+					"TechType": "UMTS",
+					"EquipmentType": "EDGE",
+					"ImeiType": "P6",
+					"PhoneType": "ANY_PHONE"
+				}
+			},
+			"SupplyChainInfo": {
+				"OrderDocumentInfo": {
+					"Location": "K004",
+					"Activity": "OY",
+					"OrderId": "7396796"
+				},
+				"claimRMANumber": ""
+			}
+		},
+		{
+			"Id": "losg7790019UPG",
+			"LineItemSequence": 4,
+			"ProductCode": "NOT_AVAILABLE",
+			"ProductSku": "NOT_AVAILABLE",
+			"BillingCode": "NOT_AVAILABLE",
+			"ProductType": "MISC_CHARGE",
+			"DisplayName": "UpgradeFee",
+			"SystemName": "UPGRADE_FEE",
+			"Action": "ADD",
+			"Price": {
+				"Amount": 15,
+				"CurrencyType": "USD",
+				"PriceType": "NRC"
+			},
+			"Payments": {
+				"Payment": [{
+					"PaymentOptionRef": "PAYMENT_OPTION_01"
+				}]
+			},
+			"Quantity": 1,
+			"GroupRefs": {
+				"GroupRef": ["GROUP_01"]
+			},
+			"SupplyChainInfo": {
+				"claimRMANumber": ""
+			}
+		},
+		{
+			"Id": "lobi8090014ShippingFee",
+			"LineItemSequence": 5,
+			"ProductCode": "NOT_AVAILABLE",
+			"ProductSku": "88879",
+			"BillingCode": "NOT_AVAILABLE",
+			"ProductType": "MISC_CHARGE",
+			"DisplayName": "ShippingFee",
+			"SystemName": "SHIPPING_FEE",
+			"Action": "ADD",
+			"Price": {
+				"Amount": 0,
+				"CurrencyType": "USD",
+				"MSRP": 0,
+				"PriceType": "DUE_TODAY",
+				"TaxInfo": {
+					"Amount": 0,
+					"PreCalculatedTax": {
+						"TaxableCost": 0,
+						"TaxableMSRP": 14.95,
+						"TaxableUnitPrice": 0,
+						"OrderTaxAreaID": 390950000,
+						"ShipFromTaxAreaID": 431570560,
+						"ShipToTaxAreaID": 441131490
+					},
+					"LineItemTax": [{
+						"TaxLineID": 1,
+						"TaxCode": "SALESTAX",
+						"Memo": "SALESTAX",
+						"PrintName": "Sales Tax",
+						"TaxableIndicator": "X",
+						"SKUSpecificIndicator": "false",
+						"JurisdictionLevel": "Sales Tax",
+						"JurisdictionName": "Sales Tax",
+						"TaxAmount": 0,
+						"TaxRate": 0,
+						"TaxDate": 1438844400000
+					}]
+				},
+				"Total": 0
+			},
+			"Payments": {
+				"Payment": [{
+					"PaymentOptionRef": "PAYMENT_OPTION_01"
+				}]
+			},
+			"Quantity": 1,
+			"GroupRefs": {
+				"GroupRef": ["GROUP_01"]
+			},
+			"SupplyChainInfo": {
+				"OrderDocumentInfo": {
+					"Location": "K004",
+					"Activity": "OY",
+					"OrderId": "7396796"
+				},
+				"claimRMANumber": ""
+			}
+		}]
+	},
+	"Names": {
+		"Name": [{
+			"Id": "NAME_01",
+			"FirstName": "BEDROCK",
+			"LastName": "DONOTUSE",
+			"PrimaryContactPhone": [{
+				"PhoneNumber": "9042324974",
+				"ContactPhoneType": "HOME_PHONE",
+				"ConsentDetails": {
+					"ConsentDetail": [{
+						"ConsentType": "TEXT",
+						"ConsentCategory": "testConsentCategory",
+						"ConsentSelection": "OPT_IN"
+					}]
+				}
+			}],
+			"AdditionalContactPhone": [{
+				"PhoneNumber": "9042324974",
+				"ContactPhoneType": "WORK_PHONE",
+				"ConsentDetails": {
+					"ConsentDetail": [{
+						"ConsentType": "TEXT",
+						"ConsentCategory": "testConsentCategory",
+						"ConsentSelection": "OPT_IN"
+					}]
+				}
+			}]
+		},
+		{
+			"Id": "NAME_02",
+			"FirstName": "BEDROCK",
+			"LastName": "DONOTUSE",
+			"PrimaryContactPhone": [{
+				"PhoneNumber": "9042324974",
+				"ContactPhoneType": "HOME_PHONE",
+				"ConsentDetails": {
+					"ConsentDetail": [{
+						"ConsentType": "TEXT",
+						"ConsentCategory": "testConsentCategory",
+						"ConsentSelection": "OPT_IN"
+					}]
+				}
+			}],
+			"AdditionalContactPhone": [{
+				"PhoneNumber": "9042324974",
+				"ContactPhoneType": "WORK_PHONE",
+				"ConsentDetails": {
+					"ConsentDetail": [{
+						"ConsentType": "TEXT",
+						"ConsentCategory": "testConsentCategory",
+						"ConsentSelection": "OPT_IN"
+					}]
+				}
+			}]
+		},
+		{
+			"Id": "NAME_03",
+			"FirstName": "BEDROCK",
+			"LastName": "DONOTUSE",
+			"PrimaryContactPhone": [{
+				"PhoneNumber": "9042324974",
+				"ContactPhoneType": "HOME_PHONE",
+				"ConsentDetails": {
+					"ConsentDetail": [{
+						"ConsentType": "TEXT",
+						"ConsentCategory": "testConsentCategory",
+						"ConsentSelection": "OPT_IN"
+					}]
+				}
+			}],
+			"AdditionalContactPhone": [{
+				"PhoneNumber": "9042324974",
+				"ContactPhoneType": "WORK_PHONE",
+				"ConsentDetails": {
+					"ConsentDetail": [{
+						"ConsentType": "TEXT",
+						"ConsentCategory": "testConsentCategory",
+						"ConsentSelection": "OPT_IN"
+					}]
+				}
+			}]
+		}]
+	},
+	"Addresses": {
+		"Address": [{
+			"Id": "ADDRESS_01",
+			"UnparsedAddress": {
+				"AddressLine1": "2501 W AIRPORT FWY # FWN",
+				"City": "IRVING",
+				"State": "TX",
+				"Zip": "75062",
+				"Country": "US"
+			},
+			"ParsedAddress": {
+				
+			}
+		},
+		{
+			"Id": "ADDRESS_02",
+			"UnparsedAddress": {
+				"AddressLine1": "2501 W AIRPORT FWY # FWN",
+				"City": "IRVING",
+				"State": "TX",
+				"Zip": "75062",
+				"Country": "US"
+			},
+			"ParsedAddress": {
+				"AddressStreetLine": "2501 W AIRPORT FWY # FWN",
+				"HouseNumber": "1720",
+				"StreetName": "CUMBERLAND",
+				"StreetType": "AVE",
+				"City": "IRVING",
+				"State": "TN",
+				"Zip": "75062",
+				"County": "KNOX",
+				"Country": "US",
+				"AddressType": "UNITED_STATES"
+			}
+		},
+		{
+			"Id": "ADDRESS_03",
+			"UnparsedAddress": {
+				"AddressLine1": "2501 W AIRPORT FWY # FWN",
+				"City": "IRVING",
+				"State": "TX",
+				"Zip": "75062"
+			},
+			"ParsedAddress": {
+				
+			}
+		},
+		{
+			"Id": "ADDRESS_04",
+			"UnparsedAddress": {
+				"AddressLine1": "2501 W AIRPORT FWY # FWN",
+				"City": "IRVING",
+				"State": "TX",
+				"Zip": "75062",
+				"Country": "US"
+			},
+			"ParsedAddress": {
+				"AddressStreetLine": "2501 W AIRPORT FWY # FWN",
+				"HouseNumber": "1720",
+				"StreetName": "CUMBERLAND",
+				"StreetType": "AVE",
+				"City": "IRVING",
+				"State": "TN",
+				"Zip": "75062",
+				"County": "KNOX",
+				"Country": "US",
+				"AddressType": "UNITED_STATES"
+			}
+		}]
+	},
+	"Accounts": {
+		"Account": [{
+			"Id": "ACCOUNT_01",
+			"AccountSequenceNumber": 1,
+			"AccountCategory": "MOBILITY_ACCOUNT",
+			"AccountSubCategory": "EXISTING",
+			"PaymentArrangement": "POSTPAID",
+			"BillingAccountNumber": "545111472918",
+			"BillingInfo": {
+				"NameRef": "NAME_02",
+				"AddressRef": "ADDRESS_02",
+				"LastUpdated": 1439485200000,
+				"Authentication": {
+					"DOB": "XXXX",
+					"DriversLicense": {
+						"LicenseNumber": "XXXX",
+						"State": "TX",
+						"LicenseExpirationDate": "XXXX"
+					},
+					"StateId": {
+						
+					},
+					"LastFourOfSSN": "0094",
+					"SecurityVerification": {
+						
+					},
+					"EmployerInfo": {
+						"EmployerName": "DONOTUSE",
+						"EmployerPhoneNum": "9042324974"
+					}
+				},
+				"CassAddress": {
+					
+				},
+				"AccountStatus": "ACTIVE"
+			},
+			"CreditCheck": {
+				
+			},
+			"BankingPartner": {
+				
+			},
+			"CreditAlert": {
+				
+			},
+			"ELOA": {
+				
+			},
+			"ContractAcceptance": {
+				
+			},
+			"UnifiedAccount": {
+				"ConvergeOrder": false,
+				"ConvergeValidation": false,
+				"PremierIndicator": false
+			},
+			"AccountType": "INDIVIDUAL",
+			"AccountSubType": "R",
+			"EnterpriseType": "CON",
+			"LangId": "ENGLISH",
+			"Market": "NCA",
+			"SubMarket": "SFR",
+			"PriceCode": "SFR",
+			"SpokenLanguagePreference": "ENGLISH",
+			"ProvisioningSystems": {
+				
+			},
+			"EffectiveDate": 1439449200000
+		}]
+	},
+	"PaymentOptions": {
+		"PaymentOption": [{
+			"Id": "PAYMENT_OPTION_01",
+			"PaymentSequence": 1,
+			"CAPMConfig": {
+				
+			},
+			"PaymentMethod": {
+				"CreditCard": {
+					"AddressRef": "ADDRESS_02",
+					"ExpirationYearMonth": "1712",
+					"creditCardHolderName": "BEDROCKDONOTUSE",
+					"PaymentToken": {
+						
+					},
+					"CreditCardType": "VISA",
+					"CreditCardNumber": "XXXX",
+					"CardBillingZipCode": "37916",
+					"PreAuthDetail": {
+						
+					},
+					"PaymentConfirmationDetail": {
+						
+					},
+					"PaymentAmount": 382.36,
+					"SaveProfile": {
+						
+					}
+				}
+			}
+		}]
+	},
+	"ShippingInfos": {
+		"ShippingInfo": [{
+			"Id": "SHIPPING_INFO_01",
+			"ShippingInfoSequence": 1,
+			"NameRef": "NAME_03",
+			"AddressRef": "ADDRESS_04",
+			"ShippingCode": "AA1",
+			"ShippingPriceCode": "88879",
+			"ShippingMethod": "Overnight"
+		}]
+	},
+	"SpecialInstructions": "{}",
+	"DueAmount": {
+		"Amount": 0,
+		"PriceType": "DUE_TODAY",
+		"TaxInfo": {
+			"Amount": 47.02
+		},
+		"Total": 47.02
+	},
+	"AgentCode": "Z0066",
+	"AgentLocation": "Z0066",
+	"TCs": {
+		"TCAccepted": []
+	},
+	"OrderContact": {
+		"NameRef": "NAME_02",
+		"PrimaryEmailAddress": "G11473@ATT.COM"
+	},
+	"ApproverNameRefs": {
+		
+	},
+	"OrderSource": {
+		"ClientIP": "135.163.180.104",
+		"Locale": "EN_US",
+		"ClientType": "DESKTOP",
+		"Channel": "CRU-MOBILITY",
+		"Application": "MYATTSALES",
+		"BrowserID": "A001279450318",
+		"AdditionalDetails": {
+			"AdditionalDetail": [{
+				"Type": "Order",
+				"Code": "SENDER",
+				"Value": "HARDROCK"
+			}]
+		}
+	},
+	"Notes": "Order Updated with Status : IN_PROGRESS and comments: RIA Generation Successful",
+	"Version": 2,
+	"IsLocked": false,
+	"IsEncrypted": true,
+	"IsBulk": false,
+	"IsPassThrough": false,
+	"PRCTicketNumber":"1531653",
+	"IsCommonOrder": true,
+	"IsSummaryCreated": false,
+	"FalloutHistory": {
+		"Fallouts": [{
+			"FalloutAPI": "AUTHORIZE_CREDIT_CARD",
+			"FalloutCode": "SERVICE_DOWN_FAULT",
+			"FalloutDesc": "A Resource Required By Service Is Not Available"
+		}]
+	},
+	"AdditionalDetails": {
+		"AdditionalDetail": [{
+			"Type": "Order",
+			"Code": "APPLICATION_NAME",
+			"Value": "NotifyTaskUpdateServiceV2"
+		}]
+	}
+}

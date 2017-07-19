@@ -1,0 +1,64 @@
+{
+  "messageHeader": {
+    "trackingMessageHeader": {
+      "version": "v112",
+      "messageId": "11111",
+      "originatorId": "OCE",
+      "returnURL": "",
+      "timeToLive": "",
+      "dateTimeStamp": ""
+    },
+    "securityMessageHeader": {
+      "userName": "oce_iot",
+      "userPassword": "oce_iot0826"
+    },
+    "sequenceMessageHeader": {
+      "sequenceNumber": "1",
+      "totalInSequence": "1"
+    }
+  },
+  "UpdateSharedDataGroupProfileRequest": {
+            "AccountSelector": {
+               "AccountSubscriberChoice": {
+                  "SubscriberDetail": {
+                     "subscriberNumber": "7871395989"
+                     }
+                  }
+               },
+            "RemoveGroupOffering": {
+               "action":"R",
+               "offeringCode": "BN1NM0A60",
+               "offeringType": "P",
+               "Commission": {
+                  "dealer":{ 
+                     "code": "6F728"
+                  },
+                  "location": "Z0066",
+                  "salesRepresentative": "6F728"
+               },
+               "EffectiveDates": {
+                  "effectiveDate": "2016-12-28Z",
+                  "expirationDate": "2016-12-28Z"
+               }
+            },
+            "AddGroupOffering": {
+               "action": "A",
+               "offeringCode": "EJK3",
+               "offeringType": "G",
+               "Commission": {
+                  "dealer": {
+                     "code": "6F728"
+                  },
+                  "location": "Z0066",
+                  "salesRepresentative": "6F728"
+               },
+               "EffectiveDates": {
+                  "effectiveDate": "2016-12-28Z"
+               }
+            },
+            "RelatedSubscriberSharedDataOfferings": {
+               "subscriberNumber": "1234567890",
+               "sharedDataPlanCode": "EJK3"
+               }
+            }
+          }

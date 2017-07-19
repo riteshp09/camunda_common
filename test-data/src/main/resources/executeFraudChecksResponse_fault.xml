@@ -1,0 +1,13 @@
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+	<S:Body>
+		<S:Fault xmlns:ns4="http://www.w3.org/2003/05/soap-envelope" xmlns="">
+			<faultcode>S:Server</faultcode>
+			<faultstring>ERR500102 - Fraud Rule check for Unlock service request could not be invoked.</faultstring>
+			<detail>
+				<ns3:BRMSFault xmlns:ns5="http://brms.oce.att.com/QueueDeterminationServiceSchema" xmlns:ns4="http://brms.oce.att.com/FraudDetectionServiceSchema" xmlns:ns2="http://oce.att.com/OCE/Namespaces/Types/Private/OCEDataModel.xsd" xmlns:ns3="http://services.brms.oce.att.com/">
+					<message>ERR500102 - Fraud Rule check for Unlock service request could not be invoked.</message>
+				</ns3:BRMSFault>
+			</detail>
+		</S:Fault>
+	</S:Body>
+</S:Envelope>

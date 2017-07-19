@@ -1,0 +1,1321 @@
+{
+          "CustomerOrderNumber": "B301585TFEL003",
+          "RequestId": "ENVD4B3011856WRLINE2",
+          "OrderType": "CREATE",
+          "CreatedDate": "2016-06-02T21:03:59.341-07:00",
+          "SubmitedDate": "2016-06-02T21:13:34.948-07:00",
+          "Groups": {
+            "Group": [
+              {
+                "Id": "GROUP_01",
+                "Name": "Package",
+                "Type": "PACKAGE",
+                "Sequence": "1",
+                "GroupCharacteristics": {
+                  "PackageCharacteristics": {
+                    "Category": "OFFER",
+                    "Code": "2000043"
+                  }
+                }
+              },
+              {
+                "Id": "GROUP_02",
+                "Name": "CHOICE All Included",
+                "Type": "LINE_OF_SERVICE",
+                "Sequence": "2",
+                "GroupCharacteristics": {
+                  "LoSGCharacteristics": {
+                    "LoSGReferenceId": "dtv",
+                    "LoSGType": "NEW",
+                    "ProductCategory": "POTS",
+                    "DealerCode": "Z0066",
+                    "AccountRef": "ACCOUNT_01",
+                    "ServiceLocationRef": "ADDRESS_01",
+                    "ServiceQualificationRef": "SERVICE_QLFY_01",
+                    "TCRefs": { "TCRef": "TC_04" },
+                    "SchedulingInfoRef": "SCHEDULINGINFO_01",
+                    "DirecTVLOSChars": {
+                      "OfferLanguage": "English",
+                      "DealerID": "1782681",
+                      "MarketingSourceCode": "7111",
+                      "MoveInOrder": "N"
+                    },
+                    "VOIPLOSChars": {
+                      "DirectoryListing": {
+                        "Listing": {
+                          "ListingCategory": "CLG",
+                          "AddressRef": "ABCG"
+                        }
+                      }
+                    },
+                    "FulfillmentMethod": "DF"
+                  }
+                }
+              },
+              {
+                "Id": "GROUP_03",
+                "Name": "EDSP-MaxTurbo",
+                "Type": "LINE_OF_SERVICE",
+                "Sequence": "3",
+                "GroupCharacteristics": {
+                  "LoSGCharacteristics": {
+                    "LoSGReferenceId": "hsia",
+                    "LoSGType": "NEW",
+                    "ProductCategory": "ADDON-SOLUTIONS",
+                    "DealerCode": "Z0066",
+                    "ServiceAreaName": "Dallas-Ft. Worth Area",
+                    "AccountRef": "ACCOUNT_02",
+                    "ServiceLocationRef": "ADDRESS_01",
+                    "ServiceQualificationRef": "SERVICE_QLFY_01",
+                    "TCRefs": { "TCRef": "TC_05" },
+                    "SchedulingInfoRef": "SCHEDULINGINFO_01",
+                    "InternetLOSChars": {
+                      "IPDSLAIndicator": "N",
+                      "PrimaryNetworkType": "FTTP-GPON",
+                      "InternetProgramType": "GP"
+                    },
+                    "FulfillmentMethod": "DF"
+                  }
+                }
+              },
+              {
+                "Id": "GROUP_04",
+                "Name": "DTV",
+                "Type": "LINE_OF_SERVICE",
+                "Sequence": "4",
+                "GroupCharacteristics": {
+                  "LoSGCharacteristics": {
+                    "LoSGReferenceId": "uvDTV",
+                    "LoSGType": "UNIFY",
+                    "ProductCategory": "DSL",
+                    "DealerCode": "Z0066",
+                    "AccountRef": "ACCOUNT_02",
+                    "DirecTVLOSChars": {
+                      "DealerID": "1782681",
+                      "MarketingSourceCode": "7111",
+                      "HasMoreThanThreeFloors": "true"
+                    },
+                    "FulfillmentMethod": "DF"
+                  }
+                }
+              },
+              {
+                "Id": "GROUP_05",
+                "Name": "Rewards",
+                "Type": "LINE_OF_SERVICE",
+                "Sequence": "5",
+                "GroupCharacteristics": {
+                  "LoSGCharacteristics": {
+                    "LoSGReferenceId": "Rewards",
+                    "LoSGType": "REWARDS/GIFT",
+                    "ProductCategory": "MISC",
+                    "FulfillmentMethod": "DF"
+                  }
+                }
+              }
+            ]
+          },
+          "LineItems": {
+            "LineItem": [
+              {
+                "Id": "95344140941",
+                "ProductCode": "P103417",
+                "ProductSku": "sku7650316",
+                "BillingCode": "NOT_AVAILABLE",
+                "ProductType": "PLAN",
+                "DisplayName": "CHOICE All Included",
+                "SystemName": "DTV:CHOICE all included",
+                "Action": "ADD",
+                "Price": {
+                  "Amount": "60.00",
+                  "CurrencyType": "USD",
+                  "MSRP": "111.00",
+                  "PriceType": "RC",
+                  "Total": "60.00"
+                },
+                "Quantity": "1",
+                "PromotionRefs": {
+                  "PromotionRef": [
+                    "PROMOTION_01",
+                    "PROMOTION_02"
+                  ]
+                },
+                "GroupRefs": {
+                  "GroupRef": [
+                    "GROUP_02",
+                    "GROUP_01"
+                  ]
+                },
+                "Characteristics": {
+                  "CommonCharacteristics": {
+                    "ComponentConfiguration": [
+                      {
+                        "ComponentCode": "DTV",
+                        "ComponentOperations": { "OperationName": "IWFARequest" },
+                        "ComponentPath": "DTV",
+                        "ComponentMapRequired": "true"
+                      },
+                      {
+                        "ComponentCode": "programming",
+                        "ComponentOperations": [
+                          { "OperationName": "QPRequest" },
+                          { "OperationName": "RQRequest" }
+                        ],
+                        "ComponentPath": "programming",
+                        "ComponentMapRequired": "true",
+                        "Attributes": {
+                          "AttributeKey": "DWSNew.ProgrammingCoreNew.ProgrammingCoreNew.Languages.AIBasePackages.AllInclusive.BasePackages.BasePackages",
+                          "AttributeCode": "optionKey",
+                          "AttributeValue": "P103417",
+                          "AttributeOperations": [
+                            { "OperationName": "QPRequest" },
+                            { "OperationName": "RQRequest" }
+                          ]
+                        }
+                      }
+                    ],
+                    "IgnorePricePlanCode": "N"
+                  }
+                }
+              },
+              {
+                "Id": "95344140945",
+                "ProductCode": "VCNF-HBO-STZ-SHO-CMAX-3MO-V9",
+                "ProductSku": "sku7650296",
+                "BillingCode": "NOT_AVAILABLE",
+                "ProductType": "OPTIONAL_FEATURE",
+                "DisplayName": "HBO, SHOWTIME, STARZ and Cinemax",
+                "SystemName": "DTV:HBO+SHOWTIME+STARZ+Cinemax",
+                "Action": "ADD",
+                "Price": {
+                  "Amount": "0.00",
+                  "CurrencyType": "USD",
+                  "MSRP": "53.99",
+                  "PriceType": "RC",
+                  "Total": "0.00"
+                },
+                "Quantity": "1",
+                "PromotionRefs": { "PromotionRef": "PROMOTION_03" },
+                "GroupRefs": {
+                  "GroupRef": [
+                    "GROUP_02",
+                    "GROUP_01"
+                  ]
+                },
+                "Characteristics": {
+                  "CommonCharacteristics": {
+                    "ComponentConfiguration": {
+                      "ComponentCode": "programming",
+                      "ComponentOperations": [
+                        { "OperationName": "QPRequest" },
+                        { "OperationName": "RQRequest" }
+                      ],
+                      "ComponentPath": "programming",
+                      "ComponentMapRequired": "true",
+                      "Attributes": {
+                        "AttributeKey": "DWSNew.ProgrammingCoreNew.ProgrammingCoreNew.RegionalOffers.RegionalOffers.PremiumChannelOffersParent.PremiumChannelOffers",
+                        "AttributeCode": "optionKey",
+                        "AttributeValue": "VCNF-HBO-STZ-SHO-CMAX-3MO-V9",
+                        "AttributeOperations": [
+                          { "OperationName": "QPRequest" },
+                          { "OperationName": "RQRequest" }
+                        ]
+                      }
+                    },
+                    "IgnorePricePlanCode": "N"
+                  }
+                }
+              },
+              {
+                "Id": "95344140946",
+                "ProductCode": "F7612",
+                "ProductSku": "sku7650418",
+                "BillingCode": "NOT_AVAILABLE",
+                "ProductType": "MISC_CHARGE",
+                "DisplayName": "Regional Sports Fee",
+                "SystemName": "DTV:RSNFEES:LGRP1-Tier 2",
+                "Action": "ADD",
+                "Price": {
+                  "Amount": "3.63",
+                  "CurrencyType": "USD",
+                  "MSRP": "3.63",
+                  "PriceType": "RC",
+                  "Total": "3.63"
+                },
+                "Quantity": "1",
+                "GroupRefs": {
+                  "GroupRef": [
+                    "GROUP_02",
+                    "GROUP_01"
+                  ]
+                }
+              },
+              {
+                "Id": "95344141037",
+                "ProductCode": "H00000001013",
+                "ProductSku": "sku7650441",
+                "BillingCode": "NOT_AVAILABLE",
+                "ProductType": "MISC_CHARGE",
+                "DisplayName": "DIRECTV Handling and Delivery",
+                "SystemName": "DTVHandlingAndDeliveryFee",
+                "Action": "ADD",
+                "Price": {
+                  "Amount": "0.00",
+                  "CurrencyType": "USD",
+                  "MSRP": "19.95",
+                  "PriceType": "DueToday",
+                  "Total": "0.00"
+                },
+                "Quantity": "1",
+                "PromotionRefs": { "PromotionRef": "PROMOTION_04" },
+                "GroupRefs": {
+                  "GroupRef": [
+                    "GROUP_02",
+                    "GROUP_01"
+                  ]
+                }
+              },
+              {
+                "Id": "95344141039",
+                "ProductCode": "H00000038927",
+                "ProductSku": "sku7650361",
+                "BillingCode": "NOT_AVAILABLE",
+                "ProductType": "HARDGOOD",
+                "DisplayName": "Genie HD DVR",
+                "SystemName": "IncludedGenieHDDVR",
+                "Action": "ADD",
+                "Price": {
+                  "Amount": "0.00",
+                  "CurrencyType": "USD",
+                  "MSRP": "0.00",
+                  "PriceType": "RC",
+                  "Total": "0.00"
+                },
+                "Quantity": "1",
+                "GroupRefs": {
+                  "GroupRef": [
+                    "GROUP_02",
+                    "GROUP_01"
+                  ]
+                },
+                "Characteristics": {
+                  "CommonCharacteristics": {
+                    "ComponentConfiguration": [
+                      {
+                        "ComponentCode": "DTVCPE",
+                        "ComponentOperations": { "OperationName": "FVPD1Request" },
+                        "ComponentPath": "DTVCPE",
+                        "ComponentMapRequired": "true",
+                        "Attributes": [
+                          {
+                            "AttributeCode": "materialCode",
+                            "AttributeValue": "100003360",
+                            "AttributeOperations": { "OperationName": "FVPD1Request" }
+                          },
+                          {
+                            "AttributeCode": "SKUCode",
+                            "AttributeValue": "H00000038927",
+                            "AttributeOperations": { "OperationName": "FVPD1Request" }
+                          }
+                        ]
+                      },
+                      {
+                        "ComponentCode": "equipment",
+                        "ComponentOperations": [
+                          { "OperationName": "QPRequest" },
+                          { "OperationName": "RQRequest" }
+                        ],
+                        "ComponentPath": "equipment",
+                        "ComponentMapRequired": "true",
+                        "Attributes": [
+                          {
+                            "AttributeKey": "DWSNew.Hardware.Hardware.ReceiverTotalOrderCheck.ReceiverTotalOrderCount.OnHowManyReceivers",
+                            "AttributeCode": "quantity",
+                            "AttributeValue": "TVCount",
+                            "AttributeOperations": [
+                              { "OperationName": "QPRequest" },
+                              { "OperationName": "RQRequest" }
+                            ]
+                          },
+                          {
+                            "AttributeKey": "DWSNew.Hardware.Hardware.ReceiverLeased.ReceiverLeased.ReceiverLeased",
+                            "AttributeCode": "quantity",
+                            "AttributeValue": "H00000038927",
+                            "AttributeOperations": [
+                              { "OperationName": "QPRequest" },
+                              { "OperationName": "RQRequest" }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "ComponentCode": "DTVCP",
+                        "ComponentOperations": { "OperationName": "IWFARequest" },
+                        "ComponentPath": "DTV|DTVCP",
+                        "ComponentMapRequired": "true",
+                        "Attributes": {
+                          "AttributeCode": "installationType",
+                          "AttributeValue": "Tech",
+                          "AttributeOperations": { "OperationName": "IWFARequest" }
+                        }
+                      }
+                    ],
+                    "IgnorePricePlanCode": "N"
+                  }
+                },
+                "HardGood": { "HardGoodType": "DVR" }
+              },
+              {
+                "Id": "95344141040",
+                "ProductCode": "P6376",
+                "ProductSku": "sku7650429",
+                "BillingCode": "NOT_AVAILABLE",
+                "ProductType": "OPTIONAL_FEATURE",
+                "DisplayName": "Advanced Receiver Fee",
+                "SystemName": "DTV Included Advanced Receiver Fee",
+                "Action": "ADD",
+                "Price": {
+                  "Amount": "0.00",
+                  "CurrencyType": "USD",
+                  "MSRP": "0.00",
+                  "PriceType": "RC",
+                  "Total": "0.00"
+                },
+                "Quantity": "1",
+                "GroupRefs": {
+                  "GroupRef": [
+                    "GROUP_02",
+                    "GROUP_01"
+                  ]
+                }
+              },
+              {
+                "Id": "95344141041",
+                "ProductCode": "H00000038927",
+                "ProductSku": "sku7680379",
+                "BillingCode": "NOT_AVAILABLE",
+                "ProductType": "HARDGOOD",
+                "DisplayName": "Genie HD DVR",
+                "SystemName": "DTV:NRCDueToday:Included Genie HD DVR",
+                "Action": "ADD",
+                "Price": {
+                  "Amount": "0.00",
+                  "CurrencyType": "USD",
+                  "MSRP": "299.00",
+                  "PriceType": "DueToday",
+                  "Total": "0.00"
+                },
+                "Quantity": "1",
+                "PromotionRefs": { "PromotionRef": "PROMOTION_05" },
+                "GroupRefs": {
+                  "GroupRef": [
+                    "GROUP_02",
+                    "GROUP_01"
+                  ]
+                },
+                "HardGood": { "HardGoodType": "DVR" }
+              },
+              {
+                "Id": "95344140940",
+                "ProductCode": "prod8520277",
+                "ProductSku": "sku7850249",
+                "BillingCode": "88541733",
+                "ProductType": "PLAN",
+                "DisplayName": "ATT High Speed Internet Max Turbo",
+                "SystemName": "MaxTurbo EDSP",
+                "Action": "ADD",
+                "Price": {
+                  "Amount": "40.00",
+                  "CurrencyType": "USD",
+                  "MSRP": "50.00",
+                  "PriceType": "RC",
+                  "Total": "40.00"
+                },
+                "Quantity": "1",
+                "PromotionRefs": { "PromotionRef": "PROMOTION_06" },
+                "GroupRefs": {
+                  "GroupRef": [
+                    "GROUP_03",
+                    "GROUP_01"
+                  ]
+                },
+                "Characteristics": {
+                  "CommonCharacteristics": {
+                    "ComponentConfiguration": [
+                      {
+                        "ComponentCode": "HSIA",
+                        "ComponentOperations": [
+                          { "OperationName": "IFSAPDResponse" },
+                          { "OperationName": "FIQResponse" }
+                        ],
+                        "ComponentPath": "HSIA",
+                        "ComponentMapRequired": "false",
+                        "Attributes": {
+                          "AttributeCode": "Speed",
+                          "AttributeValue": "Hsia24",
+                          "AttributeOperations": [
+                            { "OperationName": "IWFARequest" },
+                            { "OperationName": "IFSAPDResponse" }
+                          ]
+                        }
+                      },
+                      {
+                        "ComponentCode": "HSIA",
+                        "ComponentOperations": { "OperationName": "IWFARequest" },
+                        "ComponentPath": "HSIA",
+                        "ComponentMapRequired": "true",
+                        "Attributes": {
+                          "AttributeCode": "Speed",
+                          "AttributeValue": "Hsia24",
+                          "AttributeOperations": [
+                            { "OperationName": "IWFARequest" },
+                            { "OperationName": "IFSAPDResponse" }
+                          ]
+                        }
+                      },
+                      {
+                        "ComponentCode": "QHSIA",
+                        "ComponentOperations": [
+                          { "OperationName": "FIPDRequest" },
+                          { "OperationName": "FVPD1Request" }
+                        ],
+                        "ComponentPath": "QHSIA",
+                        "ComponentMapRequired": "true",
+                        "Attributes": [
+                          {
+                            "AttributeCode": "AMSSHSIAQuestion1",
+                            "AttributeValue": "Hsia24",
+                            "AttributeOperations": [
+                              { "OperationName": "FIPDRequest" },
+                              { "OperationName": "FVPD1Request" }
+                            ]
+                          },
+                          {
+                            "AttributeCode": "AMSS_eDSP",
+                            "AttributeValue": "2",
+                            "AttributeOperations": [
+                              { "OperationName": "FIPDRequest" },
+                              { "OperationName": "FVPD1Request" }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "IgnorePricePlanCode": "N"
+                  },
+                  "InternetLineItemChars": {
+                    "PlanDownloadSpeed": "24 Mbps",
+                    "IpType": "DYNAMIC"
+                  },
+                  "AddOnSolutionCharacterstics": {
+                    "DomainRegistration": "NEWCHILD",
+                    "DomainName": "www.abc.com",
+                    "RegistrationType": "PrivateCHILD"                   
+                  }
+                }
+              },
+              {
+                "Id": "95344140943",
+                "ProductCode": "prod8580381",
+                "ProductSku": "sku7890604",
+                "ProductSubType": "Data backup Solution",
+                "BillingCode": "88807906",
+                "ProductType": "INCLUDED_FEATURE",
+                "DisplayName": "Includes 600GB per month.",
+                "SystemName": "Base-600 GB; 50 GB; $10; $100:88807906",
+                "Action": "ADD",
+                "Price": {
+                  "Amount": "0.00",
+                  "CurrencyType": "USD",
+                  "MSRP": "0.00",
+                  "PriceType": "RC",
+                  "Total": "0.00"
+                },
+                "Quantity": "1",
+                "GroupRefs": {
+                  "GroupRef": [                   
+                    "GROUP_01",
+					"GROUP_03"
+                  ]
+                },
+                "Characteristics": {
+                  "InternetLineItemChars": {
+                    "BucketAllowance": "600.0",
+                    "OverageBucketAllowance": "50",
+                    "PricePerBucketAllowance": "10",
+                    "MaxOverageCharge": "100",
+                    "BoltOnType": "BASE",
+                    "IpType": "DYNAMIC"
+                  },
+				    "AddOnSolutionCharacterstics": {
+                    "DomainRegistration": "NEW",
+                    "DomainName": "www.abc.com",
+                    "RegistrationType": "Private",
+					"ParentItem": "95344140940"					
+				  }
+                }				
+              },
+              {
+                "Id": "95344140944",
+                "ProductCode": "prod8580366",
+                "ProductSku": "sku7890589",
+                "BillingCode": "88551533",
+                "ProductType": "INCLUDED_FEATURE",
+                "DisplayName": "Unlimited data for bundling with TV (a $30 value)",
+                "SystemName": "SIB-DTV-Unlimited-999999 GB; 00 GB; $00; $00:88551533",
+                "Action": "ADD",
+                "Price": {
+                  "Amount": "0.00",
+                  "CurrencyType": "USD",
+                  "MSRP": "0.00",
+                  "PriceType": "RC",
+                  "Total": "0.00"
+                },
+                "Quantity": "1",
+                "GroupRefs": {
+                  "GroupRef": [                  
+                    "GROUP_01"
+                  ]
+                },
+                "Characteristics": {
+                  "InternetLineItemChars": {
+                    "BucketAllowance": "999999.0",
+                    "BoltOnType": "SIB",
+                    "IpType": "DYNAMIC"
+                  }
+                }
+              },
+              {
+                "Id": "95344141036",
+                "ProductCode": "prod8610303",
+                "ProductSku": "sku7920409",
+                "BillingCode": "88541733",
+                "ProductType": "MISC_CHARGE",
+                "DisplayName": "Internet Installation Fee",
+                "SystemName": "hsiaInstallEDSPDoublePlay-Tech",
+                "Action": "ADD",
+                "Price": {
+                  "Amount": "0.00",
+                  "CurrencyType": "USD",
+                  "InstallmentEligibility": "Y",
+                  "MSRP": "99.00",
+                  "PriceType": "NRC",
+                  "Total": "0.00"
+                },
+                "Quantity": "1",
+                "PromotionRefs": { "PromotionRef": "PROMOTION_07" },
+                "GroupRefs": {
+                  "GroupRef": [   				
+                    "GROUP_01"
+                  ]
+                },
+                "Characteristics": {
+                  "CommonCharacteristics": {
+                    "ComponentConfiguration": [
+                      {
+                        "ComponentCode": "HSIA",
+                        "ComponentOperations": { "OperationName": "FIQResponse" },
+                        "ComponentPath": "HSIA",
+                        "ComponentMapRequired": "false"
+                      },
+                      {
+                        "ComponentCode": "QCSRCSI",
+                        "ComponentOperations": { "OperationName": "FVPD1Request" },
+                        "ComponentPath": "QCSRCSI",
+                        "ComponentMapRequired": "true",
+                        "Attributes": {
+                          "AttributeCode": "questionCsrCsiInstallationOption",
+                          "AttributeValue": "Tech",
+                          "AttributeOperations": { "OperationName": "FVPD1Request" }
+                        }
+                      }
+                    ],
+                    "IgnorePricePlanCode": "N"
+                  }
+                }
+              },
+              {
+                "Id": "95344140942",
+                "ProductCode": "prod8340296",
+                "ProductSku": "sku7650437",
+                "BillingCode": "NOT_AVAILABLE",
+                "ProductType": "UNIFY",
+                "DisplayName": "Converged Wireless / U-verse DTV Billing",
+                "SystemName": "DTVConverged",
+                "Action": "ADD",
+                "Price": {
+                  "Amount": "0.00",
+                  "CurrencyType": "USD",
+                  "MSRP": "0.00",
+                  "Total": "0.00"
+                },
+                "Quantity": "1",
+                "GroupRefs": {
+                  "GroupRef": [
+                    "GROUP_04",
+                    "GROUP_01"
+                  ]
+                },
+                "Characteristics": {
+                  "CommonCharacteristics": {
+                    "ComponentConfiguration": {
+                      "ComponentCode": "DIRECTV",
+                      "ComponentOperations": { "OperationName": "FIQResponse" },
+                      "ComponentPath": "DIRECTV",
+                      "ComponentMapRequired": "true"
+                    },
+                    "IgnorePricePlanCode": "N"
+                  }
+                }
+              },
+              {
+                "Id": "LINEITEM_13",
+                "ProductCode": "NOT_AVAILABLE",
+                "BillingCode": "NOT_AVAILABLE",
+                "ProductType": "OPTIONAL_FEATURE",
+                "DisplayName": "DTV_Reference_Card",
+                "SystemName": "DTV_REFERENCE_CARD",
+                "Price": {
+                  "Amount": "0.00",
+                  "CurrencyType": "USD",
+                  "MSRP": "0.00",
+                  "PriceType": "NRC",
+                  "Total": "0.00"
+                },
+                "Payments": {
+                  "Payment": {
+                    "Amount": "0.00",
+                    "CurrencyType": "USD",
+                    "PaymentOptionRef": "PAYMENT_OPTION_01"
+                  }
+                },
+                "GroupRefs": {
+                  "GroupRef": [
+                    "GROUP_02",
+                    "GROUP_01"
+                  ]
+                }
+              },
+              {
+                "Id": "LINEITEM_14",
+                "ProductCode": "NOT_AVAILABLE",
+                "ProductSku": "15000001",
+                "BillingCode": "NOT_AVAILABLE",
+                "ProductType": "REWARDS/GIFT",
+                "DisplayName": "Here's a $10 reason to go paperless",
+                "SystemName": "Rewards",
+                "Action": "ADD",
+                "Price": {
+                  "Amount": "10",
+                  "CurrencyType": "USD",
+                  "MSRP": "10",
+                  "PriceType": "NOT_APPLICABLE",
+                  "Total": "10"
+                },
+                "GroupRefs": {
+                  "GroupRef": [
+                    "GROUP_05",
+                    "GROUP_01"
+                  ]
+                }
+              },
+              {
+                "Id": "LINEITEM_15",
+                "ProductCode": "NOT_AVAILABLE",
+                "ProductSku": "18400013",
+                "BillingCode": "NOT_AVAILABLE",
+                "ProductType": "REWARDS/GIFT",
+                "DisplayName": "Receive a <b>$150 reward card</b> for ordering online today",
+                "SystemName": "Rewards",
+                "Action": "ADD",
+                "Price": {
+                  "Amount": "150",
+                  "CurrencyType": "USD",
+                  "MSRP": "150",
+                  "PriceType": "NOT_APPLICABLE",
+                  "Total": "150"
+                },
+                "GroupRefs": {
+                  "GroupRef": [
+                    "GROUP_05",
+                    "GROUP_01"
+                  ]
+                }
+              }
+            ]
+          },
+          "Names": {
+            "Name": [
+              {
+                "Id": "NAME_01",
+                "FirstName": "TEST",
+                "LastName": "XLOW",
+                "PrimaryContactPhone": {
+                  "PhoneNumber": "5325234234",
+                  "ContactPhoneType": "CELL_PHONE",
+                  "ConsentDetails": {
+                    "ConsentDetail": {
+                      "ConsentType": "CELL",
+                      "ConsentCategory": "ABC",
+                      "ConsentSelection": "CDE"
+                    }
+                  }
+                },
+                "AdditionalContactPhone": {
+                  "PhoneNumber": "5325234234",
+                  "ContactPhoneType": "CELL_PHONE",
+                  "ConsentDetails": {
+                    "ConsentDetail": {
+                      "ConsentType": "CELL",
+                      "ConsentCategory": "ABC",
+                      "ConsentSelection": "CDE"
+                    }
+                  }
+                },
+                "Title": "SCHEMA"
+              },
+              {
+                "Id": "NAME_02",
+                "FirstName": "TEST",
+                "LastName": "XLOW",
+				"EmailAddress": "absgmail.com",
+                "PrimaryContactPhone": {
+                  "PhoneNumber": "5325234234",
+                  "ContactPhoneType": "CELL_PHONE",
+                  "ConsentDetails": {
+                    "ConsentDetail": {
+                      "ConsentType": "CELL",
+                      "ConsentCategory": "ABC",
+                      "ConsentSelection": "CDE"
+                    }
+                  }
+                },
+                "AdditionalContactPhone": {
+                  "PhoneNumber": "5325234234",
+                  "ContactPhoneType": "CELL_PHONE",
+                  "ConsentDetails": {
+                    "ConsentDetail": {
+                      "ConsentType": "CELL",
+                      "ConsentCategory": "ABC",
+                      "ConsentSelection": "CDE"
+                    }
+                  }
+                },
+                "Title": "SCHEMA"
+              },
+              {
+                "Id": "NAME_03",
+                "FirstName": "TEST",
+                "LastName": "XLOW",
+                "PrimaryContactPhone": {
+                  "PhoneNumber": "5325234234",
+                  "ContactPhoneType": "CELL_PHONE",
+                  "ConsentDetails": {
+                    "ConsentDetail": {
+                      "ConsentType": "CELL",
+                      "ConsentCategory": "ABC",
+                      "ConsentSelection": "CDE"
+                    }
+                  }
+                },
+                "AdditionalContactPhone": {
+                  "PhoneNumber": "5325234234",
+                  "ContactPhoneType": "CELL_PHONE",
+                  "ConsentDetails": {
+                    "ConsentDetail": {
+                      "ConsentType": "CELL",
+                      "ConsentCategory": "ABC",
+                      "ConsentSelection": "CDE"
+                    }
+                  }
+                },
+                "Title": "SCHEMA"
+              },
+              {
+                "Id": "NAME_04",
+                "FirstName": "TEST",
+                "LastName": "XLOW",
+                "PrimaryContactPhone": {
+                  "PhoneNumber": "5325234234",
+                  "ContactPhoneType": "CELL_PHONE"
+                },
+                "AdditionalContactPhone": {
+                  "PhoneNumber": "5325234234",
+                  "ContactPhoneType": "CELL_PHONE"
+                },
+                "Title": "SCHEMA"
+              }
+            ]
+          },
+          "Addresses": {
+            "Address": [
+              {
+                "Id": "ADDRESS_01",
+                "AddressId": "M5cfc37ca8",
+                "UnparsedAddress": {
+                  "AddressLine1": "2939  ERIC  LN",
+                  "City": "FARMERS BRANCH",
+                  "State": "TX",
+                  "Zip": "75234"
+                },
+                "ParsedAddress": {
+                  "HouseNumber": "2939",
+                  "StreetName": "ERIC",
+                  "StreetType": "LN",
+                  "City": "FARMERS BRANCH",
+                  "State": "TX",
+                  "Zip": "75234",
+                  "AddressMatchCode": "4S00",
+                  "RateZoneBanCode": "623",
+                  "LegalEntity": "TT00",
+                  "BuildingType": "N",
+                  "TarCode": "FBR",
+                  "RateCenterCode": "DALLAS",
+                  "ExchangeCode": "FBR",
+                  "PrimaryNpaNxx": "972241",
+                  "Clli8": "DLLSTXFB",
+                  "VideoHubOffice": "RCSNTX"
+                }
+              },
+              {
+                "Id": "ADDRESS_02",
+                "UnparsedAddress": {
+                  "AddressLine1": "2939  ERIC  LN",
+				  "AddressLine2": "2940  ERIC  LN",
+                  "City": "FARMERS BRANCH",
+                  "State": "TX",
+                  "Zip": "75234"
+                },
+                "ParsedAddress": {
+                  "HouseNumber": "2939",
+                  "StreetName": "ERIC",
+                  "StreetType": "LN",
+                  "City": "FARMERS BRANCH",
+                  "State": "TX",
+                  "Zip": "75234",
+                  "County": "DALLAS"
+                }
+              },
+              {
+                "Id": "ADDRESS_03",
+                "UnparsedAddress": {
+                  "AddressLine1": "2939  ERIC  LN",
+                  "City": "FARMERS BRANCH",
+                  "State": "TX",
+                  "Zip": "75234"
+                }
+              },
+              {
+                "Id": "ADDRESS_04",
+                "UnparsedAddress": {
+                  "AddressLine1": "2939  ERIC  LN",
+                  "City": "FARMERS BRANCH",
+                  "State": "TX",
+                  "Zip": "75234"
+                },
+                "ParsedAddress": {
+                  "HouseNumber": "2939",
+                  "StreetName": "ERIC",
+                  "StreetType": "LN",
+                  "City": "FARMERS BRANCH",
+                  "State": "TX",
+                  "Zip": "75234",
+                  "County": "DALLAS"
+                }
+              }
+            ]
+          },
+          "Accounts": {
+            "Account": [
+              {
+                "Id": "ACCOUNT_01",
+                "AccountCategory": "UVERSE_ACCOUNT",
+                "AccountSubCategory": "NEW",
+                "PaymentArrangement": "POSTPAID",
+				"BillingAccountNumber": "0123456789",
+				"BusinessAccountName": "ABCD",
+                "BillingLanguagePreference": "OTHER",
+                "BillingInfo": {
+                  "NameRef": "NAME_02",
+                  "AddressRef": "ADDRESS_02",
+                  "Authentication": {
+                    "DOB": "aVoW-jj-Yy",
+                    "SSN": "962IAKQ9B",
+                    "SecurityVerification": {
+                      "Pin": "kVAe",
+                      "SecurityQuestion": "Who is your favorite actor?",
+                      "SecurityAnswer": "asdf"
+                    }
+                  },
+                  "CassAddress": {
+                    "AddressLine": [
+                      "TEST XLOW",
+                      "2939 ERIC LN",
+                      "FARMERS BRNCH TX  75234-6415"
+                    ]
+                  },
+                  "PreviousAddressIndicator": "N",
+                  "BillingType": "OWN"
+                },
+                "ServiceLocationRef": "ADDRESS_01",
+                "CreditCheck": {
+                  "CreditClass": "LOW",
+                  "CCMTransactionID": "XLOW",
+                  "CCRan": "true",
+                  "EIDNumber": "XLOW",
+                  "DepositRequired": "N",
+                  "SafeScanAlertIndicator": "false",
+                  "SingleCreditQueryWirelessIndicator": "false",
+                  "SafeScanPassIndicator": "false",
+                  "TreatmentCode": "X8801",
+                  "TreatmentMessage": "Default Decision, No additional fee is required at this time"
+                },
+                "BillingDeliveryPreference": "PAPERLESS",
+                "DelinquentAccount": "false",
+                "AccountType": "INDIVIDUAL",
+                "AccountSubType": "9",
+                "B2BRef": "B2B_01",
+                "PassCode": "kVAe",
+                "Market": "623",
+                "SpokenLanguagePreference": "ENGLISH",                 
+                "ProvisioningSystems":{
+                "ProvisioningSystem":{
+                "SystemName": "AUTOMATION",
+                "SystemOrderRef":"B001"
+                }
+                },
+                "ExistingAutoBillStatus": "NoExistingAutopay",
+                "CPNI": "true",
+                "AdditionalDetails": {
+                  "AdditionalDetail": {
+                    "Type": "ARCH",
+                    "Code": "PMO_IND",
+                    "Value": "true"
+                  }
+                }
+              },
+              {
+                "Id": "ACCOUNT_02",
+                "AccountCategory": "ADDON-SOLUTIONS_ACCOUNT",
+                "AccountSubCategory": "NEW",
+                "PaymentArrangement": "POSTPAID",
+                "BusinessAccountName": "ABCDEFG",
+                "BillingLanguagePreference": "OTHER",
+                "BillingInfo": {
+                  "NameRef": "NAME_04",
+                  "AddressRef": "ADDRESS_04",
+                  "Authentication": {
+                    "DOB": "aVoW-jj-Yy",
+                    "SSN": "962IAKQ9B",
+                    "SecurityVerification": {
+                      "Pin": "kVAe",
+                      "SecurityQuestion": "Who is your favorite actor?",
+                      "SecurityAnswer": "bnvg"
+                    }
+                  },
+                  "CassAddress": {
+                    "AddressLine": [
+                      "TEST XLOW",
+                      "2939 ERIC LN",
+                      "FARMERS BRNCH TX  75234-6415"
+                    ]
+                  },
+                  "PreviousAddressIndicator": "N",
+                  "BillingType": "OWNER"
+                },
+                "CreditCheck": {
+                  "CreditClass": "LOW",
+                  "CCMTransactionID": "XLOW",
+                  "CCRan": "true",
+                  "EIDNumber": "XLOW",
+                  "DepositRequired": "N",
+                  "SafeScanAlertIndicator": "false",
+                  "SingleCreditQueryWirelessIndicator": "false",
+                  "SafeScanPassIndicator": "false",
+                  "TreatmentCode": "X8801",
+                  "TreatmentMessage": "Default Decision, No additional fee is required at this time"
+                },
+                "BillingDeliveryPreference": "PAPERLESS",
+                "UnifiedAccount": {
+                  "UnifiedAccountRef": "ACCOUNT_01",
+                  "ConvergeOrder": "true",
+                  "UnifiedAccountExistingIndicator": "N"
+                },
+                "DelinquentAccount": "false",
+                "AccountType": "INDIVIDUAL",
+                "AccountSubType": "R",
+                "B2BRef": "B2B_01",
+                "PassCode": "kVAe",
+                "Market": "623",
+                "SpokenLanguagePreference": "ENGLISH",
+                "ProvisioningSystems":{
+                "ProvisioningSystem":{
+                "SystemName": "AUTOMATION",
+                "SystemOrderRef":"B001"
+                }
+                },
+                "CPNI": "true",
+                "AdditionalDetails": {
+                  "AdditionalDetail": {
+                    "Type": "ARCH",
+                    "Code": "PMO_IND",
+                    "Value": "true"
+                  }
+                }
+              }
+            ]
+          },
+          "PaymentOptions": {
+            "PaymentOption": {
+              "Id": "PAYMENT_OPTION_01",
+              "CAPMConfig": {
+                "SourceSystem": "HARDROCK",
+                "SourceLocation": "CS"
+              },
+              "PaymentMethod": {
+                "CreditCard": {
+                  "AddressRef": "ADDRESS_03",
+                  "ExpirationYearMonth": "2017-12",
+                  "creditCardHolderName": "TEST XLOW",
+                  "CreditCardType": "VISA",
+                  "CreditCardNumber": "BNMPCAXY2SDPH8LY",
+                  "CardBillingZipCode": "75234",
+                  "PreAuthDetail": { "AuthorizationCode": "DUMMY" },
+                  "PaymentAmount": "0.00"
+                }
+              },
+              "AdditionalDetails": {
+                "AdditionalDetail": {
+                  "Code": "PaymentType",
+                  "Value": "DTV_REF_CARD"
+                }
+              }
+            }
+          },
+          "Promotions": {
+            "Promotion": [
+              {
+                "Id": "PROMOTION_01",
+                "PromotionCode": "B101201-152",
+                "PromotionId": "1",
+                "BaseOfferId": "1",
+                "ParentPricePlanCode": "2",
+                "ComponentConfiguration": {
+                  "ComponentCode": "programming",
+                  "ComponentOperations": [
+                    { "OperationName": "QPRequest" },
+                    { "OperationName": "RQRequest" }
+                  ],
+                  "ComponentPath": "programming",
+                  "ComponentMapRequired": "true",
+                  "Attributes": {
+                    "AttributeKey": "DWSNew.ProgrammingCoreNew.ProgrammingCoreNew.RegionalOffers.RegionalOffers.BasePackageOffersParent.BasePackageOffersOptional",
+                    "AttributeCode": "optionKey",
+                    "AttributeValue": "VCNF-INSTANT-REBATE-41-24MO-V1",
+                    "AttributeOperations": [
+                      { "OperationName": "QPRequest" },
+                      { "OperationName": "RQRequest" }
+                    ]
+                  }
+                },
+                "PromotionName": "$41 off for 24 mos",
+                "Amount": "41.00",
+                "Duration": "24",
+                "PromotionType": "PROMOTION",
+                "PromotionCycle": "MONTHLY",
+                "UnitOfMeasurement": "FLATOFF"
+              },
+              {
+                "Id": "PROMOTION_02",
+                "PromotionCode": "B6467-055",
+                "PromotionId": "1",
+                "BaseOfferId": "1",
+                "ParentPricePlanCode": "2",
+                "ComponentConfiguration": {
+                  "ComponentCode": "programming",
+                  "ComponentOperations": [
+                    { "OperationName": "QPRequest" },
+                    { "OperationName": "RQRequest" }
+                  ],
+                  "ComponentPath": "programming",
+                  "ComponentMapRequired": "true",
+                  "Attributes": {
+                    "AttributeKey": "DWSNew.ProgrammingClosingOffers.ProgrammingClosingOffers.ClosingOffers.ClosingOffers.ClosingOffers.Category4",
+                    "AttributeCode": "optionKey",
+                    "AttributeValue": "VCLS-CBO-10-24MO-V1",
+                    "AttributeOperations": [
+                      { "OperationName": "RQRequest" },
+                      { "OperationName": "QPRequest" }
+                    ]
+                  }
+                },
+                "PromotionName": "$10 Off for 24 mos",
+                "Amount": "10.00",
+                "Duration": "24",
+                "PromotionType": "PROMOTION",
+                "PromotionCycle": "MONTHLY",
+                "UnitOfMeasurement": "FLATOFF"
+              },
+              {
+                "Id": "PROMOTION_03",
+                "PromotionCode": "B102472-14",
+                "PromotionId": "1",
+                "BaseOfferId": "1",
+                "ParentPricePlanCode": "2",
+                "PromotionName": "First 3 months on us, $53.99/mo thereafter",
+                "Amount": "100.00",
+                "Duration": "3",
+                "PromotionType": "PROMOTION",
+                "PromotionCycle": "MONTHLY",
+                "UnitOfMeasurement": "PERCENTAGE"
+              },
+              {
+                "Id": "PROMOTION_04",
+                "PromotionCode": "VCLS-Newco-DH-0",
+                "PromotionId": "88459383",
+                "BaseOfferId": "33311",
+                "ParentPricePlanCode": "843885",
+                "PromotionName": "Online Only Handling and Delivery Fee Waiver",
+                "Amount": "100.00",
+                "Duration": "0",
+                "PromotionType": "PROMOTION",
+                "PromotionCycle": "ONETIME",
+                "UnitOfMeasurement": "PERCENTAGE"
+              },
+              {
+                "Id": "PROMOTION_05",
+                "PromotionCode": "RNRCD0001",
+                "PromotionId": "1111",
+                "BaseOfferId": "31931",
+                "ParentPricePlanCode": "2",
+                "PromotionName": "Genie® HD DVR Discount",
+                "Amount": "299.00",
+                "Duration": "0",
+                "PromotionType": "PROMOTION",
+                "PromotionCycle": "ONETIME",
+                "UnitOfMeasurement": "FLATOFF"
+              },
+              {
+                "Id": "PROMOTION_06",
+                "PromotionCode": "IS0414",
+                "PromotionId": "88620613",
+                "BaseOfferId": "88541733",
+                "ParentPricePlanCode": "88541733",
+                "PromotionName": "$10 off Internet with bundle",
+                "Amount": "10.00",
+                "Duration": "999",
+                "PromotionType": "PROMOTION",
+                "PromotionCycle": "MONTHLY",
+                "UnitOfMeasurement": "FLATOFF"
+              },
+              {
+                "Id": "PROMOTION_07",
+                "PromotionCode": "HS5109",
+                "PromotionId": "750903",
+                "BaseOfferId": "88541733",
+                "ParentPricePlanCode": "88541733",
+                "PromotionName": "Internet Installation Fee discount",
+                "Amount": "100.00",
+                "Duration": "0",
+                "PromotionType": "PROMOTION",
+                "PromotionCycle": "ONETIME",
+                "UnitOfMeasurement": "PERCENTAGE"
+              }
+            ]
+          },
+          "SchedulingInfos": {
+            "SchedulingInfo": {
+              "Id": "SCHEDULINGINFO_01",
+              "LandlordInfo": { "LandlordPermission": "N" },
+              "NameRef": "NAME_03",
+              "ActualSchedule": {
+                "SelectedAppointmentDate": "2016-06-03",
+                "SelectedAppointmentTime": "08:00:00",
+                "StartTime": "08:00 AM",
+                "EndTime": "10:00 AM"
+              },
+              "InstallType": "Tech",
+              "IsRealTimeCalendar": "true",
+              "BestTimeToReach": "CVD"
+            }
+          },
+          "ServiceFacilityQualifications": {
+            "ServiceFacilityQualification": {
+              "Id": "SERVICE_QLFY_01",
+              "AddressRef": "ADDRESS_01",
+              "PreferredNetworkType": "FTTP-GPON",
+              "ProfileCode": "UvClass18G",
+              "CpeRequiredIndicator": "false",
+              "IsPOTSAvailable": "false",
+              "IsDSLAvailable": "false"
+            }
+          },
+          "B2Bs": {
+            "B2B": {
+              "Id": "B2B_01",
+              "B2BContractType": "CDA PA",
+              "B2BFAN": "12",
+              "B2BFANBusinessName": "FN LN",
+              "TaxExemptInd": "true",
+              "BusinessType": "C"
+            }
+          },
+          "DueAmount": {
+            "Amount": "0.00",
+            "CurrencyType": "USD",
+            "Total": "0.00"
+          },
+          "IsPartialOrder": "false",
+		  "AgentUID": "fs874h",
+          "SalesCode": "ALTAY7V",
+          "SalesLocation": "Default",
+          "AgentCode": "Z0066",
+          "AgentLocation": "Z0066",
+          "OrderContact": {
+            "NameRef": "NAME_01",
+            "PrimaryEmailAddress": "ll848uatt.com",
+            "PreferredContactMethod": "EMAIL",
+            "PreferredTimeOfDayForContact": "N/A"
+          },
+          "OrderSource": {
+            "Region": "Midwest",
+            "ClientType": "DESKTOP",
+            "Channel": "CDE-HS",
+            "Application": "MYATTSALES",
+            "BrowserID": "A001908800238",
+            "AdditionalDetails": {
+              "AdditionalDetail": [
+                {
+                  "Code": "SENDER",
+                  "Value": "WBFC"
+                },
+                {
+                  "Code": "BUYFLOW",
+                  "Value": "NEWCO"
+                }
+              ]
+            }
+          },
+          "IsGeoAreaSingleDispatchAvailable": "true",
+          "IsSatelliteTVOnlySingleDispatchEligible": "false",
+          "IsSingleDispatchEligible": "true",
+          "ProductCombinationCode": "8",
+          "IsEncrypted": "true",
+          "AdditionalDetails": {
+            "-xmlns:cdm": "http://oce.att.com/OCE/Namespaces/Types/Private/OCEDataModel.xsd",
+            "AdditionalDetail": {
+              "Code": "UVNADType",
+              "Value": "UVRG-X"
+            },
+            "cdm:AdditionalDetail": [
+              {
+                "cdm:Code": "APPLICATION_NAME",
+                "cdm:Value": "NotifyTaskUpdateServiceV2"
+              },
+              {
+                "cdm:Code": "PRODUCT_COMBINATION",
+                "cdm:Value": "DIRECTV_NEW:DIRECTV_UNIFY:INTERNET_NEW:MISC_REWARDS/GIFT"
+              }
+            ]
+          }
+        }

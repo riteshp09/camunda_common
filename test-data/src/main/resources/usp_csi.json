@@ -1,0 +1,96 @@
+{
+  "messageHeader": {
+    "trackingMessageHeader": {
+      "version": "v112",
+      "messageId": "11111",
+      "originatorId": "OCE",
+      "returnURL": "",
+      "timeToLive": "",
+      "dateTimeStamp": ""
+    },
+    "securityMessageHeader": {
+      "userName": "oce_iot",
+      "userPassword": "oce_iot0826"
+    },
+    "sequenceMessageHeader": {
+      "sequenceNumber": "1",
+      "totalInSequence": "1"
+    }
+  },
+  "updateSubscriberProfileRequest": {
+    "subscriber": {
+      "subscriberNumber": "0123456789",
+      "contactInformation": {
+        "name": {
+          "firstName": "TEST",
+          "middleName": "MIDTEST",
+          "lastName": "DATA"
+        },
+        "ppuAddress": {
+          "fieldIndicator": "true",
+          "addressLine1": "1125 E Campbell Road",
+          "addressLine2": "2224 V Camp Road",
+          "city": "Richardson",
+          "state": "TX",
+          "zip": { "zipCode": "75081" },
+          "country": "US"
+        }
+      },
+      "pricePlan": {
+        "singleUserCode": "BN1NM0A60",
+        "effectiveDates": { "effectiveDate": "2016-12-28Z" },
+        "commission": {
+          "dealer": { "code": "Z0066" },
+          "location": "Z0066",
+          "salesRepresentative": "Z0066"
+        },
+        "offeringsBundled": {
+        	"action":"R",        	
+        	"offeringCode": "P",
+         	 "valueAddedParameters": {
+            	"vQoSSpecialParameters": {
+              	"url": "test",
+              	"enterpriseId": "TUV890",
+              	"label": "Data"
+            }
+          }
+        }
+      },
+      "additionalOfferings": [{
+      	"action":"R",
+        "offeringCode": "P",
+        "offeringType": "G",
+        "commission": {
+          "dealer": { "code": "Z0066" },
+          "location": "Z0066",
+          "salesRepresentative": "Z0066"
+        },
+        "effectiveDates": {
+          "effectiveDate": "2016-12-28Z",
+          "expirationDate": "2016-12-28Z"
+        },
+        "valueAddedParameters": {
+          "vQoSSpecialParameters": {
+            "url": "test",
+            "enterpriseId": "TUV890",
+            "label": "Data"
+          }
+        },
+        "sharedDataGroup": {
+          "groupDetails": {
+            "groupReference": {
+              "dataGroupId": "61412"
+            },
+            "createDataGroupIndicator": "true"
+          }
+        }
+      }],
+      "userDefinedLabelValues": {
+        "value1": "1",
+        "value2": "2",
+        "value3": "3",
+        "value4": "4"
+      }
+    }
+  }
+}

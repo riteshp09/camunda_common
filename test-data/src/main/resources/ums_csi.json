@@ -1,0 +1,70 @@
+{
+  "messageHeader": {
+    "trackingMessageHeader": {
+      "version": "v112",
+      "messageId": "11111",
+      "originatorId": "OCE",
+      "returnURL": "",
+      "timeToLive": "",
+      "dateTimeStamp": ""
+    },
+    "securityMessageHeader": {
+      "userName": "oce_iot",
+      "userPassword": "oce_iot0826"
+    },
+    "sequenceMessageHeader": {
+      "sequenceNumber": "1",
+      "totalInSequence": "1"
+    }
+  },
+    "UpdateMobileSubscriberRequest": {
+            "subscriberNumber":  "4699878077",
+            "OfferingDetails": [{
+            
+               "action": "R",
+               "offeringCode": "SDDVRP",
+               "offeringType": "P",
+               "commission": {
+                  "dealer": {
+                     "code": "6F728"
+                   },
+                  "location": "Z0066",
+                  "salesRepresentative":"6F728"
+				  },
+               "effectiveDates": {
+                  "effectiveDate": "2016-12-28Z",
+                  "expirationDate": "2016-12-28Z"
+               },
+               "sharedDataGroup": {
+                  "groupDetails": {
+                     "groupReference": {
+                        "dataGroupId": "G15952164",
+                        "subscriberNumber":"4699878077"
+                        },
+                     "createDataGroupIndicator": "true"
+                     }
+                  },
+               "valueAddedParameters": {
+                  "vQoSSpecialParameters": {
+                     "url": "test",
+                     "enterpriseId": "TUV890",
+                     "label": "Data"
+                     }
+                  }
+              
+            }],
+            "PlanDetails": {
+               "singleUserCode": "SDDVRP",
+               "effectiveDates": {
+                  "effectiveDate": "2016-12-28Z"
+               },
+               "commission": {
+                  "dealer": {
+                     "code": "Z0066"
+                   },
+                  "location": "Z0066",
+                  "salesRepresentative":"Z0066"
+                  }
+               }
+            }          
+}

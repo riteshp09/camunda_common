@@ -1,0 +1,387 @@
+{
+  "in": {
+    "body": {
+      "order": {
+        "AgentUID": "SYSTEM",
+        "AdditionalDetails": {
+          "AdditionalDetail": [
+            {
+              "Type": "Order",
+              "Value": "WIRELESS_UP",
+              "Code": "PRODUCT_COMBINATION"
+            }
+          ]
+        },
+        "UpdatedDate": 1467664281642,
+        "DueAmount": {
+          "MSRP": 938.98,
+          "Amount": 938.98,
+          "Total": 938.98,
+          "CurrencyType": "USD",
+          "PriceType": "DUE_TODAY"
+        },
+        "SalesCode": "6F728",
+        "AgentLocation": "Z0066",
+        "IsCommonOrder": false,
+        "Names": {
+          "Name": [
+            {
+              "LegalFirstName": "TEST",
+              "FirstName": "TEST",
+              "LegalLastName": "DATA1",
+              "Id": "NAME_01",
+              "LastName": "DATA1",
+              "EmailAddress": "ns511t@att.com",
+              "PrimaryContactPhone": [
+                {
+                  "ContactPhoneType": "CELL_PHONE",
+                  "PhoneNumber": "2142041234"
+                }
+              ]
+            },
+            {
+              "LegalFirstName": "TEST",
+              "FirstName": "TEST",
+              "LegalLastName": "DATA2",
+              "Id": "NAME_02",
+              "LastName": "DATA2",
+              "EmailAddress": "ns511t@att.com",
+              "PrimaryContactPhone": [
+                {
+                  "ContactPhoneType": "CELL_PHONE",
+                  "PhoneNumber": "2142041235"
+                }
+              ]
+            }
+          ]
+        },
+        "SalesChannel": "B",
+        "AcceptedDate": 1467166269957,
+        "OrderStatus": {
+          "Status": "IN_PROGRESS",
+          "SubStatus": "IN_PROGRESS"
+        },
+        "OrderType": "CREATE",
+        "Groups": {
+          "Group": [
+            {
+              "Type": "LINE_OF_SERVICE",
+              "GroupCharacteristics": {
+                "LoSGCharacteristics": {
+                  "ActionType": "TRANSFER_BAN_CHANGES",
+                  "LoSGStatus": {
+                    "Status": "SYS_PROCESSING",
+                    "SubStatus": "FRAUD_APPROVED"
+                  },
+                  "AdditionalDetails": {
+                    "AdditionalDetail": [
+                      {
+                        "Type": "WaiveUpgradeFee",
+                        "Value": "Y",
+                        "Code": "InquireFANProfileResponse"
+                      }
+                    ]
+                  },
+                  "TCRefs": {},
+                  "InstallationInstructions": {},
+                  "DirecTVLOSChars": {},
+                  "FulfillmentMethod": "DF",
+                  "AccountRef": "ACCOUNT_01",
+                  "WirelessLOSChars": {
+                  	"ConnectedCarInfo" :{
+                    "Trim": "L4",
+                    "SubscriptionClass": "A",
+                    "Model": "U10",
+                    "VIN": "1234567890",
+                    "Make": "AUDI"
+                    }
+                  },
+                  "LoSGType": "CHANGE",
+                  "ConflictingServiceInfoRefs": {},
+                  "LoSGReferenceId": "losg15379412601",
+                  "LoSGSequenceNumber": 1,
+                  "NumberPortInfo": {
+                    "DisconnectAcknowledged": {}
+                  },
+                  "VOIPLOSChars": {},
+                  "DealerCode": "6F728",
+                  "Compensation": {
+                    "RepDetails": {}
+                  },
+                  "ProductCategory": "WIRELESS",
+                  "IsPrimary": true,
+                  "ShippingInfoRef": "SHIPPING_INFO_01",
+                  "InternetLOSChars": {},
+                  "TCAccepted": {},
+                  "ServiceLocationRef": "ADDRESS_02"
+                }
+              },
+              "Id": "GROUP_01",
+              "Sequence": 1,
+              "Name": "UPGRADE"
+            },
+            {
+              "Type": "LINE_OF_SERVICE",
+              "GroupCharacteristics": {
+                "LoSGCharacteristics": {
+                  "ActionType": "TRANSFER_BAN_CHANGES",
+                  "AdditionalDetails": {
+                    "AdditionalDetail": [
+                      {
+                        "Type": "WaiveUpgradeFee",
+                        "Value": "Y",
+                        "Code": "InquireFANProfileResponse"
+                      }
+                    ]
+                  },
+                  "LoSGStatus": {
+                    "Status": "SYS_PROCESSING",
+                    "SubStatus": "FRAUD_APPROVED"
+                  },
+                  "TCRefs": {},
+                  "InstallationInstructions": {},
+                  "DirecTVLOSChars": {},
+                  "FulfillmentMethod": "DF",
+                  "AccountRef": "ACCOUNT_01",
+                  "WirelessLOSChars": {
+                  	"ConnectedCarInfo" :{
+                    "VIN": "1234567890",
+                    "SubscriptionClass": "A",
+                    "Trim": "L4",
+                    "Model": "U10",
+                    "Make": "AUDI"
+                  }
+                  },
+                  "LoSGType": "CHANGE",
+                  "ConflictingServiceInfoRefs": {},
+                  "LoSGReferenceId": "losg15379412601",
+                  "LoSGSequenceNumber": 1,
+                  "NumberPortInfo": {
+                    "DisconnectAcknowledged": {}
+                  },
+                  "VOIPLOSChars": {},
+                  "DealerCode": "6F728",
+                  "Compensation": {
+                    "RepDetails": {}
+                  },
+                  "ProductCategory": "WIRELESS",
+                  "IsPrimary": true,
+                  "ShippingInfoRef": "SHIPPING_INFO_01",
+                  "InternetLOSChars": {},
+                  "TCAccepted": {},
+                  "ServiceLocationRef": "ADDRESS_02"
+                }
+              },
+              "Id": "GROUP_02",
+              "Sequence": 1,
+              "Name": "UPGRADE"
+            }
+          ]
+        },
+        "IsResubmitOrder": false,
+        "IsPartialOrder": false,
+        "OrderContact": {
+          "PrimaryEmailAddress": "ns511t@att.com",
+          "NameRef": "NAME_02"
+        },
+        "ShippingInfos": {
+          "ShippingInfo": [
+            {
+              "ShippingMethod": "hardgoodShippingGroup",
+              "NameRef": "NAME_02",
+              "ShippingCode": "AA0",
+              "Id": "SHIPPING_INFO_02",
+              "ShippingPriceCode": "88879",
+              "ShippingInfoSequence": 2,
+              "AddressRef": "ADDRESS_01"
+            }
+          ]
+        },
+        "Notes": "Order Updated with Status : IN_PROGRESS and comments: Order Updated with Status : IN_PROGRESS",
+        "ExternalOrderSource": "PRE",
+        "LineItems": {
+          "LineItem": [
+            {
+              "ProductSku": "69400",
+              "Action": "ADD",
+              "Description": "APPLE IPHONE 5S SPACE GRAY 16GB",
+              "ProductCode": "NOT_AVAILABLE",
+              "ProductType": "HARDGOOD",
+              "LocationID": "K008",
+              "Payments": {
+                "Payment": [
+                  {
+                    "PaymentOptionRef": "PAYMENT_OPTION_01",
+                    "NoOfInstallment": 24,
+                    "Amount": 449.99,
+                    "CurrencyType": "USD"
+                  }
+                ]
+              },
+              "Quantity": 1,
+              "BillingCode": "NOT_AVAILABLE",
+              "ContractDetails": {
+                "DownPaymentPercent": 0,
+                "AmountFinanced": 449.99,
+                "ContractLength": 24,
+                "BalancedAmount": 0,
+                "AnnualPercentageRate": 0,
+                "FinanceCharge": 0,
+                "IsEIP": false,
+                "DownPayment": 0,
+                "InstallmentAmount": 449.99,
+                "ContractType": "REGULAR",
+                "TotalSalePrice": 449.99
+              },
+              "LineItemSequence": 1,
+              "GroupRefs": {
+                "GroupRef": [
+                  "GROUP_01"
+                ]
+              },
+              "HardGood": {
+                "BYOD": false,
+                "IsShippedHot": false,
+                "Model": "APPLE IPHONE 5S SPACE GRAY 16GB",
+                "HardGoodType": "DEVICE",
+                "ShipmentCommitDate": {
+                  "FromDate": 1467037723000,
+                  "ToDate": 1467210523000
+                },
+                "WirelessHardGoodChars": {
+                  "ImeiType": "T6",
+                  "PhoneType": "SmartPhone",
+                  "TechType": "LTE"
+                }
+              },
+              "Price": {
+                "MSRP": 449.99,
+                "Amount": 449.99,
+                "Total": 449.99,
+                "CurrencyType": "USD",
+                "PriceType": "DUE_TODAY"
+              },
+              "DisplayName": "APPLE IPHONE 5S SPACE GRAY 16GB",
+              "SystemName": "APPLE IPHONE 5S SPACE GRAY 16GB",
+              "Id": "689409692",
+              "SupplyChainInfo": {
+                "OrderDocumentInfo": {
+                  "Activity": "OY",
+                  "OrderId": "8651975",
+                  "Location": "K008"
+                },
+                "claimRMANumber": null
+              }
+            }
+          ]
+        },
+        "RequestId": "416_492_3666_UPGRADE_1466605723189",
+        "TCs": {
+          "TCAccepted": []
+        },
+        "SalesLocation": "6F728",
+        "IsExpressCheckOut": false,
+        "IsLocked": false,
+        "CurrentDateTime": 1467699803262,
+        "ApproverNameRefs": {},
+        "PaymentOptions": {
+          "PaymentOption": [
+            {
+              "PaymentSequence": 1,
+              "CAPMConfig": {},
+              "PaymentMethod": {
+                "AR": {
+                  "PONumber": "6372",
+                  "ARIndicator": true
+                }
+              },
+              "Id": "PAYMENT_OPTION_01"
+            }
+          ]
+        },
+        "SubmitedDate": 1466630923000,
+        "PRCTicketNumber": "TestUP18",
+        "CustomerOrderNumber": "SANITYTEST_D4B2835",
+        "ParentOrderNumber": null,
+        "AgentCode": "6F728",
+        "CreatedDate": 1466630923000,
+        "BulkOrderWorkRequestNumber": "416",
+        "IsBulk": true,
+        "OrderSource": {
+          "RequestType": "SCR",
+          "Locale": "NOT_AVAILABLE",
+          "Channel": "CRU-MOBILITY",
+          "ClientIP": "NOT_AVAILABLE",
+          "Application": "OCE"
+        },
+        "OCEOrderNumber": "OCE34270005E",
+        "Accounts": {
+          "Account": [
+            {
+              "BillingAccountTelephoneNumber": "2142041234",
+              "EnterpriseType": "GBS",
+              "AccountSequenceNumber": 1,
+              "ContractAcceptance": {},
+              "AccountCategory": "MOBILITY_ACCOUNT",
+              "BillingInfo": {
+                "NameRef": "NAME_01",
+                "CassAddress": {},
+                "Authentication": {
+                  "EmployerInfo": {},
+                  "SecurityVerification": {},
+                  "DriversLicense": {}
+                },
+                "LastUpdated": 1410800400000,
+                "AddressRef": "ADDRESS_01"
+              },
+              "LiabilityType": "CORPORATE",
+              "SubMarket": "DFW",
+              "UnifiedAccount": {
+                "PremierIndicator": false,
+                "ConvergeValidation": false,
+                "ConvergeOrder": false
+              },
+              "ELOA": {},
+              "ProvisioningSystems": {},
+              "B2BRef": "B2B_01",
+              "PaymentArrangement": "POSTPAID",
+              "CustomerCode": "4546778",
+              "AccountSubCategory": "NEW",
+              "BillingLanguagePreference": "ENGLISH",
+              "CreditAlert": {},
+              "CreditCheck": {
+                "DebtAccount": [
+                  {}
+                ]
+              },
+              "AccountType": "BUSINESS",
+              "Market": "DLS",
+              "LangId": "ENGLISH",
+              "BankingPartner": {},
+              "BillingAccountNumber": "287269270721",
+              "Id": "ACCOUNT_01",
+              "AccountSubType": "R",
+              "EffectiveDate": 1410764400000
+            }
+          ]
+        },
+        "B2Bs": {
+          "B2B": [
+            {
+              "B2BFANBusinessName": "TEST",
+              "TaxExemptInd": true,
+              "BusinessType": "CORPORATE",
+              "Id": "B2B_01",
+              "B2BContractType": "CCDA MAC",
+              "B2BFAN": "6728261",
+              "ExemptOrderId": "4546778"
+            }
+          ]
+        }
+      },
+      "executionContext": {}
+    },
+    "headers": {}
+  },
+  "out": {}
+}

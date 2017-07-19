@@ -1,0 +1,41 @@
+{
+  "messageHeader": {
+    "trackingMessageHeader": {
+      "infrastructureVersion": "v112",
+      "originalInfrastructureVersion": "11111",
+      "applicationName": "OCE",
+      "version": "v116",
+      "originalVersion": "",
+      "messageId": "f3591333-f0af-455f-a28f-6d5229fcaa1b~T3-61488778460747~37780ebd-0aef-4203-b931-a96f57dab2eb",
+      "originatorId":"OCE",
+      "responseTo":"",
+      "returnURL":"",
+      "timeToLive":"",
+      "conversationId":"",
+      "routingRegionOverride":"",
+      "dateTimeStamp":"2017-04-11T07:43:03.354Z",
+      "uniqueTransactionId":""
+    },
+    "securityMessageHeader": {
+      "userName": "oce_iot",
+      "userPassword": "oce_iot0826"
+    },
+    "sequenceMessageHeader": {
+      "sequenceNumber": "1",
+      "totalInSequence": "1"
+    }
+  },
+ 	"addNotesRequest": {
+            "accountType": "Billing",
+            "accountSelector": {
+               "accountSubscriberSelector": {
+                  "billingAccountNumber": "4698040403"
+               }
+            },
+            "notes": {
+               "noteText": "WebOrderNumber:T3-61488778460747, BAN:545111472918, OTC:37.12, CONTRACT TERM MONTH:, Rate Plan:, Date of Sale:1439066415444, CTN:8656075367, DeviceName:, Add Opt Feature:, Add Opt Feature:",
+               "noteType": "CSM",
+               "priority": "R"
+            }
+         }
+  }

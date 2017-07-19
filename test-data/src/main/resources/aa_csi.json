@@ -1,0 +1,95 @@
+{  
+  "messageHeader":{  
+    "trackingMessageHeader":{  
+      "version":"v112",
+      "messageId":"11111",
+      "originatorId":"OCE",
+      "returnURL":"",
+      "timeToLive":"",
+      "dateTimeStamp":""
+    },
+    "securityMessageHeader":{  
+      "userName":"oce_iot",
+      "userPassword":"oce_iot0826"
+    },
+    "sequenceMessageHeader":{  
+      "sequenceNumber":"1",
+      "totalInSequence":"1"
+    }
+  },
+ 	"AddAccountRequest": {
+		"marketServiceInfo": {
+			"billingMarket": {
+				"billingMarket": "M",
+				"billingSubMarket": "B"
+			},
+			"billingSystemId": "T"
+		},
+		"Account": {
+			"fan": "",
+			"AccountType": {
+				"accountType": "N",
+				"accountSubType": "M",
+				"businessType": "B",
+				"openChannel": "R"
+			},
+			"AccountBilling": {
+				"billingCycle": "0"
+			},
+			"BillingPreferences": {
+				"billingMedia": "XM",
+				"billDeliveryMethod": "Paperless"
+			},
+			"NationalAccount": {
+				"majorAccountNumber": "626328"
+			},
+			"taxExemptionRequest": "333232"	
+		},	
+		"Customer": {
+			"businessName": {
+				"contact": {
+					"firstName": "vijay",
+					"lastName": "a"
+				}
+			},
+			"Address": {
+				"addressType": "S",
+				"fieldIndicator": "true",
+				"Attention": "Test",
+				"AddressLine1": "Chn",
+				"City": "chennai",
+				"State": "tamilnadu",
+				"Zip": {
+					"zipCode": "630106"
+				},
+				"Country": "india"
+			},
+			"Phone": {
+				"canBeReachedPhone": "Y"
+			},
+			"Email": {
+				"emailAddress": "adm2gmail.com"
+			},
+			"Identity": {
+				"businessTaxId": "343434"
+			}	
+		},
+		"Commission": {
+			"dealer": {
+				"code": "3422"
+			},
+			"location": "",
+			"salesRepresentative":"32323"
+		}, 
+		"creditApplicationType": "MAJ",
+		"desiredNumberOfLines": "32"
+		}
+    
+  }
+
+
+
+
+
+
+

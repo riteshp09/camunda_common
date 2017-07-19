@@ -1,0 +1,28 @@
+{
+  "messageHeader": {
+    "trackingMessageHeader": {
+      "version": "v112",
+      "messageId": "11111",
+      "originatorId": "OCE",
+      "returnURL": "",
+      "timeToLive": "",
+      "dateTimeStamp": ""
+    },
+    "securityMessageHeader": {
+      "userName": "oce_iot",
+      "userPassword": "oce_iot0826"
+    },
+    "sequenceMessageHeader": {
+      "sequenceNumber": "1",
+      "totalInSequence": "1"
+    }
+  },
+  "updateMobileSubscriberStatusRequest": {
+    "subscriberNumber": "9876543210",
+    "reasonCode": "RTS",
+    "mode":"C",
+    "CurrentDevice":{
+    	"iccid" : "89011702271083751841"
+    }
+  }
+}

@@ -1,0 +1,491 @@
+{
+	"Order":{
+        "CustomerOrderNumber": "21-201100003447178",
+        "RequestType":"SCR",
+        "PRCTicketNumber": "TestUP18",
+        "RequestId": "a8d52939-c487-4ce0-8646-c5496f7394d3",
+        "OCEOrderNumber": "D53300368",
+        "ParentOrderNumber": null,
+        "OrderType": "CREATE",
+        "OrderStatus": {
+          "Status": "IN_PROGRESS",
+          "SubStatus": "IN_QUEUE"
+        },
+        "CreatedDate": 1478692930000,
+        "SubmitedDate": 1478693125000,
+        "UpdatedDate": 1478693729123,
+        "AcceptedDate": 1478693414737,
+        "CurrentDateTime": 1482733562093,
+        "Groups": {
+          "Group": [
+            {
+              "Id": "GROUP_01",
+              "Name": "NEW_WIRELESS",
+              "Type": "LINE_OF_SERVICE",
+              "Sequence": 1,
+              "GroupCharacteristics": {
+                "LoSGCharacteristics": {
+                  "LoSGReferenceId": "losg154190221",
+                  "LoSGSequenceNumber": 1,
+                  "LoSGType": "CHANGE",
+                  "ActionType":"TRANSFER_BAN_CHANGES",
+                  "ProductCategory": "WIRELESS",
+                  "DealerCode": "Z0066",
+                  "Market": "DLS",
+                  "SubMarket": "DFW",
+                  "PriceCode": "DFW",
+                  "ConnectedCarLOSChars": {
+              				"Trim": "L4",
+              				"SubscriptionClass": "S",
+              				"Model": "U10",
+              				"VIN": "1234567890",
+              				"MobileNumber": "4699878077",
+              				"Make": "AUDI"
+            	   },
+                  "AccountRef": "ACCOUNT_01",
+                   "ServiceLocationRef": "ADDRESS_01",
+                  "LoSGStatus": {
+                    "Status": "SYS_PROCESSING",
+                    "SubStatus": "UPDATE_SUBSCRIBER_PROFILE_FAIL"
+                  },
+                  "ConflictingServiceInfoRefs": {},
+                  "TCRefs": {},
+                  "InstallationInstructions": {},
+                  "NumberPortInfo": {
+                    "DisconnectAcknowledged": {}
+                  },
+                  "TCAccepted": {},
+                  "WirelessLOSChars": {
+                    "MobileNumber":"4699878077",
+                    "UpgradeInfo": {},
+                    "BillingSystemId": "T"
+                  },
+                  "InternetLOSChars": {},
+                  "DirecTVLOSChars": {},
+                  "VOIPLOSChars": {},
+                  "IsAutomationEnabled": false,
+                  "Compensation": {
+                    "RepDetails": []
+                  },
+                  "FulfillmentMethod": "DF",
+                  "ShippingInfoRef": "SHIPPING_INFO_01"
+                }
+              }
+            }
+          ]
+        },
+        "LineItems": {
+          "LineItem": [
+            {
+              "Id": "96201001647",
+              "LineItemSequence": 1,
+              "ProductCode": "prod8650272",
+              "ProductSku": "4497G",
+              "BillingCode": "NOT_AVAILABLE",
+              "ProductType": "PLAN",
+              "DisplayName": "Bose QuietComfort 35 wireless headphones Silver",
+              "SystemName": "HDS BOS QC35 HDPN BT UNIV SLV",
+              "Action": "ADD",
+              "Price": {
+                "Amount": 349,
+                "CurrencyType": "USD",
+                "MSRP": 0,
+                "PriceType": "DUE_TODAY",
+                "TaxInfo": {
+                  "Amount": 0
+                },
+                "Total": 349
+              },
+              "LocationID": "K006",
+              "Payments": {
+                "Payment": [
+                  {
+                    "PaymentOptionRef": "PAYMENT_OPTION_01"
+                  }
+                ]
+              },
+              "Quantity": 1,
+              "Status": "IN_PROGRESS",
+              "GroupRefs": {
+                "GroupRef": [
+                  "GROUP_01"
+                ]
+              },
+              "HardGood": {
+                "HardGoodType": "ACCESSORY",
+                "WirelessHardGoodChars": {}
+              },
+              "SupplyChainInfo": {
+                "claimRMANumber": null
+              }
+            },
+            {
+              "Id": "96201001648",
+              "LineItemSequence": 2,
+              "ProductCode": "prod8451033",
+              "ProductSku": "4318G",
+              "BillingCode": "SDFIPLTV",
+              "ProductType": "IMEI",
+              "DisplayName": "QuikCell Corded Earphones - Purple",
+              "SystemName": "CRD ACM EARPHONE UNIV PUR",
+              "Action": "ADD",
+              "Price": {
+                "Amount": 9,
+                "CurrencyType": "USD",
+                "MSRP": 0,
+                "PriceType": "DUE_TODAY",
+                "TaxInfo": {
+                  "Amount": 0
+                },
+                "Total": 9
+              },
+              "LocationID": "K006",
+              "Payments": {
+                "Payment": [
+                  {
+                    "PaymentOptionRef": "PAYMENT_OPTION_01"
+                  }
+                ]
+              },
+              "Quantity": 1,
+              "Status": "IN_PROGRESS",
+              "GroupRefs": {
+                "GroupRef": [
+                  "GROUP_01"
+                ]
+              },
+              "HardGood": {
+                "HardGoodType": "ACCESSORY",
+                "WirelessHardGoodChars": {}
+              },
+              "SupplyChainInfo": {
+                "claimRMANumber": null
+              }
+            },
+            {
+              "Id": "lobi144360200ShippingFee",
+              "LineItemSequence": 3,
+              "ProductCode": "NOT_AVAILABLE",
+              "ProductSku": "88879",
+              "BillingCode": "SDFIPLTV",
+              "ProductType": "SIM",
+              "DisplayName": "ShippingFee",
+              "SystemName": "SHIPPING_FEE",
+              "Action": "ADD",
+              "Price": {
+                "Amount": 14.95,
+                "CurrencyType": "USD",
+                "MSRP": 0,
+                "PriceType": "DUE_TODAY",
+                "TaxInfo": {
+                  "Amount": 0
+                },
+                "Total": 14.95
+              },
+              "Payments": {
+                "Payment": [
+                  {
+                    "PaymentOptionRef": "PAYMENT_OPTION_01"
+                  }
+                ]
+              },
+              "Quantity": 1,
+              "GroupRefs": {
+                "GroupRef": [
+                  "GROUP_01"
+                ]
+              },
+              "SupplyChainInfo": {
+                "claimRMANumber": null
+              }
+            }
+          ]
+        },
+        "Names": {
+          "Name": [
+            {
+              "Id": "NAME_01",
+              "FirstName": "AUTO",
+              "LastName": "TEST",
+              "EmailAddress": "test@test.com",
+              "PrimaryContactPhone": [
+                {
+                  "PhoneNumber": "4251112222",
+                  "ContactPhoneType": "WORK_PHONE",
+                  "ConsentDetails": {}
+                }
+              ],
+              "AdditionalContactPhone": [
+                {
+                  "PhoneNumber": "4251112222",
+                  "ContactPhoneType": "WORK_PHONE",
+                  "ConsentDetails": {}
+                }
+              ]
+            },
+            {
+              "Id": "NAME_02",
+              "FirstName": "AUTO",
+              "LastName": "TEST",
+              "EmailAddress": "test@test.com",
+              "PrimaryContactPhone": [
+                {
+                  "PhoneNumber": "4251112222",
+                  "ContactPhoneType": "WORK_PHONE",
+                  "ConsentDetails": {}
+                }
+              ],
+              "AdditionalContactPhone": [
+                {
+                  "PhoneNumber": "4251112222",
+                  "ContactPhoneType": "WORK_PHONE",
+                  "ConsentDetails": {}
+                }
+              ]
+            },
+            {
+              "Id": "NAME_03",
+              "FirstName": "AUTO",
+              "LastName": "TEST",
+              "PrimaryContactPhone": [
+                {
+                  "PhoneNumber": "4251112222",
+                  "ContactPhoneType": "WORK_PHONE",
+                  "ConsentDetails": {}
+                }
+              ],
+              "AdditionalContactPhone": [
+                {
+                  "PhoneNumber": "4251112222",
+                  "ContactPhoneType": "WORK_PHONE",
+                  "ConsentDetails": {}
+                }
+              ]
+            }
+          ]
+        },
+        "Addresses": {
+          "Address": [
+            {
+              "Id": "ADDRESS_01",
+              "UnparsedAddress": {
+                "AddressLine1": "9391 PINYON TREE LN",
+                "AddressLine2": "9391 PINYON TREE LN",
+                "City": "DALLAS",
+                "State": "TX",
+                "Zip": "75243",
+                "County": "DALLAS",
+                "Country": "US"
+              },
+              "ParsedAddress": {
+                "AddressStreetLine": "9391 PINYON TREE LN",
+                "HouseNumber": "1720",
+                "StreetName": "CUMBERLAND",
+                "StreetType": "AVE",
+                "City": "DALLAS",
+                "State": "TN",
+                "Zip": "75243",
+                "ZipCodeExtension": "3327",
+                "County": "KNOX",
+                "Country": "US",
+                "AddressType": "UNITED_STATES"
+              },
+              "AdditionalDetails": {
+                "AdditionalDetail": [
+                  {
+                    "Type": "Profile",
+                    "Code": "ValidatedAddress",
+                    "Value": "true"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "Accounts": {
+          "Account": [
+            {
+              "Id": "ACCOUNT_01",
+              "AccountSequenceNumber": 1,
+              "BillingAccountNumber": "287270624270",
+              "AccountCategory": "MOBILITY_ACCOUNT",
+              "AccountSubCategory": "EXISTING",
+              "PaymentArrangement": "POSTPAID",
+              "BillingAccountTelephoneNumber":	"9234512345",
+              
+            "BillingAccoConnectedCarLOSChars":{
+            "A": "A",
+            "B":  "B"
+            },
+              "BillingInfo": {
+                "NameRef": "NAME_02",
+                "AddressRef": "ADDRESS_01",
+                "Authentication": {
+                  "DriversLicense": {},
+                  "StateId": {},
+                  "SecurityVerification": {},
+                  "EmployerInfo": {}
+                }
+              },
+              "CreditCheck": {},
+              "BankingPartner": {},
+              "CreditAlert": {},
+              "BillingDeliveryPreference": "PAPER",
+              "ELOA": {},
+              "B2BRef": "B2B_01",
+              "ContractAcceptance": {},
+              "UnifiedAccount": {
+                "ConvergeOrder": false,
+                "ConvergeValidation": false,
+                "PremierIndicator": false
+              },
+              "AccountType": "INDIVIDUAL",
+              "AccountSubType": "S",
+              "EnterpriseType": "CON",
+              "LangId": "ENGLISH",
+              "Market": "DLS",
+              "SubMarket": "DFW",
+              "PriceCode": "DFW",
+              "SpokenLanguagePreference": "ENGLISH",
+              "ProvisioningSystems": {}
+            }
+          ]
+        },
+        "PaymentOptions": {
+          "PaymentOption": [
+            {
+              "Id": "PAYMENT_OPTION_01",
+              "PaymentSequence": 1,
+              "CAPMConfig": {
+                "MerchantID": "ORDERGWCon",
+                "SourceSystem": "HARDROCK",
+                "SourceLocation": "CS",
+                "SourceUser": "HARDROCK"
+              },
+              "PaymentMethod": {
+                "CAPM": {
+                  "PreAuthDetail": {},
+                  "PaymentConfirmationDetail": {},
+                  "ProfileName": "21-201100003447178",
+                  "ProfileOwnerId": "HRDF21-201100003447178",
+                  "TotalAmount": 358,
+                  "CAPMLast4Digits": "8431",
+                  "ZipCode": "75243",
+                  "CreditCardType": "AMERICAN_EXPRESS",
+                  "IsSavedProfile": false,
+                  "IsGiftCard": false
+                }
+              }
+            }
+          ]
+        },
+        "ShippingInfos": {
+          "ShippingInfo": [
+            {
+              "Id": "SHIPPING_INFO_01",
+              "ShippingInfoSequence": 1,
+              "NameRef": "NAME_03",
+              "AddressRef": "ADDRESS_01",
+              "ShippingCode": "AA1",
+              "ShippingPriceCode": "88879",
+              "ShippingMethod": "Overnight"
+            }
+          ]
+        },
+        "SpecialInstructions": "{}",
+        "DueAmount": {
+          "Amount": 372.95,
+          "PriceType": "DUE_TODAY",
+          "TaxInfo": {
+            "Amount": 0
+          },
+          "Total": 372.95
+        },
+        "AgentUID": "SYSTEM",
+        "SalesCode": "NOT_AVAILABLE",
+        "SalesLocation": "NOT_AVAILABLE",
+        "AgentCode": "Z0066",
+        "AgentLocation": "Z0066",
+        "TCs": {
+          "TCAccepted": []
+        },
+        "OrderContact": {
+          "NameRef": "NAME_01",
+          "PrimaryEmailAddress": "DD835Y@ATT.COM"
+        },
+        "ApproverNameRefs": {},
+        "SalesChannel": "E",
+        "OrderSource": {
+          "ClientIP": "144.160.98.94",
+          "Locale": "EN_US",
+          "Region": "TX",
+          "CountryCode": "US",
+          "City": "DALLAS",
+          "County": "DALLAS",
+          "ClientType": "DESKTOP",
+          "Channel": "CRU-MOBILITY",
+          
+          "Application": "MYATTSALES",
+          "Zip": "75201-75212+75214-75238+75240-75244+75246-75254+75",
+          "BrowserID": "A002106915347",
+          "AdditionalDetails": {
+            "AdditionalDetail": [
+              {
+                "Type": "Order",
+                "Code": "SENDER",
+                "Value": "HARDROCK"
+              }
+            ]
+          }
+        },
+        "ExternalOrderSource": "EST",
+        "Notes": "Order Updated with Status : IN_PROGRESS",
+        "Version": 11,
+        "IsLocked": false,
+        "IsEncrypted": true,
+        "IsCommonOrder": true,
+        "IsSummaryCreated": false,
+        "FalloutHistory": {
+          "Fallouts": [
+            {
+              "FalloutAPI": "ORDER_TRACK_STATUS",
+              "FalloutCode": "CONNECTION_ERROR_FAULT",
+              "FalloutDesc": "org.apache.http.conn.ConnectTimeoutException: Connect to ordertrackt6.it.att.com:443 [ordertrackt6.it.att.com/130.9.216.67] failed: connect timed out"
+            },
+            {
+              "FalloutAPI": "ORDER_TRACK_STATUS",
+              "FalloutCode": "CONNECTION_ERROR_FAULT",
+              "FalloutDesc": "org.apache.http.conn.ConnectTimeoutException: Connect to ordertrackt6.it.att.com:443 [ordertrackt6.it.att.com/130.9.216.67] failed: connect timed out"
+            }
+          ]
+        },
+        "AdditionalDetails": {
+          "AdditionalDetail": [
+            {
+              "Type": "Order",
+              "Code": "APPLICATION_NAME",
+              "Value": "NotifyTaskUpdateServiceV2"
+            },
+            {
+              "Type": "Order",
+              "Code": "PRODUCT_COMBINATION",
+              "Value": "WIRELESS_ACC"
+            }
+          ]
+        },
+        "B2Bs": {
+    		"B2B": [
+      			{
+        			"B2BFANBusinessName": "TEST",
+        			"TaxExemptInd": true,
+        			"BusinessType": "CORPORATE",
+        			"Id": "B2B_01",
+       				"B2BContractType": "CCDA MAC",
+        			"B2BFAN": "7031743",
+        			"ExemptOrderId": "4546778"
+      			}
+    		]
+  		 }
+      },
+"TransactionLogs": []
+}

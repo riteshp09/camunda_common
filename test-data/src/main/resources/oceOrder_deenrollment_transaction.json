@@ -1,0 +1,224 @@
+{
+  "Order": {
+    "DueAmount": {
+      "MSRP": 0,
+      "TaxInfo": {
+        "PreCalculatedTax": {},
+        "Amount": 0
+      },
+      "Amount": 0,
+      "Total": 0,
+      "CurrencyType": "USD",
+      "PriceType": "DueToday"
+    },
+    "SalesCode": "6F728",
+    "AgentLocation": "Z0066",
+    "IsEncrypted": false,
+    "IsCommonOrder": true,
+    "Names": {
+      "Name": [
+        {
+          "FirstName": "SOURAV",
+          "Id": "NAME_01",
+          "LastName": "MUKHERJEE",
+          "EmailAddress": "ad8682@att.com",
+          "PrimaryContactPhone": [
+            {
+              "ContactPhoneType": "OTHER",
+              "PhoneNumber": "4148613938"
+            }
+          ]
+        },
+        {
+          "FirstName": "SOURAV",
+          "Id": "NAME_02",
+          "LastName": "MUKHERJEE",
+          "EmailAddress": "ad8682@att.com",
+          "PrimaryContactPhone": [
+            {
+              "ContactPhoneType": "HOME_PHONE",
+              "PhoneNumber": "4148613938"
+            }
+          ]
+        }
+      ]
+    },
+    "SalesChannel": "B",
+    "OrderStatus": {
+      "Status": "ACCEPTED",
+      "SubStatus": "RECEIVED"
+    },
+    "OrderType": "CREATE",
+    "IsPassThrough": false,
+    "Groups": {
+      "Group": [
+        {
+          "Type": "LINE_OF_SERVICE",
+          "GroupCharacteristics": {
+            "LoSGCharacteristics": {
+              "LoSGStatus": {
+                "Status": "SYS_RECEIVED",
+                "SubStatus": "NEW"
+              },
+              "ActionType": "CCAR_DEENROLLMENT",
+              "FulfillmentMethod": "CARE",
+              "AccountRef": "ACCOUNT_01",
+              "Market": "NBI",
+              "LoSGType": "CHANGE",
+              "LoSGReferenceId": "113435236221558",
+              "LoSGSequenceNumber": 1,
+              "SubscriberNameRef": "NAME_01",
+              "SubMarket": "DFW",
+              "DealerCode": "6F728",
+              "ProductCategory": "WIRELESS",
+              "IsPrimary": true,
+              "WirelessLOSChars": {
+                "MobileNumber": "4148613938",
+                "IsPrimarySharedPlan": false,
+                "PreOrder": false,
+                "ConnectedCarInfo": {
+                  "Year": "2016",
+                  "Trim": "C400",
+                  "SubscriptionClass": "S",
+                  "Model": "CHRYSLER",
+                  "VIN": "SAS09N71A16595144",
+                  "VehicleManufacturer": "GM",
+                  "Make": "GM"
+                },
+                "IsCrossUpgrade": false,
+                "BillingSystemId": "NBI"
+              },
+              "EffectiveDate": 1491368400000,
+              "AdditionalDetails": {
+                "AdditionalDetail": [
+                  {
+                    "Code": "ICCID",
+                    "Value": "89011702271083752831"
+                  }
+                ]
+              }
+            }
+          },
+          "Id": "GROUP_01",
+          "Sequence": 1,
+          "Name": "deenrollConnectedCar"
+        },
+        {
+          "Type": "LINE_OF_SERVICE",
+          "GroupCharacteristics": {
+            "LoSGCharacteristics": {
+              "LoSGStatus": {
+                "Status": "SYS_RECEIVED",
+                "SubStatus": "NEW"
+              },
+              "ActionType": "CCAR_DEENROLLMENT",
+              "FulfillmentMethod": "CARE",
+              "AccountRef": "ACCOUNT_01",
+              "Market": "NBI",
+              "LoSGType": "CHANGE",
+              "LoSGReferenceId": "113435236221559",
+              "LoSGSequenceNumber": 2,
+              "SubscriberNameRef": "NAME_01",
+              "SubMarket": "DFW",
+              "DealerCode": "6F728",
+              "ProductCategory": "WIRELESS",
+              "IsPrimary": true,
+              "WirelessLOSChars": {
+                "MobileNumber": "4148613939",
+                "IsPrimarySharedPlan": false,
+                "PreOrder": false,
+                "ConnectedCarInfo": {
+                  "Year": "2016",
+                  "Trim": "C400",
+                  "SubscriptionClass": "S",
+                  "Model": "CHRYSLER",
+                  "VIN": "SAS09N71A16595144",
+                  "VehicleManufacturer": "GM",
+                  "Make": "GM"
+                },
+                "IsCrossUpgrade": false,
+                "BillingSystemId": "NBI"
+              },
+              "EffectiveDate": 1491368400000
+            }
+          },
+          "Id": "GROUP_02",
+          "Sequence": 2,
+          "Name": "deenrollConnectedCar1"
+        }
+      ]
+    },
+    "OrderContact": {
+      "PrimaryEmailAddress": "ad8682@att.com",
+      "NameRef": "NAME_01"
+    },
+    "ExternalOrderSource": "PRE",
+    "RequestId": "PREMIER:1491373051860",
+    "IsExpressCheckOut": false,
+    "SubmitedDate": 1491376625000,
+    "LoginProfile": {
+      "UserId": "CCAR1704TCM",
+      "OrderInitiator": "TCM_CRU"
+    },
+    "CustomerOrderNumber": "10-D54176047758001",
+    "AgentCode": "6F728",
+    "IsSummaryCreated": false,
+    "PremierGroupId": "a2502500003",
+    "CreatedDate": 1491376625000,
+    "IsBulk": false,
+    "OrderSource": {
+      "Locale": "en_US",
+      "Zip": "53110",
+      "ClientType": "DESKTOP",
+      "Channel": "CRU-MOBILITY",
+      "Region": "US",
+      "CountryCode": "US",
+      "ClientIP": "130.4.161.139",
+      "Application": "PREMIER"
+    },
+    "Accounts": {
+      "Account": [
+        {
+          "EnterpriseType": "GBS",
+          "ConsentToCC": false,
+          "CTNValidated": false,
+          "AccountSubCategory": "EXISTING",
+          "AccountSequenceNumber": 1,
+          "CreditCheck": {
+            "CCRan": false
+          },
+          "AccountCategory": "MOBILITY_ACCOUNT",
+          "BillingInfo": {
+            "NameRef": "NAME_02"
+          },
+          "AccountType": "BUSINESS",
+          "Market": "NBI",
+          "LiabilityType": "CORPORATE",
+          "AccountCrossmarketIndicator": false,
+          "DelinquentAccount": false,
+          "SubMarket": "DFW",
+          "LangId": "ENGLISH",
+          "BillingAccountNumber": "287270626806",
+          "Id": "ACCOUNT_01",
+          "B2BRef": "B2B_01",
+          "AccountSubType": "R"
+        }
+      ]
+    },
+    "RequestType": "SCR",
+    "B2Bs": {
+      "B2B": [
+        {
+          "B2BFANBusinessName": "None",
+          "BusinessType": "CORPORATE",
+          "B2BIgnoreDepositRequired": true,
+          "Id": "B2B_01",
+          "B2BFAN": "07030538"
+        }
+      ]
+    },
+    "AdditionalDetails": {
+      "AdditionalDetail": []
+    }
+  }
+}

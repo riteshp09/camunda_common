@@ -1,0 +1,98 @@
+[
+      {
+        "Type": "LINE_OF_SERVICE",
+        "GroupCharacteristics": {
+          "LoSGCharacteristics": {
+             "ActionType": "TRANSFER_BAN_CHANGES",
+            "LoSGStatus": {
+              "Status": "SYS_PROCESSING",
+              "SubStatus": "FRAUD_APPROVED"
+            },
+            "AdditionalDetails": {
+              "AdditionalDetail": [
+                {
+                  "Type": "WaiveUpgradeFee",
+                  "Value": "Y",
+                  "Code": "InquireFANProfileResponse"
+                }
+              ]
+            },
+            "TCRefs": {},
+            "InstallationInstructions": {},
+            "DirecTVLOSChars": {},
+            "FulfillmentMethod": "DF",
+            "AccountRef": "ACCOUNT_01",
+            
+            "LoSGType": "CHANGE",
+            "ConflictingServiceInfoRefs": {},
+            "LoSGReferenceId": "losg15379412601",
+            "LoSGSequenceNumber": 1,
+            "NumberPortInfo": {
+              "DisconnectAcknowledged": {}
+            },
+            "VOIPLOSChars": {},
+            "DealerCode": "6F728",
+            "Compensation": {
+              "RepDetails": {}
+            },
+            "ProductCategory": "WIRELESS",
+            "IsPrimary": true,
+            "ShippingInfoRef": "SHIPPING_INFO_01",
+            "InternetLOSChars": {},
+            "TCAccepted": {},
+            "ServiceLocationRef": "ADDRESS_02"
+          }
+        },
+        "Id": "GROUP_01",
+        "Sequence": 1,
+        "Name": "UPGRADE"
+      },
+      {
+        "Type": "LINE_OF_SERVICE",
+        "GroupCharacteristics": {
+          "LoSGCharacteristics": {
+            "ActionType": "TRANSFER_BAN_CHANGES",
+            "AdditionalDetails": {
+              "AdditionalDetail": [
+                {
+                  "Type": "WaiveUpgradeFee",
+                  "Value": "Y",
+                  "Code": "InquireFANProfileResponse"
+                }
+              ]
+            },
+            "LoSGStatus": {
+              "Status": "SYS_PROCESSING",
+              "SubStatus": "FRAUD_APPROVED"
+            },
+            "TCRefs": {},
+            "InstallationInstructions": {},
+            "DirecTVLOSChars": {},
+            "FulfillmentMethod": "DF",
+            "AccountRef": "ACCOUNT_01",
+            
+            "LoSGType": "CHANGE",
+            "ConflictingServiceInfoRefs": {},
+            "LoSGReferenceId": "losg15379412601",
+            "LoSGSequenceNumber": 1,
+            "NumberPortInfo": {
+              "DisconnectAcknowledged": {}
+            },
+            "VOIPLOSChars": {},
+            "DealerCode": "6F728",
+            "Compensation": {
+              "RepDetails": {}
+            },
+            "ProductCategory": "WIRELESS",
+            "IsPrimary": true,
+            "ShippingInfoRef": "SHIPPING_INFO_01",
+            "InternetLOSChars": {},
+            "TCAccepted": {},
+            "ServiceLocationRef": "ADDRESS_02"
+          }
+        },
+        "Id": "GROUP_02",
+        "Sequence": 1,
+        "Name": "UPGRADE"
+      }
+    ]
