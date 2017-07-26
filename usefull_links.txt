@@ -1,0 +1,9 @@
+http://www.enterpriseintegrationpatterns.com/docs/jaoo_hohpeg_enterpriseintegrationpatterns.pdf
+
+https://dzone.com/articles/how-analyze-java-thread-dumps
+
+https://smitsdj.home.xs4all.nl/temp/Addison%20Wesley%20-%20Enterprise%20Integration%20Patterns%20-%20Designing,%20Building%20And%20Deploying%20Messaging%20Solutions%20-%20With%20Notes.pdf
+
+https://dzone.com/articles/enterprise-integration
+
+http://www.enterpriseintegrationpatterns.com/patterns/messaging/
